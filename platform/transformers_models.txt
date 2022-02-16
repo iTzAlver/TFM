@@ -1,0 +1,4 @@
+hiiamsid/sentence_similarity_spanish_es
+sentence-transformers/multi-qa-MiniLM-L6-cos-v1
+sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking
+sentence-transformers/all-mpnet-base-v2
