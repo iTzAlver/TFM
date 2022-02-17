@@ -619,6 +619,13 @@ class Ventana:
         writer.writerows(self.correlation_mtx)
         file.close()
 
+        file = filedialog.asksaveasfile(parent=self.master, defaultextension=".csv",
+                                        initialfile="vectores.csv", title="Guardar vectores")
+
+        writer = csv.writer(file)
+        writer.writerows(self.codes)
+        file.close()
+
 #---------------------------------------------------------------------------#
 #   MAIN PROGRAM
 #---------------------------------------------------------------------------#

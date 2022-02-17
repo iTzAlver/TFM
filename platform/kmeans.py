@@ -28,6 +28,10 @@ def main_validation() -> None:
     kms = CalculateKmeans(mtz)
     print(kms.rbi)
     print(kms.derivative)
+    plt.plot(kms.rbi, label='Parecido')
+    plt.plot(kms.derivative, label='Derivada')
+    plt.plot(-0.5*np.ones(len(kms.derivative)), label='Umbral para derivada')
+    plt.legend(loc='upper right')
     print(kms)
     return
 
@@ -43,10 +47,44 @@ def bd_validation() -> None:
     kms = CalculateKmeans(mtz, epoch=20000)
     print(kms.rbi)
     print(kms.derivative)
-    plt.plot(kms.rbi)
-    plt.plot(-0.5*np.ones(len(kms.derivative)))
+    plt.plot(kms.rbi, label='Parecido')
+    plt.plot(kms.derivative, label='Derivada')
+    plt.plot(-0.5*np.ones(len(kms.derivative)), label='Umbral para derivada')
+    plt.legend(loc='upper right')
     print(kms)
     return
+
+def vector_validation() -> None:
+    mtx = []
+    the_max = 0
+    the_min = 0
+    with open(filedialog.askopenfilename(filetypes=[('CSV Files', '*.csv')]), 'r') as f:
+        reader = csv.reader(f)
+        mtz_aux = list(reader)
+        for i in range(len(mtz_aux)):
+            if (i % 2) == 0:
+                for j in range(len(mtz_aux[i])):
+                    mtz_aux[i][j] = float(mtz_aux[i][j])
+                    if mtz_aux[i][j] > the_max:
+                        the_max = mtz_aux[i][j]
+                    if mtz_aux[i][j] < the_min:
+                        the_min = mtz_aux[i][j]
+                mtx.append(mtz_aux[i])
+
+    for index1 in range(len(mtx)):
+        for index2 in range(len(mtx[index1])):
+            mtx[index1][index2] = (mtx[index1][index2] - the_min)/(the_max - the_min)
+
+    kms = CalculateKmeans(mtx, epoch=2000, krange=10)
+    print(kms.rbi)
+    print(kms.derivative)
+    plt.plot(kms.rbi, label='Parecido')
+    plt.plot(kms.derivative, label='Derivada')
+    plt.plot(-0.5*np.ones(len(kms.derivative)), label='Umbral para derivada')
+    plt.legend(loc='upper right')
+    print(kms)
+    return
+
     
 class CalculateKmeans:
     def __init__(self, mtx, epoch=300, krange=None):
@@ -73,7 +111,10 @@ class CalculateKmeans:
             __text += 'Instance ' + str(max(kmeans_instance.labels_) + 1) + ': ' + str(kmeans_instance.labels_) + '\n'
         __text.join('Jambu: ' + str(self.jambu_elbow) + '\n')
         __text.join('In Jambu clustering: ' + str(self.kms.labels_) + '\n')
-        self.__display_graphics()
+        try:
+            self.__display_graphics()
+        except:
+            print('Error displaying graphics.')
         return __text
 
     def __derivative(self, vector) -> []:
@@ -116,7 +157,8 @@ class CalculateKmeans:
 
 if __name__ == '__main__':
     #main_validation()
-    bd_validation()
+    #bd_validation()
+    vector_validation()
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
