@@ -21,6 +21,7 @@ model_bert = SentenceTransformer(spanish_model1)
 # USE MODEL -----------------------------------------------------
 model_use = spacy.load('es_core_news_lg')
 
+
 def get_code(sentence, model):
     retval = []
     if model == 'BERT':
@@ -28,6 +29,7 @@ def get_code(sentence, model):
     elif model == 'USE':
         retval = model_use(sentence)
     return retval
+
 
 def get_text_models():
     file = open(MODEL_LIST_LOCATION, 'r')
@@ -56,6 +58,7 @@ def GPA(g_size, sigma, mtx_size):
             if (index1 - index3) >= 0:
                 GPA[index1][append_index] = g[index3]
     return GPA
+
 
 def modify_matrix(m0, GPA, alpha) -> []:
     m1 = []
@@ -629,6 +632,8 @@ class Ventana:
 #---------------------------------------------------------------------------#
 #   MAIN PROGRAM
 #---------------------------------------------------------------------------#
+
+
 if __name__ == '__main__':
     root_node = Tk()
     window = Ventana(root_node)
