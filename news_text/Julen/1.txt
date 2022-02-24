@@ -31,5 +31,3 @@ Chicho Ibáñez Serrador consigue el Premio Goya de Honor por toda una vida dedi
 $Y en los deportes Nadal gana en Australia, Sergio
 $Esa imagen es lo que se ve desde la superficie y esto es lo que no se ve
 Así es la estructura del pozo
-$Esa imagen es lo que se ve desde la superficie y esto es lo que no se ve
-Así es la estructura del pozo

@@ -10,9 +10,7 @@ $Ahora los esfuerzos se centran en cuantificar los daños y ya se piensa en la r
 $-París y Francia siguen conmocionados por el incendio, les ha llegado al corazón de los ciudadanos
 Nos lo confesaba algunos parisinos
 $Es más que un símbolo referente de la ciudad, también de los religioso y cultural, traspasa las fronteras francesas y hace que se haya podido globalizar el sentimiento de dolor
-Y la gente empezó a salir en masa de la catedral
-$-Una cosa impactante, porque se iban cayendo las torres, las agujas de madera, el sentimiento de dolor
-$nunca podíamos imaginar algo así
+Y la gente empezó a salir en masa -Una cosa impactante, porque se iban cayendo las torres, las agujas de madera, nunca podíamos imaginar algo así
 $-Había gente llorando
 $Era no se, impresionante ver ese monumento en llamas
 $Mientras se evalúa el alcance de los daños, ya se sabe que hay piezas clave que se han salvado de las llamas
@@ -26,7 +24,6 @@ Y en lo político, sigue la campaña electoral
 En cuanto acabe el telediario podrán ver aquí en La 1 un debate con representantes de los seis principales partidos
 Lo moderará Xabier Fortes desde Prado del Rey
 María Relaño ¿han llegado ya los participantes? -Están aquí ya los representantes de los 6 partidos
-$Han llegado de menor a mayor
 $Han llegado de menor a mayor
 En primer lugar el PNV y por último el PP
 A partir de las 10:00 de la noche arrancará aquí el debate

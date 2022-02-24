@@ -17,7 +17,7 @@ DEEPL_AUTH_KEY = 'XXXXXXX'
 
 
 def main() -> None:
-    VttReading()
+    VttReading(translate_model=True)
     return
 
 
@@ -56,6 +56,7 @@ class VttReading:
     def __get_text(self, route, translate=False):
         some_text = '!'
         timestamps = ['00:00:00', '00:00:00']
+        hover_sliced = []
         with open(route, 'r', encoding='utf-8') as file:
             for line in file:
                 if '00:00:00' < line[:] < self.time_limit:
@@ -65,7 +66,9 @@ class VttReading:
                     else:
                         sliced = next(file)
                     while sliced != "\n":
-                        some_text = f'{some_text} {sliced[:-1]}'
+                        if self.__eliminate_buffer(hover_sliced, sliced):
+                            some_text = f'{some_text} {sliced[:-1]}'
+                            hover_sliced.append(sliced)
                         sliced = next(file)
 
         some_text = self.__eliminate_doubles(self.__eliminate_hanging(some_text))
@@ -122,25 +125,12 @@ class VttReading:
         return retext
 
     #   Hard feature to include: For not repeating words or blocks in the text.
-    # def __eliminate_buffer(self, text):
-    #     pass
-
-    # def __translate(self, raw_text, model='google'):
-    #     retext = []
-    #     if model == 'google':
-    #         g_translator = googletrans.Translator()
-    #         for _text in raw_text:
-    #             if _text is None:
-    #                 print('Oops, there was an error translating...')
-    #             else:
-    #                 try:
-    #                     retext.append(g_translator.translate(_text).text)
-    #                 except BaseException:
-    #                     print(f'Traceback: VttReading/__translate: Cannot translate \'{_text}\' '
-    #                           f'from model {model}; maybe too many requests.')
-    #     else:
-    #         print(f'Traceback: VttReading/__translate: No translator model called {model}.')
-    #     return retext
+    def __eliminate_buffer(self, hover_sliced, sliced):
+        add_permission = True
+        for hover in hover_sliced:
+            if sliced == hover:
+                add_permission = False
+        return add_permission
 
     def __translate(self, _text, model='google'):
         retext = ''

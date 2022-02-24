@@ -2,8 +2,7 @@ $Es la imagen del espectacular incendio en la catedral de Notre Dame de París
 Las llamas comenzaban en torno a las cinco de la tarde en la aguja del templo y se ha ido extendiendo por el tejado de la nave central
 Y esta es la señal en directo
 los bomberos siguen trabajando sin descanso para intentar controlar el incendio en este templo que es uno de los lugares más emblemáticos y más visitados de París
-Y esta es la señal en directo
-los bomberos siguen trabajando sin descanso para intentar controlar el incendio en este templo que es uno de los lugares más emblemáticos y más visitados de París
+$y más visitados de París
 Cada año recibe la visita de 20 millones de personas
 $Nos vamos en directo hasta ese lugar con nuestra corresponsal en París
 el templo sigue ardiendo a esta hora

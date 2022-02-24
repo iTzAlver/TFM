@@ -35,10 +35,7 @@ Luego lo ampliamos
 $El primer barco llegara a la bocana del puerto de Valencia a las seis de la mañana
 Los siguientes lo harán con dos horas de intervalo
 Todo está alli preparado para dar asistencia a los 629 migrantes
-Manuela Pérez, puerto de Valencia, El primer barco llegara a la bocana del puerto de Valencia a las seis de la mañana
-Los siguientes lo harán con dos horas de intervalo
-Todo está alli preparado para dar asistencia a los 629 migrantes
-Manuela Pérez, puerto de Valencia, esta tarde Cruz Roja ha dado más detalles del operativo
+Manuela Pérez, puerto de Valencia, El primer barco llegara a la bocana esta tarde Cruz Roja ha dado más detalles del operativo
 $Nos han contado todo era operativo que están llevando a cabo
 $La asistencia sanitaria está garantizada para todos, nada más desembarcar
 $Niños y mujeres embarazadas serán directamente evacuados
