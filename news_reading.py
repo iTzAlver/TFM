@@ -21,6 +21,34 @@ def main() -> None:
     return
 
 
+def capital_replace(_text):
+    unchain_words = []
+    counter = 0
+    ret_phrase = []
+    iterator_text = _text.split('. ')
+    for _text_m in iterator_text:
+        chain_words = []
+        segmented_text = _text_m.split(' ')
+        for idx, word in enumerate(segmented_text):
+            if word != '':
+                if word[0].isupper() and idx != 0:
+                    chain_words.append(f'__{counter}__')
+                    counter += 1
+                    unchain_words.append(word)
+                else:
+                    chain_words.append(word)
+        ret_phrase.append(' '.join(chain_words))
+    ret_phrase = '. '.join(ret_phrase)
+    return [ret_phrase, unchain_words]
+
+
+def capital_restore(_text, DKT):
+    _text_p = _text
+    for idx, word in enumerate(DKT):
+        _text_p = _text_p.replace(f'__{idx}__', word)
+    return _text_p
+
+
 class VttReading:
     def __init__(self, search_case=None, time_limit='00:05:00', translate_model=False):
         global NEWS_PATH
@@ -132,10 +160,14 @@ class VttReading:
                 add_permission = False
         return add_permission
 
-    def __translate(self, _text, model='google'):
+    def __translate(self, _text_original, model='google'):
         retext = ''
+        try:
+            [_text, DKT] = capital_replace(_text_original)
+        except Exception as exc:
+            print(f'{exc}')
         if model == 'google':
-            g_translator = googletrans.Translator()
+            g_translator = googletrans.Translator(service_urls= ['translate.google.com'])
             if _text is None:
                 print('Oops, there was an error translating...')
             else:
@@ -146,7 +178,8 @@ class VttReading:
                           f'from model {model}; maybe too many requests.')
         else:
             print(f'Traceback: VttReading/__translate: No translator model called {model}.')
-        return retext
+        _retext = capital_restore(retext, DKT)
+        return _retext
 # -----------------------------------------------------------
 # Main:
 
