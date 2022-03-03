@@ -637,7 +637,7 @@ class Ventana:
 if __name__ == '__main__':
     root_node = Tk()
     window = Ventana(root_node)
-    root_node.iconbitmap('../.multimedia/matrix.ico')
+    #root_node.iconbitmap('../.multimedia/matrix.ico')
     root_node.configure(bg='black')
     root_node.mainloop()
 #---------------------------------------------------------------------------#
