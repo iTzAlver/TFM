@@ -13,6 +13,7 @@ from tkinter import Tk, LabelFrame, Text, Label, ttk, PhotoImage, Entry, Checkbu
 
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.graph_objects as go
 from PIL import Image
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from sentence_transformers import SentenceTransformer
@@ -29,8 +30,10 @@ ICO_LOCATION = r'./.multimedia/rocketico.ico'
 MULTIMEDIA_ROCKET_LOCATION = r'./.multimedia/rocketico.png'
 MULTIMEDIA_EYE_LOCATION = r'./.multimedia/watch.png'
 MAIN_DATABASE_LOCATION = r'./db/vtt_files/'
+MAIN_TEXTBASE_LOCATION = r'./db/news_text/'
 LOG_FILE_PATH = r'./logfile.txt'
 IMAGE_PATH = r'./.multimedia/'
+TREES_DIR = r'./db/trees/'
 
 CStyles = ColorStyles
 cat2color = {'Info': CStyles.pink, 'Warning': CStyles.orange, 'Error': CStyles.red, 'Note': CStyles.blue}
@@ -47,6 +50,82 @@ def main() -> None:
     root_node.mainloop()
     return
 
+
+def tree_tracer(*args):
+    filename = args[0].split('/')[-1]
+    do = args[1]
+    mytrees = ds.read_tree(filename.split('.')[-2])
+    fig = go.Figure()
+    slack_unique = 0
+    totaltime = 0
+    slack_div = 0
+    xholders = []
+    for tree in mytrees:
+        slack_div = 0
+        xholders.append(slack_unique)
+        zipped = zip(tree.idv, tree.payload_div)
+        for idvec, payl in zipped:
+            fig.add_trace(go.Scatter(x=[slack_unique, slack_div+slack_unique],
+                                     y=[2, 0],
+                                     mode='lines',
+                                     line=dict(color='rgb(50,50,50)', width=2),
+                                     showlegend=False
+                                     ))
+            fig.add_trace(go.Scatter(x=[slack_div+slack_unique],
+                                     y=[0],
+                                     mode='markers',
+                                     name=f'Division {idvec}',
+                                     marker=dict(symbol='circle-dot',
+                                                 size=18,
+                                                 color='#6175c1',
+                                                 line=dict(color='rgb(90,90,90)', width=1)
+                                                 ),
+                                     text=payl,
+                                     hoverinfo='text',
+                                     opacity=0.8
+                                     ))
+            slack_div += 1
+        # Second stage of tree:
+        fig.add_trace(go.Scatter(x=[slack_unique],
+                                 y=[2],
+                                 mode='markers',
+                                 name=f'Tree {tree.nTree}',
+                                 marker=dict(symbol='circle-dot',
+                                             size=20,
+                                             color='#DB4551',
+                                             line=dict(color='rgb(50,50,50)', width=1)
+                                             ),
+                                 text=f'Tree {tree.nTree} {tree.timing} [s]',
+                                 hoverinfo='text',
+                                 opacity=[10*tree.pt if 10*tree.pt < 1 else 1][0]
+                                 ))
+        totaltime += tree.timing
+        slack_unique += slack_div
+
+    # Top of the tree:
+    for holder in xholders:
+        fig.add_trace(go.Scatter(x=[holder, (max(xholders)+min(xholders))/2],
+                                 y=[2, 4],
+                                 mode='lines',
+                                 line=dict(color='rgb(90,90,90)', width=2),
+                                 showlegend=False,
+                                 opacity=0.8
+                                 ))
+    fig.add_trace(go.Scatter(x=[(max(xholders)+min(xholders))/2],
+                             y=[4],
+                             mode='markers',
+                             name=f'Total for the day.',
+                             marker=dict(symbol='circle-dot',
+                                         size=20,
+                                         color='#DBDB00',
+                                         line=dict(color='rgb(50,50,50)', width=1)
+                                         ),
+                             text=f'Total time {totaltime} [s]',
+                             hoverinfo='text',
+                             opacity=1
+                             ))
+    if do:
+        fig.show()
 
 def _read_model_list() -> []:
     model_list = []
@@ -461,7 +540,7 @@ class MainWindow:
 
 # ----------------------------------
     def import_file(self):
-        filename = filedialog.askopenfilename(filetypes=[('Text Files', '*.txt')])
+        filename = filedialog.askopenfilename(filetypes=[('Text Files', '*.txt')], initialdir=MAIN_TEXTBASE_LOCATION)
         self.test_target = filename
         self.lowrite(f'Added {filename} to testing target.', cat='Info')
 
@@ -473,11 +552,15 @@ class MainWindow:
             self.lowrite(f'Cannot export tree: no tree generated by FB-BCM.', cat='Error')
 
     def trace_files(self):
-        newwindow = Toplevel(self.master)
-        newwindow.geometry('800x30')
-        newwindow.iconbitmap(ICO_LOCATION)
-        newwindow.title('Test targets:')
-        Label(newwindow, text=self.test_target).place(x=0, y=5)
+        # newwindow = Toplevel(self.master)
+        # newwindow.geometry('800x30')
+        # newwindow.iconbitmap(ICO_LOCATION)
+        # newwindow.title('Test targets:')
+        # Label(newwindow, text=self.test_target).place(x=0, y=5)
+        filename = filedialog.askopenfilename(filetypes=[('Tree Files', '*.3s')], initialdir=TREES_DIR)
+        self.lowrite(f'Showing up tree {filename}.', cat='Info')
+        treethread = Thread(target=tree_tracer, args=(filename, True))
+        treethread.start()
 
 # ----------------------------------
     def download_model(self):
@@ -493,8 +576,8 @@ class MainWindow:
                 self.launcher_corrmodel["values"] = self.model_list
             else:
                 self.lowrite(f'Model: {bert_url} already downloaded.', cat='Warning')
-        except Exception:
-            self.lowrite(f'Model: {bert_url} not found.', cat='Warning')
+        except Exception as ex:
+            self.lowrite(f'Model: {bert_url} not found. {ex}', cat='Warning')
 
     def load_model(self):
         model_name = '__empty__'
@@ -509,8 +592,8 @@ class MainWindow:
                 self.lowrite(f'Sucesfully loaded model: {model_name}.', cat='Info')
             else:
                 self.lowrite(f'Cannot load the model, there is no selection.', cat='Warning')
-        except Exception:
-            self.lowrite(f'Cannot load model: {model_name}.', cat='Error')
+        except Exception as ex:
+            self.lowrite(f'Cannot load model: {model_name}. {ex}', cat='Error')
 
 # -----------------------------------
     def launch_algo_lock(self):
@@ -640,7 +723,7 @@ class MainWindow:
             self.lowrite(f'Selected targets in launch target scope.', cat='Note')
 
     def launch_add(self):
-        filename = filedialog.askdirectory()
+        filename = filedialog.askdirectory(initialdir=MAIN_TEXTBASE_LOCATION)
         if filename not in self.launcher_target and filename:
             self.launcher_target.append(filename)
             self.num_launch_targets += 1
@@ -726,7 +809,7 @@ class MainWindow:
 
 # -------------------------------------
     def trans_add(self):
-        filename = filedialog.askdirectory()
+        filename = filedialog.askdirectory(initialdir=MAIN_DATABASE_LOCATION)
         if filename not in self.read_target and filename:
             self.read_target.append(filename)
             self.num_read_targets += 1
@@ -935,7 +1018,7 @@ class MainWindow:
         # Figure plotting:
         plt.close()
         plt.close()
-        myFig = plt.figure(figsize=(4.8, 4.3), dpi=75)
+        myfig = plt.figure(figsize=(4.8, 4.3), dpi=75)
         plt.imshow(thematrix)
         img = Image.fromarray(thematrix)
         img.save(f'{IMAGE_PATH}slot1.png')
@@ -947,13 +1030,13 @@ class MainWindow:
         if self.canvas1 is not None:
             self.canvas1.get_tk_widget().pack_forget()
             self.toolbar1.destroy()
-        self.canvas1 = FigureCanvasTkAgg(myFig, master=self.img_lf)
+        self.canvas1 = FigureCanvasTkAgg(myfig, master=self.img_lf)
         self.canvas1.draw()
         self.toolbar1 = NavigationToolbar2Tk(self.canvas1, self.img_lf)
         self.toolbar1.update()
         self.canvas1.get_tk_widget().pack()
 
-        myFig2 = plt.figure(figsize=(4.8, 4.3), dpi=75)
+        myfig2 = plt.figure(figsize=(4.8, 4.3), dpi=75)
         plt.imshow(thematrix2)
         img = Image.fromarray(thematrix)
         img.save(f'{IMAGE_PATH}slot2.png')
@@ -965,7 +1048,7 @@ class MainWindow:
         if self.canvas2 is not None:
             self.canvas2.get_tk_widget().pack_forget()
             self.toolbar2.destroy()
-        self.canvas2 = FigureCanvasTkAgg(myFig2, master=self.gt_lf)
+        self.canvas2 = FigureCanvasTkAgg(myfig2, master=self.gt_lf)
         self.canvas2.draw()
         self.toolbar2 = NavigationToolbar2Tk(self.canvas2, self.gt_lf)
         self.toolbar2.update()
