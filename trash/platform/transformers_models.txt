@@ -1,2 +1,0 @@
-hiiamsid/sentence_similarity_spanish_es
-sentence-transformers/multi-qa-MiniLM-L6-cos-v1
