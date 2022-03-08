@@ -58,7 +58,6 @@ def tree_tracer(*args):
     fig = go.Figure()
     slack_unique = 0
     totaltime = 0
-    slack_div = 0
     xholders = []
     for tree in mytrees:
         slack_div = 0
@@ -126,6 +125,7 @@ def tree_tracer(*args):
                              ))
     if do:
         fig.show()
+
 
 def _read_model_list() -> []:
     model_list = []
