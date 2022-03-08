@@ -2508,3 +2508,367 @@
 <Tue Mar  8 13:07:12 2022>	[Error]:	There is no target for test.
 <Tue Mar  8 13:07:12 2022>	[Info]:	FB-BCM th set to 0.4.
 <Tue Mar  8 13:07:12 2022>	[Error]:	There is no target for test.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:03:57 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:04:00 2022>	[Info]:	Decorrelation by time tokens set to 10.0.
+<Tue Mar  8 15:04:18 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:04:34 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Tue Mar  8 15:04:39 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:04:40 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:04:41 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:04:41 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:04:41 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:04:47 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:04:48 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:04:49 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:04:49 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:04:49 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:05:00 2022>	[Note]:	Enabled all files in translator.
+<Tue Mar  8 15:05:01 2022>	[Note]:	Locked translator and reader settings.
+<Tue Mar  8 15:05:03 2022>	[Note]:	Unlocked translator and reader settings.
+<Tue Mar  8 15:05:06 2022>	[Note]:	Locked translator and reader settings.
+<Tue Mar  8 15:05:06 2022>	[Note]:	Unlocked translator and reader settings.
+<Tue Mar  8 15:05:08 2022>	[Note]:	Locked translator and reader settings.
+<Tue Mar  8 15:05:09 2022>	[Info]:	Created thread for all cases in translator.
+<Tue Mar  8 15:08:54 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:08:56 2022>	[Note]:	Unlocked translator and reader settings.
+<Tue Mar  8 15:09:01 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:09:01 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:09:02 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:09:02 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:09:02 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:09:02 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:09:13 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:23 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:25 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:09:27 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:34 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:09:36 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:40 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:09:42 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:46 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:09:47 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:09:56 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:09:58 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:10:04 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:10:07 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:10:07 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:10:08 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:10:08 2022>	[Info]:	PM launched with th=0.17 and oim=1.
+<Tue Mar  8 15:10:08 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:10:08 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:10:12 2022>	[Info]:	PM disabled for test.
+<Tue Mar  8 15:10:14 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:10:15 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:10:17 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:10:31 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:10:31 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Tue Mar  8 15:10:32 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:10:32 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:10:33 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:10:33 2022>	[Info]:	PM launched with th=0.17 and oim=1.
+<Tue Mar  8 15:10:33 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:10:33 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:10:38 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:10:46 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:10:55 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:10:56 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:11:00 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:11:01 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:11:06 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:11:07 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:11:16 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:11:17 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:11:28 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Tue Mar  8 15:11:29 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:11:29 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:11:29 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:11:29 2022>	[Info]:	PM launched with th=0.19 and oim=1.
+<Tue Mar  8 15:11:30 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:11:30 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:11:33 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:11:37 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:11:38 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:12:09 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:12:09 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:12:10 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:12:10 2022>	[Info]:	PM launched with th=0.19 and oim=1.
+<Tue Mar  8 15:12:10 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:12:10 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:12:13 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:12:13 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:12:13 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:12:13 2022>	[Info]:	PM launched with th=0.19 and oim=1.
+<Tue Mar  8 15:12:14 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:12:14 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:12:16 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:12:17 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:12:18 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:12:41 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:12:42 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:12:42 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:12:42 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:12:42 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Mar  8 15:12:43 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:12:43 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:12:47 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:12:49 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:12:50 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:13:00 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:13:03 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:13:03 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:13:03 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:13:03 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Mar  8 15:13:04 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:13:04 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:13:08 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:13:13 2022>	[Info]:	Decorrelation by time tokens set to 50.0.
+<Tue Mar  8 15:13:15 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:13:15 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:13:15 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:13:15 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Mar  8 15:13:16 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:13:16 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:13:18 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:13:22 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:13:24 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:13:30 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:13:31 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:13:54 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:13:55 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:14:00 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:14:01 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:14:05 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:14:06 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:14:10 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:14:11 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:14:22 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:14:23 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:14:27 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:14:34 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:14:42 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/paraphra.
+<Tue Mar  8 15:15:12 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:17:12 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:17:15 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:17:24 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Tue Mar  8 15:17:59 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:18:01 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:18:08 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:18:16 2022>	[Info]:	FB-BCM disabled for test.
+<Tue Mar  8 15:18:17 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:18:18 2022>	[Info]:	PM disabled for test.
+<Tue Mar  8 15:18:18 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:18:26 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Mar  8 15:18:26 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:18:27 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:18:27 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:18:27 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Mar  8 15:18:27 2022>	[Info]:	Test processing finished.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:21:26 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:21:29 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:21:29 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:21:31 2022>	[Info]:	Decorrelation by time tokens set to 10.0.
+<Tue Mar  8 15:21:40 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Tue Mar  8 15:21:49 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:21:54 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Mar  8 15:21:54 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:21:54 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:21:54 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:21:54 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Mar  8 15:21:55 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:22:00 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:22:17 2022>	[Info]:	Decorrelation by time tokens set to 10.0.
+<Tue Mar  8 15:22:19 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Mar  8 15:22:19 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:22:20 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:22:20 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:22:20 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Mar  8 15:22:20 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:22:44 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Mar  8 15:22:44 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:22:45 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:22:45 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:22:45 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Mar  8 15:22:45 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:23:04 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:23:08 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:23:09 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:23:38 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:24:56 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Tue Mar  8 15:25:04 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Tue Mar  8 15:25:04 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:25:06 2022>	[Info]:	Decorrelation by time tokens set to 40.0.
+<Tue Mar  8 15:25:09 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:25:10 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:25:13 2022>	[Info]:	PM disabled for test.
+<Tue Mar  8 15:25:13 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:25:22 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Tue Mar  8 15:25:22 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:25:23 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:25:23 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:25:23 2022>	[Info]:	FB-BCM launched with th=0.4
+<Tue Mar  8 15:25:23 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:25:31 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:25:37 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:25:38 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:25:44 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:25:45 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:25:51 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:25:53 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:26:08 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:26:10 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:26:46 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:26:48 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:26:56 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:26:57 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:27:09 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:27:10 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:27:24 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Tue Mar  8 15:27:24 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:27:24 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:27:24 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:27:25 2022>	[Info]:	FB-BCM launched with th=0.4
+<Tue Mar  8 15:27:25 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:27:29 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:27:32 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:27:33 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:27:58 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:28:09 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:28:12 2022>	[Info]:	Watch for FB-BCM.
+<Tue Mar  8 15:28:14 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:28:39 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:28:41 2022>	[Info]:	Watch for FB-BCM.
+<Tue Mar  8 15:28:43 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:29:11 2022>	[Info]:	FB-BCM th set to 0.35.
+<Tue Mar  8 15:29:11 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:29:12 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:29:12 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:29:12 2022>	[Info]:	FB-BCM launched with th=0.35
+<Tue Mar  8 15:29:12 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:29:15 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:29:23 2022>	[Info]:	Watch for FB-BCM.
+<Tue Mar  8 15:29:25 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:30:16 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Tue Mar  8 15:34:16 2022>	[Info]:	FB-BCM disabled for test.
+<Tue Mar  8 15:34:16 2022>	[Info]:	FB-BCM th set to 0.345.
+<Tue Mar  8 15:34:16 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:34:17 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:34:17 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:34:17 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:34:17 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:34:18 2022>	[Info]:	FB-BCM th set to 0.345.
+<Tue Mar  8 15:34:18 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:34:19 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:34:19 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar  8 15:34:20 2022>	[Info]:	FB-BCM launched with th=0.345
+<Tue Mar  8 15:34:20 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:34:23 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:34:41 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:34:45 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:34:47 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:35:00 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:35:02 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:35:34 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar  8 15:35:47 2022>	[Info]:	Sucesfully loaded model: hiiamsid/sentence_similarity_s.
+<Tue Mar  8 15:36:03 2022>	[Info]:	FB-BCM th set to 0.345.
+<Tue Mar  8 15:36:03 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:36:05 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:36:05 2022>	[Info]:	PM launched with th=0.2 and oim=2.
+<Tue Mar  8 15:36:09 2022>	[Info]:	FB-BCM launched with th=0.345
+<Tue Mar  8 15:36:09 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:36:14 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:36:16 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:36:21 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:36:24 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:36:31 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:36:34 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:36:48 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:36:50 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:36:59 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:37:02 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:37:05 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:37:07 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:37:14 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:37:16 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:38:59 2022>	[Info]:	FB-BCM th set to 0.39.
+<Tue Mar  8 15:38:59 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:39:01 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:39:01 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:39:06 2022>	[Info]:	FB-BCM launched with th=0.39
+<Tue Mar  8 15:39:06 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:39:18 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:39:45 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:39:48 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:39:51 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:40:31 2022>	[Info]:	Watch for FB-BCM.
+<Tue Mar  8 15:40:34 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:40:59 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Tue Mar  8 15:42:05 2022>	[Info]:	FB-BCM th set to 0.4.
+<Tue Mar  8 15:42:05 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:42:06 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:42:06 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:42:12 2022>	[Info]:	FB-BCM launched with th=0.4
+<Tue Mar  8 15:42:12 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:44:15 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:46:20 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar  8 15:46:22 2022>	[Info]:	FB-BCM th set to 0.4.
+<Tue Mar  8 15:46:22 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:46:23 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:46:23 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:46:28 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar  8 15:46:31 2022>	[Info]:	FB-BCM th set to 0.4.
+<Tue Mar  8 15:46:31 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:46:33 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:46:33 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:46:38 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar  8 15:46:41 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar  8 15:46:47 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:46:47 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:46:47 2022>	[Info]:	FB-BCM th set to 0.4.
+<Tue Mar  8 15:46:47 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:46:49 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:46:49 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:46:51 2022>	[Info]:	FB-BCM launched with th=0.4
+<Tue Mar  8 15:46:51 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:47:00 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar  8 15:47:03 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:47:04 2022>	[Info]:	Decorrelation by time tokens set to 0.0.
+<Tue Mar  8 15:47:11 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar  8 15:47:20 2022>	[Info]:	Sucesfully loaded model: hiiamsid/sentence_similarity_s.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar  8 15:47:57 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar  8 15:47:59 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Tue Mar  8 15:48:01 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar  8 15:48:08 2022>	[Info]:	PM enabled for test.
+<Tue Mar  8 15:48:08 2022>	[Info]:	FB-BCM enabled for test.
+<Tue Mar  8 15:48:09 2022>	[Info]:	FB-BCM th set to 0.4.
+<Tue Mar  8 15:48:09 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:48:10 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:48:10 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:48:15 2022>	[Info]:	FB-BCM launched with th=0.4
+<Tue Mar  8 15:48:15 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:48:21 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:48:29 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:48:34 2022>	[Info]:	Watch for PM.
+<Tue Mar  8 15:48:36 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:49:58 2022>	[Info]:	Watch for FB-BCM.
+<Tue Mar  8 15:50:00 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:50:06 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:52:40 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Mar  8 15:52:40 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar  8 15:52:41 2022>	[Info]:	Correlation for testing done.
+<Tue Mar  8 15:52:41 2022>	[Info]:	PM launched with th=0.22 and oim=1.
+<Tue Mar  8 15:52:43 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar  8 15:52:43 2022>	[Info]:	Test processing finished.
+<Tue Mar  8 15:52:45 2022>	[Info]:	All images updated.
+<Tue Mar  8 15:53:30 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.

@@ -6,7 +6,6 @@
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 import matplotlib.pyplot as plt
 import networkx as nx
-import spacy
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -15,7 +14,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 spanish_model1 = 'hiiamsid/sentence_similarity_spanish_es'
 base_model = SentenceTransformer(spanish_model1)
-model_use = spacy.load('es_core_news_lg')
+# model_use = spacy.load('es_core_news_lg')
+model_use = None
 thresholding = 0.2
 
 TREE_FIG_PATH = r'./.multimedia/trees/Day'

@@ -56,6 +56,10 @@ def _read_model_list() -> []:
     return model_list
 
 
+def traduction_thread(**kwargs):
+    nr.VttReading_(**kwargs)
+
+
 def launching_thread(*args, **kwargs) -> []:
     parent = args[0]
     nt = args[1]
@@ -79,7 +83,8 @@ def launching_thread(*args, **kwargs) -> []:
             tokenized_mtx = untokenized_mtx
         parent.lowrite(f'Thread {nt + 1} posprocessed day {day} sucessfully.', cat='Info')
 
-        stream_merged_pm = Pbmm(tokenized_mtx, th=kwargs['pm-th'], oim=kwargs['oim']).merge_segmentation(sentence_stream)
+        stream_merged_pm = Pbmm(tokenized_mtx, th=kwargs['pm-th'],
+                                oim=kwargs['oim']).merge_segmentation(sentence_stream)
         parent.lowrite(f'Thread {nt + 1} launched PM on day {day}.', cat='Info')
 
         trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcm-th'], day, 'bert', False, xmodel=xmodel.model)
@@ -752,15 +757,15 @@ class MainWindow:
             bool_trans = not self.reader_notrans.get()
             tmodel = self.translator_model.get()
             if self.reader_all.get():
-                threads.append(Thread(target=nr.VttReading_, kwargs={'translate_model': bool_trans,
-                                                                     'tmodel': tmodel}))
+                threads.append(Thread(target=traduction_thread, kwargs={'translate_model': bool_trans,
+                                                                        'tmodel': tmodel}))
                 self.lowrite(f'Created thread for all cases in translator.', cat='Info')
             else:
                 for case in self.read_target:
                     the_case = case.split('/')[-1]
-                    threads.append(Thread(target=nr.VttReading_, kwargs={'translate_model': bool_trans,
-                                                                         'search_case': the_case,
-                                                                         'tmodel': tmodel}))
+                    threads.append(Thread(target=traduction_thread, kwargs={'translate_model': bool_trans,
+                                                                            'search_case': the_case,
+                                                                            'tmodel': tmodel}))
                     casex = case.split('/')[-1]
                     self.lowrite(f'Created thread for case {casex} in translator.', cat='Info')
             for thread in threads:
@@ -842,6 +847,10 @@ class MainWindow:
         type1 = self.information_sel.get()
         type2 = self.information_sel2.get()
 
+        if len(self.untokenized_matrix) == 0:
+            self.lowrite('Test has not been launched yet, no figures created.', cat='Error')
+            return
+
         # Type selection:
         if type1 == 'Raw correlation':
             self.target_matrix1 = self.untokenized_matrix
@@ -854,7 +863,7 @@ class MainWindow:
             self.sentence_stream_t1 = self.sentence_stream_pm
         elif type1 == 'After FB-BCM':
             self.target_matrix1 = fbbcm.tree_equivalent_matrix(self.test_tree)
-            self.sentence_stream_t1 = self.sentence_stream_pm
+            self.sentence_stream_t1 = range(len(self.target_matrix1))
 
         if type2 == 'Raw correlation':
             self.target_matrix2 = self.untokenized_matrix
@@ -867,7 +876,7 @@ class MainWindow:
             self.sentence_stream_t2 = self.sentence_stream_pm
         elif type2 == 'After FB-BCM':
             self.target_matrix2 = fbbcm.tree_equivalent_matrix(self.test_tree)
-            self.sentence_stream_t2 = self.sentence_stream_pm
+            self.sentence_stream_t2 = range(len(self.target_matrix2))
 
         # Matrix generation:
         sized1 = len(self.target_matrix1)
