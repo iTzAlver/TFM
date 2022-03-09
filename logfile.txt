@@ -3042,3 +3042,23 @@
 <Wed Mar  9 08:16:48 2022>	[Info]:	All images updated.
 <Wed Mar  9 08:32:12 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
 <Wed Mar  9 08:32:15 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 08:37:58 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 08:38:13 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 08:39:21 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:39:32 2022>	[Info]:	FB-BCM th set to 0.45.
+<Wed Mar  9 08:39:32 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:39:33 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:39:33 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:39:35 2022>	[Info]:	FB-BCM launched with th=0.45
+<Wed Mar  9 08:39:35 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:39:37 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:39:39 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:39:40 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:39:53 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:39:56 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 08:39:56 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:39:57 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:39:57 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:39:58 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 08:39:58 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:40:00 2022>	[Info]:	All images updated.

@@ -946,7 +946,7 @@ class MainWindow:
             self.sentence_stream_t1 = self.sentence_stream_pm
         elif type1 == 'After FB-BCM':
             self.target_matrix1 = fbbcm.tree_equivalent_matrix(self.test_tree)
-            self.sentence_stream_t1 = range(len(self.target_matrix1))
+            self.sentence_stream_t1 = self.sentence_stream_pm
 
         if type2 == 'Raw correlation':
             self.target_matrix2 = self.untokenized_matrix
@@ -959,7 +959,7 @@ class MainWindow:
             self.sentence_stream_t2 = self.sentence_stream_pm
         elif type2 == 'After FB-BCM':
             self.target_matrix2 = fbbcm.tree_equivalent_matrix(self.test_tree)
-            self.sentence_stream_t2 = range(len(self.target_matrix2))
+            self.sentence_stream_t2 = self.sentence_stream_pm
 
         # Matrix generation:
         sized1 = len(self.target_matrix1)
