@@ -2983,3 +2983,62 @@
 - - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
 
 <Tue Mar  8 19:02:28 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 08:07:15 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 08:07:16 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 08:07:21 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Wed Mar  9 08:07:26 2022>	[Info]:	PM enabled for test.
+<Wed Mar  9 08:07:30 2022>	[Info]:	FB-BCM enabled for test.
+<Wed Mar  9 08:07:33 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 08:07:33 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:07:35 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:07:35 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:07:36 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 08:07:36 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:07:42 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:07:47 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 08:07:48 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:08:10 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:08:14 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 08:08:16 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:08:33 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 08:08:41 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 08:09:44 2022>	[Info]:	FB-BCM th set to 0.4.
+<Wed Mar  9 08:09:44 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:09:45 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:09:45 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:09:49 2022>	[Info]:	FB-BCM launched with th=0.4
+<Wed Mar  9 08:09:49 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:09:49 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 08:09:52 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 08:11:26 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 08:11:30 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 08:11:32 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Wed Mar  9 08:11:34 2022>	[Info]:	FB-BCM enabled for test.
+<Wed Mar  9 08:11:36 2022>	[Info]:	PM enabled for test.
+<Wed Mar  9 08:11:40 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Wed Mar  9 08:11:40 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:11:41 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:11:41 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:11:45 2022>	[Info]:	FB-BCM launched with th=0.4
+<Wed Mar  9 08:11:45 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:11:48 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:11:57 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 08:11:58 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:15:31 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:15:32 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 08:15:34 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:16:37 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 08:16:37 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 08:16:38 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 08:16:38 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 08:16:40 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 08:16:40 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 08:16:43 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:16:46 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 08:16:48 2022>	[Info]:	All images updated.
+<Wed Mar  9 08:32:12 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 08:32:15 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.

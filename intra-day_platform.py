@@ -94,7 +94,7 @@ def tree_tracer(*args):
                                              color='#DB4551',
                                              line=dict(color='rgb(50,50,50)', width=1)
                                              ),
-                                 text=f'Tree {tree.nTree} {tree.timing} [s]',
+                                 text=f'Tree {tree.nTree}: {tree.timing} [s]',
                                  hoverinfo='text',
                                  opacity=[10*tree.pt if 10*tree.pt < 1 else 1][0]
                                  ))
