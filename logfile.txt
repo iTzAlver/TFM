@@ -3062,3 +3062,13 @@
 <Wed Mar  9 08:39:58 2022>	[Info]:	FB-BCM launched with th=0.5
 <Wed Mar  9 08:39:58 2022>	[Info]:	Test processing finished.
 <Wed Mar  9 08:40:00 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 08:52:52 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 08:52:53 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 08:52:55 2022>	[Note]:	Unlocked translator and reader settings.
+<Wed Mar  9 08:52:56 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 08:52:58 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 08:55:00 2022>	[Info]:	Translation completed for thread 1

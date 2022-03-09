@@ -135,8 +135,9 @@ def _read_model_list() -> []:
     return model_list
 
 
-def traduction_thread(**kwargs):
+def traduction_thread(*args, **kwargs):
     nr.VttReading_(**kwargs)
+    args[0].lowrite(f'Translation completed for thread {args[1]}.', cat='Info')
 
 
 def launching_thread(*args, **kwargs) -> []:
@@ -529,7 +530,7 @@ class MainWindow:
         self.information_sel2.place(x=580, y=5)
         self.information_sel2["values"] = ['Raw correlation', 'After token processing', 'After PM', 'After FB-BCM']
         self.update_button = HoverButton(self.select_lf, text='Update', command=self.update_image,
-                                         width=7, bg=self.colors.red)
+                                         width=7, bg=self.colors.orange)
         self.update_button.pack()
         self.update_button.place(x=340, y=5)
 
@@ -840,17 +841,17 @@ class MainWindow:
             bool_trans = not self.reader_notrans.get()
             tmodel = self.translator_model.get()
             if self.reader_all.get():
-                threads.append(Thread(target=traduction_thread, kwargs={'translate_model': bool_trans,
-                                                                        'tmodel': tmodel}))
+                threads.append(Thread(target=traduction_thread, args=(self, 1), kwargs={'translate_model': bool_trans,
+                                                                                        'tmodel': tmodel}))
                 self.lowrite(f'Created thread for all cases in translator.', cat='Info')
             else:
-                for case in self.read_target:
+                for nth, case in enumerate(self.read_target):
                     the_case = case.split('/')[-1]
-                    threads.append(Thread(target=traduction_thread, kwargs={'translate_model': bool_trans,
-                                                                            'search_case': the_case,
-                                                                            'tmodel': tmodel}))
+                    threads.append(Thread(target=traduction_thread, args=(self, nth + 1),
+                                          kwargs={'translate_model': bool_trans, 'search_case': the_case,
+                                                  'tmodel': tmodel}))
                     casex = case.split('/')[-1]
-                    self.lowrite(f'Created thread for case {casex} in translator.', cat='Info')
+                    self.lowrite(f'Created thread {nth + 1} for case {casex} in translator.', cat='Info')
             for thread in threads:
                 thread.start()
         else:
