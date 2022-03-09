@@ -340,8 +340,8 @@ class MainWindow:
         self.launcher_algo_thfbcm.place(x=120, y=5)
         self.launcher_algo_thpm.place(x=120, y=25)
         self.launcher_algo_oimpm.place(x=120, y=45)
-        self.launcher_algo_thfbcm.insert(-1, '0.40')
-        self.launcher_algo_thpm.insert(-1, '0.22')
+        self.launcher_algo_thfbcm.insert(-1, '0.50')
+        self.launcher_algo_thpm.insert(-1, '0.20')
         self.launcher_algo_oimpm.insert(-1, '1')
         self.launcher_algo_lock = Checkbutton(self.launcher_algo_lf, text='Lock this values for launch',
                                               variable=self.launcher_algo_lock_v, command=self.launch_algo_lock)
@@ -395,7 +395,7 @@ class MainWindow:
         self.launcher_tokenenable.place(x=0, y=25)
         self.launcher_decorrelation = Entry(self.launcher_extra_lf, width=7)
         self.launcher_decorrelation.place(x=280, y=30)
-        self.launcher_decorrelation.insert(-1, '0.00')
+        self.launcher_decorrelation.insert(-1, '20.00')
         self.launcher_decorrelation_info = Label(self.launcher_extra_lf, text='Decorrelation: ')
         self.launcher_decorrelation_info.pack()
         self.launcher_decorrelation_info.place(x=190, y=28)
@@ -457,7 +457,7 @@ class MainWindow:
         self.token_info2 = Label(self.tokencontrol_lf, text='%').place(x=135, y=21)
         self.token_decorrelation = Entry(self.tokencontrol_lf, width=7)
         self.token_decorrelation.place(x=90, y=21)
-        self.token_decorrelation.insert(-1, '0.00')
+        self.token_decorrelation.insert(-1, '20.00')
         self.token_decorr_setup = HoverButton(self.tokencontrol_lf, text='Set up decorrelation', height=1,
                                               command=self.set_up_token, width=20, bg=self.colors.red)
         self.token_decorr_setup.pack()

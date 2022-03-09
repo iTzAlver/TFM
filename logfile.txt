@@ -3072,3 +3072,8 @@
 <Wed Mar  9 08:52:56 2022>	[Note]:	Locked translator and reader settings.
 <Wed Mar  9 08:52:58 2022>	[Info]:	Created thread for all cases in translator.
 <Wed Mar  9 08:55:00 2022>	[Info]:	Translation completed for thread 1
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 09:00:26 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:00:52 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:01:57 2022>	[Error]:	Test has not been launched yet, no figures created.
