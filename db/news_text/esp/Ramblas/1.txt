@@ -36,3 +36,4 @@ $- como veis sigue acordonado el centro Barcelona
 $Al fondo donde empezar desatentado
 $Estamos a escaso metros de plaza de Cataluña
 Estamos hablando de plaza universidad
+%[9.0, 2.96, 4.76, 5.44, 7.84, 2.95, 2.92, 2.99, 2.96, 2.99, 1.76, 2.1100000000000003, 1.59, 5.79, 3.0, 2.88, 3.0, 7.16, 1.11, 6.640000000000001, 8.120000000000001, 4.48, 3.76, 11.71, 10.32, 9.120000000000001, 8.75, 9.76, 4.52, 6.24, 6.39, 8.76, 4.72, 5.14, 3.0, 3.0, 3.0, 3.0]

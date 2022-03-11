@@ -32,3 +32,4 @@ Las sedes se adjudicarán por concurso entre las ciudades aspirantes
 $Empezamos en Francia
 A esta hora, estamos pendientes de Estrasburgo porque, allí, la policía tiene bloqueado el centro desde poco antes de las ocho
 Es la hora a la que se ha registrado un tiroteo, que se ha producido cerca de un mercadillo de Navidad
+%[2.52, 2.6, 4.87, 5.989999999999999, 7.23, 12.92, 6.12, 2.28, 5.08, 6.949999999999999, 5.23, 8.82, 7.11, 9.3, 5.75, 2.96, 7.5600000000000005, 12.15, 3.64, 1.76, 4.56, 7.470000000000001, 6.52, 12.27, 2.0, 4.640000000000001, 2.72, 3.16, 5.16, 13.709999999999999, 4.08, 1.67, 8.92, 6.04]

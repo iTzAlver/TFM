@@ -17,7 +17,7 @@ DEEPL_AUTH_KEY = 'XXXXXXX'
 
 
 def main() -> None:
-    VttReading(translate_model=True, search_case='Julen')
+    VttReading(translate_model=False, search_case='Julen')
     return
 
 
@@ -25,10 +25,29 @@ def VttReading_(**kwargs):
     VttReading(**kwargs)
 
 
-def capital_replace(_text):
+def get_diff(tstamps):
+    spt0 = tstamps[0].split(':')
+    spt1 = tstamps[1].split(':')
+    diff = 0
+    for i, diffed in enumerate(spt0):
+        diff += (60**(2-i))*(int(spt1[i]) - int(diffed))
+    return diff
+
+
+def get_diff_f(tstamps):
+    st0 = tstamps[0].split('.')[0]
+    st1 = tstamps[1].split('.')[0]
+    dec0 = int(tstamps[0].split('.')[1])
+    dec1 = int(tstamps[1].split('.')[1])
+    decimal = get_diff([st0, st1])
+    ret = round(decimal + (dec1-dec0)/1000, 2)
+    return ret
+
+
+def capital_replace(_text, cnt=0):
     unchain_words = []
-    counter = 0
     ret_phrase = []
+    counter = cnt
     iterator_text = _text.split('. ')
     for _text_m in iterator_text:
         chain_words = []
@@ -43,12 +62,12 @@ def capital_replace(_text):
                     chain_words.append(word)
         ret_phrase.append(' '.join(chain_words))
     ret_phrase = '. '.join(ret_phrase)
-    return [ret_phrase, unchain_words]
+    return [ret_phrase, unchain_words, counter]
 
 
-def capital_restore(_text, DKT):
+def capital_restore(_text, dkt):
     _text_p = _text
-    for idx, word in enumerate(DKT):
+    for idx, word in enumerate(dkt):
         _text_p = _text_p.replace(f'__{idx}__', word)
     return _text_p
 
@@ -78,6 +97,7 @@ class VttReading:
         self.time_limit = time_limit
         self.total = {}
         self.result = None
+        self.diffs = {}
 
         if search_case is not None:
             if search_case[0] != '!':
@@ -102,19 +122,25 @@ class VttReading:
         dir_path = f'{NEWS_PATH}{search_case}/'
         for idx, _ in enumerate(os.listdir(dir_path)):
             route = f'{dir_path}{idx+1}.vtt'
-            [sentences[str(idx+1)], sentences_eng[str(idx+1)]] = self.__get_text(route, translate=translate,
-                                                                                 tmodel=tmodel)
+            [sentences[str(idx+1)], sentences_eng[str(idx+1)], diffcase] = self.__get_text(route, translate=translate,
+                                                                                           tmodel=tmodel)
+            self.diffs[f'{search_case}_{idx+1}'] = diffcase
         return [sentences, sentences_eng]
 
     def __get_text(self, route, translate=False, tmodel='google'):
         some_text = '!'
         timestamps = ['00:00:00', '00:00:00']
-        hover_sliced = []
+        hover_sliced = ['$ $ $']
+        diffs_ = []
+        diffs = []
+        splitted = ['$$$']
         with open(route, 'r', encoding='utf-8') as file:
             for line in file:
                 if '00:00:00' < line[:] < self.time_limit:
-                    timestamps.append([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:-11]])
-                    if timestamps[-1][0] > timestamps[-2][1] and (some_text[-1] == '.' or some_text[-1] == '!'):
+                    timestamps.append([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]])
+                    # diffs_.append(get_diff([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]]))
+                    diffs_.append(get_diff_f([line.split(' --> ')[0], line.split(' --> ')[1][:12]]))
+                    if timestamps[-1][0] > timestamps[-2][1] and (len(diffs_) == 1 or some_text[-1] == '!'):
                         sliced = f'${next(file)}'
                     else:
                         sliced = next(file)
@@ -122,24 +148,29 @@ class VttReading:
                         if self.__eliminate_buffer(hover_sliced, sliced):
                             some_text = f'{some_text} {sliced[:-1]}'
                             hover_sliced.append(sliced)
+                            if '.\n' in hover_sliced[-1]:
+                                diffs.append(sum(diffs_))
+                                splitted.append(some_text)
+                                some_text = ' '
+                                diffs_ = []
                         sliced = next(file)
 
-        some_text = self.__eliminate_doubles(self.__eliminate_hanging(some_text))
+        splitted = [self.__eliminate_doubles(mutable[2:-1]) for mutable in splitted][1:]
+
         if translate:
-            traduction = self.__translate(some_text, model=tmodel)
-            traduction_splt = traduction.split('. ')
-            traduction_splt[0] = traduction_splt[0][2:]
+            traduction_splt = self.__translate(splitted, model=tmodel)
         else:
             traduction_splt = ['No translated.']
 
-        splitted = some_text.split('. ')
-        splitted[0] = splitted[0][2:]
+        if not len(splitted) == len(traduction_splt):
+            print(f'Length of traduction is not the same as original: {len(splitted)} != {len(traduction_splt)} '
+                  f'for route: {route}')
 
-        return [splitted, traduction_splt]
+        return [splitted, traduction_splt, diffs]
 
     def __print_news(self, text_dict) -> None:
         global WRITE_PATH
-        for case, dict in text_dict.items():
+        for case, dicti in text_dict.items():
             if 'eng' in case:
                 dirr = r'eng/'
             else:
@@ -150,36 +181,27 @@ class VttReading:
                 print(f'Traceback: VttReading/__print_news/shutil.rmtree: Cannot remove directory {WRITE_PATH}{case}.'
                       f'\n Reason: {reason}.')
 
-            for key, value in dict.items():
+            for key, value in dicti.items():
                 try:
                     with open(f'{WRITE_PATH}{dirr}{case}/{key}.txt', 'w', encoding='utf-8') as file:
                         for sentences in value:
                             file.writelines(f'{sentences}\n')
+                        casex = case.split('_')[0]
+                        file.writelines(f'%{self.diffs[f"{casex}_{key}"]}')
                 except IOError:
                     try:
                         os.mkdir(f'{WRITE_PATH}{dirr}{case}/')
                         with open(f'{WRITE_PATH}{dirr}{case}/{key}.txt', 'w', encoding='utf-8') as file:
                             for sentences in value:
                                 file.writelines(f'{sentences}\n')
+                            casex = case.split('_')[0]
+                            file.writelines(f'%{self.diffs[f"{casex}_{key}"]}')
                     except OSError:
                         print('Traceback: VttReading/__print_news/os.makedir'
                               '(f\'{WRITE_PATH}{case})\'cannot be created.')
 
-    def __eliminate_hanging(self, text):
-        if text[-1] == '.':
-            return text[:-1]
-        for idx, _ in enumerate(text):
-            if text[-idx] == '.':
-                if text[-idx+1] == ' ':
-                    return text[:-idx]
-        return text
-
     def __eliminate_doubles(self, text):
-        retext = ''
-        for idx, char in enumerate(text):
-            if not (char == ' ' and text[idx+1] == ' '):
-                retext = f'{retext}{char}'
-        return retext
+        return text.replace('  ', ' ')
 
     #   Hard feature to include: For not repeating words or blocks in the text.
     def __eliminate_buffer(self, hover_sliced, sliced):
@@ -189,10 +211,16 @@ class VttReading:
                 add_permission = False
         return add_permission
 
-    def __translate(self, _text_original, model='google'):
-        retext = ''
+    def __translate(self, _texts_original, model='google'):
+        retext_ = ''
         try:
-            [_text, DKT] = capital_replace(_text_original)
+            _text = []
+            DKT = []
+            cnt = 0
+            for _text_original in _texts_original:
+                [_text_, DKT_, cnt] = capital_replace(_text_original, cnt)
+                DKT.extend(DKT_)
+                _text.append(_text_)
         except Exception as exc:
             print(f'{exc}')
             raise
@@ -203,14 +231,16 @@ class VttReading:
                 print('Oops, there was an error translating...')
             else:
                 try:
-                    retext = g_translator.translate(_text).text
+                    txt = '\n'.join(_text)
+                    retext_ = g_translator.translate(txt, src='es', dest='en').text
+                    retext_ = retext_.replace('​​', '')
                 except BaseException:
                     print(f'Traceback: VttReading/__translate: Cannot translate \'{_text}\' '
                           f'from model {model}; maybe too many requests.')
         else:
             print(f'Traceback: VttReading/__translate: No translator model called {model}.')
-        _retext = capital_restore(retext, DKT)
-        return _retext
+        _retext = capital_restore(retext_, DKT)
+        return _retext.split('\n')
 # -----------------------------------------------------------
 # Main:
 

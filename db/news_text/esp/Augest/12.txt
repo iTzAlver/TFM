@@ -41,3 +41,4 @@ A la espalda se podía leer la palabra Barcelona
 Son las camisetas que llevaron entonces los jugadores después del atentado en el primer partido de liga la temporada pasada y hoy han sacado una tirada especial para homenajear a toda la ciudad
 También el Espanyol ha subido un mensaje de apoyo a las víctimas
 $Durante todo el día se han sucedido muestras de solidaridad y cariño con las víctimas y familiares del doble atentado yihadista
+%[1.35, 0.64, 3.28, 0.72, 4.15, 5.800000000000001, 10.620000000000001, 1.4, 3.0, 3.36, 2.96, 6.5600000000000005, 3.36, 5.88, 1.6, 5.04, 3.08, 4.95, 6.56, 4.76, 3.08, 2.0, 9.39, 9.39, 3.12, 2.12, 2.92, 2.92, 3.0, 2.96, 7.6000000000000005, 5.720000000000001, 6.07, 5.88, 2.87, 9.28, 7.029999999999999, 4.08, 4.3100000000000005, 2.28, 9.74, 2.84, 6.65]

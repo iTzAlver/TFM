@@ -38,3 +38,4 @@ Ha explicado sus pretensiones, y ahora son ellos los que debaten cómo ayudarla
 $Insiste en el acuerdo no se va a tocar
 $Se espera un compromiso de negociar un tratado de asociación, de forma que el Reino Unido permanezca en la unión aduanera europea, sólo el tiempo imprescindible
 $Theresa May ha venido a Bruselas para arrancar a sus homólogos alguna concesión que apacigüe a los diputados británicos, reacios a apoyar el acuerdo de divorcio
+%[1.68, 4.640000000000001, 2.52, 5.2, 0.68, 5.92, 7.4, 2.84, 7.039999999999999, 5.0, 4.92, 2.08, 7.359999999999999, 3.88, 3.76, 5.84, 2.76, 2.56, 3.6, 13.24, 1.76, 2.68, 12.0, 6.48, 6.4, 3.04, 6.720000000000001, 9.76, 4.08, 8.8, 7.6, 4.28, 4.28, 7.920000000000001, 6.84, 9.2, 5.92, 3.0, 9.280000000000001, 8.16]

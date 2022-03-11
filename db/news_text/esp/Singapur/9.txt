@@ -41,3 +41,4 @@ $Siete son los candidatos que optan a suceder a Mariano Rajoy Hoy han presentado
 El ultimo en formalizar su candidatura ha sido un concejal popular del municipio valenciano de La Font de Figuer
 $Ésa ha sido la sorpresa la jornada
 $La candidatura de un militante de la Comunidad Valenciana, muy crítico con Mariano Rajoy
+%[7.1899999999999995, 10.23, 1.4, 7.15, 8.86, 6.119999999999999, 7.879999999999999, 5.83, 4.51, 5.7, 3.88, 4.68, 11.610000000000001, 6.27, 3.5599999999999996, 3.72, 8.78, 5.039999999999999, 2.8, 1.79, 2.88, 2.96, 6.6, 3.0, 6.84, 5.04, 11.8, 2.72, 8.48, 4.72, 7.55, 5.15, 3.08, 5.19, 3.27, 7.9399999999999995, 11.59, 3.15, 3.32, 6.08, 6.470000000000001, 2.96, 6.04]

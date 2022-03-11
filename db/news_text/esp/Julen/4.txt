@@ -36,3 +36,4 @@ Estas imágenes son de ayer por la tarde cuando deciden lanzar juntos la platafo
 -Quiero dar la imagen en Madrid de que el ayuntamiento y la comunidad se van a entender
 aunque tengamos visiones distintas
 Y ambos han defendido hoy su estrategia política
+%[2.52, 4.32, 2.79, 6.029999999999999, 0.96, 2.28, 9.01, 8.44, 5.0, 4.28, 12.2, 2.8, 3.67, 5.720000000000001, 6.67, 12.39, 3.16, 11.309999999999999, 4.67, 3.96, 5.390000000000001, 10.75, 5.51, 5.91, 5.99, 5.99, 3.0, 7.43, 7.26, 6.9799999999999995, 6.99, 6.629999999999999, 3.91, 5.51, 6.95, 5.63, 0, 3.67]

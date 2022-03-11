@@ -40,3 +40,4 @@ Tras varios días de silencio Alberto Núñez Feijóo ha hecho publico hace tan 
 Feijóo, muy emocionado, dice que no quiere fallar a los gallegos
 $Núñez Feijóo acaba de anunciar en un acto ante la junta directiva que no estará a la dirección del PP
 $Una decisión que ha tomado pese a recibir apoyo y ánimos de toda España
+%[8.96, 6.91, 9.03, 11.4, 7.359999999999999, 2.92, 2.56, 1.31, 3.8, 6.88, 5.5600000000000005, 5.47, 2.4, 6.47, 5.11, 1.08, 6.43, 6.99, 5.0, 3.28, 4.640000000000001, 8.68, 8.68, 9.67, 4.91, 3.4, 3.7199999999999998, 3.16, 3.2, 4.6, 4.68, 5.83, 6.16, 0.84, 5.38, 8.16, 14.700000000000001, 0.8, 5.36, 8.36, 8.36, 6.0]

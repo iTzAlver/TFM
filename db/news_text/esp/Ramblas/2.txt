@@ -33,3 +33,4 @@ Al mismo tiempo varios países han reforzado sus medidas de seguridad en lugares
 $Éste que están viendo en imagen es el recorrido que hizo la furgoneta ayer por la tarde a rrollando a su paso a todos los ciudadanos que a esa hora estaban en la zona de las ramblas
 Es el momento en el que uno de los terroristas de Cambrils es abatido a tiros por los Mossos de Esquadra
 Uno de ellos es Moussa Oukabir, el conductor de la furgoneta del atropello masivo en Las Ramblas
+%[11.89, 5.87, 8.920000000000002, 3.4, 4.28, 6.43, 2.28, 5.0, 7.27, 9.309999999999999, 4.16, 9.56, 8.76, 8.879999999999999, 4.0, 4.15, 8.11, 5.16, 2.43, 3.12, 6.28, 4.07, 7.95, 8.35, 4.76, 8.59, 7.2700000000000005, 4.39, 11.61, 4.56, 5.19, 5.35, 10.82, 7.48, 7.32]

@@ -36,3 +36,4 @@ $Algunas fuentes aseguran que quieren una carrera limpia, y las 2 van a poner to
 $Nadie en el partido duda que esta carrera, va a estar muy reñida
 $Han presentado sus candidaturas en actos muy diferentes, pero destacan 2 ideas, reivindicar las políticas de Rajoy, y apostar por la unidad del partido
 $Tras anunciar sus candidaturas, han coincidido en el Congreso
+%[5.84, 9.350000000000001, 4.52, 0.8, 7.719999999999999, 7.76, 7.279999999999999, 1.76, 7.359999999999999, 3.4, 4.15, 8.239999999999998, 2.31, 5.0600000000000005, 4.84, 10.67, 7.88, 8.34, 9.71, 4.35, 2.68, 7.359999999999999, 3.52, 14.26, 7.02, 5.88, 6.12, 4.19, 1.39, 3.08, 2.88, 9.879999999999999, 5.96, 5.99, 5.859999999999999, 5.279999999999999, 10.190000000000001, 4.38]

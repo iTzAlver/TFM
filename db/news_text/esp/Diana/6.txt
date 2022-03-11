@@ -39,3 +39,4 @@ $El Barça acaba de comunicar en su página web el fichaje con una cláusula de 
 Coutinho podría ser presentado la próxima semana y estaría a disposición de Valverde para el partido de Copa del Rey ante el Celta de Vigo, o bien para la próxima semana, en el partido de Liga frente a la Real
 La prensa inglesa da por hecho que su fichaje será por 160 millones de euros
 Si es así, podría convertirse en el segundo jugador más caro de la historia
+%[6.84, 2.32, 2.11, 6.390000000000001, 4.23, 3.04, 1.08, 4.56, 3.04, 2.83, 8.14, 6.07, 3.0, 5.0200000000000005, 3.4699999999999998, 2.2, 5.83, 5.6, 5.79, 18.38, 3.68, 1.96, 2.51, 7.800000000000001, 10.23, 6.63, 8.629999999999999, 6.63, 7.67, 6.59, 5.550000000000001, 4.47, 4.52, 5.5600000000000005, 5.32, 4.08, 6.1, 4.72, 9.45, 4.11, 4.27]

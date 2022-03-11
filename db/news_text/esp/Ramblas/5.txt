@@ -1,7 +1,6 @@
 $El autor del atentado de La Rambla, Younes Abouyaaqoub, ha sido abatido por disparos de los Mossos D'Esquadra en la localidad barcelonesa de Subirats
 Una vecina le reconoció y dio la alerta a la Policía
-$Hola
-Buenas noches
+$Hola. Buenas noches
 El terrorista, que estaba huido desde el pasado jueves llevaba un cinturón de explosivos falso adosado al cuerpo y antes de morir por los disparos gritó Alá es el más grande
 La célula se da por desarticulada pero la operación policial, sigue abierta
 $A primera hora de esta tarde ha sido visto por una vecina, iba solo, y los Mossos han logrado abatirlo cerca de las 5:00 de la tarde
@@ -36,8 +35,9 @@ $En deportes destacamos la reacción de dos deportistas después de enterarse de
 Su imagen parado antes de saltar a la piscina se ha hecho viral y hoy ha sido recibido casi como un heroe al llegar a Madrid
 Y modélica la reacción del jugador del Barcelina Lucas Digne
 Bajo con agua y toallas para ayudar a las victimas y hoy las redes sociales se llenaban de mensajes para darle las gracias
-$A la una de la tarde, de manera conjunta, los Mossos, la policía y el propio ministro del Interior difundían la imágen del que era el hombre más buscado
+A la una de la tarde, de manera conjunta, los Mossos, la policía y el propio ministro del Interior difundían la imágen del que era el hombre más buscado
 No han pasado ni cuatro horas cuando gracias a la colaboración ciudadana el autor del atentado en Las Ramblas era abatido
 $Younes Abouyaaqoub, de 22 años, se encontraba huído desde el pasado jueves
 Esta tarde una vecina le reconoció en el municipio barcelonés de Subirats y dio la alerta a la Policía que puso en marcha el operativo para darle caza
 El terrorista portaba un cinturón de explosivos simulado Eran las tres y media de la tarde cuando los Mossos han recibido dos alertas sobre el posible paradero de Younes Abouyaaqoub
+%[6.720000000000001, 3.44, 1.24, 8.59, 5.07, 9.100000000000001, 8.99, 3.04, 5.74, 3.32, 3.0, 2.28, 8.24, 4.16, 2.36, 2.64, 3.43, 6.31, 7.34, 0.99, 2.68, 3.92, 5.08, 4.12, 11.879999999999999, 4.23, 3.32, 4.74, 0.84, 3.1900000000000004, 18.85, 5.48, 2.95, 12.190000000000001, 6.63, 3.91, 6.83, 14.11, 8.8, 2.7199999999999998, 9.629999999999999, 10.86]

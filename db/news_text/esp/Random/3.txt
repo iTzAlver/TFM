@@ -40,3 +40,4 @@ Pedro Sánchez se ha comprometido a revisar los recursos presentados contra medi
 Y una comisión estudiará las competencias pendientes de trasferir a Euskadi
 $El president de la Generalitat, Quim Torra, ha presentado esta tarde su libro titulado "El cuaderno Suizo"
 Torra considera que en Cataluña se han hecho cosas bien, como declarar la independencia, pero se ha fracasado en implementar la república catalana
+%[5.64, 9.55, 1.27, 1.68, 2.03, 1.59, 0.8, 5.55, 5.68, 3.67, 10.92, 8.03, 6.99, 4.12, 4.79, 2.59, 9.559999999999999, 5.4, 3.8000000000000003, 4.27, 5.92, 3.92, 8.44, 7.95, 5.4, 4.99, 6.04, 8.52, 7.19, 6.870000000000001, 12.099999999999998, 4.8, 5.949999999999999, 15.110000000000001, 4.7, 2.2, 12.98, 6.6, 7.279999999999999, 5.83, 6.23, 7.2700000000000005]

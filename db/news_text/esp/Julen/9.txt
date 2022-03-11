@@ -40,3 +40,4 @@ Su caso ha quedado aplazado
 $Mañana cuando haya luz se reanudará la búsqueda de la avioneta donde viajaba el futbolista argentino Emiliano Sala
 Jugaba en Francia y había fichado por el Cardiff, iba a firmar el contrato
 La avioneta desapareció la pasada noche cuando cruzaba el Canal de la Mancha
+%[3.72, 4.6, 2.55, 8.670000000000002, 11.870000000000001, 2.48, 4.96, 3.96, 4.2, 4.11, 2.99, 5.6, 2.99, 2.96, 8.99, 3.16, 3.0, 6.0, 4.43, 4.75, 7.23, 10.22, 9.26, 4.52, 3.27, 3.16, 2.64, 10.23, 7.71, 6.16, 2.32, 2.48, 6.06, 2.31, 3.16, 8.96, 10.030000000000001, 4.47, 3.24, 4.62, 4.16, 4.08]

@@ -36,3 +36,4 @@ $En deportes estamos pendientes de la carrera de Bruno Hortelano en los campeona
 $A ver si consigue repetir la medalla de oro en la prueba de los 200 metros que empieza ya en unos minutos
 Así que nos vamos en directo a Berlin conectamos con la señal de teledeporte Busca repetir el éxito
 $va a arrancar la final más esperada de estos campeonatos de Europa la final de los 200 con el español Bruno hortelano, que defiende esa Crohn conquistada, en otro estadio olímpico, el de Ámsterdam
+%[6.32, 5.32, 5.790000000000001, 5.4399999999999995, 5.68, 1.04, 4.08, 5.91, 6.68, 3.0, 3.12, 4.32, 2.92, 5.94, 7.8, 19.89, 6.2, 5.12, 6.279999999999999, 2.99, 3.0, 5.79, 9.14, 13.09, 4.35, 3.26, 3.48, 11.2, 1.72, 2.59, 1.44, 1.6, 8.91, 7.87, 5.8, 2.15, 8.44, 12.39]

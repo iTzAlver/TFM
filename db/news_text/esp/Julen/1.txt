@@ -31,3 +31,4 @@ Chicho Ibáñez Serrador consigue el Premio Goya de Honor por toda una vida dedi
 $Y en los deportes Nadal gana en Australia, Sergio
 $Esa imagen es lo que se ve desde la superficie y esto es lo que no se ve
 Así es la estructura del pozo
+%[2.16, 4.51, 2.56, 10.86, 1.52, 2.84, 8.879999999999999, 5.88, 1.6, 2.48, 10.680000000000001, 12.27, 4.0, 3.59, 8.23, 8.51, 6.27, 8.309999999999999, 9.81, 5.4, 7.16, 7.16, 4.04, 4.0, 3.3899999999999997, 5.279999999999999, 4.92, 6.32, 2.12, 6.55, 2.99, 8.08, 1.95]

@@ -32,6 +32,7 @@ class TokenProcessing:
         self.placeholders = []
         self.payload = []
         self.dcr = []
+        self.diffs = []
 
     def preprocessing(self):
         if self.target.split('.')[-1] == 'txt':
@@ -54,13 +55,18 @@ class TokenProcessing:
                     if line[0] == '$':
                         placehold.append(idx)
                         lines.append(line[1:].strip('\n'))
+                    elif line[0] == '%':
+                        thelist = line.split(' ')
+                        thelist[0] = thelist[0][2:]
+                        thelist = [float(val[:-1]) for val in thelist]
+                        self.diffs.append(thelist)
                     else:
                         lines.append(line.strip('\n'))
             self.placeholders.append(placehold)
             self.payload.append(lines)
         return self.payload
 
-    def posprocessing(self, corrmatrix, placeholder_id):
+    def posprocessing(self, corrmatrix, placeholder_id, get_time=False):
         placeholder = self.placeholders[placeholder_id]
         segmentation = []
         sized = len(corrmatrix)
@@ -80,7 +86,13 @@ class TokenProcessing:
         r = np.array(corrmatrix)
         mtx = r*self.dcr
         mtx[mtx < 0] = 0
-        return mtx
+
+        if get_time:
+            retval = (mtx, self.diffs[placeholder_id])
+        else:
+            retval = mtx
+
+        return retval
    
 # -----------------------------------------------------------
 # Main:

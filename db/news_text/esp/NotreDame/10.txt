@@ -39,3 +39,4 @@ Según la sentencia no se ha podido acreditar su vinculación en operaciones ile
 Rosell ha estado 21 meses en prisión provisional antes de ser absuelto, una situación anómala según sus abogados
 $Ya no hay remedio al daño que se ha hecho, tanto tiempo en prisión a una persona que luego ha sido declarada inocente
 Esto ha sido muy duro, muy duro
+%[4.11, 2.32, 2.75, 4.16, 2.32, 9.629999999999999, 8.0, 9.879999999999999, 2.2, 2.52, 4.47, 7.59, 4.1, 4.27, 6.52, 7.48, 7.989999999999999, 4.07, 5.03, 14.11, 2.64, 7.15, 6.12, 9.959999999999999, 4.4, 6.15, 5.04, 7.5600000000000005, 2.96, 4.83, 6.470000000000001, 10.95, 10.510000000000002, 7.0, 4.15, 4.95, 7.069999999999999, 7.83, 8.350000000000001, 8.15, 1.91]

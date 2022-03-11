@@ -39,3 +39,4 @@ En el ultimo entrenamiento les visito Ibaka antes de jugar contra un viejo conoc
 $El Gobierno se ha reunido hoy con la Patronal de empresas de VTC, como hizo ayer con los taxistas
 El presidente de UNAUTO ha dicho que sale del encuentro "moderadamente satisfecho" porque el Ejecutivo se ha mostrado abierto al diálogo
 $En esa reunión, que ha durado tres horas y media, el Secretario de Estado de Transporte, Pedro Saura, les ha propuesto participar en una Comisión de diálogo con todas las partes, Cristina Pampín, que se concretará en Septiembre
+%[2.68, 0.64, 4.76, 5.35, 5.12, 7.35, 1.8, 8.58, 2.6, 11.760000000000002, 10.95, 7.83, 8.87, 7.59, 6.71, 8.44, 4.36, 9.12, 8.27, 5.720000000000001, 3.55, 2.84, 4.1899999999999995, 1.96, 4.550000000000001, 4.71, 11.07, 3.24, 7.6, 10.190000000000001, 6.199999999999999, 5.83, 1.48, 3.35, 2.95, 4.84, 2.2, 8.24, 5.43, 7.3999999999999995, 11.68]

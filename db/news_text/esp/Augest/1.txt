@@ -37,3 +37,4 @@ $En Deportes, el Madrid puede cerrar de forma inminente el fichaje de Courtois
 $El Chelsea baraja la posibilidad de pagar la claúsula de Oblak que es de cien millones
 Invertirían el dinero que ingresen por Courtois en ir a por el esloveno
 Y en el Barcelona, hoy presentacion y primer entrenamiento de Arturo Vidal
+%[4.32, 8.76, 5.68, 14.91, 1.35, 3.88, 5.6, 4.51, 6.56, 9.71, 7.64, 7.51, 7.6, 6.71, 1.8, 6.989999999999999, 3.64, 6.84, 12.84, 6.75, 1.84, 4.23, 3.7199999999999998, 7.5200000000000005, 5.0, 4.36, 10.72, 8.31, 8.09, 5.76, 7.51, 8.24, 4.64, 6.15, 8.4, 4.48, 5.79, 4.08, 3.8]

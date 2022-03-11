@@ -39,3 +39,4 @@ $Son algunas de los asistentes anoche al concierto que cerraba el campeonato de 
 El paseo marítimo se hundió de pronto y el público, muchos menores, caían al agua
 377 personas tuvieron que ser atendidas en un primer momento
 $Enana alrededor de las 12:00 de la noche, cuando cientos de jóvenes empezaban a disfrutar del concierto
+%[8.76, 5.08, 3.28, 3.0, 1.8, 4.640000000000001, 4.5600000000000005, 4.03, 9.559999999999999, 6.04, 6.19, 1.44, 6.3100000000000005, 7.51, 3.56, 5.56, 5.03, 5.07, 2.32, 3.4000000000000004, 3.6399999999999997, 6.52, 3.92, 2.36, 3.91, 3.3600000000000003, 5.35, 3.51, 1.68, 4.27, 8.239999999999998, 2.28, 3.51, 3.5599999999999996, 2.64, 3.08, 6.51, 6.96, 4.75, 3.75, 6.390000000000001]

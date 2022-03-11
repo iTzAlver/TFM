@@ -33,3 +33,4 @@ Con una voluntad homicida y determinada a matar y a agredir físicamente a la ag
 Ante la amenaza, la agente abre fuego y abate al sospechoso
 Los mossos califican lo ocurrido de ataque terrorista: se apoyan en la mención a Alá o la decisión con la que el atacante se dirigió hacia la agente para intentar acabar con su vida
 Estamos en nivel 4 sobre 5 de altera antiterrorista y pensamos que son indicios suficientes como mínimo para para tratar la investigación en estos momentos como atentado terrorista
+%[20.68, 1.12, 3.88, 8.36, 5.27, 9.11, 6.28, 6.99, 6.800000000000001, 12.06, 14.59, 4.11, 10.63, 13.709999999999999, 6.66, 1.76, 9.4, 7.319999999999999, 3.0, 8.98, 5.16, 3.0, 3.0, 3.64, 11.700000000000001, 1.23, 1.12, 1.64, 1.48, 1.6, 5.28, 13.719999999999999, 4.64, 9.75, 11.96]

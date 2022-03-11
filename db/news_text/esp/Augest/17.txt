@@ -34,3 +34,4 @@ $Lo más probable es que el partido de Albert Rivera se abstenga
 $El partido popular piensa recurrir ante el tribunal constitucional
 $El sentido de los votos Secretaría entre el no y la extención
 Los 2 partidos considera que los restos del dictador no es una cuestión urgente ni prioritaria
+%[8.24, 7.95, 4.4399999999999995, 13.330000000000002, 0.79, 10.309999999999999, 4.23, 5.71, 5.640000000000001, 11.71, 19.31, 16.12, 5.32, 5.51, 2.8, 2.76, 5.04, 7.720000000000001, 7.720000000000001, 5.87, 5.16, 4.08, 3.68, 4.75, 4.07, 5.4399999999999995, 6.1899999999999995, 11.84, 10.08, 13.06, 2.92, 4.32, 3.24, 3.67, 3.16, 5.92]

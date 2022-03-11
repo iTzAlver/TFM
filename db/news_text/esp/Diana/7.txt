@@ -39,3 +39,4 @@ Antes, a primera hora, pasará el reconocimiento médico
 $Coutinho llega a un Barça que no falla en Liga
 Hoy, Messi y compañía han vuelto a dar un recital en el Camp Nou
 Han ganado 3 a 0 al Levante y Dembelé ha vuelto a la titularidad
+%[1.92, 6.15, 5.44, 3.8, 2.96, 6.16, 3.44, 7.739999999999999, 23.41, 1.48, 7.430000000000001, 3.12, 2.96, 8.96, 2.12, 2.92, 7.51, 6.98, 20.18, 5.88, 7.16, 6.23, 7.880000000000001, 9.91, 4.02, 4.04, 9.27, 6.2, 4.12, 6.84, 3.96, 7.540000000000001, 5.35, 1.44, 2.47, 9.42, 7.9799999999999995, 3.84, 3.08, 3.56, 3.8]

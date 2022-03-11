@@ -49,3 +49,4 @@ Esto había generado protestas de muchos pensionistas porque lo consideran insuf
 Lo hemos visto en las calles en los últimos meses
 ¿Qué pasará, si finalmente la recomendación de hoy se convierte en realidad? Algo como esto
 Las pensiones se revalorizarían cada año conforme al IPC
+%[4.48, 5.32, 1.51, 4.91, 1.04, 1.8, 3.36, 6.5600000000000005, 2.36, 5.99, 2.88, 4.0, 1.72, 2.47, 2.44, 2.52, 4.08, 10.06, 4.07, 7.68, 4.63, 9.51, 5.0, 6.800000000000001, 6.279999999999999, 4.27, 4.8, 5.08, 2.43, 5.07, 3.84, 8.99, 6.16, 3.75, 7.8, 3.39, 3.56, 6.109999999999999, 9.31, 2.04, 3.64, 6.879999999999999, 2.28, 6.64, 5.88, 6.5600000000000005, 6.07, 5.14, 4.96, 9.03, 3.27]

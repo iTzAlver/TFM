@@ -29,3 +29,4 @@ $Ante la posibilidad de que se produzca el encuentro, hoy ha habido un llamamien
 El primero, el presidente Sánchez en un acto por el 80 aniversario de la ONCE
 Ha dicho que todos los conflictos se solucionan hablando con sinceridad, pero siempre dentro de la ley
 $Ninguno de los problemas de los ciudadanos se ha resuelto desde la crispación o desde el conflicto y si desde el diálogo sereno moderado, sensato y dentro de la legalidad
+%[4.84, 3.08, 9.059999999999999, 3.44, 3.23, 6.64, 8.84, 7.45, 10.03, 6.92, 11.51, 3.15, 8.76, 6.359999999999999, 7.39, 5.76, 3.44, 7.1499999999999995, 8.48, 3.6799999999999997, 7.16, 6.7, 8.67, 6.68, 7.83, 7.58, 3.11, 8.28, 4.75, 5.359999999999999, 11.270000000000001]

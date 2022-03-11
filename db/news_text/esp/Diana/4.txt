@@ -33,10 +33,8 @@ Se estrena en marzo
 $Y en deportes, hoy concluyen la ida de octavos de final de Copa y presentaciones del mercado de invierno, Jesús, buenas noches
 $Otros dos partidos de Copa ya finalizados: Celta, -Barça, y Leganés, Villarreal
 Mientras Vietto ha sido presentado como nuevo jugador del Valencia
-Llega cedido por el At
-Madrid hasta final de temporada
-Y el que ha llegado y con muy buen pie al At
-Madrid es Diego Costa
+Llega cedido por el At. Madrid hasta final de temporada
+Y el que ha llegado y con muy buen pie al At. Madrid es Diego Costa
 Se sigue hablando de su fulgurante reentre
 Salió, marcó y casi se lesionó ante el Lleida
 $Jose Enrique Abuin y su mujer Rosario Rodriguez han declarado esta mañana, los dos como investigados, en los juzgados de Ribeira, A Coruña
@@ -44,3 +42,4 @@ El presunto asesino de Diana Quer ha llegado a las 11 de la mañana y dos horas 
 $Ella ha respondido durante dos horas a las preguntas del juez
 Pero su marido, 'El Chicle', acusado de detención ilegal, homicidio o asesinato y de atentado contra la libertad sexual, se ha acogido a su derecho a no declarar, Xaquín López
 $El horizonte judicial de este caso se ha aclarado, después de una mañana frenética
+%[8.13, 2.44, 4.640000000000001, 5.91, 1.48, 4.64, 5.9, 5.76, 8.51, 7.030000000000001, 3.03, 2.96, 5.43, 11.24, 6.0, 2.68, 4.36, 4.04, 3.32, 3.15, 5.68, 6.68, 3.4699999999999998, 4.99, 3.04, 7.279999999999999, 6.15, 6.319999999999999, 4.04, 6.66, 3.68, 1.24, 6.220000000000001, 5.52, 3.9899999999999998, 3.56, 5.4, 2.32, 2.48, 6.63, 6.0, 2.71, 8.78, 5.71]

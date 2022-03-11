@@ -17,10 +17,8 @@ Sustituirá a Julián Sánchez Melgar y es la segunda mujer que accede a este ca
 Los primeros datos indican que el origen de esa columna de humo ha sido la avería, esta mañana, en una tubería de la refinería de Repsol en Cartagena
 Han tenido que atender a 10 trabajadores por afecciones leves y evacuar a otros 50 por precaución
 La situación ya se ha normalizado
-$Auténtico bombazo la noticia del fichaje del seleccionador Julen Lopetegui por el R
-Madrid
-El club blanco hacía publico un comunicado a primera hora de la tarde en el que confirmaba la incorporación del seleccionador español al R
-Madrid cuando finalice el mundial
+$Auténtico bombazo la noticia del fichaje del seleccionador Julen Lopetegui por el R. Madrid
+El club blanco hacía publico un comunicado a primera hora de la tarde en el que confirmaba la incorporación del seleccionador español al R. Madrid cuando finalice el mundial
 Las reacciones no se han hecho esperar
 La noticia se ha conocido a tres días vista del debut ante Portugal
 Para mañana está prevista una rueda de prensa conjunta en la concentración de Krasnodar del todavía seleccionador y el presidente de la FEF, Luis Rubiales
@@ -33,3 +31,4 @@ El supremo asegura que utilizó su situación privilegiada, en trampolín para c
 $Mantiene la condena a la del expresidente balear
 $Los magistrados reducen la cuantía, que tiene que aportar la infanta Cristina, El Supremo considera que Iñaki Urdangarin utilizó su privilegiada posición como un trampolín para conseguir contratos con la administración balear del Partido Popular sin que pudiesen competir otras empresas y sin que se prestasen los servicios contratados
 Y que por su matrimonio con la hija del entonces Jefe del Estado movía la voluntad del expresidente Jaume Matas
+%[1.9100000000000001, 1.48, 4.43, 7.880000000000001, 0.76, 9.67, 8.350000000000001, 9.48, 16.37, 5.720000000000001, 11.99, 5.84, 5.03, 1.52, 8.46, 6.72, 6.15, 6.5600000000000005, 2.64, 7.4799999999999995, 9.6, 1.36, 4.28, 6.279999999999999, 5.96, 7.470000000000001, 9.719999999999999, 2.12, 11.75, 13.4, 3.0, 19.13, 4.75]

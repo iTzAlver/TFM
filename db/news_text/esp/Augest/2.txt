@@ -43,3 +43,4 @@ $Es el incendio en la comarca valenciana de Vall d' Albaida son ya más de 1700 
 Hace pocos minutos los vecinos de la localidad de Pinet han tenido que dejar sus casas por la próximidad de las llamas
 $Los nuevos desalojos se suman a los 2.500 vecinos que ya habían dejado sus viviendas
 A esta hora unos 600 efectivos continúan trabajando para intentar controlar el fuego
+%[6.67, 3.84, 8.8, 5.4399999999999995, 6.640000000000001, 6.51, 2.76, 3.28, 7.08, 1.59, 9.95, 4.640000000000001, 3.0, 5.4399999999999995, 7.46, 7.800000000000001, 2.08, 6.43, 9.47, 4.76, 1.28, 1.48, 4.55, 4.6, 8.379999999999999, 9.96, 3.67, 7.470000000000001, 5.16, 8.0, 8.88, 6.51, 4.640000000000001, 1.68, 5.08, 2.64, 6.15, 5.48, 4.470000000000001, 2.95, 7.42, 10.309999999999999, 7.16, 4.2299999999999995, 6.0]

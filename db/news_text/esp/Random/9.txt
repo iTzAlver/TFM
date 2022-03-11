@@ -30,3 +30,4 @@ Vamos a ver cuál es la situación y cómo va a evolucionar en las próximas hor
 $La lluvia sigue con mucha fuerza en todo el noreste peninsular iba a continuar cayendo las próximas horas
 $Las imágenes del radar muestran esa intensa precipitación en el noreste y en Baleares
 $Poco a poco avanzar hacia la parte oriental y caerá con intensidad en el resto
+%[2.51, 2.66, 5.92, 7.28, 6.5600000000000005, 6.0, 6.470000000000001, 8.11, 4.3100000000000005, 5.6, 19.01, 5.66, 10.34, 7.79, 6.24, 4.02, 5.0, 4.52, 2.32, 5.95, 5.6, 9.620000000000001, 4.55, 5.71, 6.08, 7.16, 5.0, 3.84, 5.64, 8.280000000000001, 6.11, 6.0]

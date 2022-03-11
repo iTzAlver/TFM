@@ -32,3 +32,4 @@ Tendrá que presentarse en los próximo meses a un calendario judicial
 Hoy ha conocido que tendrá que declarar como investigado
 $El lunes hará pública la sentencia del caso Palau
 $Convergencia podría tener consecuencias
+%[11.82, 7.790000000000001, 11.5, 10.91, 17.85, 6.76, 2.79, 5.640000000000001, 6.710000000000001, 12.17, 7.52, 4.87, 3.4, 16.08, 6.1899999999999995, 10.389999999999999, 4.5, 5.63, 4.199999999999999, 5.3, 8.180000000000001, 4.109999999999999, 4.5600000000000005, 4.0, 7.24, 4.640000000000001, 3.0, 2.99, 2.0, 2.92, 5.8, 2.96, 2.95, 3.0]

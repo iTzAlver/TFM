@@ -27,3 +27,4 @@ Está es imagen de la de Sevilla, pero manifestaciones similares se han celebrad
 $Y en la Puerta del Sol de Madrid también continúa la protesta a esta hora
 $Llevan 2 horas manifestándose
 $Miles de personas se han concentrado a aquel la Puerta del Sol, para reclamar que no se ve ni un paso atrás
+%[7.550000000000001, 4.19, 8.4, 7.640000000000001, 3.55, 6.12, 3.0, 5.99, 2.92, 3.52, 3.96, 3.56, 2.99, 3.88, 6.16, 7.4, 4.8, 10.7, 5.15, 6.6, 5.55, 7.24, 5.279999999999999, 6.52, 9.15, 20.09, 5.03, 2.99, 6.18]

@@ -37,3 +37,4 @@ Según la ministra portavoz el gobierno ha dado instrucciones a los bancos para 
 Dice el Ministerio de Hacienda que ese levantamiento de controles es el vinculado al articulo 155 que ya no está en vigor
 Se mantienen la supervisión a posteriori y mensualmente para conocer el destino del dinero de la Generalitat
 Nos ha parecido una medida de normalización lo que no significa que el gobierno de España no vaya a estar informado en la confianza de que funcionará bien
+%[4.91, 2.48, 7.2700000000000005, 5.28, 6.04, 3.72, 7.79, 4.42, 7.2, 5.24, 2.76, 11.31, 5.79, 6.9399999999999995, 5.75, 6.16, 4.0, 4.24, 5.18, 8.16, 2.96, 3.12, 1.64, 2.83, 14.700000000000003, 4.71, 9.870000000000001, 9.19, 6.4, 5.72, 4.63, 5.51, 13.52, 8.719999999999999, 4.51, 9.52, 7.83, 9.27, 12.43]

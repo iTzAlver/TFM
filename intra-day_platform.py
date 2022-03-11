@@ -26,7 +26,7 @@ from package.pm import Pbmm
 from package.styles import ColorStyles, HoverButton
 
 MODEL_LIST_LOCATION = r'./db/models/models.txt'
-ICO_LOCATION = r'./.multimedia/rocketico.ico'
+ICO_LOCATION = r'./.multimedia/isdefeico.ico'
 MULTIMEDIA_ROCKET_LOCATION = r'./.multimedia/rocketico.png'
 MULTIMEDIA_EYE_LOCATION = r'./.multimedia/watch.png'
 MAIN_DATABASE_LOCATION = r'./db/vtt_files/'
@@ -157,17 +157,18 @@ def launching_thread(*args, **kwargs) -> []:
         untokenized_mtx = fbbcm.correlate(sentence_stream, xmodel=xmodel.model)
         parent.lowrite(f'Thread {nt + 1} correlated day {day} sucessfully.', cat='Info')
 
-        if kwargs['tokens']:
-            tokenized_mtx = token_processor.posprocessing(untokenized_mtx, day_)
-        else:
+        tokenized_mtx, diffs = token_processor.posprocessing(untokenized_mtx, day_, get_time=True)
+        if not kwargs['tokens']:
             tokenized_mtx = untokenized_mtx
+
         parent.lowrite(f'Thread {nt + 1} posprocessed day {day} sucessfully.', cat='Info')
 
-        stream_merged_pm = Pbmm(tokenized_mtx, th=kwargs['pm-th'],
-                                oim=kwargs['oim']).merge_segmentation(sentence_stream)
+        stream_merged_pm, newdiffs = Pbmm(tokenized_mtx, th=kwargs['pm-th'],
+                                          oim=kwargs['oim']).merge_segmentation(sentence_stream, diffs=diffs)
         parent.lowrite(f'Thread {nt + 1} launched PM on day {day}.', cat='Info')
 
-        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcm-th'], day, 'bert', False, xmodel=xmodel.model)
+        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcm-th'], day, 'bert', False, xmodel=xmodel.model,
+                                 timing=newdiffs)
         parent.lowrite(f'Thread {nt + 1} launched FBBCM on day {day}.', cat='Info')
 
         ds.write_tree(trees_list, f'{writein}_{day}')
@@ -186,28 +187,30 @@ def test_correlate(*args, **kwargs) -> []:
     untokenized_mtx = fbbcm.correlate(sentence_stream, xmodel=current_model)
     parent.lowrite(f'Correlation for testing done.', cat='Info')
     # Tokens:
-    if kwargs['tokens']:
-        tokenized_mtx = token_processor.posprocessing(untokenized_mtx, 0)
-    else:
+    tokenized_mtx, diffs = token_processor.posprocessing(untokenized_mtx, 0, get_time=True)
+    if not kwargs['tokens']:
         tokenized_mtx = untokenized_mtx
     # PM:
     if kwargs['pmen']:
         pmm = Pbmm(tokenized_mtx, th=kwargs['pmth'], oim=kwargs['oim'])
         pm_segmentation = pmm.segmentation
-        stream_merged_pm = pmm.merge_segmentation(sentence_stream)
+        stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs)
         parent.lowrite(f'PM launched with th={kwargs["pmth"]} and oim={kwargs["oim"]}.', cat='Info')
     else:
         stream_merged_pm = sentence_stream
         pm_segmentation = []
+        newdiffs = diffs
     # FB_BCM:
     if kwargs['fbbcmen']:
-        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, 'bert', False, xmodel=current_model)
+        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, 'bert', False, xmodel=current_model,
+                                 timing=newdiffs)
         parent.lowrite(f'FB-BCM launched with th={kwargs["fbbcmth"]}', cat='Info')
     else:
         trees_list = []
 
     parent.lowrite(f'Test processing finished.', cat='Info')
-    return [np.array(untokenized_mtx), tokenized_mtx, sentence_stream, stream_merged_pm, pm_segmentation, trees_list]
+    return [np.array(untokenized_mtx), tokenized_mtx, sentence_stream, stream_merged_pm, pm_segmentation, trees_list,
+            newdiffs]
 #   S   T   A   T   I   C   -   -   -   -   -   -   -   -   -
 
 
@@ -215,7 +218,7 @@ class MainWindow:
     def __init__(self, master):
         self.master = master
         self.master.title("Intra-day clustering GUI.")
-        self.master.geometry('1360x670')
+        self.master.geometry('1360x710')
         self.colors = ColorStyles
 
         self.rocketlaunch_img = PhotoImage(file=MULTIMEDIA_ROCKET_LOCATION)
@@ -262,8 +265,10 @@ class MainWindow:
         self.sentence_stream_t2 = []
         self.canvas1 = None
         self.canvas2 = None
+        self.canvas3 = None
         self.toolbar1 = None
         self.toolbar2 = None
+        self.toolbar3 = None
         self.fbbcmth_test = None
         self.pmth_test = None
         self.oim_test = None
@@ -273,6 +278,8 @@ class MainWindow:
         self.pm_segmentation = []
         self.watch_fbbcm = False
         self.watch_pm = False
+
+        self.timestudy = None
         # - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         self.launcher_corr_lock_v = BooleanVar()
         self.launcher_algo_lock_v = BooleanVar()
@@ -308,6 +315,7 @@ class MainWindow:
         self.nlpmodel_list.pack()
         self.nlpmodel_list.place(x=5, y=99)
         self.nlpmodel_list["values"] = self.model_list
+        self.nlpmodel_list.set(self.model_list[0])
         self.nlpmodel_infoloaded = Label(self.nlpmodel_lf, text='Loaded model:').place(x=20, y=120)
         self.nlpmodel_modelloaded = Label(self.nlpmodel_lf, text='DEFAULT MODEL')
         self.nlpmodel_modelloaded.pack()
@@ -389,6 +397,7 @@ class MainWindow:
         self.launcher_corrmodel.pack()
         self.launcher_corrmodel.place(x=160, y=0)
         self.launcher_corrmodel["values"] = self.model_list
+        self.launcher_corrmodel.set(self.model_list[0])
         self.launcher_tokenenable = Checkbutton(self.launcher_extra_lf, text='Enable token processing',
                                                 variable=self.launch_tokenbool)
         self.launcher_tokenenable.pack()
@@ -415,7 +424,7 @@ class MainWindow:
         self.fbbcm_thentry = Entry(self.fbbcm_lf, width=8)
         self.fbbcm_thentry.pack()
         self.fbbcm_thentry.place(x=125, y=5)
-        self.fbbcm_thentry.insert(-1, '0.40')
+        self.fbbcm_thentry.insert(-1, '0.50')
         self.fbbcm_watchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_watch, bg=self.colors.red,
                                              image=self.watch_img).place(x=4, y=30)
         self.fbbcm_launchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_launch, bg=self.colors.red,
@@ -431,7 +440,7 @@ class MainWindow:
         self.pm_thentry = Entry(self.pmtoken_lf, width=8)
         self.pm_thentry.pack()
         self.pm_thentry.place(x=125, y=10)
-        self.pm_thentry.insert(-1, '0.22')
+        self.pm_thentry.insert(-1, '0.20')
         self.pm_infooim = Label(self.pmtoken_lf, text='Method\'s stages:').place(x=5, y=32)
         self.pm_oimentry = Entry(self.pmtoken_lf, width=8)
         self.pm_oimentry.pack()
@@ -474,6 +483,7 @@ class MainWindow:
         self.translator_model.pack()
         self.translator_model.place(x=160, y=0)
         self.translator_model["values"] = ["DeepL - Online traduction.", "GoogleTranslate - Online traduction."]
+        self.translator_model.set("GoogleTranslate - Online traduction.")
         self.translator_bworsetarget = HoverButton(self.translator_lf, text='Browse target', command=self.trans_add,
                                                    width=15, bg=self.colors.gray)
         self.translator_bworsetarget.place(x=5, y=25)
@@ -506,16 +516,16 @@ class MainWindow:
         # -------------------------------------------------------------------------------------------------------------
         #                       LOGGING
         # -------------------------------------------------------------------------------------------------------------
-        self.logtext = Text(master, height=4, width=73, bd=5)
+        self.logtext = Text(master, height=6, width=73, bd=5)
         self.logtext.pack()
         self.logtext.place(x=7, y=590)
         self.logptr = 0
         self.lcolor = []
-        self.lowrite('\n- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -\n')
+        self.lowrite('- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -\n', cat='Intro')
         # -------------------------------------------------------------------------------------------------------------
         #                       DISPLAY ZONE
         # -------------------------------------------------------------------------------------------------------------
-        self.display_lf = LabelFrame(self.master, width=744, height=660)
+        self.display_lf = LabelFrame(self.master, width=744, height=700)
         self.display_lf.place(x=610, y=6)
         self.select_lf = LabelFrame(self.display_lf, width=740, height=40)
         self.select_lf.place(x=0, y=0)
@@ -524,11 +534,13 @@ class MainWindow:
         self.information_sel.pack()
         self.information_sel.place(x=180, y=5)
         self.information_sel["values"] = ['Raw correlation', 'After token processing', 'After PM', 'After FB-BCM']
+        self.information_sel.set('After token processing')
         self.information2 = Label(self.select_lf, text='Select a matrix to plot in slot 2:').place(x=405, y=5)
         self.information_sel2 = ttk.Combobox(self.select_lf, width=21, state='readonly')
         self.information_sel2.pack()
         self.information_sel2.place(x=580, y=5)
         self.information_sel2["values"] = ['Raw correlation', 'After token processing', 'After PM', 'After FB-BCM']
+        self.information_sel2.set('After FB-BCM')
         self.update_button = HoverButton(self.select_lf, text='Update', command=self.update_image,
                                          width=7, bg=self.colors.orange)
         self.update_button.pack()
@@ -538,6 +550,24 @@ class MainWindow:
         self.img_lf.place(x=0, y=40)
         self.gt_lf = LabelFrame(self.display_lf, width=370, height=370)
         self.gt_lf.place(x=370, y=40)
+        self.pie_lf = LabelFrame(self.display_lf, width=370, height=285)
+        self.pie_lf.place(x=0, y=410)
+        self.moreinfo_lf = LabelFrame(self.display_lf, width=370, height=285)
+        self.moreinfo_lf.place(x=370, y=410)
+
+        self.selectaplotlabel = Label(self.moreinfo_lf, text='Select a tree payload:').place(x=5, y=5)
+        self.textsel = ttk.Combobox(self.moreinfo_lf, width=7, state='readonly')
+        self.textsel.pack()
+        self.textsel.place(x=130, y=5)
+        self.textsel.bind("<<ComboboxSelected>>", self.watch_tree_callback)
+        self.textsel["values"] = []
+        self.textree = Text(self.moreinfo_lf, height=14, width=43, bd=3)
+        self.textree.pack()
+        self.textree.place(x=5, y=40)
+        self.othertreebutton = HoverButton(self.moreinfo_lf, text='Select other tree', command=self.other_tree,
+                                           width=18, bg=self.colors.red)
+        self.othertreebutton.pack()
+        self.othertreebutton.place(x=210, y=5)
 
 # ----------------------------------
     def import_file(self):
@@ -553,11 +583,6 @@ class MainWindow:
             self.lowrite(f'Cannot export tree: no tree generated by FB-BCM.', cat='Error')
 
     def trace_files(self):
-        # newwindow = Toplevel(self.master)
-        # newwindow.geometry('800x30')
-        # newwindow.iconbitmap(ICO_LOCATION)
-        # newwindow.title('Test targets:')
-        # Label(newwindow, text=self.test_target).place(x=0, y=5)
         filename = filedialog.askopenfilename(filetypes=[('Tree Files', '*.3s')], initialdir=TREES_DIR)
         self.lowrite(f'Showing up tree {filename}.', cat='Info')
         treethread = Thread(target=tree_tracer, args=(filename, True))
@@ -567,7 +592,7 @@ class MainWindow:
     def download_model(self):
         bert_url = self.nlpmodel_downloadurl.get('1.0', END + '-1c')
         try:
-            if bert_url not in self.model_list:
+            if bert_url not in self.model_list and bert_url != '':
                 self.correlation_model = SentenceTransformer(bert_url)
                 with open(MODEL_LIST_LOCATION, 'a') as file:
                     file.write('\n' + bert_url)
@@ -576,7 +601,7 @@ class MainWindow:
                 self.nlpmodel_list["values"] = self.model_list
                 self.launcher_corrmodel["values"] = self.model_list
             else:
-                self.lowrite(f'Model: {bert_url} already downloaded.', cat='Warning')
+                self.lowrite(f'Model: {bert_url} already downloaded or maybe empty.', cat='Warning')
         except Exception as ex:
             self.lowrite(f'Model: {bert_url} not found. {ex}', cat='Warning')
 
@@ -599,7 +624,7 @@ class MainWindow:
 # -----------------------------------
     def launch_algo_lock(self):
         if self.launcher_algo_lock_v.get():
-            self.fbbcmth = self.launcher_algo_thpm.get()
+            self.fbbcmth = self.launcher_algo_thfbcm.get()
             self.pmth = self.launcher_algo_thpm.get()
             self.oim = self.launcher_algo_oimpm.get()
             self.launcher_algo_infothfbcm['state'] = DISABLED
@@ -907,18 +932,23 @@ class MainWindow:
         else:
             opening = 'a'
         with open(LOG_FILE_PATH, opening, encoding='utf-8') as logfile:
-            if cat is not None:
+            if cat is not None and cat != 'Intro':
                 text = f'\n<{time.ctime()}>\t[{cat}]:\t{_text}'
             else:
                 text = _text
-            logfile.writelines(text)
+
+            if cat != 'Intro':
+                logfile.writelines(text)
+            else:
+                logfile.writelines(f'\n\n{text}')
+
             try:
                 self.lcolor.append(cat2color[cat])
             except KeyError:
                 self.lcolor.append(CStyles.black)
 
             self.logtext.insert(END, text)
-            self.logtext.tag_add(str(self.logptr), f'{len(self.lcolor)+1}.{self.logptr}', END)
+            self.logtext.tag_add(str(self.logptr), f'{len(self.lcolor)}.{self.logptr}', END)
             self.logtext.tag_config(str(self.logptr), foreground=self.lcolor[-1])
             self.logptr = self.logptr + len(text)
             self.logtext.see(END)
@@ -928,12 +958,14 @@ class MainWindow:
         if not noexe:
             self.launch_test()
         wtx = 0
+        finaltimes = False
         type1 = self.information_sel.get()
         type2 = self.information_sel2.get()
 
         if len(self.untokenized_matrix) == 0:
             self.lowrite('Test has not been launched yet, no figures created.', cat='Error')
-            return
+            self.lowrite('Default action for last error: launching test.', cat='Warning')
+            self.launch_test()
 
         # Type selection:
         if type1 == 'Raw correlation':
@@ -948,6 +980,7 @@ class MainWindow:
         elif type1 == 'After FB-BCM':
             self.target_matrix1 = fbbcm.tree_equivalent_matrix(self.test_tree)
             self.sentence_stream_t1 = self.sentence_stream_pm
+            finaltimes = True
 
         if type2 == 'Raw correlation':
             self.target_matrix2 = self.untokenized_matrix
@@ -961,6 +994,7 @@ class MainWindow:
         elif type2 == 'After FB-BCM':
             self.target_matrix2 = fbbcm.tree_equivalent_matrix(self.test_tree)
             self.sentence_stream_t2 = self.sentence_stream_pm
+            finaltimes = True
 
         # Matrix generation:
         sized1 = len(self.target_matrix1)
@@ -1017,9 +1051,7 @@ class MainWindow:
                         thematrix2[base + index2][base + index1][2] += 150
 
         # Figure plotting:
-        plt.close()
-        plt.close()
-        myfig = plt.figure(figsize=(4.8, 4.3), dpi=75)
+        myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
         plt.imshow(thematrix)
         img = Image.fromarray(thematrix)
         img.save(f'{IMAGE_PATH}slot1.png')
@@ -1037,7 +1069,7 @@ class MainWindow:
         self.toolbar1.update()
         self.canvas1.get_tk_widget().pack()
 
-        myfig2 = plt.figure(figsize=(4.8, 4.3), dpi=75)
+        myfig2 = plt.figure(figsize=(4.85, 4.3), dpi=75)
         plt.imshow(thematrix2)
         img = Image.fromarray(thematrix)
         img.save(f'{IMAGE_PATH}slot2.png')
@@ -1054,20 +1086,61 @@ class MainWindow:
         self.toolbar2 = NavigationToolbar2Tk(self.canvas2, self.gt_lf)
         self.toolbar2.update()
         self.canvas2.get_tk_widget().pack()
+        plt.close()
+        plt.close()
+
+        if finaltimes:
+            timestudy = []
+            for tree in self.test_tree:
+                timestudy.append(tree.timing)
+        else:
+            timestudy = self.timestudy
+
+        myfig3 = plt.figure(figsize=(4.85, 3.2), dpi=75)
+        wedgeprops = {"linewidth": 4, 'width': 1, "edgecolor": "k"}
+        plt.pie(timestudy, labels=[f'Tree {idx}: {value}s' for idx, value in enumerate(timestudy)],
+                wedgeprops=wedgeprops,
+                shadow=True,
+                autopct="%0.2f%%")
+
+        if self.canvas3 is not None:
+            self.canvas3.get_tk_widget().pack_forget()
+            self.toolbar3.destroy()
+        self.canvas3 = FigureCanvasTkAgg(myfig3, master=self.pie_lf)
+        self.canvas3.draw()
+        self.toolbar3 = NavigationToolbar2Tk(self.canvas3, self.pie_lf)
+        self.toolbar3.update()
+        self.canvas3.get_tk_widget().pack()
         self.lowrite(f'All images updated.', cat='Info')
+        plt.close()
+
         return
 
     def launch_test(self) -> None:
         if self.test_target is not None:
             [self.untokenized_matrix, self.tokenized_matrix, self.sentence_stream, self.sentence_stream_pm,
-             self.pm_segmentation, self.test_tree] = \
+             self.pm_segmentation, self.test_tree, self.timestudy] = \
                 test_correlate(self, self.correlation_model, target=self.test_target,
                                decorrelation=self.test_decorrelation,
                                tokens=self.token_bool.get(), fbbcmth=self.fbbcmth_test, pmth=self.pmth_test,
                                oim=self.oim_test, pmen=self.pmen_test, fbbcmen=self.fbbcmen_test)
+
+            self.textsel["values"] = [f'{tree.nTree}' for tree in self.test_tree]
         else:
             self.lowrite('There is no target for test.', cat='Error')
         return
+
+    def watch_tree_callback(self, event) -> None:
+        treeidx = int(self.textsel.get())
+        thetree = self.test_tree[treeidx]
+        self.textree.delete('1.0', END)
+        self.textree.insert(END, thetree.payload)
+        return event
+
+    def other_tree(self) -> None:
+        filename = filedialog.askopenfilename(filetypes=[('Tree Files', '*.3s')], initialdir=TREES_DIR)
+        self.test_tree = ds.read_tree(filename.split('/')[-1].split('.')[0])
+        self.textsel["values"] = [f'{tree.nTree}' for tree in self.test_tree]
 # -----------------------------------------------------------
 # Main:
 

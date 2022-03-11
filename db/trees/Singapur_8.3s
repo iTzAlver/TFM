@@ -1,211 +1,223 @@
 {
 	day:8
 	ntree:0
-	pt:0.07107006877294353
-	tim:0
-	payload:Donald Trump rectifica y prepara una orden para evitar la separación de los niños de sus padres en la frontera de Estados Unidos y México. El cambio llega después de la oleada de críticas, también en el lado republicano, por las imágenes en las que se ve la angustia de los niños al no poder estar con sus padres
+	pt:0.05665075751142216
+	tim:226.46000000000004
+	payload: Donald Trump recibe a los Reyes en la Casa Blanca que terminan en Washington su viaje a Estados Unidos. En este primer encuentro con el presidente estadounidense Don Felipe tiene previsto hablarle de la preocupación por los aranceles a varios productos europeos. Trump le ha dicho a don Felipe que le gustaría visitar España Soraya Sáenz de Santamaría y María Dolores de Cospedal se suman a los candidatos a sustituir a Mariano Rajoy en la presidencia del partido popular. Las dos se han saludado esta mañana en el Congreso y en sus primeras declaraciones han señalado que su intención es sumar. Pablo Casado ha descartado integrarse en la candidatura de María Dolores Cospedal, como le había pedido ella, o en cualquier otra. Hoy primera sesión de control al Gobierno en el Senado. Pedro Sánchez ha descartado que se pueda aprobar la reforma de la financiación autonómica en esta legislatura y niega que el Aquarius tenga un efecto llamada. Dice que en realidad refleja la huida de la inseguridad y la pobreza. Y los partidos políticos han hablado hoy de la intención de Pedro Sanchez de agotar la legislatura. PSOE y Unidos Podemos apoyan la decisión mientras que desde el PP y Ciudadanos dicen que Pedro Sánchez ha engañado a los españoles. María Teresa Fernández de la Vega presidirá el Consejo de Estado. Moncloa ha informado de que la exvicepresidenta del Gobierno sustituirá a Romay Becaría. Fue la primera mujer que entró a formar parte del máximo órgano consultivo del Gobierno En Estados Unidos se han sucedido las críticas tras la difusión de estas imágenes en las que se ve como la policía separa a los niños inmigrantes de sus padres que son detenidos en la frontera de México. A las quejas de las ONGs y las organizaciones de derechos humanos se han sumado algunos republicanos y la mujer del presidente La reprimenda del presidente francés a un adolescente por dirigirse a él llamándole Manu ha provocado un gran debate en Francia. Enmanuel Macron le recriminó la familiaridad y le pidió que le llamara señor presidente o señor, y más tratándose de un acto oficial Una plaga de medusas ha invadido este fin de semana la costa malagueña. Los equipos de rescate han retirado ya 11.000 kilos. En algunas playas ondea todavía la bandera amarilla y, de momento, no han encontrado una explicación para la invasión de medusas España se mide mañana a la líder del grupo, la selección de Irán. Un partido para definir nuestras posibilidades en el mundial y en el que ya sabemos que De Gea será titular como ayer nos anticipaba Hierro y como hoy ha confirmado en rueda de prensa. Habrá más de 15.000 iraníes en las gradas del Kazan Arena, muchas mujeres que en su país no pueden ir al fútbol ni salir de casa con la cara descubierta. España se mide mañana a la líder María Dolores de Cospedal y Soraya Sáenz de Santamaría van a disputarse el liderazgo del Partido Popular. Las dos van a presentar su candidatura para suceder a Mariano Rajoy y presidir el partido. La exvicepresidenta del Gobierno ha sido la primera en dar un paso al frente. Primero en tuiter, y luego en el Congreso. Cospedal lo ha anunciado ante los suyos, ante la Junta directiva del PP de Castilla La Mancha. Mañana se cierra definitivamente el plazo para presentar candidaturas. Tras la renuncia de Núñez Feijoó, Cospedal y Sáenz de Santamaría son las dos últimas en sumarse a la carrera para liderar el PP Esta misma tarde hemos podido ver, la primera imagen de las 2 aspirantes juntas. También se han producido los primeros contactos, las primeras ofertas y las negativas. Algunas fuentes aseguran que quieren una carrera limpia, y las 2 van a poner todo de su parte. Nadie en el partido duda que esta carrera, va a estar muy reñida. Han presentado sus candidaturas en actos muy diferentes, pero destacan 2 ideas, reivindicar las políticas de Rajoy, y apostar por la unidad del partido. Tras anunciar sus candidaturas, han coincidido en el Congreso
 	vek:
 		0
-			Donald Trump rectifica y prepara una orden para evitar la separación de los niños de sus padres en la frontera de Estados Unidos y México. El cambio llega después de la oleada de críticas, también en el lado republicano, por las imágenes en las que se ve la angustia de los niños al no poder estar con sus padres
-	code:[ 3.09140282e-03 -1.48547813e-02 -5.81423223e-01 -2.67322212e-01
- -2.75887489e-01 -1.99543536e-01  3.60850275e-01 -3.50971043e-01
-  7.26840556e-01 -2.30028957e-01 -4.07674313e-01 -2.58505642e-01
-  1.95002735e-01  2.65871227e-01  8.25643122e-01 -5.77369094e-01
-  3.21436822e-01 -2.83199936e-01  8.25935453e-02 -7.76058733e-01
-  2.12568253e-01  1.93455428e-01  3.71176332e-01 -2.99507435e-02
- -3.24660897e-01 -3.58398199e-01  5.86099625e-01 -1.59788042e-01
- -1.61910340e-01 -2.61825532e-01 -2.58406013e-01 -1.78634301e-01
-  7.98373997e-01  2.51766264e-01  1.24968700e-01  3.80351216e-01
- -3.86924207e-01  3.06160837e-01 -4.90453281e-02  3.80826533e-01
- -5.88751733e-01  5.59578598e-01 -3.70705128e-01 -8.56800154e-02
- -2.46533558e-01 -5.75132251e-01 -2.59751290e-01  1.83009326e-01
-  3.79602835e-02 -1.63372532e-02  2.47602239e-01 -5.04887640e-01
- -3.42529640e-02  2.04577446e-01  5.79683661e-01 -3.18834573e-01
-  4.13627476e-01 -6.40399531e-02 -6.30757987e-01 -6.48413524e-02
- -2.56453097e-01  4.06092219e-02 -3.42224389e-01  1.52037054e-01
- -2.32723862e-01  6.67403519e-01 -1.20961614e-01  7.79604614e-01
- -2.61998236e-01  1.17040560e-01 -2.12248668e-01 -1.53825074e-01
-  3.08873534e-01  4.06757355e-01 -3.92538272e-02  2.65247434e-01
-  1.59819439e-01  4.38743412e-01  4.97654408e-01  2.94441491e-01
-  4.05881286e-01 -3.96148533e-01 -5.10634840e-01  1.68875288e-02
- -5.52716106e-02 -5.38795590e-01  4.18229401e-01 -4.34005141e-01
-  2.22677678e-01 -2.52494276e-01 -4.45959181e-01 -6.71817303e-01
- -9.16718319e-02 -4.66356754e-01  5.38931608e-01 -3.57757173e-02
- -2.51003206e-02  3.15779239e-01 -3.23543668e-01 -4.50047344e-01
-  5.63383162e-01 -2.59441901e-02  2.82388359e-01  5.06116509e-01
- -3.98283720e-01 -3.88144523e-01  1.66944817e-01  1.42766014e-01
- -5.76788008e-01 -8.73172730e-02  3.47920954e-01 -3.54063325e-03
- -3.16483378e-02 -2.27924347e-01 -1.94357872e-01  1.31563559e-01
- -1.13959096e-01 -2.93456793e-01 -3.69493842e-01 -1.01576281e+00
-  1.00677080e-01  5.02133787e-01 -6.89998388e-01  5.35826623e-01
- -9.40958038e-02 -5.15270889e-01  9.17390361e-02  1.64852500e-01
-  1.18461922e-01 -2.31637135e-01 -4.30625141e-01 -3.67383838e-01
- -4.13271546e-01 -1.42018482e-01 -5.00649273e-01 -2.18753025e-01
-  3.44523489e-02 -3.99748892e-01  2.06108853e-01  7.50740051e-01
- -1.51813775e-01 -1.62353918e-01 -4.50075418e-01  4.00170386e-01
- -9.62253846e-03 -8.41744363e-01 -6.79789037e-02 -6.69551551e-01
-  7.81324208e-01 -4.62201864e-01 -7.99086154e-01 -8.42117891e-03
- -1.14268474e-01  3.27331871e-01 -1.14312574e-01  4.01798129e-01
- -3.94278258e-01 -1.87768772e-01 -1.65069640e-01 -1.19759329e-01
- -2.44044349e-01  1.90077230e-01  4.68522459e-01 -6.00930035e-01
-  9.93364334e-01 -9.66409504e-01  2.47662023e-01  4.42659229e-01
- -3.48248109e-02 -3.74564737e-01 -1.64002478e-01 -1.21818566e+00
- -8.22121799e-02 -1.64871171e-01  3.03404573e-02  6.32161975e-01
-  8.18112716e-02  4.62430656e-01 -1.84675142e-01 -1.85268104e-01
- -2.85632759e-01 -5.49616635e-01  5.46792820e-02 -4.98338223e-01
- -4.72075760e-01 -7.62090027e-01  8.14393878e-01 -6.98542833e-01
-  3.31180811e-01  1.46114960e-01  3.29576910e-01  8.98923814e-01
-  7.75603577e-03  2.95819610e-01 -4.70902443e-01 -6.15946054e-01
- -3.30708712e-01 -7.88337052e-01 -2.60055661e-01 -4.88002710e-02
- -3.66773725e-01  3.85676362e-02  1.77444309e-01  1.15001388e-01
- -5.14276981e-01  1.10354149e+00 -6.35320902e-01 -5.87396860e-01
-  5.78160048e-01 -7.26966918e-01  4.29998755e-01  2.39260912e-01
- -2.94901639e-01 -3.25936854e-01 -9.56917405e-01  1.06186628e+00
-  8.94160450e-01  5.86719036e-01  2.04036310e-01 -1.88954726e-01
-  1.97182178e-01 -3.98291975e-01  2.49101333e-02 -8.69161904e-01
-  1.91739827e-01  4.43221360e-01 -4.15780723e-01 -3.64413828e-01
- -1.30385324e-01  6.94368899e-01 -6.49362132e-02  3.23180765e-01
- -1.28798199e+00 -5.97877204e-01  4.27646875e-01  5.62419649e-03
-  3.61612618e-01 -4.76161957e-01  1.50246834e-02 -4.88194436e-01
- -5.04877925e-01 -1.86046422e-01 -4.52497937e-02 -2.77847618e-01
-  4.60772157e-01  1.57750137e-02  5.05301178e-01  4.49548393e-01
- -1.08586818e-01 -4.38911080e-01  3.01789260e-03  2.81010985e-01
-  9.59110796e-01 -4.40528393e-01  2.33699352e-01 -2.64183730e-01
- -1.83701098e-01 -5.07825077e-01  1.31769091e-01  1.09739870e-01
- -3.59318346e-01 -3.08231950e-01  5.07043958e-01 -2.25024119e-01
- -7.35423118e-02 -3.41742635e-01 -6.28154755e-01  3.98245305e-01
- -4.63830441e-01 -6.05621701e-03 -1.41080633e-01  1.43236607e-01
-  6.20681107e-01  4.40537184e-01  1.07686318e-01 -3.09619009e-01
-  1.02294825e-01 -3.42906207e-01 -3.88419926e-01 -1.12539923e+00
-  5.36387146e-01  8.63104165e-02  2.41071269e-01 -5.55684626e-01
- -1.32567370e-02 -4.73995149e-01  5.97778987e-03  1.52604595e-01
- -4.57257658e-01  4.63656425e-01 -3.63647789e-01 -2.20971361e-01
-  4.11358058e-01  2.31155306e-01 -1.32708892e-01  2.89222598e-01
-  1.39046684e-01 -3.21634948e-01  9.96637195e-02 -2.81698793e-01
- -9.00345147e-02 -1.64591447e-01  5.28884530e-01 -2.73593962e-01
- -4.44687635e-01  5.97881258e-01 -6.32299125e-01 -5.30438125e-01
- -2.96697170e-01  3.13023403e-02 -8.08443204e-02 -2.63261236e-02
-  3.61923963e-01 -1.71211466e-01  7.06152081e-01 -3.22075963e-01
-  8.84148180e-01  1.07010700e-01  3.89869630e-01  3.25037539e-01
-  7.16938555e-01 -7.96786666e-01  3.28875065e-01 -1.66227538e-02
-  2.12491706e-01 -8.29374611e-01  3.13086100e-02 -7.64182806e-02
-  1.34208930e+00  6.52458847e-01  7.08117604e-01 -6.31590962e-01
-  1.30246758e-01  5.02248824e-01 -2.30915502e-01  3.57342571e-01
-  2.87154585e-01  1.42935887e-02  1.93856075e-01  2.83794552e-01
- -1.46890238e-01  4.46407050e-01  7.51737356e-01  4.10914570e-01
- -3.38943750e-01 -5.67488909e-01 -1.88293591e-01  1.16086416e-01
-  3.82298499e-01  4.19563025e-01  7.11207032e-01  1.22657947e-01
-  4.60884035e-01 -2.57214665e-01  3.27840894e-01 -1.43074661e-01
- -2.07065076e-01  5.44802368e-01  1.72067285e-02 -5.52723587e-01
- -4.30842131e-01 -5.36473513e-01 -6.28698394e-02  2.50777025e-02
- -3.06786537e-01 -1.86572909e-01  7.78775811e-01  6.66865766e-01
-  7.17411786e-02  1.55462593e-01 -5.59902005e-02  1.08439732e+00
- -1.18401259e-01 -5.68051822e-03 -1.43852979e-01  4.06934991e-02
- -1.11480176e-01 -2.97333393e-02  6.57514751e-01  3.71179402e-01
- -8.46017599e-01 -4.00636531e-02 -2.73235142e-01 -1.21056587e-01
-  1.97273344e-02  2.43344069e-01 -5.00943303e-01 -2.92792946e-01
- -2.28957191e-01  4.15442616e-01  1.76232755e-01 -8.83211851e-01
-  3.24353576e-01 -6.54936612e-01 -1.81989849e-01 -5.07502854e-01
-  7.22385049e-01 -2.18124047e-01 -7.45912194e-01  3.36095601e-01
-  3.74250740e-01 -4.25061047e-01  9.79339406e-02 -8.98096144e-01
-  1.55833259e-01 -1.13268696e-01 -2.09984332e-01  1.39986396e-01
- -1.37423173e-01  4.44455922e-01  6.39024228e-02  4.30738211e-01
- -3.27323496e-01  3.73494744e-01 -1.86623752e-01 -3.38146895e-01
-  4.42040935e-02  4.20515299e-01 -3.71202230e-01 -2.23129496e-01
-  3.03820103e-01  3.74640487e-02 -2.35574573e-01 -1.09485410e-01
- -4.26553667e-01  3.36855531e-01 -4.39613044e-01  5.76172173e-01
- -1.07559443e-01  4.01587691e-03 -8.08215559e-01 -1.22392230e-01
-  4.06972319e-01 -5.99015772e-01 -2.60984212e-01  2.47049645e-01
-  1.31828517e-01 -5.90576649e-01 -4.99057263e-01 -5.87354660e-01
- -9.13153827e-01 -3.51530999e-01  2.62341529e-01  7.52849057e-02
-  4.66209799e-01 -2.98690468e-01  3.70404601e-01 -5.09261966e-01
- -6.32600725e-01  3.80015790e-01  4.47885633e-01 -6.82296216e-01
- -3.58584821e-01 -5.12023687e-01 -5.32646365e-02  1.76174283e-01
-  1.07043870e-01 -2.65361279e-01 -5.73614597e-01 -4.89170820e-01
- -6.18236423e-01  5.04208326e-01  3.52189094e-02  1.04739904e-01
-  6.02127433e-01  1.93646252e-01  6.89504266e-01 -3.13674778e-01
- -5.37040293e-01  7.96946585e-02 -2.77055465e-02  3.74732673e-01
- -4.99283463e-01 -3.07239205e-01 -4.55798149e-01 -1.02198040e+00
-  8.99656057e-01 -7.04279467e-02  5.28832637e-02 -3.88716936e-01
-  3.06093365e-01 -5.88782609e-01  6.23569563e-02 -2.21740425e-01
- -3.64016891e-01 -9.60040331e-01 -6.52156532e-01  6.10595822e-01
-  3.52885246e-01 -3.26502442e-01 -9.24257189e-02 -4.18771207e-01
- -1.11445749e+00  3.93262327e-01 -3.72673452e-01 -3.58262658e-01
-  5.01450956e-01 -2.31098220e-01 -7.56768286e-02 -2.14779317e-01
-  2.80777246e-01 -1.12180658e-01 -3.24177384e-01 -2.81454504e-01
-  1.45721957e-01  6.78034544e-01  5.93253374e-02 -1.71105471e-02
-  1.85050771e-01 -1.09618211e+00  3.98511261e-01  3.67214978e-01
-  1.62190780e-01 -9.72811282e-02 -1.12162881e-01 -6.34687364e-01
-  5.37038967e-02  3.18288177e-01 -4.22414273e-01  2.96391904e-01
-  2.98115075e-01  4.11661491e-02 -3.06120694e-01  2.80418068e-01
- -7.78013527e-01 -6.08770810e-02  4.78334755e-01 -5.32271326e-01
- -3.10244799e-01 -3.90625060e-01 -2.29228109e-01  9.41374823e-02
- -3.92746300e-01 -3.05096209e-01  5.53170443e-01 -6.25132084e-01
- -6.67657435e-01  1.31230950e-01  5.05591273e-01 -9.52297986e-01
-  2.84213424e-01 -1.20469816e-02 -7.13678971e-02  1.39764443e-01
- -2.97871828e-01  1.54989585e-02  5.85199594e-01 -1.22761630e-01
-  8.19567800e-01  8.86075616e-01  5.21209180e-01  1.58593923e-01
- -2.99687803e-01 -1.69039771e-01 -4.03994709e-01 -1.91874564e-01
- -6.61606550e-01  3.36911976e-01 -1.66780841e+00  5.71077228e-01
-  5.69028128e-03  1.18012547e-01 -3.66779268e-01  3.85539204e-01
-  2.17777774e-01 -5.02379775e-01 -7.90023506e-02 -5.02110004e-01
- -7.37550557e-01  4.44444716e-01  2.08945945e-01  2.33888373e-01
-  1.04689471e-01 -5.12445390e-01 -5.53244650e-01 -1.63746580e-01
- -3.90836656e-01  6.90388322e-01 -1.91499740e-01  9.35799908e-03
-  5.75215042e-01 -4.65140551e-01 -1.41273462e-03 -1.45426914e-02
- -3.52600098e-01  9.26200032e-01 -5.24016559e-01 -2.38306284e-01
-  4.53628264e-02 -1.00633991e+00 -3.48390251e-01  3.36907417e-01
-  3.31566393e-01 -6.43226743e-01 -1.64298564e-02  2.74478585e-01
-  9.31087583e-02 -1.16607025e-01 -4.94376391e-01  3.88747990e-01
-  4.33032699e-02  1.55645356e-01 -3.68409127e-01  8.83971095e-01
-  8.16697702e-02  2.29381528e-02 -1.08248226e-01  4.40061241e-01
- -2.10102022e-01  4.59447175e-01  3.21552008e-01 -5.87691188e-01
- -1.69542208e-01  7.94777155e-01 -1.03124216e-01  1.01661587e+00
- -3.21221501e-01  6.49909377e-01 -4.61592317e-01  3.44171733e-01
- -3.19543242e-01 -5.14813125e-01 -1.54216886e-01  2.98709512e-01
-  2.97338694e-01  4.14564908e-01  2.76598394e-01  2.37434268e-01
- -2.96466678e-01 -5.32814682e-01  2.68526934e-03  4.96691406e-01
- -3.87989461e-01  1.48595929e-01  1.47711381e-01 -7.36243129e-01
-  2.81046987e-01 -2.61656165e-01 -8.66019875e-02 -6.53520763e-01
-  2.39603862e-01 -2.44327798e-01  1.23572804e-01 -6.40200317e-01
- -6.12427175e-01  3.32342476e-01  8.51266265e-01 -1.13649264e-01
-  3.35041404e-01 -6.28729939e-01  2.81794250e-01 -6.09246314e-01
- -3.20513219e-01  4.84253883e-01 -1.66883513e-01 -3.68457913e-01
- -4.43559080e-01 -7.29981899e-01 -1.77289844e-01 -9.37104285e-01
- -1.28136709e-01 -4.16422933e-01 -5.75063005e-02  1.08058906e+00
-  7.05238059e-02  2.70398080e-01 -1.13275975e-01  2.65393257e-01
- -6.25359297e-01  6.72346875e-02 -8.19435477e-01  6.08217180e-01
- -4.96534556e-01 -2.73532011e-02  5.31285889e-02 -2.99439907e-01
-  3.00484151e-01  1.58454314e-01 -8.06949362e-02  5.90142757e-02
- -5.62283993e-01  1.80490971e-01 -8.35642397e-01  5.40383399e-01
-  6.73779726e-01 -3.12399983e-01  2.43276969e-01 -4.15644228e-01
- -8.48783031e-02 -3.27391535e-01  2.90123224e-01  9.12810266e-01
-  2.78607070e-01  2.68150598e-01 -4.54166740e-01 -8.95361416e-04
- -1.19476631e-01 -1.78451568e-01 -6.32620081e-02 -1.19965680e-01
-  2.53466405e-02 -8.38851929e-02  5.38210809e-01 -8.41612697e-01
- -1.00268900e+00  6.20474041e-01 -5.50717771e-01  1.47094011e-01
- -1.20211162e-01 -3.71126086e-01 -5.07974565e-01  3.20205361e-01
-  3.06675613e-01 -1.13932498e-01 -2.07388833e-01  6.29008263e-02
- -8.92302096e-01  1.61392078e-01 -3.41859221e-01 -5.04187584e-01
- -1.49170905e-01 -4.67695892e-01  1.75879925e-01  3.76115948e-01
-  3.62845033e-01  1.21668828e+00  4.16672409e-01  1.05984700e+00
-  3.62887800e-01 -2.97137409e-01 -7.45270252e-01  5.53063869e-01
-  3.37816566e-01  4.41221833e-01 -1.40443563e-01  4.88421589e-01
-  1.87597707e-01  5.64428210e-01 -1.98111698e-01 -1.78152874e-01
-  6.40106946e-02 -8.85763839e-02  9.14966762e-01  2.40618378e-01
- -3.04898787e-02  7.25045860e-01 -1.43308729e-01  2.57774681e-01
-  4.46393371e-01  4.26335067e-01 -6.09656453e-01 -6.06151577e-03
- -9.31752622e-02 -8.15514177e-02  7.49936461e-01  2.42260486e-01
-  1.27838418e-01  3.27193618e-01 -6.58841312e-01  7.50788748e-02
-  4.19812649e-01  6.97650373e-01  1.26541302e-01 -6.28418684e-01
- -1.75244421e-01 -4.67883497e-02 -3.38320345e-01  2.99588442e-01]
+			Donald Trump recibe a los Reyes en la Casa Blanca que terminan en Washington su viaje a Estados Unidos. En este primer encuentro con el presidente estadounidense Don Felipe tiene previsto hablarle de la preocupación por los aranceles a varios productos europeos. Trump le ha dicho a don Felipe que le gustaría visitar España
+		2
+			Soraya Sáenz de Santamaría y María Dolores de Cospedal se suman a los candidatos a sustituir a Mariano Rajoy en la presidencia del partido popular. Las dos se han saludado esta mañana en el Congreso y en sus primeras declaraciones han señalado que su intención es sumar. Pablo Casado ha descartado integrarse en la candidatura de María Dolores Cospedal, como le había pedido ella, o en cualquier otra. Hoy primera sesión de control al Gobierno en el Senado. Pedro Sánchez ha descartado que se pueda aprobar la reforma de la financiación autonómica en esta legislatura y niega que el Aquarius tenga un efecto llamada. Dice que en realidad refleja la huida de la inseguridad y la pobreza. Y los partidos políticos han hablado hoy de la intención de Pedro Sanchez de agotar la legislatura. PSOE y Unidos Podemos apoyan la decisión mientras que desde el PP y Ciudadanos dicen que Pedro Sánchez ha engañado a los españoles. María Teresa Fernández de la Vega presidirá el Consejo de Estado. Moncloa ha informado de que la exvicepresidenta del Gobierno sustituirá a Romay Becaría. Fue la primera mujer que entró a formar parte del máximo órgano consultivo del Gobierno
+		3
+			En Estados Unidos se han sucedido las críticas tras la difusión de estas imágenes en las que se ve como la policía separa a los niños inmigrantes de sus padres que son detenidos en la frontera de México. A las quejas de las ONGs y las organizaciones de derechos humanos se han sumado algunos republicanos y la mujer del presidente
+		4
+			La reprimenda del presidente francés a un adolescente por dirigirse a él llamándole Manu ha provocado un gran debate en Francia. Enmanuel Macron le recriminó la familiaridad y le pidió que le llamara señor presidente o señor, y más tratándose de un acto oficial
+		5
+			Una plaga de medusas ha invadido este fin de semana la costa malagueña. Los equipos de rescate han retirado ya 11.000 kilos. En algunas playas ondea todavía la bandera amarilla y, de momento, no han encontrado una explicación para la invasión de medusas
+		6
+			España se mide mañana a la líder del grupo, la selección de Irán. Un partido para definir nuestras posibilidades en el mundial y en el que ya sabemos que De Gea será titular como ayer nos anticipaba Hierro y como hoy ha confirmado en rueda de prensa. Habrá más de 15.000 iraníes en las gradas del Kazan Arena, muchas mujeres que en su país no pueden ir al fútbol ni salir de casa con la cara descubierta. España se mide mañana a la líder María Dolores de Cospedal y Soraya Sáenz de Santamaría van a disputarse el liderazgo del Partido Popular. Las dos van a presentar su candidatura para suceder a Mariano Rajoy y presidir el partido. La exvicepresidenta del Gobierno ha sido la primera en dar un paso al frente. Primero en tuiter, y luego en el Congreso. Cospedal lo ha anunciado ante los suyos, ante la Junta directiva del PP de Castilla La Mancha. Mañana se cierra definitivamente el plazo para presentar candidaturas. Tras la renuncia de Núñez Feijoó, Cospedal y Sáenz de Santamaría son las dos últimas en sumarse a la carrera para liderar el PP
+		7
+			Esta misma tarde hemos podido ver, la primera imagen de las 2 aspirantes juntas. También se han producido los primeros contactos, las primeras ofertas y las negativas. Algunas fuentes aseguran que quieren una carrera limpia, y las 2 van a poner todo de su parte. Nadie en el partido duda que esta carrera, va a estar muy reñida. Han presentado sus candidaturas en actos muy diferentes, pero destacan 2 ideas, reivindicar las políticas de Rajoy, y apostar por la unidad del partido. Tras anunciar sus candidaturas, han coincidido en el Congreso
+	code:[-2.24375248e-01  1.79641783e-01  4.65632111e-01  4.29536030e-02
+  3.19305584e-02 -1.61286592e-01  7.15469360e-01  9.21741500e-03
+ -1.84203073e-01 -4.42983955e-03  7.36190751e-02  3.65412891e-01
+  1.46196872e-01  1.31488279e-01 -6.30804300e-01 -3.93803716e-02
+ -3.45641494e-01 -8.30863357e-01  4.33632791e-01 -3.54360998e-01
+  9.04065818e-02  4.11794603e-01 -1.77266315e-01  1.49099439e-01
+ -1.69640720e-01 -3.05767134e-02  1.30353823e-01  7.57409409e-02
+ -8.33958313e-02  9.13492143e-02 -3.10278714e-01  4.63665426e-01
+ -7.88666084e-02  1.12536348e-01  3.78011525e-01  7.49456510e-03
+ -1.07014492e-01  4.01454926e-01 -1.86134055e-01 -1.84097469e-01
+ -3.51770818e-01  4.42206711e-02  7.31365457e-02 -5.86362630e-02
+ -1.15282014e-01 -2.56028354e-01 -1.55003160e-01  8.15043867e-01
+  3.06774825e-01 -1.88541725e-01  1.40411675e-01 -5.70093989e-01
+  7.96175525e-02 -3.00940692e-01  2.19223201e-01 -1.38837606e-01
+  2.31849313e-01 -8.12574029e-02  1.24463536e-01  3.36630076e-01
+ -2.17454895e-01 -1.19589411e-01  4.19434682e-02  2.60133803e-01
+ -7.19548583e-01  3.89933258e-01 -4.04582083e-01  1.80803657e-01
+ -1.38989225e-01 -1.19948775e-01 -2.43242662e-02 -2.20216751e-01
+  3.05447541e-02 -1.33162886e-02  7.50498474e-02  3.59354243e-02
+  3.95413861e-02  3.65982920e-01 -1.10230669e-01  1.85038000e-01
+ -1.22911640e-01 -1.54571161e-01 -6.21892735e-02 -1.45992041e-02
+ -2.11439177e-01  3.17281961e-01  3.15340877e-01  1.39366210e-01
+ -2.75911212e-01  6.14523143e-02  3.00175339e-01  1.03432551e-01
+ -1.74358606e-01 -2.09535003e-01 -1.06859215e-01  3.69281530e-01
+  3.70808423e-01 -5.36332726e-02 -1.68941885e-01 -6.79600537e-02
+ -1.86280102e-01 -2.65410095e-02 -4.89589833e-02  5.20833492e-01
+ -4.02952492e-01  1.80261120e-01  2.14510471e-01  6.98242545e-01
+  5.77533320e-02 -3.60478520e-01  1.99975014e-01  4.55238372e-01
+  3.84362906e-01 -1.27315432e-01  1.09120332e-01 -7.98600912e-03
+  1.55207992e-01  4.13684398e-01 -3.29970598e-01 -1.23303860e-01
+  3.23859043e-02  1.84129953e-01  8.42351615e-02  2.03649849e-01
+ -3.86170417e-01 -2.56331414e-02  2.72448838e-01  1.59836680e-01
+ -2.48905748e-01  1.60172552e-01 -4.31346029e-01 -7.65757114e-02
+  2.86093771e-01 -3.74204740e-02 -3.73498321e-01 -3.42872381e-01
+ -2.07445785e-01 -2.23489314e-01 -3.83460075e-01 -2.23606691e-01
+  4.89332974e-01 -1.02836035e-01 -6.46941662e-01  3.55675936e-01
+ -4.99979794e-01 -4.12078470e-01 -2.40717322e-01 -2.70059496e-01
+  3.57107550e-01 -2.45315731e-01 -1.89774856e-02  2.41621852e-01
+  5.53275868e-02  8.46042335e-02 -4.40562457e-01  9.59672809e-01
+ -6.51857018e-01  4.31764930e-01 -2.43873045e-01 -5.46379089e-02
+ -5.86423874e-01  4.30472583e-01  5.26851535e-01 -2.36363664e-01
+  1.31548584e-01 -6.84115529e-01  8.77925903e-02 -3.21431160e-01
+ -6.14686161e-02 -4.07035351e-01 -3.84839237e-01  2.13234916e-01
+  2.37828970e-01  2.30076492e-01 -2.25573450e-01 -3.54606360e-02
+  3.00541043e-01 -2.41525471e-01  3.07720602e-01 -1.45740584e-02
+ -3.29661191e-01 -4.03917104e-01 -8.94059986e-02 -1.76806614e-01
+  4.81709093e-03 -2.42891476e-01  4.76428837e-01 -4.73760247e-01
+ -2.69585609e-01  1.09120585e-01  1.97497293e-01  4.35884297e-01
+ -4.02195454e-01  3.32064241e-01  1.27937257e-01  5.72851077e-02
+ -3.39010268e-01 -2.05571681e-01  1.40052512e-02 -1.60385132e-01
+ -6.55598417e-02  6.40746713e-01  4.67521921e-02 -9.02585685e-02
+  6.59473315e-02  3.27304989e-01  3.77730936e-01 -4.93314937e-02
+ -1.11581936e-01  5.12207747e-01  7.61120558e-01  2.43220448e-01
+ -7.55620539e-01 -1.49074525e-01 -1.00416517e+00  2.33664289e-02
+ -1.22428432e-01  3.47347349e-01  5.20039737e-01  9.39086229e-02
+  3.09929196e-02  1.31702330e-02 -1.88599572e-01 -6.86741352e-01
+  9.36795920e-02  2.53146172e-01 -3.57492775e-01 -3.69497910e-02
+ -4.08298761e-01 -2.16939539e-01 -9.04002190e-02  7.20458850e-02
+ -5.26602089e-01 -2.37919539e-02 -2.33147144e-01 -8.15414310e-01
+  3.02582026e-01 -1.00658369e+00  5.78562260e-01 -1.14857517e-01
+ -1.85811684e-01  4.81901079e-01  3.53269696e-01 -1.29162803e-01
+ -7.03359842e-02 -3.28667998e-01  4.26291525e-02 -4.99711335e-01
+  4.07749295e-01 -1.83239847e-01 -2.10892096e-01 -8.17312971e-02
+  9.84990597e-03 -1.66155353e-01  1.82409152e-01 -2.72966862e-01
+ -3.59082043e-01 -3.45000982e-01 -9.85532552e-02  4.08828557e-02
+ -2.27824286e-01 -4.76486742e-01  7.72454813e-02  3.40126276e-01
+  2.49877155e-01 -3.79440263e-02 -2.97564715e-02 -2.71654248e-01
+ -3.26350808e-01  2.88749993e-01 -9.72642899e-02 -3.15030813e-01
+  4.75586861e-01 -4.49178517e-01  2.14232787e-01 -3.39727789e-01
+  5.44488609e-01  6.57851472e-02  3.64771187e-02 -7.95180082e-01
+  7.12087825e-02 -3.81017923e-02  3.22423279e-01  6.03160262e-02
+ -2.13601679e-01 -2.76342422e-01 -2.54517347e-01 -4.68263626e-01
+ -1.73155457e-01  4.05644059e-01  1.00250885e-01  4.34503794e-01
+  4.09409016e-01 -1.77889183e-01  1.84008956e-01  5.97218536e-02
+  5.47572449e-02 -3.12589288e-01 -2.27644116e-01 -4.18219805e-01
+  3.59847769e-03  1.81128979e-02 -1.42051473e-01 -7.06755184e-03
+ -1.39813289e-01  3.90885890e-01 -4.75115269e-01 -3.31131339e-01
+ -1.46006778e-01  3.50606591e-01  1.51583299e-01  6.13803506e-01
+ -2.32981473e-01 -3.68830085e-01 -3.82267147e-01 -6.23564363e-01
+  2.54870445e-01  3.05854362e-02  4.23184410e-02 -1.67052776e-01
+  2.84698606e-01  7.47097135e-02  1.30267173e-01 -1.15374327e-02
+ -1.36676937e-01 -1.73316434e-01 -1.09047726e-01 -2.50919461e-01
+  8.92457813e-02  2.28989273e-01  1.23453945e-01 -6.97589070e-02
+  5.08049369e-01  2.32134730e-01  2.40452409e-01 -6.82315156e-02
+ -1.96376145e-01  3.23291123e-01  1.33799702e-01 -2.95918673e-01
+ -1.40549570e-01  5.67230046e-01  1.43677264e-01 -4.21769261e-01
+  4.04254913e-01 -5.66658020e-01  2.17610002e-01  5.69712371e-04
+  1.89245120e-01  1.99099585e-01  4.37742412e-01 -2.28747994e-01
+  1.10878184e-01 -4.66907322e-01 -8.18745017e-01 -2.69158483e-01
+ -3.70330662e-02 -4.82316852e-01 -3.96183014e-01 -7.11002588e-01
+ -5.29808879e-01  1.70003831e-01 -1.61187738e-01 -9.64303315e-03
+ -2.95744598e-01 -1.95477605e-01  1.32542938e-01  1.60446525e-01
+  4.02954966e-03  1.90334827e-01  2.32938826e-02  1.83830857e-01
+ -1.75037801e-01 -4.48455691e-01  1.71459779e-01  4.80467021e-01
+  1.02023408e-02  1.91719949e-01 -2.79729545e-01  7.13212371e-01
+ -1.88260525e-03  5.28895855e-02 -5.79392798e-02 -1.14981845e-01
+  1.67858958e-01  2.46279165e-02 -3.01082224e-01 -5.53073585e-01
+  2.94747889e-01  4.44219887e-01 -2.68684536e-01 -2.22307473e-01
+ -2.85167247e-01  9.52474028e-02 -3.75166565e-01 -7.53117323e-01
+  9.93626118e-02 -5.05448520e-01 -3.17474335e-01 -2.55431801e-01
+  2.68068850e-01 -1.48401439e-01  1.19992629e-01  6.24803305e-02
+ -3.83038908e-01 -5.08771062e-01  4.20502797e-02 -4.28137720e-01
+  7.44444728e-02  4.94229048e-01 -7.82207865e-03  8.24232697e-02
+ -6.05122223e-02 -4.15828615e-01  1.26001716e-01 -1.57421544e-01
+ -1.12073049e-01  2.56506920e-01 -2.25475430e-01 -7.90791512e-01
+ -8.32655355e-02  2.71990716e-01 -8.80411193e-02 -7.94992074e-02
+ -2.75087893e-01  1.34523630e-01 -2.07356438e-01 -5.09646356e-01
+  2.13398933e-01 -6.47760108e-02 -3.51047158e-01 -1.66993693e-01
+  2.18626156e-01 -2.90237665e-01 -1.76260084e-01 -1.38077796e-01
+ -2.98232455e-02 -6.42248094e-01 -4.76672709e-01 -8.88678432e-02
+ -3.87391478e-01  4.32788312e-01  2.24537756e-02 -3.63373682e-02
+  3.99420440e-01  6.02420121e-02  2.83029452e-02 -3.74313563e-01
+  1.25332475e-01 -3.07481557e-01  1.76084757e-01 -1.03922457e-01
+ -2.72056043e-01 -3.57085615e-01  1.19090706e-01 -3.95919204e-01
+ -7.68006146e-02  1.31981120e-01 -8.54980573e-02  4.70961146e-02
+ -1.77305132e-01  3.52868885e-02 -3.02942723e-01  5.19799352e-01
+  2.27647975e-01 -2.73927271e-01  2.40737259e-01 -2.99520105e-01
+ -3.08160216e-01  6.99142888e-02 -7.87943155e-02  8.56255591e-02
+ -7.35876411e-02 -5.29170334e-02 -1.03176631e-01 -5.09911418e-01
+ -1.79089025e-01 -3.72117698e-01 -6.75920472e-02  2.54451279e-02
+ -3.01762819e-02 -3.80896293e-02 -1.97556019e-01  3.04246306e-01
+ -2.48207778e-01  1.09925300e-01 -1.31415635e-01 -1.88688524e-02
+  3.67763728e-01  3.60176414e-01 -2.90130496e-01 -5.21514297e-01
+ -2.71580443e-02 -1.96068585e-02  2.87022442e-02 -4.54747766e-01
+  2.61062942e-02 -2.24315912e-01  2.02152580e-02  1.44234613e-01
+ -7.39200562e-02 -3.41274530e-01 -6.19673580e-02  1.20809786e-02
+  2.47037530e-01 -4.69934158e-02  1.80733144e-01  5.01796007e-02
+  8.65589455e-02 -4.04747963e-01 -2.46060476e-01  1.64094999e-01
+  3.52567136e-01 -1.01761483e-01 -2.86543965e-01 -4.21462834e-01
+  4.27114546e-01 -1.27484202e-01 -3.53006184e-01  5.90043254e-02
+  3.68907712e-02  4.38573867e-01 -8.71040598e-02  3.86955976e-01
+ -3.57020915e-01 -3.09084982e-01  1.93326905e-01  1.23441488e-01
+ -1.78287566e-01 -1.93920746e-01 -2.40093783e-01  4.39908132e-02
+  3.78835082e-01 -5.14506459e-01 -2.35437423e-01 -3.50047976e-01
+ -7.71469995e-03  1.58644333e-01  1.80325508e-02 -2.93685436e-01
+ -1.29880220e-01 -4.55848053e-02 -2.57397085e-01  2.92100534e-02
+  2.02388719e-01 -5.85195184e-01 -2.07806416e-02  2.44146585e-01
+  1.86057687e-01  1.31977558e-01  1.89882174e-01 -1.05527289e-01
+ -2.92491198e-01 -1.30098119e-01 -5.12323081e-01 -6.68830872e-01
+ -5.82912341e-02 -3.24245453e-01 -2.53423357e+00  9.34732184e-02
+ -1.93092525e-01  1.41563103e-01 -2.63483375e-02 -5.30621782e-03
+  1.85289115e-01  1.78419739e-01  6.45969510e-02 -1.60306364e-01
+ -3.45488906e-01 -3.25260341e-01  3.69124025e-01  1.02151081e-01
+  1.96893588e-02  4.03668463e-01  4.06281710e-01 -3.06845456e-01
+ -5.30356690e-02 -1.29061297e-01  7.47250617e-02 -2.83700883e-01
+  1.81577861e-01  3.32088500e-01  3.00275713e-01 -2.91245461e-01
+ -4.70903702e-03  3.97872567e-01 -7.39481151e-02 -3.18188727e-01
+  2.71996468e-01  5.52663565e-01 -1.70991749e-01 -2.09284231e-01
+  2.11773977e-01 -8.15881789e-02 -2.11301893e-01  2.12354124e-01
+  4.11920339e-01 -6.77207261e-02 -1.43194214e-01  5.55491805e-01
+  3.85095745e-01 -6.61064386e-02  3.41050476e-02  5.87943792e-01
+  2.02844843e-01 -3.09150010e-01  4.03658420e-01  9.95239168e-02
+ -2.83132851e-01  3.62141430e-01  3.20382684e-01 -3.02680045e-01
+ -1.30966410e-01  5.96276522e-02 -1.14371456e-01  5.59485078e-01
+ -1.07832700e-02  2.74341404e-01 -2.23851129e-02 -2.11117402e-01
+  1.51493475e-02  5.15820757e-02 -9.88507494e-02  2.35348374e-01
+ -3.44106793e-01  8.74682292e-02  3.79401505e-01 -1.94233611e-01
+  2.55711079e-01 -2.72113264e-01  3.22050631e-01 -3.12849313e-01
+ -2.32973710e-01  3.23861316e-02  4.59504873e-02 -3.32597345e-01
+  1.70508265e-01 -8.29343796e-02 -7.38408327e-01  1.35323048e-01
+  3.24376523e-01 -2.37820446e-01  1.30494788e-01  3.17148238e-01
+ -2.96357930e-01  1.68330103e-01  2.26878405e-01  2.08778396e-01
+  3.29805791e-01  2.00762436e-01 -1.19724348e-01  3.41495946e-02
+ -5.51492631e-01  2.58566648e-01 -2.89984167e-01  1.85321972e-01
+  2.55325973e-01 -7.86723569e-02 -8.95041227e-02 -2.21573785e-01
+ -3.60997766e-02 -5.21576881e-01 -2.56994188e-01  1.59415334e-01
+  1.88641459e-01  6.23551369e-01 -1.00867771e-01  1.41297728e-01
+ -5.11625111e-02  4.20022398e-01 -4.74403650e-01  4.51175511e-01
+ -8.11679065e-02 -1.03278376e-01  3.84593904e-02  6.43648505e-02
+  7.28378370e-02 -1.99155390e-01 -1.26792431e-01 -2.60128826e-01
+ -3.40875000e-01  3.04330766e-01 -1.61033809e-01  2.03102499e-01
+  3.43988240e-01 -2.63115466e-01 -2.59164393e-01 -6.55636311e-01
+ -9.56653729e-02 -1.78834513e-01  4.02924418e-01 -3.49979937e-01
+  5.68019301e-02  3.38532507e-01  5.07521510e-01  6.56311661e-02
+ -1.74739406e-01 -1.25278175e-01 -1.34072453e-02 -3.06529105e-02
+ -6.55610114e-02 -4.36933756e-01  3.00969392e-01 -1.32155418e-01
+ -6.29876733e-01 -5.25286123e-02 -3.77655774e-02  2.41810322e-01
+ -1.80698887e-01 -1.06551625e-01  4.46667671e-01  4.12930042e-01
+  4.60650742e-01 -7.43994862e-02  2.92247683e-01  2.62140810e-01
+  7.01602921e-02  6.10274225e-02 -1.78481430e-01 -4.85229403e-01
+ -9.40661132e-02 -3.71368647e-01 -4.21288192e-01 -9.60415304e-02
+ -2.60033578e-01  2.25560814e-01  7.41733611e-02  4.88577038e-01
+ -1.38537049e-01 -1.37159795e-01  3.05135250e-01 -3.52192111e-03
+ -2.84970164e-01 -1.32921204e-01 -2.33462036e-01 -2.32478291e-01
+  8.06475803e-02 -1.46129075e-02  6.28623441e-02 -2.46187046e-01
+ -5.29237270e-01 -1.47777915e-01  1.95114434e-01  1.13570713e-01
+  6.24116719e-01  4.07214880e-01  1.20571911e-01 -1.02377310e-01
+  1.64554715e-01  5.37945777e-02 -6.99535012e-03 -2.90623903e-01
+ -4.55677480e-01  3.07083037e-02  9.26870108e-03 -1.50059201e-02
+  8.07189420e-02 -3.79485816e-01 -3.15387845e-01 -3.06237400e-01
+  1.86655194e-01  4.21975911e-01 -2.01150239e-01 -3.45579237e-02
+ -2.55758882e-01 -2.08639473e-01 -2.67798215e-01  5.00694439e-02]
 }
 
 {
 	day:8
 	ntree:1
 	pt:1.0
-	tim:0
+	tim:0.8
 	payload:Buenas noches
 	vek:
 		1
@@ -402,216 +414,5 @@
  -5.55627197e-02 -5.37080348e-01  1.24696279e+00  8.71282071e-02
   2.72431791e-01  1.50584593e-01 -3.36187482e-01 -2.92439878e-01
   6.94784582e-01  2.87084132e-01 -8.07600379e-01 -5.12074649e-01]
-}
-
-{
-	day:8
-	ntree:2
-	pt:0.0768822142311334
-	tim:0
-	payload: Pedro Sánchez se reunirá con el lehendakari Iñigo Urkullu el día 25 y con el presidente de la Generalitat el 9 de julio. Quim Torra había enviado al Rey una carta solicitando un encuentro en Tarragona el viernes, donde se inauguran los Juegos del Mediterráneo. La Casa del Rey la ha trasladado al Gobierno argumentando que sus actos deben estar refrendados por el ejecutivo. Los siete candidatos a sustituir a Mariano Rajoy han presentado en la sede del PP sus avales para optar a la presidencia del partido. Ahora comienzan los 12 días de campaña para convencer a los militantes antes del congreso del partido. Mariano Rajoy no ha querido opinar sobre los candidatos a sustituirle al frente del PP. Ha sido en Santa Pola, Alicante, donde ha vuelto hoy a su trabajo como registrador de la propiedad. Es la plaza que dejó hace 32 años para dedicarse a la política. Ningún expresidente había regresado hasta ahora a su puesto de trabajo. Alex Pastor se ha convertido en el nuevo alcalde de Badalona al triunfar la moción de censura contra Dolors Sabater de Guanyem Badalona en Comú, a la que acusa de posicionar al ayuntamiento a favor del independentismo. Ha sido con el apoyo de los 10 concejales del PP, el de Ciudadanos y los dos de su partido, el PSC El Aquarius vuelve a sus tareas humanitarias en el Mediterráneo. El barco ha zarpado hoy del puerto de Valencia. Tardará entre tres y cuatro días en llegar a aguas internacionales frente a la costa de Libia, para seguir con los trabajos de rescate y ayuda a migrantes Ya conocemos la fecha de la reunión del presidente del Gobierno con el de la Generalitat de Cataluña. Será la primera semana del mes de julio. Unos días antes, el encuentro será Estrella Moreno, con el lehendakari Iñigo Urkullu Eso es. El presidente del gobierno recibirá al presidente de la generalidad, el próximo 9 de junio. El día 25 vendrá quia Moncloa el lehendakari Urkullu. Pedro Sánchez ha dicho, que recibiría los presidentes autonómicos, por estricto orden de aprobación de sus estatutos. El primer estatuto que se aprobó, fue el de Gernika. Según comentó en entrevista TVE Pedro Sánchez tiene intención, de que es su reunión con el presidente de Cataluña sea algo más que una reunión protocolaria. La fecha se ha conocido hace un par de horas. Hoy por la mañana hemos sabido que el presidente de la generalidad escribió pidiéndole una reunión. Es la carta que ha enviado hoy el President de la Generalitat, Quim Torra, al Rey Felipe VI. 4 páginas con firma compartida con los expresidentes Mas y Puigdemont en las que piden explicaciones por el 1 de octubre. Una demanda que Torra ha repetido hoy en el primer pleno de su legislatura. Aunque la palabra más repetida en la misiva es diálogo. Mas, Puigdemont y Torra piden al monarca que escuche a los catalanes sin prejuicios. Y el president propone empezar a hablar este mismo viernes. En una posdata firmada solo por él, Torra pide al rey aprovechar la inauguración de los Juegos Mediterráneos en Tarragona para reunirse. Asegura que es su deber moral como presidente explicarle cómo se sienten gran parte de los catalanes y ruega al rey que se situé en la lectura más abierta y democrática de la Constitución. Torra todavía no ha confirmado su asistencia el viernes. Sí lo han hecho el rey y Sánchez. Siete son los candidatos que optan a suceder a Mariano Rajoy Hoy han presentado sus avales. El ultimo en formalizar su candidatura ha sido un concejal popular del municipio valenciano de La Font de Figuer. Ésa ha sido la sorpresa la jornada. La candidatura de un militante de la Comunidad Valenciana, muy crítico con Mariano Rajoy
-	vek:
-		2
-			Pedro Sánchez se reunirá con el lehendakari Iñigo Urkullu el día 25 y con el presidente de la Generalitat el 9 de julio. Quim Torra había enviado al Rey una carta solicitando un encuentro en Tarragona el viernes, donde se inauguran los Juegos del Mediterráneo. La Casa del Rey la ha trasladado al Gobierno argumentando que sus actos deben estar refrendados por el ejecutivo. Los siete candidatos a sustituir a Mariano Rajoy han presentado en la sede del PP sus avales para optar a la presidencia del partido. Ahora comienzan los 12 días de campaña para convencer a los militantes antes del congreso del partido. Mariano Rajoy no ha querido opinar sobre los candidatos a sustituirle al frente del PP. Ha sido en Santa Pola, Alicante, donde ha vuelto hoy a su trabajo como registrador de la propiedad. Es la plaza que dejó hace 32 años para dedicarse a la política. Ningún expresidente había regresado hasta ahora a su puesto de trabajo. Alex Pastor se ha convertido en el nuevo alcalde de Badalona al triunfar la moción de censura contra Dolors Sabater de Guanyem Badalona en Comú, a la que acusa de posicionar al ayuntamiento a favor del independentismo. Ha sido con el apoyo de los 10 concejales del PP, el de Ciudadanos y los dos de su partido, el PSC
-		3
-			El Aquarius vuelve a sus tareas humanitarias en el Mediterráneo. El barco ha zarpado hoy del puerto de Valencia. Tardará entre tres y cuatro días en llegar a aguas internacionales frente a la costa de Libia, para seguir con los trabajos de rescate y ayuda a migrantes
-		4
-			Ya conocemos la fecha de la reunión del presidente del Gobierno con el de la Generalitat de Cataluña. Será la primera semana del mes de julio. Unos días antes, el encuentro será
-		5
-			Estrella Moreno, con el lehendakari Iñigo Urkullu
-		6
-			Eso es. El presidente del gobierno recibirá al presidente de la generalidad, el próximo 9 de junio. El día 25 vendrá quia Moncloa el lehendakari Urkullu. Pedro Sánchez ha dicho, que recibiría los presidentes autonómicos, por estricto orden de aprobación de sus estatutos. El primer estatuto que se aprobó, fue el de Gernika. Según comentó en entrevista TVE Pedro Sánchez tiene intención, de que es su reunión con el presidente de Cataluña sea algo más que una reunión protocolaria. La fecha se ha conocido hace un par de horas. Hoy por la mañana hemos sabido que el presidente de la generalidad escribió pidiéndole una reunión. Es la carta que ha enviado hoy el President de la Generalitat, Quim Torra, al Rey Felipe VI. 4 páginas con firma compartida con los expresidentes Mas y Puigdemont en las que piden explicaciones por el 1 de octubre. Una demanda que Torra ha repetido hoy en el primer pleno de su legislatura. Aunque la palabra más repetida en la misiva es diálogo. Mas, Puigdemont y Torra piden al monarca que escuche a los catalanes sin prejuicios. Y el president propone empezar a hablar este mismo viernes. En una posdata firmada solo por él, Torra pide al rey aprovechar la inauguración de los Juegos Mediterráneos en Tarragona para reunirse. Asegura que es su deber moral como presidente explicarle cómo se sienten gran parte de los catalanes y ruega al rey que se situé en la lectura más abierta y democrática de la Constitución. Torra todavía no ha confirmado su asistencia el viernes. Sí lo han hecho el rey y Sánchez. Siete son los candidatos que optan a suceder a Mariano Rajoy Hoy han presentado sus avales. El ultimo en formalizar su candidatura ha sido un concejal popular del municipio valenciano de La Font de Figuer. Ésa ha sido la sorpresa la jornada. La candidatura de un militante de la Comunidad Valenciana, muy crítico con Mariano Rajoy
-	code:[-7.86859393e-02  3.30575228e-01  1.03333801e-01  3.33701432e-01
- -3.11560988e-01 -3.78719941e-02  6.73927248e-01 -4.28770930e-02
- -1.42395139e-01  1.65196627e-01 -7.57105425e-02  6.29526973e-01
-  3.34152192e-01 -1.01643361e-01 -8.20114851e-01 -6.03451282e-02
- -2.93481231e-01 -1.05974317e+00  2.95027256e-01  3.32821682e-02
-  3.01960468e-01  4.32030141e-01 -2.36492097e-01  6.35979474e-02
- -4.86642838e-01 -2.29246497e-01 -3.69295895e-01  1.17652386e-01
-  2.36815304e-01 -1.00494750e-01 -7.99958467e-01  6.26624405e-01
- -6.34192109e-01  5.38618416e-02  1.20615721e-01  8.71241838e-02
-  4.19364125e-02  3.92191112e-01 -1.23667330e-01  7.55118206e-02
- -1.97145626e-01 -3.33924413e-01 -1.20651368e-02  2.12556601e-01
- -1.00469276e-01  1.39195360e-02  2.03856230e-01  6.18384123e-01
-  6.51332736e-02  1.76036090e-01  2.54407153e-03 -4.03284431e-01
-  1.60880908e-01 -3.64837170e-01  4.41417024e-02 -5.91512248e-02
- -1.08886540e-01  1.31475046e-01  3.22936624e-02 -2.40113847e-02
- -1.97439730e-01  4.96397503e-02  3.81269425e-01  1.09271564e-01
- -2.27123559e-01 -1.39563084e-01 -1.66800022e-02  4.05430421e-02
-  1.26612961e-01  1.60244137e-01  2.22873330e-01 -3.70580256e-01
- -2.60266662e-02  1.80335924e-01  1.10124439e-01  1.29041731e-01
- -3.71395797e-03  4.35905218e-01  4.83144410e-02 -1.20847486e-01
- -2.40481257e-01 -2.17552781e-01 -2.86538094e-01  1.40030757e-01
- -2.15881169e-02  7.05483735e-01  1.32149994e-01  1.40886903e-02
- -1.06742285e-01  6.49452925e-01 -5.70379421e-02  1.85505688e-01
-  1.24706365e-01  2.52252594e-02 -1.07302792e-01  5.98716736e-01
-  4.47938859e-01  8.46418291e-02 -4.22056019e-03 -2.79683471e-01
- -4.21956003e-01  7.25157559e-03  3.18937540e-01  1.90737098e-01
- -3.96589577e-01  3.89724433e-01  5.30423880e-01  8.03964615e-01
-  4.28579971e-02 -4.58074689e-01 -2.19648093e-01  5.08802295e-01
-  4.56597917e-02  1.41054779e-01  1.04291499e-01 -5.83816320e-02
-  3.25525925e-02  5.83663940e-01 -2.74712086e-01 -1.24106318e-01
-  2.01921418e-01 -2.43190661e-01  2.10587263e-01  5.53003438e-02
- -3.28959018e-01  4.36981738e-01  2.03121230e-02  5.02238154e-01
- -3.45284522e-01  4.79208559e-01 -3.85319054e-01 -2.13105232e-03
-  2.64599890e-01 -2.51010299e-01 -1.94032237e-01 -4.54682946e-01
- -2.11566478e-01 -3.74010444e-01 -6.20661139e-01 -2.26259664e-01
-  8.72224420e-02 -4.20312762e-01 -3.81382138e-01 -1.26965135e-01
- -6.33275867e-01 -4.47835028e-01  2.35934079e-01 -2.51368672e-01
-  5.10511339e-01  1.04065657e-01  3.15764159e-01 -1.71689063e-01
-  2.46595189e-01 -4.97595221e-02 -1.42839208e-01  7.40050375e-01
- -3.74292344e-01  7.59923697e-01  4.82754186e-02 -3.99514258e-01
- -3.57786238e-01  5.52184522e-01  2.51365423e-01 -2.01405466e-01
-  2.08016872e-01 -5.58971047e-01  3.77886772e-01 -2.97953606e-01
- -9.14502516e-02 -1.81665570e-01 -2.13759050e-01  5.01294017e-01
-  3.96290660e-01  2.74741262e-01 -6.06314301e-01 -1.47963941e-01
-  1.78781644e-01 -5.17697930e-01  5.75153947e-01 -6.42254800e-02
-  8.41150880e-02 -2.21256793e-01  1.74448669e-01 -2.13394523e-01
- -3.06613177e-01  9.65227783e-02  3.60269308e-01 -3.61304879e-01
- -4.96100128e-01  3.82423341e-01  3.76779027e-02  3.65317762e-01
- -4.82393414e-01 -3.69960181e-02  1.95912093e-01  2.88182199e-01
- -2.99401939e-01 -2.67494082e-01 -1.32220596e-01 -2.54456758e-01
-  2.95281887e-01  9.27883148e-01 -3.15427959e-01 -2.71660656e-01
-  1.49492249e-01 -1.00508593e-01  7.84834981e-01  8.54741186e-02
- -2.56041706e-01  3.85374367e-01  6.57914996e-01 -1.83818802e-01
- -7.91338801e-01  7.35448971e-02 -5.89365959e-01 -3.62158358e-01
- -4.57684636e-01  1.70585662e-01  5.41589558e-02  3.11557889e-01
- -2.08956286e-01  2.03086108e-01 -2.54643917e-01 -5.35157204e-01
-  1.18683957e-01 -2.38743559e-01 -1.39711842e-01 -2.23822724e-02
- -1.02428846e-01  3.64089787e-01 -1.89834923e-01  3.44253220e-02
- -2.15189010e-01  2.22942650e-01 -5.00459611e-01 -4.75972801e-01
-  1.92228064e-01 -6.60078526e-01  7.56289244e-01  2.58535326e-01
- -1.73902884e-01  4.74860430e-01  1.33983701e-01 -2.35147387e-01
-  3.08653116e-01 -5.11458158e-01  2.98909336e-01 -4.81469184e-01
-  1.07528761e-01 -3.15345794e-01  1.12023994e-01 -3.33386153e-01
-  2.78265834e-01 -1.07761301e-01  1.46349400e-01 -3.80201519e-01
- -5.05607963e-01  4.80515696e-02 -1.74865052e-01 -6.72751188e-01
- -9.62511748e-02 -4.49870944e-01 -3.58163118e-02  3.05507839e-01
-  2.58474886e-01 -1.78335607e-01  7.72982910e-02 -2.51210421e-01
- -1.43452421e-01  1.47918895e-01 -7.05270916e-02 -1.19852245e-01
-  3.23360682e-01 -6.20779514e-01 -1.19108744e-01 -3.65737915e-01
-  3.23609829e-01 -2.65957832e-01 -1.42160520e-01 -6.45754218e-01
- -1.51793346e-01 -1.09648615e-01  1.23006299e-01  1.99957341e-01
- -2.56097376e-01 -3.16450775e-01 -3.73349935e-01 -3.24999690e-01
-  1.01075806e-01  2.44616926e-01 -1.33983433e-01  5.47679067e-01
-  2.66478449e-01 -1.85759097e-01  2.56081671e-01  2.25618072e-02
- -7.59305805e-03 -1.89614862e-01  9.85179842e-02 -2.49387473e-01
-  1.71482533e-01 -2.41395846e-01 -1.24113366e-01  1.59934342e-01
- -3.67806464e-01  1.10612661e-01 -2.29490697e-02  1.47311479e-01
- -1.86580971e-01  3.24694037e-01  4.31892872e-01  6.72993481e-01
- -1.82023123e-01 -2.97353238e-01 -5.14707804e-01 -4.71269518e-01
-  2.38146573e-01 -1.90335706e-01 -1.25993118e-01 -1.58115178e-01
-  6.95547581e-01  5.17815426e-02  4.32184041e-01 -2.54131019e-01
- -2.88985431e-01  7.55170500e-03 -3.02802399e-02 -6.97342232e-02
- -3.51187944e-01 -2.59222507e-01  4.39288840e-02 -1.66395456e-02
-  1.86431006e-01  3.19351703e-01  2.44148150e-01 -3.65020394e-01
- -6.07499003e-01 -5.69241829e-02  2.94958442e-01 -4.44734722e-01
- -3.35034579e-01  6.33115768e-01 -9.88944173e-02 -1.58661187e-01
-  4.30806994e-01 -5.55552959e-01 -9.69239622e-02 -1.53346598e-01
- -2.92619877e-02  2.50176251e-01  6.34313881e-01 -7.02770412e-01
-  2.99857169e-01 -3.33686531e-01 -4.53521281e-01 -3.17981452e-01
-  3.53879899e-01 -5.40069282e-01 -2.82781839e-01 -4.38211650e-01
- -2.42080182e-01  2.12398425e-01 -3.90235603e-01 -1.07104763e-01
- -2.67222941e-01 -2.05556244e-01 -2.56292578e-02  4.95904908e-02
- -5.92227101e-01  6.67613819e-02  2.93981850e-01 -9.90645140e-02
- -1.68820143e-01 -2.98080623e-01 -2.90639341e-01  2.24176198e-01
- -1.86372884e-02  2.60828495e-01  7.31450170e-02  1.10686326e+00
-  8.84556025e-02 -1.08104482e-01  3.29986960e-01 -5.75646341e-01
-  1.80018663e-01 -4.89971399e-01 -4.50809807e-01 -4.37725306e-01
-  3.07393610e-01  3.15823108e-01 -1.57859266e-01 -4.10642773e-02
- -2.67397285e-01  3.50092053e-01 -4.60844427e-01 -5.33472300e-01
- -1.41140185e-02 -3.33956748e-01 -4.54807878e-01 -2.49703929e-01
-  1.10000566e-01 -5.72542131e-01 -7.71967918e-02 -1.11466885e-01
- -1.66495681e-01 -3.40120792e-01  1.65245101e-01 -8.00692499e-01
- -2.25133657e-01  5.21613300e-01 -2.65534163e-01 -2.54350603e-02
- -2.74387181e-01 -6.12882257e-01  5.37801720e-02 -3.80965531e-01
- -3.22105646e-01  2.57579207e-01 -3.50370407e-01 -2.56540775e-01
-  1.57941088e-01  4.63059187e-01  3.37603867e-01 -9.83596295e-02
- -2.55565643e-01 -7.78768957e-02  9.64052975e-02 -1.46082342e-01
-  2.08224937e-01 -1.42301306e-01 -4.27929819e-01 -1.92219839e-01
- -3.10438089e-02  2.19050199e-02 -8.17552209e-05 -5.32611489e-01
- -8.10899884e-02 -4.99793410e-01 -3.06599826e-01 -3.18752527e-02
-  1.99448168e-02  3.75903606e-01  5.13924658e-01 -2.48889536e-01
-  5.76613188e-01  7.55862668e-02 -3.59173357e-01 -2.68179357e-01
- -2.94760466e-02 -2.68688142e-01  1.53454810e-01 -3.85059640e-02
- -3.50323975e-01 -1.76570922e-01  2.81181961e-01 -4.18013364e-01
- -2.00268447e-01 -8.26490745e-02 -2.93569446e-01  5.75991087e-02
-  1.43407032e-01  1.08189315e-01 -5.94353378e-01  5.92217743e-01
-  2.12343097e-01 -5.36281578e-02 -3.68931741e-01 -3.43871474e-01
- -4.08851564e-01 -5.54567762e-02 -2.51869112e-02 -1.65935844e-01
-  3.62622216e-02 -1.20490260e-01 -3.45643729e-01 -2.59160578e-01
- -2.77222812e-01 -5.60917795e-01  2.18622386e-03  1.00364171e-01
-  8.43896419e-02  1.21560454e-01  2.91777521e-01  2.92604685e-01
- -3.85299146e-01  2.42994025e-01  2.33618438e-01 -7.04450905e-02
-  5.17150164e-01  3.18838775e-01 -1.80774063e-01 -3.61352682e-01
-  1.10933475e-01  2.13263929e-03 -1.14799581e-01 -4.02552366e-01
-  1.55668348e-01 -1.19486690e-01  2.61793733e-01  9.12785530e-03
- -5.35752699e-02 -3.48753065e-01 -9.61528197e-02 -2.45544352e-02
- -1.98936649e-03 -4.76443022e-01  2.53535360e-01 -1.28693551e-01
-  5.75290173e-02 -3.76942396e-01 -3.30355376e-01  1.78737622e-02
-  4.20609057e-01  8.91635567e-03 -2.23306626e-01 -4.73090649e-01
-  3.88007194e-01 -3.94362807e-01  6.53296784e-02  8.22138786e-03
- -2.12976679e-01  1.68741494e-01  1.74985424e-01  2.44616807e-01
- -4.40285385e-01 -4.17864084e-01  3.65038872e-01 -1.78473033e-02
- -1.51731640e-01 -3.36745083e-02 -3.03860426e-01 -2.49111503e-01
-  1.29466042e-01 -5.31128526e-01 -3.30442190e-01  4.48186025e-02
- -1.44694388e-01 -9.63986069e-02 -5.46774268e-01  1.19569391e-01
- -1.71847254e-01  1.99939728e-01 -3.46899211e-01 -9.45646390e-02
-  2.67127335e-01 -5.54228187e-01 -1.36766344e-01  1.23983420e-01
-  7.08803535e-04 -9.66884792e-02 -1.11769661e-01 -6.27550632e-02
- -1.49535000e-01 -1.04709148e-01  3.59357893e-02 -1.00724638e+00
-  4.34566401e-02  3.40392560e-01 -2.62399340e+00  1.90440640e-02
- -5.03567457e-01 -1.69287235e-01  3.34806323e-01 -8.78668278e-02
-  1.73333764e-01  4.28042233e-01  4.34476495e-01  1.25023589e-01
-  1.53401524e-01 -6.98840559e-01 -1.55168429e-01 -2.26407439e-01
-  2.43460968e-01  1.99576348e-01  3.75872403e-01 -3.13262224e-01
-  6.23804443e-02 -2.98905045e-01  1.14791363e-01 -3.60829443e-01
-  1.48095772e-01  3.50322664e-01  3.46220732e-02 -2.03980371e-01
- -4.76882681e-02 -3.39628607e-02 -2.92948186e-01 -2.22174212e-01
-  4.99350607e-01  1.08255100e+00 -2.43003089e-02 -2.25887626e-01
-  9.50272828e-02 -2.42745087e-01 -2.82967448e-01  2.42729113e-01
-  3.40053320e-01  2.69195795e-01 -2.31105685e-01  3.00177485e-01
-  3.71732563e-01  1.51319861e-01 -4.79565933e-04 -1.07765719e-01
-  3.98386568e-02 -1.28467023e-01  5.80622137e-01  1.36725485e-01
- -2.89579064e-01  6.78509116e-01 -1.96591973e-01  8.98057893e-02
- -6.24283075e-01  2.78480947e-01 -3.09097320e-01  3.13305020e-01
-  1.14219658e-01  7.24396557e-02 -1.23649672e-01  1.02560088e-01
-  3.15325081e-01 -8.16600919e-02 -5.63672900e-01  1.79945916e-01
- -3.05409342e-01 -3.19704443e-01  2.27676988e-01 -3.69748056e-01
-  4.52723444e-01  2.01240480e-02  6.02400005e-01 -5.75842619e-01
-  2.03334957e-01  1.17073789e-01 -1.32386714e-01 -4.30996865e-02
-  3.47632796e-01 -4.51991856e-02 -3.81695807e-01  8.63099322e-02
-  3.28010917e-01 -1.67713493e-01  2.92470932e-01 -1.51067227e-01
- -4.28642295e-02 -5.14803082e-02 -1.78092167e-01 -3.69087905e-01
-  1.32158697e-02  5.17391980e-01 -3.19283485e-01  7.86767825e-02
- -3.02182943e-01 -1.07829347e-01 -3.91178578e-02  2.71705747e-01
-  6.23495877e-03  1.85978070e-01  1.34159178e-01  3.93246412e-01
- -1.40570447e-01 -3.17999870e-02  1.80365622e-01  1.07270658e-01
-  3.74951474e-02  3.25470209e-01  2.57549495e-01  1.93906829e-01
-  2.24133804e-01  2.18682364e-01 -5.38605690e-01  3.20870757e-01
- -4.53747213e-01 -4.23977554e-01 -2.59963106e-02 -1.38778389e-02
-  9.52265486e-02 -3.14926654e-01  1.26550272e-02 -5.01329482e-01
- -1.57274142e-01  2.17548162e-01  1.73141062e-02  1.02727413e-01
-  1.74540251e-01 -3.21065545e-01 -4.35405701e-01 -5.19451618e-01
- -1.24935219e-02  2.30310753e-01  2.33707741e-01 -6.53686285e-01
-  1.06840581e-02  4.45752084e-01  9.51561987e-01  5.79179823e-01
-  7.16036111e-02 -2.64464319e-01 -9.66960862e-02  6.50815442e-02
- -1.79151818e-01 -6.53367221e-01  3.35158348e-01 -2.52979279e-01
- -4.35546041e-01 -4.74101491e-02  1.11697607e-01  8.96721110e-02
-  1.19016126e-01 -2.43926644e-01  1.30546272e-01  7.93563604e-01
-  6.17017686e-01 -1.92827940e-01  7.33295739e-01  3.67788136e-01
-  6.39068633e-02  5.49487710e-01 -9.67813283e-02 -4.47969884e-01
- -1.07421450e-01 -5.89007922e-02  1.58389226e-01 -4.13109183e-01
- -3.30049276e-01  2.81649053e-01 -9.45904553e-02  3.57610881e-01
- -2.93079376e-01 -3.92332882e-01  4.55112636e-01  1.32412225e-01
-  1.87610760e-02 -3.24664772e-01 -3.78960632e-02 -3.53711218e-01
-  7.25607350e-02 -2.61544406e-01 -6.88301250e-02 -4.23300803e-01
- -8.81471634e-01 -1.08540636e-02  7.16281086e-02 -1.65882513e-01
-  2.60110468e-01  6.44639611e-01  1.68383554e-01 -7.16184676e-02
- -6.62216097e-02 -5.29890321e-02  7.83243552e-02 -2.80274570e-01
- -1.78655297e-01  1.07839130e-01 -1.75401628e-01  1.41935438e-01
-  3.66850436e-01 -5.57061672e-01 -7.69339353e-02 -1.16551548e-01
-  4.66186330e-02  2.42500812e-01 -2.31466871e-02  3.10888588e-02
- -2.47277036e-01 -2.69775152e-01 -1.96068928e-01 -2.14296579e-01]
 }
 

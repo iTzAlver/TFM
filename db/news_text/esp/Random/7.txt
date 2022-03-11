@@ -42,3 +42,4 @@ Estos altos precios se trasladan a la parte variable de la factura de la luz, qu
 Volvemos a la plaza de Callao, en Madrid
 consumir electricidad en España en estos momentos sale máscaro que en cualquier otro momento del año
 $Para entender por qué la electricidad marca precios tan altos, hay que tener en cuenta 2 factores el consumo está en los niveles más elevados del día
+%[6.99, 4.08, 7.27, 3.0, 3.48, 6.470000000000001, 3.6399999999999997, 7.61, 7.67, 4.68, 9.32, 4.4399999999999995, 5.949999999999999, 9.629999999999999, 4.4, 0.84, 7.949999999999999, 3.52, 6.58, 1.24, 6.99, 1.8, 3.1100000000000003, 7.27, 6.0, 4.59, 10.48, 3.59, 3.24, 3.0, 3.2, 8.68, 3.59, 0.79, 6.43, 12.879999999999999, 6.68, 7.36, 5.08, 16.7, 6.88, 3.0, 7.52, 8.82]

@@ -42,3 +42,4 @@ Os digo lo que os he dicho desde el primer momento, estamos muertos, pero con la
 Los vecinos de Totalán han querido mostrar su apoyo a los padres de Julen
 Con una marcha se han acercado al lugar donde están buscando al niño, con mensajes de apoyo y esperanza
 $Tras el rechazo a su acuerdo sobre el Brexit, hoy Theresa May se ha enfrentado a una moción de censura que, Miguel Ángel Idígoras acaba de superar por un estrecho margen de votos
+%[2.76, 10.629999999999999, 4.23, 2.84, 5.4, 6.8, 6.76, 6.04, 3.6, 9.07, 4.04, 4.4, 2.72, 4.92, 4.51, 6.39, 3.0, 9.23, 2.04, 2.92, 3.0, 3.0, 2.92, 4.12, 2.04, 3.83, 6.26, 5.4, 11.43, 3.2, 3.39, 2.35, 5.199999999999999, 3.84, 7.2, 2.99, 3.0, 2.99, 5.07, 1.35, 7.59, 4.08, 5.72, 9.55]

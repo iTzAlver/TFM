@@ -39,3 +39,4 @@ La asociación de futbolistas critica que no se ha contado con ellos y que el la
 $Despues de una inversión millonaria
 El nuevo proyecto del Atleti empieza con fuerza después de ganar la supercopa, mientras en el Real Madrid de Lopetegui la derrota abre dudas y la pregunta es si es necesario hacer fichajes antes de que se cierre el mercado
 $Flores y velas para recordar a las víctimas de los atentados de Barcelona y Cambrils
+%[3.24, 5.2, 5.8, 2.68, 4.48, 15.04, 5.2, 2.64, 0.6, 8.48, 12.079999999999998, 4.92, 5.68, 5.76, 2.04, 2.32, 4.88, 7.359999999999999, 3.76, 1.44, 5.04, 3.0, 2.32, 2.32, 6.24, 5.68, 4.6, 1.68, 2.96, 8.36, 2.08, 2.48, 3.56, 5.0, 10.040000000000001, 14.960000000000003, 5.64, 9.120000000000001, 2.0, 11.64, 5.359999999999999]

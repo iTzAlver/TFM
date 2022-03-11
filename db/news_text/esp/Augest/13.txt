@@ -37,3 +37,4 @@ $El primer recuerdo en el acto de homenaje ha sido para Ana María Suárez que m
 $Se ha hecho un reconocimiento al trabajo de los equipos de emergencia la alcaldesa ha dicho que ningún acto violento cambiará la apuesta por la solidaridad
 Imaginar un mundo de paz, cantaba John Lennon con "Imagine"
 Hoy, pedían lo mismo en Cambrils, un año después de la tragedia que dejó una víctima mortal, Ana María
+%[5.08, 1.92, 10.91, 3.23, 3.88, 2.28, 4.64, 0, 7.1499999999999995, 9.98, 4.04, 4.52, 7.43, 9.26, 10.360000000000001, 3.31, 4.16, 3.32, 2.4, 4.8, 5.71, 5.44, 2.88, 2.64, 8.11, 3.88, 4.04, 2.15, 4.5600000000000005, 13.510000000000002, 6.56, 5.15, 12.27, 9.03, 5.5600000000000005, 9.0, 9.35, 3.63, 4.32]

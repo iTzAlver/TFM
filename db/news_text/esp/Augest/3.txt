@@ -36,3 +36,4 @@ $No creen necesario, ninguna evacuación, ni que las casas del pueblo corran pel
 $Los aviones lo hará mañana
 $ha soplado bien todo de levante, cargado de humedad
 $Esta noche, se continúa trabajando, y con prudencia, de lo que hay que hablar en estos casos
+%[2.68, 2.92, 4.44, 1.2, 3.39, 5.04, 17.3, 4.68, 4.9399999999999995, 4.5600000000000005, 4.75, 8.790000000000001, 3.8, 3.56, 5.24, 2.48, 4.720000000000001, 11.11, 7.32, 10.600000000000001, 8.58, 1.63, 4.52, 5.16, 2.23, 5.71, 13.309999999999999, 3.0, 2.39, 2.68, 7.4799999999999995, 1.51, 2.91, 2.92, 7.19, 3.0, 4.59, 7.789999999999999]

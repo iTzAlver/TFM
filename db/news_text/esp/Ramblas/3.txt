@@ -27,3 +27,4 @@ $La Policía está investigando la posible vinculación del imán de Ripoll con 
 Los agentes registraron su domicilio esta noche en busca de pruebas y restos de ADN por si podría ser uno de los muertos en la explosión de la casa de Alcanar
 Marta Martín
 $El que fuera imán en Ripoll hasta hace apenas 2 meses vivía en esta céntrica calle
+%[5.52, 2.68, 9.03, 5.1899999999999995, 1.8, 8.5, 1.51, 29.51, 13.56, 8.92, 11.3, 6.039999999999999, 6.18, 4.83, 5.67, 2.88, 4.96, 3.2, 7.88, 3.28, 2.23, 5.0, 8.71, 8.67, 4.36, 7.2, 8.28, 1.76, 5.96]

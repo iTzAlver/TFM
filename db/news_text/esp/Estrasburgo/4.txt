@@ -40,3 +40,4 @@ Y señala que hablará con Torra de lo que importa a los ciudadanos
 Sánchez lo ha dicho al finalizar el consejo europeo
 $Ha dicho que torra no le ha confirmado si se verán, aunque confía que ese encuentro se celebre en un tono conciliador, pero Sánchez ha dicho que quiere hablar con torra, sobre cómo reforzar el estado del bienestar, y pide sosiego y sentido de Estado y tiempo
 $Ta los resultados de las elecciones andaluzas, Sánchez ha respondido que asume su responsabilidad
+%[2.12, 10.280000000000001, 4.96, 1.04, 5.56, 3.76, 11.440000000000001, 10.0, 4.4399999999999995, 3.28, 5.92, 3.08, 4.68, 6.199999999999999, 4.84, 2.16, 8.96, 6.28, 3.28, 12.840000000000002, 5.84, 9.239999999999998, 3.08, 1.96, 4.8, 4.92, 4.72, 5.4, 3.08, 1.64, 2.12, 1.92, 6.84, 9.96, 2.76, 5.640000000000001, 8.64, 6.199999999999999, 4.04, 2.08, 15.200000000000001, 4.64]

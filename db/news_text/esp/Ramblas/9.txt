@@ -28,8 +28,7 @@ Mariano Rajoy ha pedido además, aparcar las diferencias
 $Es el mensaje que más ha repetido el presidente del gobierno
 Los demócratas deben estar unidos
 $Para acabar definitivamente con los terroristas
-$Señala 3 herramientas para lograrlo 
-unidad política, coordinación policial, y cooperación internacional
+$Señala 3 herramientas para lograrlo . unidad política, coordinación policial, y cooperación internacional
 Ha mostrado su apoyo todas las fuerzas de seguridad
 A la policía municipal, los Mossos de escuadra, la policía nacional, y la guardia civil
 $Ahora en el momento de críticas de posibles fallos de coordinación
@@ -41,3 +40,4 @@ La unidad politica es fundamental porque es lo que merecen las víctimas, lo que
 Ha felicitado a todas la Fuerzas de Seguridad por su trabajo y ha defendido la colaboración entre el Gobierno y la Generalitat en la gestión del atentado
 "Esta coordinación ha sido fluida y constante
 Tanto en nivel de decisión política como en el nivel técnico de responsabilidades policiales"
+%[13.23, 1.12, 14.470000000000002, 5.59, 0.92, 3.7199999999999998, 6.9799999999999995, 4.35, 9.11, 2.99, 3.51, 4.68, 6.99, 5.1899999999999995, 4.75, 5.68, 5.68, 4.47, 2.76, 9.559999999999999, 8.280000000000001, 5.79, 2.88, 2.92, 5.1499999999999995, 7.670000000000001, 3.67, 3.16, 3.0, 2.96, 5.710000000000001, 2.92, 6.75, 3.56, 2.87, 4.359999999999999, 2.67, 4.68, 11.93, 7.88, 3.32, 8.0]

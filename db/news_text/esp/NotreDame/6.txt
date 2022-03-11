@@ -33,3 +33,4 @@ Y en Torrevieja, Alicante donde hemos visto caer el agua en cascada, lo mismo qu
 $Está siendo, como les decíamos al inicio del Telediario, la peor gota fría registrada en abril, en los últimos 50 años en la Comunidad Valenciana y Murcia
 Los efectos se amplían a Cataluña, donde ya son 20 los trenes afectados por un corte ferroviario en Vandellós, Tarragona, Empezamos en Torrevieja, en Alicante, donde se recuperan de un verdadero diluvio
 $Así ha quedado esta calle de Torrevieja, Alicante
+%[7.75, 3.76, 9.14, 7.99, 5.98, 10.379999999999999, 1.31, 3.2, 2.59, 4.04, 6.640000000000001, 2.76, 6.23, 4.28, 7.960000000000001, 3.75, 10.91, 5.720000000000001, 5.48, 2.91, 5.52, 2.68, 1.56, 8.96, 3.36, 8.54, 5.4, 6.43, 6.8999999999999995, 4.04, 2.24, 8.03, 6.84, 11.19, 2.31]

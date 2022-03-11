@@ -33,10 +33,8 @@ Y el concierto de Año Nuevo tuvo récord histórico: 2.300.000 espectadores y r
 $y en deportes, el fútbol estrena el año con novedades
 Jesús, buenas noches
 $El fútbol retoma su pulso en este 2018
-Mañana Copa con Diego Costa y Vitolo que se estrenarán con el At
-Madrid
-El jueves el Barça con Messi que esta tarde ya ha estado a las órdenes de Valverde y también el jueves el R
-Madrid quizás sin CR7 que ha estrenado el año en Madeira con todos sus trofeos individuales
+Mañana Copa con Diego Costa y Vitolo que se estrenarán con el At. Madrid
+El jueves el Barça con Messi que esta tarde ya ha estado a las órdenes de Valverde y también el jueves el R. Madrid quizás sin CR7 que ha estrenado el año en Madeira con todos sus trofeos individuales
 $El equipo de la Guardia Civil, que ha resuelto el caso Diana Quer, ha explicado que la información arrojada por los teléfonos, tanto de Diana como de José Enrique Abuín, y su coche han sido las claves del éxito policial
 Es una de las investigaciones más complejas a las que se ha enfrentado la Guardia Civil en los últimos años
 $Los 25 agentes que han llevado la investigación, al recibir esta mañana su merecido homenaje
@@ -47,3 +45,4 @@ Un año después, ya era el único sospechoso, porque las señales telefónicas 
 No había duda que él era el hombre
 $Vamos ahora con las dudas
 Es hemos preguntado en qué lugar ha muerto Diana
+%[6.92, 2.28, 6.68, 6.32, 8.94, 5.07, 0.52, 9.19, 4.08, 2.59, 5.71, 8.51, 2.4, 4.91, 3.55, 3.88, 2.64, 6.47, 2.92, 5.28, 6.32, 5.12, 6.64, 4.75, 5.04, 2.87, 6.3, 4.27, 8.55, 5.2, 4.84, 6.279999999999999, 4.0, 2.28, 3.2, 6.640000000000001, 12.18, 11.58, 6.23, 5.32, 5.1899999999999995, 8.760000000000002, 3.8, 9.18, 2.83, 3.0, 2.56]

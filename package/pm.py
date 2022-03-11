@@ -50,8 +50,10 @@ class Pbmm:
             index1 += 1
         return segmentation
 
-    def merge_segmentation(self, phrases):
+    def merge_segmentation(self, phrases, diffs=None):
         intro = []
+        xdiffs = []
+        acc = 0
         for segz in self.segmentation:
             intro.append(segz[0])
 
@@ -62,12 +64,18 @@ class Pbmm:
                 if straigth != '$':
                     merged.append(straigth)
                 straigth = ''
+                if diffs is not None:
+                    xdiffs.append(acc)
+                    acc = 0
             if straigth != '':
                 straigth = f'{straigth}. {phrase}'
             else:
                 straigth = phrase
+            acc += diffs[nphrase]
         merged.append(straigth)
-        return merged
+        if diffs is not None:
+            xdiffs.append(acc)
+        return merged, xdiffs[1:]
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                                                           #
 #   VALIDATION OF THE METHOD PRUPOSED - 3 MATRIX            #

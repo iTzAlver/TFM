@@ -37,3 +37,4 @@ $Neumáticos y contenedores quemados y una intensa hoguera a las puertas del rec
 Los antidisturbios han tenido que intervenir para despejar la vía
 Ha habido 11 heridos, 5 de ellos policías..
 y un taxista detenido por desobediencia y resistencia
+%[2.16, 2.04, 10.620000000000001, 6.359999999999999, 0.72, 12.11, 7.16, 4.4399999999999995, 1.84, 5.01, 2.72, 9.219999999999999, 5.8, 7.46, 2.24, 4.0, 3.16, 5.07, 5.23, 5.75, 2.75, 6.959999999999999, 5.4, 9.5, 2.76, 10.75, 4.36, 7.32, 1.67, 3.4, 1.92, 16.31, 3.88, 15.24, 15.46, 12.84, 2.36, 3.52, 3.24]

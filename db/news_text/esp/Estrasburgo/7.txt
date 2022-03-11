@@ -32,3 +32,4 @@ A falta de las pruebas forenses, la inspección ocular permite identificar a la 
 $Vamos en primer lugar al paraje donde han encontrado el cuerpo, cerca de El Campillo
 Ya se lo han llevado de allí al anatómico forense de Huelva donde determinarán las causas de la muerte
 $El cuerpo ha aparecido tapado bajo unos matorrales, en esta zona de muy difícil acceso
+%[7.52, 6.07, 3.76, 6.359999999999999, 0.88, 3.5199999999999996, 4.32, 6.390000000000001, 9.700000000000001, 3.11, 6.52, 6.31, 2.96, 4.76, 2.03, 4.76, 4.92, 4.4399999999999995, 4.22, 7.98, 4.67, 7.08, 5.84, 7.390000000000001, 3.22, 3.96, 2.96, 3.6, 4.2, 11.0, 5.6, 3.84, 7.6, 5.96]

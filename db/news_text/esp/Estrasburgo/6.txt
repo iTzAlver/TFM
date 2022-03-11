@@ -23,3 +23,4 @@ el miercoles se enfrenta en semis al Kashima japonés y lo veremos a las 17h30 e
 $Ellas son Sara Peláez, Asun Langa y Laura Piñeiro y esta tarde han hecho historia
 Por primera vez tres árbitras juntas han dirigido un partido de la liga femenina de baloncesto
 El que está enfrentando al Uni Girona y al Perfumerías Avenida de Salamanca
+%[21.84, 4.3500000000000005, 7.76, 1.76, 4.279999999999999, 8.83, 6.91, 4.800000000000001, 5.72, 2.24, 4.470000000000001, 7.880000000000001, 3.04, 8.3, 7.869999999999999, 4.52, 4.76, 12.34, 3.4299999999999997, 1.2, 14.870000000000001, 6.119999999999999, 5.52, 6.12, 4.2]

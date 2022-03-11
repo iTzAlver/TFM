@@ -34,3 +34,4 @@ Villarreal y Athletic, han empatado a 1 con polémica otra vez con el VAR
 El árbitro ha pitado fuera de juego en esta acción de Williams, que ha acabado en gol y que le podía haber dado la victoria a los leones
 $Y Jorge Lorenzo será operado mañana en Barcelona de una fractura del escafoides de la mano izquierda
 el piloto español se ha lesionado mientras entrenaba en Italia a poco más de dos semanas de los primeros entrenamiento oficiales de MotoGP
+%[6.16, 4.38, 3.34, 4.99, 5.12, 11.92, 1.4, 1.48, 5.880000000000001, 1.16, 8.0, 7.92, 1.2, 6.279999999999999, 5.83, 3.68, 5.47, 12.4, 7.640000000000001, 10.93, 7.879999999999999, 9.11, 9.57, 7.07, 5.14, 3.48, 0.88, 6.95, 1.12, 2.44, 1.44, 1.72, 3.6799999999999997, 7.390000000000001, 3.04, 6.19]

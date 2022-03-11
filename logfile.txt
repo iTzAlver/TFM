@@ -3077,3 +3077,1481 @@
 <Wed Mar  9 09:00:26 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
 <Wed Mar  9 09:00:52 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
 <Wed Mar  9 09:01:57 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Mar  9 09:05:09 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:05:59 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Mar  9 09:06:01 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:06:01 2022>	[Error]:	There is no target for test.
+<Wed Mar  9 09:06:08 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 09:06:10 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Mar  9 09:06:13 2022>	[Info]:	Time decorrelation enabled.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 09:06:59 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 09:07:07 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 09:07:13 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:07:13 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:07:14 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:07:14 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:07:18 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:07:22 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:07:23 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:07:29 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:07:29 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:07:31 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:07:31 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:07:39 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:07:39 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:07:40 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:07:40 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:07:45 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 09:10:34 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 09:10:35 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:10:35 2022>	[Error]:	There is no target for test.
+<Wed Mar  9 09:10:40 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 09:10:41 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:10:41 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:10:42 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:10:42 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:10:46 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:10:56 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:10:56 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:11:02 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:11:03 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:11:04 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:11:05 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:11:29 2022>	[Info]:	Decorrelation by time tokens set to 50.0.
+<Wed Mar  9 09:11:30 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:11:30 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:11:31 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:11:31 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:11:33 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:11:36 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:11:37 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:11:56 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 09:11:59 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:12:08 2022>	[Info]:	PM enabled for test.
+<Wed Mar  9 09:12:09 2022>	[Info]:	FB-BCM enabled for test.
+<Wed Mar  9 09:12:11 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:12:11 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:12:12 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:12:12 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:12:13 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:12:13 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:12:14 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 09:12:18 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:13:00 2022>	[Info]:	Decorrelation by time tokens set to 0.0.
+<Wed Mar  9 09:13:02 2022>	[Info]:	Decorrelation by time tokens set to 40.0.
+<Wed Mar  9 09:13:03 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:13:03 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:13:04 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:13:04 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:13:05 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:13:05 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:13:56 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:13:56 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:13:57 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:13:57 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:13:59 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:13:59 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:14:00 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 09:14:03 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:14:38 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:15:05 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:15:07 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:15:42 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:17:04 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:19:07 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:19:12 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:19:13 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:20:07 2022>	[Info]:	Decorrelation by time tokens set to 50.0.
+<Wed Mar  9 09:20:09 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:20:12 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:20:13 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:20:48 2022>	[Info]:	Decorrelation by time tokens set to 80.0.
+<Wed Mar  9 09:20:49 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:20:49 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:20:50 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:20:50 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:20:51 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:20:51 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:20:52 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:20:59 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:03 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:21:04 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:27 2022>	[Info]:	Decorrelation by time tokens set to 60.0.
+<Wed Mar  9 09:21:30 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:31 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:21:32 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:36 2022>	[Info]:	Decorrelation by time tokens set to 50.0.
+<Wed Mar  9 09:21:37 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:21:38 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:40 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:41 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:21:42 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:48 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Wed Mar  9 09:21:48 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:21:49 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:21:49 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:21:51 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:21:51 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:21:52 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:21:54 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:21:54 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:22:01 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 09:22:03 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:23:09 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:25:41 2022>	[Info]:	Sucesfully loaded model: sentence-transformers/multi-qa.
+<Wed Mar  9 09:25:45 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/eng/Julen_eng/1.txt to testing target.
+<Wed Mar  9 09:25:47 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 09:25:47 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:25:48 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:25:48 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 09:25:48 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:25:48 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:25:53 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:26:00 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:26:01 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:26:08 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:26:09 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:26:51 2022>	[Info]:	PM th set to 0.185 and oim to 1.
+<Wed Mar  9 09:26:51 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:26:52 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:26:52 2022>	[Info]:	PM launched with th=0.185 and oim=1.
+<Wed Mar  9 09:26:52 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:26:52 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:26:55 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:26:56 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:27:39 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:27:41 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:27:50 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:27:51 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:28:23 2022>	[Info]:	PM th set to 0.179 and oim to 1.
+<Wed Mar  9 09:28:24 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:28:24 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:28:24 2022>	[Info]:	PM launched with th=0.179 and oim=1.
+<Wed Mar  9 09:28:24 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:28:24 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:28:26 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:28:27 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:30:45 2022>	[Info]:	PM th set to 0.17 and oim to 1.
+<Wed Mar  9 09:30:45 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:30:46 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:30:46 2022>	[Info]:	PM launched with th=0.17 and oim=1.
+<Wed Mar  9 09:30:46 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 09:30:46 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:30:48 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:30:53 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:30:53 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:30:59 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:31:00 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:31:07 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:31:07 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:06 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:32:07 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:12 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:32:13 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:23 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:32:24 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:29 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:32:30 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:46 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:32:52 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:32:53 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:33:12 2022>	[Info]:	FB-BCM th set to 0.35.
+<Wed Mar  9 09:33:12 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 09:33:12 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 09:33:12 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Wed Mar  9 09:33:13 2022>	[Info]:	FB-BCM launched with th=0.35
+<Wed Mar  9 09:33:13 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 09:33:15 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:33:16 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:33:24 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:33:25 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:34:10 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:34:11 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:34:26 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:36:25 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:36:26 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:38:45 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Wed Mar  9 09:38:48 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 09:48:52 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:57:27 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 09:57:28 2022>	[Info]:	All images updated.
+<Wed Mar  9 09:57:42 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 09:57:43 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:13 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:16 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 10:00:17 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:22 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 10:00:23 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:28 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 10:00:30 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:45 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:46 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 10:00:47 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:00:50 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 10:00:51 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:01:02 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 10:01:04 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:01:28 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:34:29 2022>	[Info]:	All images updated.
+<Wed Mar  9 10:45:28 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 10:45:56 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 10:47:44 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 10:47:45 2022>	[Note]:	Disabled all files in translator.
+<Wed Mar  9 10:47:46 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 10:47:46 2022>	[Note]:	Unlocked translator and reader settings.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 12:33:04 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Mar  9 12:33:11 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 12:33:11 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 12:33:13 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 12:34:25 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 12:34:25 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 12:34:26 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 12:35:51 2022>	[Warning]:	Launcher did not start.
+<Wed Mar  9 12:35:51 2022>	[Note]:	In order to launch the targets, all features must be locked.
+<Wed Mar  9 12:35:59 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 12:39:08 2022>	[Warning]:	Launcher did not start.
+<Wed Mar  9 12:39:08 2022>	[Note]:	In order to launch the targets, all features must be locked.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 12:40:54 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 12:40:55 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 12:40:55 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 12:41:31 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 12:45:19 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 15:15:30 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 15:15:31 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 15:15:32 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Wed Mar  9 15:15:33 2022>	[Info]:	FB-BCM enabled for test.
+<Wed Mar  9 15:15:34 2022>	[Info]:	PM enabled for test.
+<Wed Mar  9 15:15:35 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 15:15:35 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 15:15:36 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 15:15:36 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 15:15:38 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 15:15:38 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 15:15:42 2022>	[Info]:	All images updated.
+<Wed Mar  9 15:16:06 2022>	[Info]:	Watch for FB-BCM.
+<Wed Mar  9 15:16:07 2022>	[Info]:	All images updated.
+<Wed Mar  9 15:16:11 2022>	[Info]:	Watch for PM.
+<Wed Mar  9 15:16:12 2022>	[Info]:	All images updated.
+<Wed Mar  9 15:16:44 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar  9 15:36:21 2022>	[Note]:	Enabled all files in translator.
+<Wed Mar  9 15:36:22 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 15:36:22 2022>	[Note]:	Unlocked translator and reader settings.
+<Wed Mar  9 15:36:26 2022>	[Note]:	Locked translator and reader settings.
+<Wed Mar  9 15:36:30 2022>	[Info]:	Created thread for all cases in translator.
+<Wed Mar  9 15:40:17 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Wed Mar  9 16:06:28 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Mar  9 16:06:30 2022>	[Info]:	Time decorrelation enabled.
+<Wed Mar  9 16:06:31 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 16:06:31 2022>	[Error]:	There is no target for test.
+<Wed Mar  9 16:06:37 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed Mar  9 16:06:37 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 16:06:38 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 16:06:39 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 16:06:39 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 16:06:41 2022>	[Info]:	FB-BCM enabled for test.
+<Wed Mar  9 16:06:42 2022>	[Info]:	PM enabled for test.
+<Wed Mar  9 16:06:43 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 16:06:43 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 16:06:44 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 16:06:44 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 16:06:45 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 16:06:45 2022>	[Info]:	Test processing finished.
+<Wed Mar  9 16:06:47 2022>	[Info]:	All images updated.
+<Wed Mar  9 16:07:00 2022>	[Info]:	Sucesfully loaded model: hiiamsid/sentence_similarity_s.
+<Wed Mar  9 16:07:00 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed Mar  9 16:07:00 2022>	[Info]:	Preprocessing for testing done.
+<Wed Mar  9 16:07:01 2022>	[Info]:	Correlation for testing done.
+<Wed Mar  9 16:07:01 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Mar  9 16:07:03 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Mar  9 16:07:03 2022>	[Info]:	Test processing finished.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 09:35:37 2022>	[Info]:	Added  to testing target.
+<Thu Mar 10 09:35:43 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 09:35:43 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 09:35:44 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 09:36:43 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 09:36:45 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 09:36:45 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 09:51:39 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 09:54:24 2022>	[Info]:	Added  to testing target.
+<Thu Mar 10 09:54:24 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 09:54:25 2022>	[Note]:	Translation disabled for reading.
+<Thu Mar 10 09:54:25 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 09:54:26 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 09:56:31 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 09:56:32 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 09:56:33 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 09:56:33 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 09:56:35 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 09:58:48 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:00:43 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:00:43 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:00:44 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:06:36 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:06:37 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:06:37 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 10:06:54 2022>	[Info]:	Translation completed for thread 1.
+<Thu Mar 10 10:08:31 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 10:08:33 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 10:08:34 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 10:08:39 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 10:08:45 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Thu Mar 10 10:08:45 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 10:08:46 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 10:12:23 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 10:12:25 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 10:12:25 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 10:12:49 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:13:46 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 10:13:47 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 10:13:48 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 10:13:48 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 10:13:53 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 10:13:55 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 10:13:55 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 10:13:57 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 10:14:19 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 10:14:23 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 10:14:24 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 10:14:42 2022>	[Info]:	All images updated.
+<Thu Mar 10 10:15:01 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 10:15:02 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:16:38 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 10:16:39 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 10:16:39 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 10:16:41 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 10:16:42 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 10:16:42 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 10:16:42 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 10:16:43 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 10:16:43 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 10:16:45 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 10:16:45 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 10:16:52 2022>	[Info]:	All images updated.
+<Thu Mar 10 10:16:55 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 10:16:55 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:25:07 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:25:07 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:25:08 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:34:47 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:34:48 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 10:34:49 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:34:50 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:34:50 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:39:59 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:40:00 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:40:01 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 10:40:04 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:40:04 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:44:25 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:44:25 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:44:27 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 10:44:29 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:44:30 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 10:45:12 2022>	[Info]:	Translation completed for thread 1.
+<Thu Mar 10 10:45:22 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 10:45:42 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 10:50:15 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 10:50:16 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 10:50:17 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 10:50:17 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:50:18 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 10:50:21 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 10:50:21 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 10:50:39 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:01:52 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:01:52 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:01:53 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:04:42 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:04:43 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:04:44 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:06:47 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:06:47 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:06:48 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 11:07:05 2022>	[Info]:	Translation completed for thread 1.
+<Thu Mar 10 11:07:49 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:08:55 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:08:55 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:08:55 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 11:09:13 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:11:23 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:11:23 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:11:24 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 11:11:26 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:11:27 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 11:11:51 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:13:08 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:13:08 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:13:09 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:16:50 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:16:51 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:16:51 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:18:19 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:18:19 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:18:20 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:22:43 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:22:43 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:22:44 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:39:15 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:39:16 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:39:16 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:42:42 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:42:42 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:42:43 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 11:45:32 2022>	[Warning]:	Launcher did not start.
+<Thu Mar 10 11:45:32 2022>	[Note]:	In order to launch the targets, all features must be locked.
+<Thu Mar 10 11:45:48 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:47:51 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:47:51 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:47:52 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:49:05 2022>	[Info]:	Added  to testing target.
+<Thu Mar 10 11:49:05 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:49:06 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:49:06 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:52:16 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:52:17 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:52:17 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:55:23 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:55:24 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:55:24 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 11:58:19 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 11:58:20 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 11:58:22 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 11:58:22 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 11:58:23 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:03:13 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:03:13 2022>	[Note]:	Translation disabled for reading.
+<Thu Mar 10 12:03:13 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:03:14 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:10:02 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:10:03 2022>	[Note]:	Translation disabled for reading.
+<Thu Mar 10 12:10:03 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:10:04 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 12:10:06 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:24:25 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:24:25 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:24:26 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:25:33 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:25:34 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:25:35 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:37:44 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:37:44 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:37:45 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:41:58 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:41:58 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:41:59 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 12:42:01 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:42:02 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:45:54 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:45:56 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:45:56 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:50:06 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:50:07 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:50:07 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 12:51:41 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 12:57:18 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 12:57:18 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 12:57:19 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:05:14 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:05:14 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:05:15 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 13:06:43 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:10:14 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:10:14 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:10:15 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:12:03 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:12:03 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:12:04 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 13:12:22 2022>	[Info]:	Translation completed for thread 1.
+<Thu Mar 10 13:14:09 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 13:14:10 2022>	[Note]:	Translation disabled for reading.
+<Thu Mar 10 13:14:10 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:14:10 2022>	[Info]:	Created thread for all cases in translator.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:19:07 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:19:07 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:19:08 2022>	[Note]:	Unlocked translator and reader settings.
+<Thu Mar 10 13:19:11 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:19:12 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 13:20:21 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:26:30 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:26:30 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:26:31 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 13:26:51 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:31:33 2022>	[Note]:	Enabled all files in translator.
+<Thu Mar 10 13:31:34 2022>	[Note]:	Locked translator and reader settings.
+<Thu Mar 10 13:31:35 2022>	[Info]:	Created thread for all cases in translator.
+<Thu Mar 10 13:31:53 2022>	[Info]:	Translation completed for thread 1.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:34:33 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen.
+<Thu Mar 10 13:34:36 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 13:34:37 2022>	[Note]:	Algorythm settings locked.
+<Thu Mar 10 13:34:44 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 13:34:46 2022>	[Info]:	Created thread 1 for case Julen in launcher.
+<Thu Mar 10 13:34:46 2022>	[Info]:	All threads launched.
+<Thu Mar 10 13:34:46 2022>	[Info]:	Thread 1 ended preprocessing.
+<Thu Mar 10 13:34:53 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Thu Mar 10 13:34:55 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Thu Mar 10 13:36:00 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Thu Mar 10 13:36:00 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Thu Mar 10 13:36:05 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Thu Mar 10 13:36:05 2022>	[Info]:	Thread 1 Tree Julen_1.3s written.
+<Thu Mar 10 13:36:07 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 13:52:42 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 13:52:48 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 13:52:49 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 13:52:49 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 13:53:03 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Thu Mar 10 13:53:03 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 13:53:04 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 13:53:49 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Thu Mar 10 13:53:49 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 13:53:50 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 17:33:22 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 17:33:22 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 17:33:24 2022>	[Info]:	Correlation for testing done.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 17:46:31 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 17:46:31 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 17:46:32 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 17:46:32 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 17:46:38 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 17:46:39 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 17:46:39 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 17:46:41 2022>	[Info]:	Correlation for testing done.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 17:51:47 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 17:51:47 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 17:51:52 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 17:51:52 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 17:51:53 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 17:51:53 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 17:51:53 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 17:51:55 2022>	[Info]:	Correlation for testing done.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:03:10 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:03:10 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:03:11 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:03:12 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:03:16 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:03:17 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:03:17 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:03:18 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:03:18 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:03:20 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:03:20 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:03:25 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Thu Mar 10 18:03:30 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Thu Mar 10 18:04:46 2022>	[Info]:	All images updated.
+<Thu Mar 10 18:04:49 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 18:04:50 2022>	[Info]:	All images updated.
+<Thu Mar 10 18:06:06 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:25:00 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:25:00 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:25:02 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:25:02 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:25:07 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:25:07 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:25:07 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:25:08 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:25:08 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:25:10 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:25:10 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:25:19 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:31:45 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:31:45 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:31:46 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:31:47 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:31:51 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:31:52 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Thu Mar 10 18:31:52 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:31:53 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:31:53 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:31:54 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:31:54 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:32:08 2022>	[Info]:	All images updated.
+<Thu Mar 10 18:33:11 2022>	[Info]:	Watch for FB-BCM.
+<Thu Mar 10 18:33:12 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:36:38 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:36:38 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:36:38 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:36:39 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:36:44 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:36:45 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:36:45 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:36:46 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:36:46 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:36:48 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:36:48 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:36:52 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:42:13 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:42:13 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:42:14 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:42:14 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:42:15 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:42:16 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:42:16 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:42:17 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:42:17 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:42:19 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:42:19 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:44:41 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:50:20 2022>	[Intro]:	- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:50:32 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:50:32 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:50:34 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:50:34 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:50:35 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:51:17 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 18:51:18 2022>	[Note]:	Correlation settings unlocked.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:52:09 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:52:09 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:53:45 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 18:53:45 2022>	[Note]:	Correlation settings unlocked.
+<Thu Mar 10 18:53:50 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:53:50 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:53:51 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:53:54 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:53:55 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:53:55 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:53:56 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:53:56 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:53:58 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:53:58 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:54:11 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 18:55:33 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 18:55:33 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 18:55:34 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 18:55:34 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 18:55:38 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 18:55:39 2022>	[Note]:	Correlation settings unlocked.
+<Thu Mar 10 18:55:43 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 18:55:50 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 18:55:50 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 18:55:51 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 18:55:51 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 18:55:52 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 18:55:52 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 18:56:03 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:04:28 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:04:29 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:04:30 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:04:34 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:04:41 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:04:43 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 19:04:43 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:04:44 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:04:44 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:04:45 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:04:45 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:04:50 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:04:56 2022>	[Info]:	All images updated.
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:07:34 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:07:35 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:07:35 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:07:40 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:07:41 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Thu Mar 10 19:07:41 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:07:42 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:07:42 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:07:44 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:07:44 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:08:15 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:08:25 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:08:59 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 19:09:01 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:09:07 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:09:08 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 19:09:09 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:10:05 2022>	[Warning]:	Model:   not found. 404 Client Error: Not Found for url: https://huggingface.co/api/models/sentence-transformers/%20
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:11:41 2022>	[Warning]:	Model:  already downloaded or empty.
+<Thu Mar 10 19:11:44 2022>	[Warning]:	Model:  already downloaded or empty.
+<Thu Mar 10 19:11:44 2022>	[Warning]:	Model:  already downloaded or empty.
+<Thu Mar 10 19:11:45 2022>	[Warning]:	Model:  already downloaded or empty.
+<Thu Mar 10 19:11:46 2022>	[Warning]:	Model:  already downloaded or empty.
+<Thu Mar 10 19:12:29 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:12:29 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 19:12:29 2022>	[Error]:	There is no target for test.
+<Thu Mar 10 19:12:57 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:12:58 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:12:58 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 19:12:59 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:12:59 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:13:00 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:13:00 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 19:13:00 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:13:01 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:13:01 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:13:03 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:13:03 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:13:08 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:13:35 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 19:13:36 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:32:49 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:32:49 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:32:50 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:32:53 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:32:54 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:32:54 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 19:32:54 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:32:56 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:32:56 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:32:57 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:32:57 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:33:04 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:37:27 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:37:27 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:37:28 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:37:28 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 19:37:33 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:37:34 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Mar 10 19:37:34 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:37:35 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:37:35 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:37:37 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:37:37 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:37:40 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:54:56 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:54:57 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:54:57 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 19:54:58 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:54:58 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:55:00 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:55:00 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 19:55:00 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:55:01 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:55:01 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:55:03 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:55:03 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:55:09 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:55:29 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 19:55:30 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 19:57:59 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 19:58:00 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 19:58:00 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 19:58:05 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Mar 10 19:58:06 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 19:58:06 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 19:58:06 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 19:58:07 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 19:58:07 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 19:58:09 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 19:58:09 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 19:58:10 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:58:19 2022>	[Info]:	All images updated.
+<Thu Mar 10 19:58:28 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 19:58:29 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:03:54 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 20:03:55 2022>	[Note]:	All targets selected.
+<Thu Mar 10 20:03:55 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 20:03:56 2022>	[Note]:	Algorythm settings locked.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 6 for case Augest in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 7 for case Diana in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 8 for case Diana_slices in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 9 for case Estrasburgo in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 10 for case Julen in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 11 for case NotreDame in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 12 for case Ramblas in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 13 for case Random in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Created thread 14 for case Singapur in launcher.
+<Thu Mar 10 20:03:57 2022>	[Info]:	All threads launched.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 8 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 10 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 13 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 9 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 7 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 14 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 11 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 12 ended preprocessing.
+<Thu Mar 10 20:03:57 2022>	[Info]:	Thread 6 ended preprocessing.
+<Thu Mar 10 20:04:11 2022>	[Info]:	Thread 9 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 7 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 8 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 10 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 6 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 14 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 11 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 13 loaded the correlation model sucesfully.
+<Thu Mar 10 20:04:18 2022>	[Info]:	Thread 12 loaded the correlation model sucesfully.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 20:12:57 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen.
+<Thu Mar 10 20:13:02 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/NotreDame.
+<Thu Mar 10 20:13:14 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Estrasburgo.
+<Thu Mar 10 20:13:24 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Singapur.
+<Thu Mar 10 20:13:36 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 20:13:37 2022>	[Note]:	Targets for launch unlocked.
+<Thu Mar 10 20:13:41 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 20:13:42 2022>	[Note]:	Algorythm settings locked.
+<Thu Mar 10 20:13:44 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Created thread 1 for case Julen in launcher.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Created thread 2 for case NotreDame in launcher.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Created thread 3 for case Estrasburgo in launcher.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Created thread 4 for case Singapur in launcher.
+<Thu Mar 10 20:13:45 2022>	[Info]:	All threads launched.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Thread 3 ended preprocessing.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Thread 1 ended preprocessing.
+<Thu Mar 10 20:13:45 2022>	[Info]:	Thread 2 ended preprocessing.
+<Thu Mar 10 20:13:54 2022>	[Info]:	Thread 2 loaded the correlation model sucesfully.
+<Thu Mar 10 20:13:56 2022>	[Info]:	Thread 2 correlated day 1 sucessfully.
+<Thu Mar 10 20:13:56 2022>	[Info]:	Thread 2 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:13:56 2022>	[Info]:	Thread 2 launched PM on day 1.
+<Thu Mar 10 20:13:57 2022>	[Info]:	Thread 3 loaded the correlation model sucesfully.
+<Thu Mar 10 20:13:57 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 3 correlated day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 3 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 3 launched PM on day 1.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 4 correlated day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 4 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:14:01 2022>	[Info]:	Thread 4 launched PM on day 1.
+<Thu Mar 10 20:14:16 2022>	[Info]:	Thread 2 launched FBBCM on day 1.
+<Thu Mar 10 20:14:16 2022>	[Info]:	Thread 2 Tree NotreDame_1.3s written.
+<Thu Mar 10 20:14:17 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Thu Mar 10 20:14:17 2022>	[Info]:	Thread 1 Tree Julen_1.3s written.
+<Thu Mar 10 20:14:21 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+<Thu Mar 10 20:14:21 2022>	[Info]:	Thread 1 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:14:21 2022>	[Info]:	Thread 1 launched PM on day 2.
+<Thu Mar 10 20:14:22 2022>	[Info]:	Thread 2 correlated day 2 sucessfully.
+<Thu Mar 10 20:14:22 2022>	[Info]:	Thread 2 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:14:22 2022>	[Info]:	Thread 2 launched PM on day 2.
+<Thu Mar 10 20:14:23 2022>	[Info]:	Thread 3 launched FBBCM on day 1.
+<Thu Mar 10 20:14:23 2022>	[Info]:	Thread 3 Tree Estrasburgo_1.3s written.
+<Thu Mar 10 20:14:24 2022>	[Info]:	Thread 4 launched FBBCM on day 1.
+<Thu Mar 10 20:14:24 2022>	[Info]:	Thread 4 Tree Singapur_1.3s written.
+<Thu Mar 10 20:14:27 2022>	[Info]:	Thread 3 correlated day 2 sucessfully.
+<Thu Mar 10 20:14:27 2022>	[Info]:	Thread 3 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:14:27 2022>	[Info]:	Thread 3 launched PM on day 2.
+<Thu Mar 10 20:14:28 2022>	[Info]:	Thread 4 correlated day 2 sucessfully.
+<Thu Mar 10 20:14:28 2022>	[Info]:	Thread 4 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:14:28 2022>	[Info]:	Thread 4 launched PM on day 2.
+<Thu Mar 10 20:14:32 2022>	[Info]:	Thread 1 launched FBBCM on day 2.
+<Thu Mar 10 20:14:32 2022>	[Info]:	Thread 1 Tree Julen_2.3s written.
+<Thu Mar 10 20:14:35 2022>	[Info]:	Thread 1 correlated day 3 sucessfully.
+<Thu Mar 10 20:14:35 2022>	[Info]:	Thread 1 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:14:35 2022>	[Info]:	Thread 1 launched PM on day 3.
+<Thu Mar 10 20:14:40 2022>	[Info]:	Thread 2 launched FBBCM on day 2.
+<Thu Mar 10 20:14:40 2022>	[Info]:	Thread 2 Tree NotreDame_2.3s written.
+<Thu Mar 10 20:14:42 2022>	[Info]:	Thread 2 correlated day 3 sucessfully.
+<Thu Mar 10 20:14:42 2022>	[Info]:	Thread 2 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:14:42 2022>	[Info]:	Thread 2 launched PM on day 3.
+<Thu Mar 10 20:14:46 2022>	[Info]:	Thread 4 launched FBBCM on day 2.
+<Thu Mar 10 20:14:46 2022>	[Info]:	Thread 4 Tree Singapur_2.3s written.
+<Thu Mar 10 20:14:50 2022>	[Info]:	Thread 4 correlated day 3 sucessfully.
+<Thu Mar 10 20:14:50 2022>	[Info]:	Thread 4 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:14:50 2022>	[Info]:	Thread 4 launched PM on day 3.
+<Thu Mar 10 20:14:59 2022>	[Info]:	Thread 2 launched FBBCM on day 3.
+<Thu Mar 10 20:14:59 2022>	[Info]:	Thread 2 Tree NotreDame_3.3s written.
+<Thu Mar 10 20:15:05 2022>	[Info]:	Thread 3 launched FBBCM on day 2.
+<Thu Mar 10 20:15:05 2022>	[Info]:	Thread 3 Tree Estrasburgo_2.3s written.
+<Thu Mar 10 20:15:06 2022>	[Info]:	Thread 1 launched FBBCM on day 3.
+<Thu Mar 10 20:15:06 2022>	[Info]:	Thread 1 Tree Julen_3.3s written.
+<Thu Mar 10 20:15:06 2022>	[Info]:	Thread 2 correlated day 4 sucessfully.
+<Thu Mar 10 20:15:06 2022>	[Info]:	Thread 2 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:15:06 2022>	[Info]:	Thread 2 launched PM on day 4.
+<Thu Mar 10 20:15:09 2022>	[Info]:	Thread 3 correlated day 3 sucessfully.
+<Thu Mar 10 20:15:09 2022>	[Info]:	Thread 3 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:15:09 2022>	[Info]:	Thread 3 launched PM on day 3.
+<Thu Mar 10 20:15:10 2022>	[Info]:	Thread 1 correlated day 4 sucessfully.
+<Thu Mar 10 20:15:10 2022>	[Info]:	Thread 1 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:15:10 2022>	[Info]:	Thread 1 launched PM on day 4.
+<Thu Mar 10 20:15:17 2022>	[Info]:	Thread 4 launched FBBCM on day 3.
+<Thu Mar 10 20:15:17 2022>	[Info]:	Thread 4 Tree Singapur_3.3s written.
+<Thu Mar 10 20:15:21 2022>	[Info]:	Thread 4 correlated day 4 sucessfully.
+<Thu Mar 10 20:15:21 2022>	[Info]:	Thread 4 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:15:21 2022>	[Info]:	Thread 4 launched PM on day 4.
+<Thu Mar 10 20:15:28 2022>	[Info]:	Thread 1 launched FBBCM on day 4.
+<Thu Mar 10 20:15:28 2022>	[Info]:	Thread 1 Tree Julen_4.3s written.
+<Thu Mar 10 20:15:32 2022>	[Info]:	Thread 1 correlated day 5 sucessfully.
+<Thu Mar 10 20:15:32 2022>	[Info]:	Thread 1 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:15:32 2022>	[Info]:	Thread 1 launched PM on day 5.
+<Thu Mar 10 20:15:42 2022>	[Info]:	Thread 3 launched FBBCM on day 3.
+<Thu Mar 10 20:15:42 2022>	[Info]:	Thread 3 Tree Estrasburgo_3.3s written.
+<Thu Mar 10 20:15:47 2022>	[Info]:	Thread 4 launched FBBCM on day 4.
+<Thu Mar 10 20:15:47 2022>	[Info]:	Thread 4 Tree Singapur_4.3s written.
+<Thu Mar 10 20:15:48 2022>	[Info]:	Thread 3 correlated day 4 sucessfully.
+<Thu Mar 10 20:15:48 2022>	[Info]:	Thread 3 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:15:48 2022>	[Info]:	Thread 3 launched PM on day 4.
+<Thu Mar 10 20:15:49 2022>	[Info]:	Thread 2 launched FBBCM on day 4.
+<Thu Mar 10 20:15:49 2022>	[Info]:	Thread 2 Tree NotreDame_4.3s written.
+<Thu Mar 10 20:15:51 2022>	[Info]:	Thread 4 correlated day 5 sucessfully.
+<Thu Mar 10 20:15:51 2022>	[Info]:	Thread 4 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:15:51 2022>	[Info]:	Thread 4 launched PM on day 5.
+<Thu Mar 10 20:15:52 2022>	[Info]:	Thread 2 correlated day 5 sucessfully.
+<Thu Mar 10 20:15:52 2022>	[Info]:	Thread 2 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:15:52 2022>	[Info]:	Thread 2 launched PM on day 5.
+<Thu Mar 10 20:16:05 2022>	[Info]:	Thread 1 launched FBBCM on day 5.
+<Thu Mar 10 20:16:05 2022>	[Info]:	Thread 1 Tree Julen_5.3s written.
+<Thu Mar 10 20:16:10 2022>	[Info]:	Thread 1 correlated day 6 sucessfully.
+<Thu Mar 10 20:16:10 2022>	[Info]:	Thread 1 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:16:10 2022>	[Info]:	Thread 1 launched PM on day 6.
+<Thu Mar 10 20:16:11 2022>	[Info]:	Thread 3 launched FBBCM on day 4.
+<Thu Mar 10 20:16:11 2022>	[Info]:	Thread 3 Tree Estrasburgo_4.3s written.
+<Thu Mar 10 20:16:14 2022>	[Info]:	Thread 3 correlated day 5 sucessfully.
+<Thu Mar 10 20:16:14 2022>	[Info]:	Thread 3 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:16:14 2022>	[Info]:	Thread 3 launched PM on day 5.
+<Thu Mar 10 20:16:19 2022>	[Info]:	Thread 2 launched FBBCM on day 5.
+<Thu Mar 10 20:16:19 2022>	[Info]:	Thread 2 Tree NotreDame_5.3s written.
+<Thu Mar 10 20:16:23 2022>	[Info]:	Thread 2 correlated day 6 sucessfully.
+<Thu Mar 10 20:16:23 2022>	[Info]:	Thread 2 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:16:23 2022>	[Info]:	Thread 2 launched PM on day 6.
+<Thu Mar 10 20:16:25 2022>	[Info]:	Thread 4 launched FBBCM on day 5.
+<Thu Mar 10 20:16:25 2022>	[Info]:	Thread 4 Tree Singapur_5.3s written.
+<Thu Mar 10 20:16:29 2022>	[Info]:	Thread 4 correlated day 6 sucessfully.
+<Thu Mar 10 20:16:29 2022>	[Info]:	Thread 4 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:16:29 2022>	[Info]:	Thread 4 launched PM on day 6.
+<Thu Mar 10 20:16:36 2022>	[Info]:	Thread 1 launched FBBCM on day 6.
+<Thu Mar 10 20:16:36 2022>	[Info]:	Thread 1 Tree Julen_6.3s written.
+<Thu Mar 10 20:16:37 2022>	[Info]:	Thread 3 launched FBBCM on day 5.
+<Thu Mar 10 20:16:37 2022>	[Info]:	Thread 3 Tree Estrasburgo_5.3s written.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 1 correlated day 7 sucessfully.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 3 correlated day 6 sucessfully.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 1 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 3 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 1 launched PM on day 7.
+<Thu Mar 10 20:16:41 2022>	[Info]:	Thread 3 launched PM on day 6.
+<Thu Mar 10 20:16:52 2022>	[Info]:	Thread 2 launched FBBCM on day 6.
+<Thu Mar 10 20:16:52 2022>	[Info]:	Thread 2 Tree NotreDame_6.3s written.
+<Thu Mar 10 20:16:57 2022>	[Info]:	Thread 2 correlated day 7 sucessfully.
+<Thu Mar 10 20:16:57 2022>	[Info]:	Thread 2 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:16:57 2022>	[Info]:	Thread 2 launched PM on day 7.
+<Thu Mar 10 20:16:59 2022>	[Info]:	Thread 3 launched FBBCM on day 6.
+<Thu Mar 10 20:16:59 2022>	[Info]:	Thread 3 Tree Estrasburgo_6.3s written.
+<Thu Mar 10 20:17:01 2022>	[Info]:	Thread 1 launched FBBCM on day 7.
+<Thu Mar 10 20:17:01 2022>	[Info]:	Thread 1 Tree Julen_7.3s written.
+<Thu Mar 10 20:17:03 2022>	[Info]:	Thread 3 correlated day 7 sucessfully.
+<Thu Mar 10 20:17:03 2022>	[Info]:	Thread 3 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:17:03 2022>	[Info]:	Thread 3 launched PM on day 7.
+<Thu Mar 10 20:17:05 2022>	[Info]:	Thread 1 correlated day 8 sucessfully.
+<Thu Mar 10 20:17:05 2022>	[Info]:	Thread 1 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:17:05 2022>	[Info]:	Thread 1 launched PM on day 8.
+<Thu Mar 10 20:17:06 2022>	[Info]:	Thread 4 launched FBBCM on day 6.
+<Thu Mar 10 20:17:06 2022>	[Info]:	Thread 4 Tree Singapur_6.3s written.
+<Thu Mar 10 20:17:08 2022>	[Info]:	Thread 4 correlated day 7 sucessfully.
+<Thu Mar 10 20:17:08 2022>	[Info]:	Thread 4 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:17:08 2022>	[Info]:	Thread 4 launched PM on day 7.
+<Thu Mar 10 20:17:21 2022>	[Info]:	Thread 1 launched FBBCM on day 8.
+<Thu Mar 10 20:17:21 2022>	[Info]:	Thread 1 Tree Julen_8.3s written.
+<Thu Mar 10 20:17:26 2022>	[Info]:	Thread 2 launched FBBCM on day 7.
+<Thu Mar 10 20:17:26 2022>	[Info]:	Thread 2 Tree NotreDame_7.3s written.
+<Thu Mar 10 20:17:27 2022>	[Info]:	Thread 1 correlated day 9 sucessfully.
+<Thu Mar 10 20:17:27 2022>	[Info]:	Thread 1 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:17:27 2022>	[Info]:	Thread 1 launched PM on day 9.
+<Thu Mar 10 20:17:27 2022>	[Info]:	Thread 3 launched FBBCM on day 7.
+<Thu Mar 10 20:17:27 2022>	[Info]:	Thread 3 Tree Estrasburgo_7.3s written.
+<Thu Mar 10 20:17:28 2022>	[Info]:	Thread 2 correlated day 8 sucessfully.
+<Thu Mar 10 20:17:28 2022>	[Info]:	Thread 2 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:17:28 2022>	[Info]:	Thread 2 launched PM on day 8.
+<Thu Mar 10 20:17:30 2022>	[Info]:	Thread 3 correlated day 8 sucessfully.
+<Thu Mar 10 20:17:30 2022>	[Info]:	Thread 3 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:17:30 2022>	[Info]:	Thread 3 launched PM on day 8.
+<Thu Mar 10 20:17:36 2022>	[Info]:	Thread 4 launched FBBCM on day 7.
+<Thu Mar 10 20:17:36 2022>	[Info]:	Thread 4 Tree Singapur_7.3s written.
+<Thu Mar 10 20:17:39 2022>	[Info]:	Thread 4 correlated day 8 sucessfully.
+<Thu Mar 10 20:17:39 2022>	[Info]:	Thread 4 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:17:39 2022>	[Info]:	Thread 4 launched PM on day 8.
+<Thu Mar 10 20:17:42 2022>	[Info]:	Thread 2 launched FBBCM on day 8.
+<Thu Mar 10 20:17:42 2022>	[Info]:	Thread 2 Tree NotreDame_8.3s written.
+<Thu Mar 10 20:17:46 2022>	[Info]:	Thread 2 correlated day 9 sucessfully.
+<Thu Mar 10 20:17:46 2022>	[Info]:	Thread 2 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:17:46 2022>	[Info]:	Thread 2 launched PM on day 9.
+<Thu Mar 10 20:17:48 2022>	[Info]:	Thread 1 launched FBBCM on day 9.
+<Thu Mar 10 20:17:48 2022>	[Info]:	Thread 1 Tree Julen_9.3s written.
+<Thu Mar 10 20:17:52 2022>	[Info]:	Thread 1 correlated day 10 sucessfully.
+<Thu Mar 10 20:17:52 2022>	[Info]:	Thread 1 posprocessed day 10 sucessfully.
+<Thu Mar 10 20:17:52 2022>	[Info]:	Thread 1 launched PM on day 10.
+<Thu Mar 10 20:17:58 2022>	[Info]:	Thread 4 launched FBBCM on day 8.
+<Thu Mar 10 20:17:58 2022>	[Info]:	Thread 4 Tree Singapur_8.3s written.
+<Thu Mar 10 20:18:02 2022>	[Info]:	Thread 4 correlated day 9 sucessfully.
+<Thu Mar 10 20:18:02 2022>	[Info]:	Thread 4 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:18:02 2022>	[Info]:	Thread 4 launched PM on day 9.
+<Thu Mar 10 20:18:05 2022>	[Info]:	Thread 3 launched FBBCM on day 8.
+<Thu Mar 10 20:18:05 2022>	[Info]:	Thread 3 Tree Estrasburgo_8.3s written.
+<Thu Mar 10 20:18:08 2022>	[Info]:	Thread 3 correlated day 9 sucessfully.
+<Thu Mar 10 20:18:08 2022>	[Info]:	Thread 3 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:18:08 2022>	[Info]:	Thread 3 launched PM on day 9.
+<Thu Mar 10 20:18:19 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
+<Thu Mar 10 20:18:19 2022>	[Info]:	Thread 1 Tree Julen_10.3s written.
+<Thu Mar 10 20:18:19 2022>	[Info]:	Thread 1 finished computation.
+<Thu Mar 10 20:18:19 2022>	[Info]:	Thread 2 launched FBBCM on day 9.
+<Thu Mar 10 20:18:19 2022>	[Info]:	Thread 2 Tree NotreDame_9.3s written.
+<Thu Mar 10 20:18:22 2022>	[Info]:	Thread 2 correlated day 10 sucessfully.
+<Thu Mar 10 20:18:22 2022>	[Info]:	Thread 2 posprocessed day 10 sucessfully.
+<Thu Mar 10 20:18:22 2022>	[Info]:	Thread 2 launched PM on day 10.
+<Thu Mar 10 20:18:23 2022>	[Info]:	Thread 4 launched FBBCM on day 9.
+<Thu Mar 10 20:18:23 2022>	[Info]:	Thread 4 Tree Singapur_9.3s written.
+<Thu Mar 10 20:18:23 2022>	[Info]:	Thread 4 finished computation.
+<Thu Mar 10 20:18:29 2022>	[Info]:	Thread 3 launched FBBCM on day 9.
+<Thu Mar 10 20:18:29 2022>	[Info]:	Thread 3 Tree Estrasburgo_9.3s written.
+<Thu Mar 10 20:18:31 2022>	[Info]:	Thread 3 correlated day 10 sucessfully.
+<Thu Mar 10 20:18:31 2022>	[Info]:	Thread 3 posprocessed day 10 sucessfully.
+<Thu Mar 10 20:18:31 2022>	[Info]:	Thread 3 launched PM on day 10.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 2 launched FBBCM on day 10.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 2 Tree NotreDame_10.3s written.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 2 finished computation.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 3 launched FBBCM on day 10.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 3 Tree Estrasburgo_10.3s written.
+<Thu Mar 10 20:18:38 2022>	[Info]:	Thread 3 finished computation.
+<Thu Mar 10 20:21:54 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_0.3s.
+<Thu Mar 10 20:22:13 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/1.txt to testing target.
+<Thu Mar 10 20:22:14 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 20:22:15 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 20:22:17 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 20:22:18 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 20:22:20 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 20:22:20 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 20:22:20 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 20:22:22 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 20:22:22 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 20:22:25 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 20:22:25 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 20:22:27 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:22:36 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 20:22:38 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:23:50 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:29:19 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Thu Mar 10 20:29:23 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Thu Mar 10 20:32:01 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_0.3s.
+<Thu Mar 10 20:32:07 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/1.txt to testing target.
+<Thu Mar 10 20:32:12 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:32:49 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/1.txt to testing target.
+<Thu Mar 10 20:33:06 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_0.3s.
+<Thu Mar 10 20:33:10 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Thu Mar 10 20:33:16 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 20:34:16 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 20:34:17 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 20:34:18 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 20:34:19 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 20:34:35 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana.
+<Thu Mar 10 20:34:38 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 20:34:39 2022>	[Note]:	Algorythm settings locked.
+<Thu Mar 10 20:34:41 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 20:34:42 2022>	[Info]:	Created thread 1 for case Diana in launcher.
+<Thu Mar 10 20:34:42 2022>	[Info]:	All threads launched.
+<Thu Mar 10 20:34:42 2022>	[Info]:	Thread 1 ended preprocessing.
+<Thu Mar 10 20:34:49 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Thu Mar 10 20:34:51 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Thu Mar 10 20:34:51 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:34:52 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Thu Mar 10 20:34:59 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Thu Mar 10 20:34:59 2022>	[Info]:	Thread 1 Tree Diana_1.3s written.
+<Thu Mar 10 20:35:02 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+<Thu Mar 10 20:35:02 2022>	[Info]:	Thread 1 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:35:02 2022>	[Info]:	Thread 1 launched PM on day 2.
+<Thu Mar 10 20:35:07 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_0.3s.
+<Thu Mar 10 20:35:11 2022>	[Info]:	Thread 1 launched FBBCM on day 2.
+<Thu Mar 10 20:35:11 2022>	[Info]:	Thread 1 Tree Diana_2.3s written.
+<Thu Mar 10 20:35:14 2022>	[Info]:	Thread 1 correlated day 3 sucessfully.
+<Thu Mar 10 20:35:14 2022>	[Info]:	Thread 1 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:35:14 2022>	[Info]:	Thread 1 launched PM on day 3.
+<Thu Mar 10 20:35:21 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_1.3s.
+<Thu Mar 10 20:35:24 2022>	[Info]:	Thread 1 launched FBBCM on day 3.
+<Thu Mar 10 20:35:24 2022>	[Info]:	Thread 1 Tree Diana_3.3s written.
+<Thu Mar 10 20:35:27 2022>	[Info]:	Thread 1 correlated day 4 sucessfully.
+<Thu Mar 10 20:35:27 2022>	[Info]:	Thread 1 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:35:27 2022>	[Info]:	Thread 1 launched PM on day 4.
+<Thu Mar 10 20:35:33 2022>	[Info]:	Thread 1 launched FBBCM on day 4.
+<Thu Mar 10 20:35:33 2022>	[Info]:	Thread 1 Tree Diana_4.3s written.
+<Thu Mar 10 20:35:35 2022>	[Info]:	Thread 1 correlated day 5 sucessfully.
+<Thu Mar 10 20:35:35 2022>	[Info]:	Thread 1 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:35:35 2022>	[Info]:	Thread 1 launched PM on day 5.
+<Thu Mar 10 20:35:45 2022>	[Info]:	Thread 1 launched FBBCM on day 5.
+<Thu Mar 10 20:35:45 2022>	[Info]:	Thread 1 Tree Diana_5.3s written.
+<Thu Mar 10 20:35:47 2022>	[Info]:	Thread 1 correlated day 6 sucessfully.
+<Thu Mar 10 20:35:47 2022>	[Info]:	Thread 1 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:35:47 2022>	[Info]:	Thread 1 launched PM on day 6.
+<Thu Mar 10 20:35:49 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/1.txt to testing target.
+<Thu Mar 10 20:35:50 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 20:35:50 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 20:35:50 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 20:35:53 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 20:35:53 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 20:36:01 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 20:36:01 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 20:36:02 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:35:59 2022>	[Info]:	Thread 1 launched FBBCM on day 6.
+<Thu Mar 10 20:36:02 2022>	[Info]:	Thread 1 Tree Diana_6.3s written.
+<Thu Mar 10 20:36:07 2022>	[Info]:	Thread 1 correlated day 7 sucessfully.
+<Thu Mar 10 20:36:07 2022>	[Info]:	Thread 1 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:36:07 2022>	[Info]:	Thread 1 launched PM on day 7.
+<Thu Mar 10 20:36:10 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 20:36:12 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:36:16 2022>	[Info]:	Thread 1 launched FBBCM on day 7.
+<Thu Mar 10 20:36:16 2022>	[Info]:	Thread 1 Tree Diana_7.3s written.
+<Thu Mar 10 20:36:18 2022>	[Info]:	Thread 1 correlated day 8 sucessfully.
+<Thu Mar 10 20:36:18 2022>	[Info]:	Thread 1 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:36:18 2022>	[Info]:	Thread 1 launched PM on day 8.
+<Thu Mar 10 20:36:25 2022>	[Info]:	Thread 1 launched FBBCM on day 8.
+<Thu Mar 10 20:36:25 2022>	[Info]:	Thread 1 Tree Diana_8.3s written.
+<Thu Mar 10 20:36:26 2022>	[Info]:	Thread 1 correlated day 9 sucessfully.
+<Thu Mar 10 20:36:26 2022>	[Info]:	Thread 1 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:36:26 2022>	[Info]:	Thread 1 launched PM on day 9.
+<Thu Mar 10 20:36:35 2022>	[Info]:	Thread 1 launched FBBCM on day 9.
+<Thu Mar 10 20:36:35 2022>	[Info]:	Thread 1 Tree Diana_9.3s written.
+<Thu Mar 10 20:36:36 2022>	[Info]:	Thread 1 correlated day 10 sucessfully.
+<Thu Mar 10 20:36:36 2022>	[Info]:	Thread 1 posprocessed day 10 sucessfully.
+<Thu Mar 10 20:36:36 2022>	[Info]:	Thread 1 launched PM on day 10.
+<Thu Mar 10 20:36:41 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
+<Thu Mar 10 20:36:41 2022>	[Info]:	Thread 1 Tree Diana_10.3s written.
+<Thu Mar 10 20:36:41 2022>	[Info]:	Thread 1 finished computation.
+<Thu Mar 10 20:37:21 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_1.3s.
+<Thu Mar 10 20:37:30 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Thu Mar 10 20:38:30 2022>	[Info]:	Created thread 1 for case Diana in launcher.
+<Thu Mar 10 20:38:30 2022>	[Info]:	All threads launched.
+<Thu Mar 10 20:38:30 2022>	[Info]:	Thread 1 ended preprocessing.
+<Thu Mar 10 20:38:38 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Thu Mar 10 20:38:40 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Thu Mar 10 20:38:40 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 10 20:42:01 2022>	[Info]:	Time decorrelation enabled.
+<Thu Mar 10 20:42:02 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Mar 10 20:42:02 2022>	[Info]:	FB-BCM enabled for test.
+<Thu Mar 10 20:42:03 2022>	[Info]:	PM enabled for test.
+<Thu Mar 10 20:42:07 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/10.txt to testing target.
+<Thu Mar 10 20:42:11 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu Mar 10 20:42:11 2022>	[Warning]:	Default action for last error: launching test.
+<Thu Mar 10 20:42:11 2022>	[Info]:	Preprocessing for testing done.
+<Thu Mar 10 20:42:13 2022>	[Info]:	Correlation for testing done.
+<Thu Mar 10 20:42:13 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Mar 10 20:42:15 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Mar 10 20:42:15 2022>	[Info]:	Test processing finished.
+<Thu Mar 10 20:42:16 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:42:19 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 20:42:20 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:43:27 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:43:37 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:43:44 2022>	[Info]:	Watch for PM.
+<Thu Mar 10 20:43:45 2022>	[Info]:	All images updated.
+<Thu Mar 10 20:48:17 2022>	[Warning]:	Cannot add file '' to launch target scope. Maybe it is already selected.
+<Thu Mar 10 20:48:24 2022>	[Note]:	Algorythm settings locked.
+<Thu Mar 10 20:48:29 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana.
+<Thu Mar 10 20:48:32 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
+<Thu Mar 10 20:48:34 2022>	[Note]:	Correlation settings locked.
+<Thu Mar 10 20:48:37 2022>	[Note]:	Targets for launch locked.
+<Thu Mar 10 20:48:38 2022>	[Info]:	Created thread 1 for case Diana in launcher.
+<Thu Mar 10 20:48:38 2022>	[Info]:	All threads launched.
+<Thu Mar 10 20:48:38 2022>	[Info]:	Thread 1 ended preprocessing.
+<Thu Mar 10 20:48:46 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Thu Mar 10 20:48:48 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Thu Mar 10 20:48:48 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Thu Mar 10 20:48:48 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Thu Mar 10 20:48:51 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Thu Mar 10 20:48:51 2022>	[Info]:	Thread 1 Tree Diana_1.3s written.
+<Thu Mar 10 20:48:54 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+<Thu Mar 10 20:48:54 2022>	[Info]:	Thread 1 posprocessed day 2 sucessfully.
+<Thu Mar 10 20:48:54 2022>	[Info]:	Thread 1 launched PM on day 2.
+<Thu Mar 10 20:48:58 2022>	[Info]:	Thread 1 launched FBBCM on day 2.
+<Thu Mar 10 20:48:58 2022>	[Info]:	Thread 1 Tree Diana_2.3s written.
+<Thu Mar 10 20:49:00 2022>	[Info]:	Thread 1 correlated day 3 sucessfully.
+<Thu Mar 10 20:49:00 2022>	[Info]:	Thread 1 posprocessed day 3 sucessfully.
+<Thu Mar 10 20:49:00 2022>	[Info]:	Thread 1 launched PM on day 3.
+<Thu Mar 10 20:49:04 2022>	[Info]:	Thread 1 launched FBBCM on day 3.
+<Thu Mar 10 20:49:04 2022>	[Info]:	Thread 1 Tree Diana_3.3s written.
+<Thu Mar 10 20:49:06 2022>	[Info]:	Thread 1 correlated day 4 sucessfully.
+<Thu Mar 10 20:49:06 2022>	[Info]:	Thread 1 posprocessed day 4 sucessfully.
+<Thu Mar 10 20:49:06 2022>	[Info]:	Thread 1 launched PM on day 4.
+<Thu Mar 10 20:49:09 2022>	[Info]:	Thread 1 launched FBBCM on day 4.
+<Thu Mar 10 20:49:10 2022>	[Info]:	Thread 1 Tree Diana_4.3s written.
+<Thu Mar 10 20:49:12 2022>	[Info]:	Thread 1 correlated day 5 sucessfully.
+<Thu Mar 10 20:49:12 2022>	[Info]:	Thread 1 posprocessed day 5 sucessfully.
+<Thu Mar 10 20:49:12 2022>	[Info]:	Thread 1 launched PM on day 5.
+<Thu Mar 10 20:49:15 2022>	[Info]:	Thread 1 launched FBBCM on day 5.
+<Thu Mar 10 20:49:15 2022>	[Info]:	Thread 1 Tree Diana_5.3s written.
+<Thu Mar 10 20:49:17 2022>	[Info]:	Thread 1 correlated day 6 sucessfully.
+<Thu Mar 10 20:49:17 2022>	[Info]:	Thread 1 posprocessed day 6 sucessfully.
+<Thu Mar 10 20:49:18 2022>	[Info]:	Thread 1 launched PM on day 6.
+<Thu Mar 10 20:49:20 2022>	[Info]:	Thread 1 launched FBBCM on day 6.
+<Thu Mar 10 20:49:20 2022>	[Info]:	Thread 1 Tree Diana_6.3s written.
+<Thu Mar 10 20:49:23 2022>	[Info]:	Thread 1 correlated day 7 sucessfully.
+<Thu Mar 10 20:49:23 2022>	[Info]:	Thread 1 posprocessed day 7 sucessfully.
+<Thu Mar 10 20:49:23 2022>	[Info]:	Thread 1 launched PM on day 7.
+<Thu Mar 10 20:49:30 2022>	[Info]:	Thread 1 launched FBBCM on day 7.
+<Thu Mar 10 20:49:30 2022>	[Info]:	Thread 1 Tree Diana_7.3s written.
+<Thu Mar 10 20:49:32 2022>	[Info]:	Thread 1 correlated day 8 sucessfully.
+<Thu Mar 10 20:49:32 2022>	[Info]:	Thread 1 posprocessed day 8 sucessfully.
+<Thu Mar 10 20:49:32 2022>	[Info]:	Thread 1 launched PM on day 8.
+<Thu Mar 10 20:49:35 2022>	[Info]:	Thread 1 launched FBBCM on day 8.
+<Thu Mar 10 20:49:35 2022>	[Info]:	Thread 1 Tree Diana_8.3s written.
+<Thu Mar 10 20:49:37 2022>	[Info]:	Thread 1 correlated day 9 sucessfully.
+<Thu Mar 10 20:49:37 2022>	[Info]:	Thread 1 posprocessed day 9 sucessfully.
+<Thu Mar 10 20:49:37 2022>	[Info]:	Thread 1 launched PM on day 9.
+<Thu Mar 10 20:49:41 2022>	[Info]:	Thread 1 launched FBBCM on day 9.
+<Thu Mar 10 20:49:41 2022>	[Info]:	Thread 1 Tree Diana_9.3s written.
+<Thu Mar 10 20:49:42 2022>	[Info]:	Thread 1 correlated day 10 sucessfully.
+<Thu Mar 10 20:49:42 2022>	[Info]:	Thread 1 posprocessed day 10 sucessfully.
+<Thu Mar 10 20:49:42 2022>	[Info]:	Thread 1 launched PM on day 10.
+<Thu Mar 10 20:49:44 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
+<Thu Mar 10 20:49:44 2022>	[Info]:	Thread 1 Tree Diana_10.3s written.
+<Thu Mar 10 20:49:44 2022>	[Info]:	Thread 1 finished computation.
+<Thu Mar 10 20:49:58 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/Diana_10.3s.
+<Thu Mar 10 20:50:05 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Fri Mar 11 09:26:23 2022>	[Info]:	Time decorrelation enabled.
+<Fri Mar 11 09:26:24 2022>	[Info]:	FB-BCM enabled for test.
+<Fri Mar 11 09:26:24 2022>	[Info]:	PM enabled for test.
+<Fri Mar 11 09:26:31 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Fri Mar 11 09:26:34 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Fri Mar 11 09:26:34 2022>	[Warning]:	Default action for last error: launching test.
+<Fri Mar 11 09:26:34 2022>	[Info]:	Preprocessing for testing done.
+<Fri Mar 11 09:26:35 2022>	[Info]:	Correlation for testing done.
+<Fri Mar 11 09:26:35 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Fri Mar 11 09:26:37 2022>	[Info]:	FB-BCM launched with th=0.5
+<Fri Mar 11 09:26:37 2022>	[Info]:	Test processing finished.
+<Fri Mar 11 09:26:38 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:26:42 2022>	[Info]:	Watch for PM.
+<Fri Mar 11 09:26:43 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:37:44 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/10.txt to testing target.
+<Fri Mar 11 09:37:47 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:37:52 2022>	[Info]:	Watch for PM.
+<Fri Mar 11 09:37:52 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:38:06 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/10.txt to testing target.
+<Fri Mar 11 09:38:09 2022>	[Info]:	FB-BCM th set to 0.5.
+<Fri Mar 11 09:38:09 2022>	[Info]:	Preprocessing for testing done.
+<Fri Mar 11 09:38:10 2022>	[Info]:	Correlation for testing done.
+<Fri Mar 11 09:38:10 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Fri Mar 11 09:38:12 2022>	[Info]:	FB-BCM launched with th=0.5
+<Fri Mar 11 09:38:12 2022>	[Info]:	Test processing finished.
+<Fri Mar 11 09:38:14 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:38:18 2022>	[Info]:	Watch for PM.
+<Fri Mar 11 09:38:19 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:48:04 2022>	[Info]:	Watch for PM.
+<Fri Mar 11 09:48:05 2022>	[Info]:	All images updated.
+<Fri Mar 11 09:48:08 2022>	[Info]:	All images updated.
+<Fri Mar 11 10:04:23 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Fri Mar 11 11:21:03 2022>	[Info]:	Time decorrelation enabled.
+<Fri Mar 11 11:21:06 2022>	[Info]:	FB-BCM enabled for test.
+<Fri Mar 11 11:21:06 2022>	[Info]:	PM enabled for test.
+<Fri Mar 11 11:21:11 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Fri Mar 11 11:21:14 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Fri Mar 11 11:21:14 2022>	[Warning]:	Default action for last error: launching test.
+<Fri Mar 11 11:21:14 2022>	[Info]:	Preprocessing for testing done.
+<Fri Mar 11 11:21:15 2022>	[Info]:	Correlation for testing done.
+<Fri Mar 11 11:21:15 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Fri Mar 11 11:21:17 2022>	[Info]:	FB-BCM launched with th=0.5
+<Fri Mar 11 11:21:17 2022>	[Info]:	Test processing finished.
+<Fri Mar 11 11:21:18 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Fri Mar 11 11:28:29 2022>	[Info]:	Showing up tree C:/Users/ialve/Desktop/intra-day_platform/db/trees/test_tree.3s.
+<Fri Mar 11 11:28:59 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Fri Mar 11 11:28:59 2022>	[Warning]:	Default action for last error: launching test.
+<Fri Mar 11 11:28:59 2022>	[Error]:	There is no target for test.
+<Fri Mar 11 11:29:03 2022>	[Info]:	Time decorrelation enabled.
+<Fri Mar 11 11:29:04 2022>	[Info]:	FB-BCM enabled for test.
+<Fri Mar 11 11:29:04 2022>	[Info]:	PM enabled for test.
+<Fri Mar 11 11:29:09 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Fri Mar 11 11:29:16 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Fri Mar 11 11:29:16 2022>	[Warning]:	Default action for last error: launching test.
+<Fri Mar 11 11:29:16 2022>	[Info]:	Preprocessing for testing done.
+<Fri Mar 11 11:29:17 2022>	[Info]:	Correlation for testing done.
+<Fri Mar 11 11:29:17 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Fri Mar 11 11:29:19 2022>	[Info]:	FB-BCM launched with th=0.5
+<Fri Mar 11 11:29:19 2022>	[Info]:	Test processing finished.
+<Fri Mar 11 11:29:20 2022>	[Info]:	All images updated.
+<Fri Mar 11 11:29:38 2022>	[Info]:	Watch for PM.
+<Fri Mar 11 11:29:39 2022>	[Info]:	All images updated.
+<Fri Mar 11 11:29:48 2022>	[Info]:	All images updated.
+<Fri Mar 11 11:29:50 2022>	[Info]:	Watch for FB-BCM.
+<Fri Mar 11 11:29:52 2022>	[Info]:	All images updated.

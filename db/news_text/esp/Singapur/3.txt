@@ -37,3 +37,4 @@ Cuando no hay consenso, no sale casi nada
 El nuevo ministro dice que buscará el acuerdo político
 José Guirao llega al cargo después de haber sido un gestor en museos y fundaciones
 Por eso, la economía ha sido, también, uno de los ejes de su discurso al recibir la cartera ministerial
+%[1.76, 7.63, 8.88, 0.8, 3.19, 1.76, 2.87, 5.19, 3.28, 4.48, 8.67, 10.87, 10.0, 5.869999999999999, 8.67, 9.72, 6.5, 8.030000000000001, 8.830000000000002, 14.42, 7.199999999999999, 2.88, 3.4800000000000004, 4.88, 7.51, 4.8100000000000005, 8.28, 3.44, 3.3099999999999996, 2.44, 2.4000000000000004, 5.35, 3.64, 2.2, 7.4, 3.47, 3.6, 4.28, 7.550000000000001]

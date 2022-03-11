@@ -18,9 +18,7 @@ La oposición le pide que intervenga la Generalitat y convoque elecciones genera
 $-Contará con la respuesta firme pero serena, proporcional y contundente
 -Ponga orden en Cataluña y si no, convoque elecciones, que pondremos orden nosotros
 -Hay muchos sectores que le están presionando para que usted incendie Cataluña
--¿A qué espera el sr
-Sánchez, a que haya muertos, como dice el sr
-Torra? -Por desgracia y por desgracia nos van a abocar de nuevo a la desobediencia
+-¿A qué espera el sr. Sánchez, a que haya muertos, como dice el sr. Torra? -Por desgracia y por desgracia nos van a abocar de nuevo a la desobediencia
 $Y en el parlamento catalán
 Quim Torra ha vuelto a defender el ejemplo de Eslovenia, aunque dice que rechaza la violencia
 Inés Arrimadas, de Ciudadanos, pide la aplicación del artículo 155 y destaca que los llamados CDR preparan acciones para la semana que viene
@@ -43,3 +41,4 @@ $Si, ultimo partido de la fase de grupos para el Real Madrid y victoria con Isco
 $Y les contaremos también lo que sucedió anoche en Francia
 Se jugaba el partido de la Eurocup entre el Estrasburgo y el Ljubliana y coincidió con el caos en la ciudad por el atentado
 $Los aficionados se pusieron a cantar la Marsellesa
+%[2.95, 1.48, 5.59, 2.8, 1.16, 2.27, 3.8, 12.71, 9.59, 5.92, 1.0, 5.4399999999999995, 19.91, 10.92, 1.11, 2.27, 5.75, 5.27, 4.55, 4.48, 10.47, 1.84, 4.92, 7.79, 3.12, 5.43, 5.2, 9.44, 5.75, 4.35, 3.9899999999999998, 3.23, 1.56, 4.92, 5.47, 5.28, 4.800000000000001, 4.28, 6.2, 8.84, 3.56, 6.8, 6.76]
