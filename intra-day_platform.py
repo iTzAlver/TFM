@@ -22,6 +22,7 @@ import package.dserial as ds
 import package.model_correlate as fbbcm
 import package.news_reading as nr
 import package.token_processing as tp
+from package.error_calculation import CalculateError
 from package.pm import Pbmm
 from package.styles import ColorStyles, HoverButton
 
@@ -34,6 +35,7 @@ MAIN_TEXTBASE_LOCATION = r'./db/news_text/'
 LOG_FILE_PATH = r'./logfile.txt'
 IMAGE_PATH = r'./.multimedia/'
 TREES_DIR = r'./db/trees/'
+GT_DIR = r'db/groundtruth/f1/'
 
 CStyles = ColorStyles
 cat2color = {'Info': CStyles.pink, 'Warning': CStyles.orange, 'Error': CStyles.red, 'Note': CStyles.blue}
@@ -269,11 +271,11 @@ class MainWindow:
         self.toolbar1 = None
         self.toolbar2 = None
         self.toolbar3 = None
-        self.fbbcmth_test = None
-        self.pmth_test = None
-        self.oim_test = None
-        self.pmen_test = False
-        self.fbbcmen_test = False
+        self.fbbcmth_test = 0.5
+        self.pmth_test = 0.2
+        self.oim_test = 1
+        self.pmen_test = True
+        self.fbbcmen_test = True
         self.sentence_stream_pm = []
         self.pm_segmentation = []
         self.watch_fbbcm = False
@@ -430,7 +432,7 @@ class MainWindow:
         self.fbbcm_launchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_launch, bg=self.colors.red,
                                               image=self.rocketlaunchS_img).place(x=142, y=30)
         self.fbbcm_enablebutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_enable, bg=self.colors.orange,
-                                              text="Enable FB-BCM", heigh=2).place(x=48, y=31)
+                                              text="Disable FB-BCM", heigh=2).place(x=48, y=31)
         # -------------------------------------------------------------------------------------------------------------
         #                       PM      METHOD
         # -------------------------------------------------------------------------------------------------------------
@@ -451,7 +453,7 @@ class MainWindow:
         self.pm_launchbutton = HoverButton(self.pmtoken_lf, command=self.pm_launch, bg=self.colors.red,
                                            image=self.rocketlaunchS_img).place(x=143, y=80)
         self.pm_enablebutton = HoverButton(self.pmtoken_lf, command=self.pm_enable, bg=self.colors.orange,
-                                           text="Enable PM", width=12, heigh=2).place(x=48, y=81)
+                                           text="Disable PM", width=12, heigh=2).place(x=48, y=81)
         # -------------------------------------------------------------------------------------------------------------
         #                       TOKEN   CONTROL
         # -------------------------------------------------------------------------------------------------------------
@@ -1113,7 +1115,6 @@ class MainWindow:
         self.canvas3.get_tk_widget().pack()
         self.lowrite(f'All images updated.', cat='Info')
         plt.close()
-
         return
 
     def launch_test(self) -> None:
@@ -1126,6 +1127,12 @@ class MainWindow:
                                oim=self.oim_test, pmen=self.pmen_test, fbbcmen=self.fbbcmen_test)
 
             self.textsel["values"] = [f'{tree.nTree}' for tree in self.test_tree]
+
+            tgt = self.test_target
+            filename = tgt.replace('news_text/esp', 'groundtruth/f1')
+            if os.path.exists(filename):
+                self.lowrite(f'Found groundtruth at {filename}', cat='Info')
+                self.lowrite(CalculateError(filename, 'test_tree').__repr__())
         else:
             self.lowrite('There is no target for test.', cat='Error')
         return
