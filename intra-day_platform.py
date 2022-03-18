@@ -5,6 +5,7 @@
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
+import multiprocessing
 import os
 import time
 from threading import Thread
@@ -51,6 +52,11 @@ def main() -> None:
     root_node.configure()
     root_node.mainloop()
     return
+
+
+def opt_tgt(*args) -> None:
+    OptimizationWindow(*args)
+    return None
 
 
 def tree_tracer(*args):
@@ -282,6 +288,9 @@ class MainWindow:
         self.watch_pm = False
 
         self.timestudy = None
+        self.errors_listing = []
+
+        self.ow = None
         # - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         self.launcher_corr_lock_v = BooleanVar()
         self.launcher_algo_lock_v = BooleanVar()
@@ -430,30 +439,32 @@ class MainWindow:
         self.fbbcm_watchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_watch, bg=self.colors.red,
                                              image=self.watch_img).place(x=4, y=30)
         self.fbbcm_launchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_launch, bg=self.colors.red,
-                                              image=self.rocketlaunchS_img).place(x=142, y=30)
+                                              image=self.rocketlaunchS_img).place(x=143, y=30)
         self.fbbcm_enablebutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_enable, bg=self.colors.orange,
-                                              text="Disable FB-BCM", heigh=2).place(x=48, y=31)
+                                              text="Disable FB-BCM", heigh=2).place(x=47, y=31)
         # -------------------------------------------------------------------------------------------------------------
         #                       PM      METHOD
         # -------------------------------------------------------------------------------------------------------------
-        self.pmtoken_lf = LabelFrame(self.master, width=195, height=150, text='PM algorythm')
+        self.pmtoken_lf = LabelFrame(self.master, width=195, height=120, text='PM algorythm')
         self.pmtoken_lf.place(x=410, y=110)
-        self.pm_infoth = Label(self.pmtoken_lf, text='Method\'s threshold:').place(x=5, y=10)
+        self.pm_infoth = Label(self.pmtoken_lf, text='Method\'s threshold:').place(x=5, y=5)
         self.pm_thentry = Entry(self.pmtoken_lf, width=8)
         self.pm_thentry.pack()
-        self.pm_thentry.place(x=125, y=10)
+        self.pm_thentry.place(x=125, y=5)
         self.pm_thentry.insert(-1, '0.20')
-        self.pm_infooim = Label(self.pmtoken_lf, text='Method\'s stages:').place(x=5, y=32)
+        self.pm_infooim = Label(self.pmtoken_lf, text='Method\'s stages:').place(x=5, y=27)
         self.pm_oimentry = Entry(self.pmtoken_lf, width=8)
         self.pm_oimentry.pack()
-        self.pm_oimentry.place(x=125, y=32)
+        self.pm_oimentry.place(x=125, y=27)
         self.pm_oimentry.insert(-1, '1')
         self.pm_watchbutton = HoverButton(self.pmtoken_lf, command=self.pm_watch, bg=self.colors.red,
-                                          image=self.watch_img).place(x=4, y=80)
+                                          image=self.watch_img).place(x=4, y=52)
         self.pm_launchbutton = HoverButton(self.pmtoken_lf, command=self.pm_launch, bg=self.colors.red,
-                                           image=self.rocketlaunchS_img).place(x=143, y=80)
+                                           image=self.rocketlaunchS_img).place(x=143, y=52)
         self.pm_enablebutton = HoverButton(self.pmtoken_lf, command=self.pm_enable, bg=self.colors.orange,
-                                           text="Disable PM", width=12, heigh=2).place(x=48, y=81)
+                                           text="Disable PM", width=12, heigh=2).place(x=48, y=53)
+        self.optimization_button = HoverButton(self.master, command=self.optimization_callback, bg=self.colors.blue,
+                                               text="Parameters optimization", width=26).place(x=410, y=233)
         # -------------------------------------------------------------------------------------------------------------
         #                       TOKEN   CONTROL
         # -------------------------------------------------------------------------------------------------------------
@@ -1132,7 +1143,9 @@ class MainWindow:
             filename = tgt.replace('news_text/esp', 'groundtruth/f1')
             if os.path.exists(filename):
                 self.lowrite(f'Found groundtruth at {filename}', cat='Info')
-                self.lowrite(CalculateError(filename, 'test_tree').__repr__())
+                errors = CalculateError(filename, self.test_tree)
+                self.errors_listing.append(errors.results)
+                self.lowrite(errors.__repr__())
         else:
             self.lowrite('There is no target for test.', cat='Error')
         return
@@ -1148,6 +1161,217 @@ class MainWindow:
         filename = filedialog.askopenfilename(filetypes=[('Tree Files', '*.3s')], initialdir=TREES_DIR)
         self.test_tree = ds.read_tree(filename.split('/')[-1].split('.')[0])
         self.textsel["values"] = [f'{tree.nTree}' for tree in self.test_tree]
+
+    def optimization_callback(self) -> None:
+        th0 = Thread(target=opt_tgt, args=(self.master, self.correlation_model, self))
+        th0.start()
+        # self.ow = OptimizationWindow(self.master, self.correlation_model, self)
+
+
+class OptimizationWindow:
+    def __init__(self, master, correlation_model, supermaster):
+        self.corr_mod = correlation_model
+        self.supermaster = supermaster
+        self.master = Toplevel(master)
+        self.master.title("Parameter optimization")
+        self.master.geometry('660x310')
+        self.master.iconbitmap(ICO_LOCATION)
+
+        self.lf_launch = LabelFrame(self.master, text="Configuration:", width=245, height=160)
+        self.lf_launch.pack()
+        self.lf_launch.place(x=5, y=0)
+        self.importbutton = HoverButton(self.lf_launch, text='Import training data', command=self.import_data,
+                                        width=20, bg=CStyles.orange)
+        self.importbutton.pack()
+        self.importbutton.place(x=5, y=5)
+
+        self.stop_launch = HoverButton(self.lf_launch, text='Run', command=self.run_optimization,
+                                       width=8, bg=CStyles.red)
+        self.stop_launch.pack()
+        self.stop_launch.place(x=160, y=5)
+
+        self.labelinfo_algo = Label(self.lf_launch, text='Algorythm:')
+        self.labelinfo_algo.pack()
+        self.labelinfo_algo.place(x=5, y=35)
+
+        self.algory = ttk.Combobox(self.lf_launch, width=21, state='readonly')
+        self.algory.pack()
+        self.algory.place(x=75, y=35)
+        self.algory["values"] = ["BF", "Evolutive"]
+        self.algorythm = "BF"
+
+        self.labelinfo_pm = Label(self.lf_launch, text='PM threshold range:')
+        self.labelinfo_pm.pack()
+        self.labelinfo_pm.place(x=5, y=60)
+        self.labelinfo_fbbcm = Label(self.lf_launch, text='FB-BCM threshold range:')
+        self.labelinfo_fbbcm.pack()
+        self.labelinfo_fbbcm.place(x=5, y=80)
+        self.labelinfo_oim = Label(self.lf_launch, text='OIM - PM max value:')
+        self.labelinfo_oim.pack()
+        self.labelinfo_oim.place(x=5, y=100)
+        self.labelinfo_dec = Label(self.lf_launch, text='Time decorrelatrion:')
+        self.labelinfo_dec.pack()
+        self.labelinfo_dec.place(x=5, y=120)
+
+        self.pm_entry = Entry(self.lf_launch, width=11)
+        self.pm_entry.pack()
+        self.pm_entry.place(x=145, y=60)
+        self.pm_entry.insert(-1, "0.18,0.22")
+        self.fbbcm_entry = Entry(self.lf_launch, width=11)
+        self.fbbcm_entry.pack()
+        self.fbbcm_entry.place(x=145, y=80)
+        self.fbbcm_entry.insert(-1, "0.4,0.6")
+        self.oim_entry = Entry(self.lf_launch, width=11)
+        self.oim_entry.pack()
+        self.oim_entry.place(x=145, y=100)
+        self.oim_entry.insert(-1, "1")
+        self.dec_entry = Entry(self.lf_launch, width=11)
+        self.dec_entry.pack()
+        self.dec_entry.place(x=145, y=120)
+        self.dec_entry.insert(-1, "0.2,0.8")
+
+        self.ranges = [[0.18, 0.22], [0.4, 0.6], [1, None], [0.2, 0.8]]
+        # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        self.lf_text = LabelFrame(self.master, width=245, height=140)
+        self.lf_text.pack()
+        self.lf_text.place(x=5, y=165)
+        self.textbox = Text(self.lf_text, height=8, width=29, bd=2)
+        self.textbox.pack()
+        self.textbox.place(x=0, y=0)
+        self.textbox.insert(END, "Training data -> Ground truth\n")
+        # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        self.lf_graphic = LabelFrame(self.master, width=400, height=300)
+        self.lf_graphic.pack()
+        self.lf_graphic.place(x=255, y=5)
+
+        self.targets = []
+        self.gts = []
+        self.state = "Stopped"
+
+        self.canvas = None
+        self.toolbar = None
+
+        self.lf_launch.config(width=245, height=160)
+
+    def import_data(self) -> None:
+        try:
+            filenames = filedialog.askopenfilenames(filetypes=[('Text Files', '*.txt')],
+                                                    initialdir=MAIN_TEXTBASE_LOCATION)
+            for filename in filenames:
+                if filename not in self.targets:
+                    filenamegt = filename.replace('news_text/esp', 'groundtruth/f1')
+                    if not os.path.exists(filenamegt):
+                        filenamegt = filedialog.askopenfilename(filetypes=[('Groundtruth', '*.txt')],
+                                                                initialdir=GT_DIR)
+                    self.targets.append(filename)
+                    self.gts.append(filenamegt)
+                    self.textbox.insert(END, f'{filename.split("/")[-2]}/{filename.split("/")[-1]} -> '
+                                             f'{filenamegt.split("/")[-2]}/{filenamegt.split("/")[-1]}\n')
+        except Exception as ex:
+            print(f'Exception {ex}.')
+        return None
+
+    def run_optimization(self) -> None:
+        r0 = self.pm_entry.get().split(',')
+        r1 = self.fbbcm_entry.get().split(',')
+        r2 = self.oim_entry.get().split(',')
+        r3 = self.dec_entry.get().split(',')
+        self.ranges[0][0] = float(r0[0])
+        self.ranges[1][0] = float(r1[0])
+        self.ranges[2][0] = int(r2[0])
+        self.ranges[3][0] = float(r3[0])
+        self.ranges[0][1] = [float(r0[1]) if len(r0) > 1 else None][0]
+        self.ranges[1][1] = [float(r1[1]) if len(r1) > 1 else None][0]
+        self.ranges[2][1] = [int(r2[1]) if len(r2) > 1 else None][0]
+        self.ranges[3][1] = [float(r3[1]) if len(r3) > 1 else None][0]
+        self.algorythm = self.algory.get()
+        self.textbox.delete('1.0', END)
+        self.textbox.insert(END, 'Taining parameters...\n')
+        self.state = "Running"
+        self.q = multiprocessing.Queue()
+        t0 = Thread(target=self.launch_optimization, args=(self.ranges, (self.targets, self.gts), self.algorythm))
+        t0.start()
+        # self.launch_optimization(self.ranges, (self.targets, self.gts), self.algorythm)
+        return None
+
+    def launch_optimization(self, ranges, tgts, algo) -> None:
+        superslope = 15
+        those_pm = ranges[0][1]
+        if those_pm is None:
+            those_pm = ranges[0][0]
+            pm_selection = [those_pm]
+        else:
+            slope = -(ranges[0][0] - those_pm) / superslope
+            pm_selection = np.arange(ranges[0][0], those_pm + slope, slope)
+        those_fbbcm = ranges[1][1]
+        if those_fbbcm is None:
+            those_fbbcm = ranges[1][0]
+            fbbcm_selection = [those_fbbcm]
+        else:
+            slope = -(ranges[1][0] - those_fbbcm) / superslope
+            fbbcm_selection = np.arange(ranges[1][0], those_fbbcm + slope, slope)
+        those_oim = ranges[2][1]
+        if those_oim is None:
+            those_oim = ranges[2][0]
+        oim_selection = range(ranges[2][0], those_oim + 1)
+        those_dec = ranges[3][1]
+        if those_dec is None:
+            those_dec = ranges[3][0]
+            dec_selection = [those_dec]
+        else:
+            slope = -(ranges[3][0] - those_dec) / superslope
+            dec_selection = np.arange(ranges[3][0], those_dec + slope, slope)
+
+        max_res = 0
+        mr_p = 0
+        mr_r = 0
+        parameters = [None, None, None, None]
+
+        if algo == 'BF':
+            for this_pm in pm_selection:
+                for this_fbbcm in fbbcm_selection:
+                    for this_dec in dec_selection:
+                        for this_oim in oim_selection:
+                            this_res_ = []
+                            this_res = {}
+                            for tgt, gt in zip(tgts[0], tgts[1]):
+                                [_, _, _, _, _, this_tree, _] = test_correlate(self.supermaster, self.corr_mod,
+                                                                               target=tgt, decorrelation=100*this_dec,
+                                                                               tokens=True, fbbcmth=this_fbbcm,
+                                                                               pmth=this_pm, oim=this_oim, pmen=True,
+                                                                               fbbcmen=True)
+                                this_res_.append(CalculateError(gt, this_tree).results)
+
+                            this_res["f1"] = sum([item["f1"] for item in this_res_]) / len(this_res_)
+                            this_res["f"] = sum([item["f"] for item in this_res_]) / len(this_res_)
+                            this_res["recall"] = sum([item["recall"] for item in this_res_]) / len(this_res_)
+
+                            if this_res["f1"] > max_res:
+                                max_res = this_res["f1"]
+                                mr_p = this_res["f"]
+                                mr_r = this_res["recall"]
+                                current_graphicable = this_res_
+                                parameters = [this_pm, this_fbbcm, this_oim, this_dec]
+
+                                # Plot result.
+                                # plt.close()
+                                # myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
+                                # axis = range(len(tgts[0]))
+                                # plt.plot(axis, [item["f1"] for item in current_graphicable], linestyle='dashed')
+                                # plt.stem(axis, [item["f"] for item in current_graphicable])
+                                # plt.stem(axis, [item["recall"] for item in current_graphicable])
+                                # plt.title(f'Best achieved: {max_res}\n{parameters}')
+                                # if self.canvas is not None:
+                                #     self.canvas.get_tk_widget().pack_forget()
+                                #     self.toolbar.destroy()
+                                # self.canvas = FigureCanvasTkAgg(myfig, master=self.lf_graphic)
+                                # self.canvas.draw()
+
+        __tcx = f'\nOptimization ended with the following results:\nPM-TH: {parameters[0]}\nFBBCM-TH: ' \
+                f'{parameters[1]}\nOIM: {parameters[2]}\nDecorr: {parameters[3]}\n\nResults:\nF1: {max_res}\n' \
+                f'P: {mr_p}\nRecall: {mr_r}\n'
+        self.textbox.insert(END, __tcx)
+        return None
 # -----------------------------------------------------------
 # Main:
 

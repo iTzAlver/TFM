@@ -7,6 +7,8 @@ Arrancamos este Telediario, allí, en el lugar del rescate
 ¿Cuáles son las opciones para encontrar a Julen? Se trabaja en 3 frentes retirar la arena que está taponando el pozo de prospección
 Excavar en 2 pozo, y abrir en el lateral de la montaña
 El objetivo rescatar al pequeño
+Esa imagen es lo que se ve desde la superficie y esto es lo que no se ve
+Así es la estructura del pozo
 %0
 El proyecto de presupuestos llega al Congreso
 Son las cuentas con más gasto público desde 2010 Destacan más partidas para programas sociales, contra la pobreza infantil o la dependencia, y también el aumento de inversiones en Cataluña
@@ -37,7 +39,3 @@ Chicho Ibáñez Serrador consigue el Premio Goya de Honor por toda una vida dedi
 %6
 Y en los deportes Nadal gana en Australia, Sergio
 %7
-Esa imagen es lo que se ve desde la superficie y esto es lo que no se ve
-Así es la estructura del pozo
-%8
-$0,8

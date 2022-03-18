@@ -11,7 +11,7 @@ class Pbmm:
             self.items[key] = value
         self.segmentation = self.PBMM_get_segments(matrix, self.items["oim"], self.items["th"])
 
-    def PBMM_get_segments(self, matrix, oim_stages, th, version='-v1') -> []:
+    def PBMM_get_segments(self, matrix, oim_stages, th, version='-v2') -> []:
         """"This function uses a correlation matrix [matrix] and
         inferences through all the matrix saving the index where
         consecutive blocks have correlation. It is considered

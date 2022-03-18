@@ -6,10 +6,6 @@
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
 import numpy as np
-
-from package import dserial
-
-
 # -----------------------------------------------------------
 
 
@@ -48,18 +44,6 @@ def read_groups(path) -> [[""]]:
             else:
                 if line != '\n':
                     sentences_list.append(line.strip('\n'))
-            if '$' in line:
-                vectors = line[1:].split(';')
-
-    vekpop = []
-    for vector in vectors:
-        tv = vector.split(',')
-        groups[int(tv[0])].extend(groups[int(tv[1])])
-        vekpop.append(int(tv[1]))
-
-    for idx, popping in enumerate(vekpop):
-        groups.pop(popping - idx)
-
     return groups
 
 
@@ -74,9 +58,9 @@ def get_error_matrix(groups, payloads):
 
 
 class CalculateError:
-    def __init__(self, *args, **kwargs):  # (path for groups, path for trees)
+    def __init__(self, *args, **kwargs):  # (path for groups, list of trees)
         groups = read_groups(args[0])
-        trees = dserial.read_tree(args[1])
+        trees = args[1]
         self.results = {}
 
         do_f1, do_f, do_recall, do_windiff = True, True, True, False
@@ -102,7 +86,7 @@ class CalculateError:
         if do_recall:
             self.results['recall'] = self.recall()
         if do_windiff:
-            self.results['windiff'] = self.windiff()
+            self.results['windiff'] = None
 
     def f1(self):
         term = (self.WL + self.UL)/(2*self.A)
@@ -114,9 +98,6 @@ class CalculateError:
     def recall(self):
         return self.A/(self.A + self.UL)
 
-    def windiff(self):
-        return -1
-
     def get_results(self):
         return tuple(self.results.items())
 
@@ -125,6 +106,16 @@ class CalculateError:
         for key, item in self.results.items():
             __text = f'{__text}{key} \t= {item}\n'
         return __text
+
+    def __lt__(self, other):
+        if self.results['f1'] < other:
+            return True
+        return False
+
+    def __gt__(self, other):
+        if self.results['f1'] > other:
+            return True
+        return False
 # -----------------------------------------------------------
 # Main:
 
