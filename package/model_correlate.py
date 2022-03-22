@@ -466,8 +466,11 @@ def merge_payload(target_tree, merged_tree):
     new_tree.idv = list(new_tree.idv)
     new_tree.payload_div = list(new_tree.payload_div)
     pyld = ''
-    for division in new_tree.payload_div:
-        pyld = pyld + ' ' + division
+    for idx, division in enumerate(new_tree.payload_div):
+        if idx > 0:
+            pyld = pyld + '. ' + division
+        else:
+            pyld = pyld + division
     new_tree.payload = pyld
     new_tree.timing = target_tree.timing + merged_tree.timing
     return new_tree
@@ -575,7 +578,6 @@ if __name__ == '__main__':
 
     for tree in n_trees:
         print('Árbol ID ' + str(tree.nTree) + ':\tPayload = ' + str(tree.payload))
-
 
     threshold_use = 0.6
     n_trees = fbbcm(sentences, threshold_use, 0, showup=True, correlation_model='use')

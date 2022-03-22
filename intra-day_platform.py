@@ -5,8 +5,8 @@
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
-import multiprocessing
 import os
+import random
 import time
 from threading import Thread
 from tkinter import END, NORMAL, DISABLED
@@ -1174,7 +1174,7 @@ class OptimizationWindow:
         self.supermaster = supermaster
         self.master = Toplevel(master)
         self.master.title("Parameter optimization")
-        self.master.geometry('660x310')
+        self.master.geometry('260x310')
         self.master.iconbitmap(ICO_LOCATION)
 
         self.lf_launch = LabelFrame(self.master, text="Configuration:", width=245, height=160)
@@ -1240,10 +1240,6 @@ class OptimizationWindow:
         self.textbox.place(x=0, y=0)
         self.textbox.insert(END, "Training data -> Ground truth\n")
         # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        self.lf_graphic = LabelFrame(self.master, width=400, height=300)
-        self.lf_graphic.pack()
-        self.lf_graphic.place(x=255, y=5)
-
         self.targets = []
         self.gts = []
         self.state = "Stopped"
@@ -1252,6 +1248,7 @@ class OptimizationWindow:
         self.toolbar = None
 
         self.lf_launch.config(width=245, height=160)
+        self.q = None
 
     def import_data(self) -> None:
         try:
@@ -1288,10 +1285,8 @@ class OptimizationWindow:
         self.textbox.delete('1.0', END)
         self.textbox.insert(END, 'Taining parameters...\n')
         self.state = "Running"
-        self.q = multiprocessing.Queue()
         t0 = Thread(target=self.launch_optimization, args=(self.ranges, (self.targets, self.gts), self.algorythm))
         t0.start()
-        # self.launch_optimization(self.ranges, (self.targets, self.gts), self.algorythm)
         return None
 
     def launch_optimization(self, ranges, tgts, algo) -> None:
@@ -1350,22 +1345,65 @@ class OptimizationWindow:
                                 max_res = this_res["f1"]
                                 mr_p = this_res["f"]
                                 mr_r = this_res["recall"]
-                                current_graphicable = this_res_
                                 parameters = [this_pm, this_fbbcm, this_oim, this_dec]
 
-                                # Plot result.
-                                # plt.close()
-                                # myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
-                                # axis = range(len(tgts[0]))
-                                # plt.plot(axis, [item["f1"] for item in current_graphicable], linestyle='dashed')
-                                # plt.stem(axis, [item["f"] for item in current_graphicable])
-                                # plt.stem(axis, [item["recall"] for item in current_graphicable])
-                                # plt.title(f'Best achieved: {max_res}\n{parameters}')
-                                # if self.canvas is not None:
-                                #     self.canvas.get_tk_widget().pack_forget()
-                                #     self.toolbar.destroy()
-                                # self.canvas = FigureCanvasTkAgg(myfig, master=self.lf_graphic)
-                                # self.canvas.draw()
+        elif algo == 'Evolutive':
+            nind = 8
+            epoch = 10
+            bw = 0.2
+            individuos = []
+            ind_results = []
+            for i in range(nind):
+                pms = random.random()*(those_pm - ranges[0][0]) + ranges[0][0]
+                fbbcms = random.random()*(those_fbbcm - ranges[1][0]) + ranges[1][0]
+                oims = ranges[2][0]
+                decorr = random.random()*(those_dec - ranges[3][0]) + ranges[3][0]
+                individuos.append([pms, fbbcms, oims, decorr])
+
+            for k in range(epoch):
+                ind_results = []
+                for individuo in individuos:
+                    this_res_ = []
+                    this_res = {}
+                    for tgt, gt in zip(tgts[0], tgts[1]):
+                        [_, _, _, _, _, this_tree, _] = test_correlate(self.supermaster, self.corr_mod,
+                                                                       target=tgt, decorrelation=100 * individuo[3],
+                                                                       tokens=True, fbbcmth=individuo[1],
+                                                                       pmth=individuo[0], oim=individuo[2], pmen=True,
+                                                                       fbbcmen=True)
+                        this_res_.append(CalculateError(gt, this_tree).results)
+                        this_res["f1"] = sum([item["f1"] for item in this_res_]) / len(this_res_)
+                        this_res["f"] = sum([item["f"] for item in this_res_]) / len(this_res_)
+                        this_res["recall"] = sum([item["recall"] for item in this_res_]) / len(this_res_)
+                        ind_results.append(this_res)
+                zipped = zip(ind_results, individuos)
+                sort = sorted(zipped, key=lambda x: x[0]['f1'], reverse=True)
+                for idx, lst in enumerate(sort):
+                    individuo = lst[1]
+                    if idx < nind/2:
+                        individuos[idx] = individuo
+                    else:
+                        p1 = round(random.random()*nind/2)
+                        p2 = round(random.random()*nind/2)
+                        selection = [random.random(), random.random(), random.random()]
+                        if selection[0] > 0.5:
+                            individuos[idx][0] = individuos[p1][0] + bw*((random.random()-1)*(those_pm - ranges[0][0]))
+                        else:
+                            individuos[idx][0] = individuos[p2][0] + bw*((random.random()-1)*(those_pm - ranges[0][0]))
+                        if selection[1] > 0.5:
+                            individuos[idx][1] = individuos[p1][1] + bw*((random.random()-1)*(those_fbbcm -
+                                                                                              ranges[1][0]))
+                        else:
+                            individuos[idx][1] = individuos[p2][1] + bw*((random.random()-1)*(those_fbbcm -
+                                                                                              ranges[1][0]))
+                        if selection[2] > 0.5:
+                            individuos[idx][3] = individuos[p1][3] + bw*((random.random()-1)*(those_dec - ranges[3][0]))
+                        else:
+                            individuos[idx][3] = individuos[p2][3] + bw*((random.random()-1)*(those_dec - ranges[3][0]))
+            parameters = individuos[0]
+            max_res = ind_results[0]['f1']
+            mr_p = ind_results[0]['f']
+            mr_r = ind_results[0]['recall']
 
         __tcx = f'\nOptimization ended with the following results:\nPM-TH: {parameters[0]}\nFBBCM-TH: ' \
                 f'{parameters[1]}\nOIM: {parameters[2]}\nDecorr: {parameters[3]}\n\nResults:\nF1: {max_res}\n' \
