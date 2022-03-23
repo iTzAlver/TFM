@@ -23166,3 +23166,186 @@ recall 	= 0.7828947368421053
 <Tue Mar 22 13:03:46 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
 <Tue Mar 22 13:03:47 2022>	[Info]:	Thread 1 Tree Julen_10.3s written.
 <Tue Mar 22 13:03:47 2022>	[Info]:	Thread 1 finished computation.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 17:44:48 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 17:44:49 2022>	[Info]:	Time decorrelation enabled.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 17:47:47 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar 22 17:47:52 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 17:47:58 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar 22 17:47:58 2022>	[Warning]:	Default action for last error: launching test.
+<Tue Mar 22 17:47:58 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar 22 17:47:59 2022>	[Info]:	Correlation for testing done.
+<Tue Mar 22 17:47:59 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar 22 17:48:01 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar 22 17:48:01 2022>	[Info]:	Test processing finished.
+<Tue Mar 22 17:48:01 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Tue Mar 22 17:48:02 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 17:49:30 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 17:49:30 2022>	[Info]:	Time decorrelation enabled.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 17:51:30 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Mar 22 17:51:31 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 17:51:32 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar 22 17:51:32 2022>	[Warning]:	Default action for last error: launching test.
+<Tue Mar 22 17:51:32 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar 22 17:51:33 2022>	[Info]:	Correlation for testing done.
+<Tue Mar 22 17:51:33 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar 22 17:51:35 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar 22 17:51:35 2022>	[Info]:	Test processing finished.
+<Tue Mar 22 17:51:35 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Tue Mar 22 17:51:36 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 17:55:58 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 17:58:28 2022>	[Info]:	Added  to testing target.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 18:04:33 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 18:16:06 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 18:34:06 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 18:39:35 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Mar 22 18:51:34 2022>	[Info]:	Launching persistance platform...
+<Tue Mar 22 19:06:18 2022>	[Note]:	Algorythm settings locked.
+<Tue Mar 22 19:06:21 2022>	[Note]:	Correlation settings locked.
+<Tue Mar 22 19:06:27 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana.
+<Tue Mar 22 19:06:28 2022>	[Note]:	Targets for launch locked.
+<Tue Mar 22 19:06:28 2022>	[Info]:	Created thread 1 for case Diana in launcher.
+<Tue Mar 22 19:06:28 2022>	[Info]:	All threads launched.
+<Tue Mar 22 19:06:28 2022>	[Info]:	Thread 1 ended preprocessing.
+<Tue Mar 22 19:06:36 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Tue Mar 22 19:06:38 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Tue Mar 22 19:06:38 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Tue Mar 22 19:06:38 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Tue Mar 22 19:06:40 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Diana/10.txt to testing target.
+<Tue Mar 22 19:06:40 2022>	[Info]:	Time decorrelation enabled.
+<Tue Mar 22 19:06:41 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Tue Mar 22 19:06:41 2022>	[Info]:	Thread 1 Tree Diana_1.3s written.
+<Tue Mar 22 19:06:43 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+<Tue Mar 22 19:06:43 2022>	[Info]:	Thread 1 posprocessed day 2 sucessfully.
+<Tue Mar 22 19:06:43 2022>	[Info]:	Thread 1 launched PM on day 2.
+<Tue Mar 22 19:06:43 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Mar 22 19:06:44 2022>	[Warning]:	Default action for last error: launching test.
+<Tue Mar 22 19:06:44 2022>	[Info]:	Preprocessing for testing done.
+<Tue Mar 22 19:06:45 2022>	[Info]:	Correlation for testing done.
+<Tue Mar 22 19:06:45 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Mar 22 19:06:49 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Mar 22 19:06:50 2022>	[Info]:	Test processing finished.
+<Tue Mar 22 19:06:51 2022>	[Info]:	All images updated.
+<Tue Mar 22 19:06:49 2022>	[Info]:	Thread 1 launched FBBCM on day 2.
+<Tue Mar 22 19:06:51 2022>	[Info]:	Thread 1 Tree Diana_2.3s written.
+<Tue Mar 22 19:06:53 2022>	[Info]:	Watch for PM.
+<Tue Mar 22 19:06:54 2022>	[Info]:	All images updated.
+<Tue Mar 22 19:06:53 2022>	[Info]:	Thread 1 correlated day 3 sucessfully.
+<Tue Mar 22 19:06:54 2022>	[Info]:	Thread 1 posprocessed day 3 sucessfully.
+<Tue Mar 22 19:06:54 2022>	[Info]:	Thread 1 launched PM on day 3.
+<Tue Mar 22 19:06:58 2022>	[Info]:	Thread 1 launched FBBCM on day 3.
+<Tue Mar 22 19:06:58 2022>	[Info]:	Thread 1 Tree Diana_3.3s written.
+<Tue Mar 22 19:07:00 2022>	[Info]:	Thread 1 correlated day 4 sucessfully.
+<Tue Mar 22 19:07:00 2022>	[Info]:	Thread 1 posprocessed day 4 sucessfully.
+<Tue Mar 22 19:07:00 2022>	[Info]:	Thread 1 launched PM on day 4.
+<Tue Mar 22 19:07:03 2022>	[Info]:	Thread 1 launched FBBCM on day 4.
+<Tue Mar 22 19:07:03 2022>	[Info]:	Thread 1 Tree Diana_4.3s written.
+<Tue Mar 22 19:07:05 2022>	[Info]:	Thread 1 correlated day 5 sucessfully.
+<Tue Mar 22 19:07:05 2022>	[Info]:	Thread 1 posprocessed day 5 sucessfully.
+<Tue Mar 22 19:07:05 2022>	[Info]:	Thread 1 launched PM on day 5.
+<Tue Mar 22 19:07:08 2022>	[Info]:	Thread 1 launched FBBCM on day 5.
+<Tue Mar 22 19:07:08 2022>	[Info]:	Thread 1 Tree Diana_5.3s written.
+<Tue Mar 22 19:07:10 2022>	[Info]:	Thread 1 correlated day 6 sucessfully.
+<Tue Mar 22 19:07:10 2022>	[Info]:	Thread 1 posprocessed day 6 sucessfully.
+<Tue Mar 22 19:07:10 2022>	[Info]:	Thread 1 launched PM on day 6.
+<Tue Mar 22 19:07:12 2022>	[Info]:	Thread 1 launched FBBCM on day 6.
+<Tue Mar 22 19:07:12 2022>	[Info]:	Thread 1 Tree Diana_6.3s written.
+<Tue Mar 22 19:07:15 2022>	[Info]:	Thread 1 correlated day 7 sucessfully.
+<Tue Mar 22 19:07:15 2022>	[Info]:	Thread 1 posprocessed day 7 sucessfully.
+<Tue Mar 22 19:07:15 2022>	[Info]:	Thread 1 launched PM on day 7.
+<Tue Mar 22 19:07:18 2022>	[Info]:	Thread 1 launched FBBCM on day 7.
+<Tue Mar 22 19:07:18 2022>	[Info]:	Thread 1 Tree Diana_7.3s written.
+<Tue Mar 22 19:07:20 2022>	[Info]:	Thread 1 correlated day 8 sucessfully.
+<Tue Mar 22 19:07:20 2022>	[Info]:	Thread 1 posprocessed day 8 sucessfully.
+<Tue Mar 22 19:07:20 2022>	[Info]:	Thread 1 launched PM on day 8.
+<Tue Mar 22 19:07:22 2022>	[Info]:	Thread 1 launched FBBCM on day 8.
+<Tue Mar 22 19:07:22 2022>	[Info]:	Thread 1 Tree Diana_8.3s written.
+<Tue Mar 22 19:07:24 2022>	[Info]:	Thread 1 correlated day 9 sucessfully.
+<Tue Mar 22 19:07:24 2022>	[Info]:	Thread 1 posprocessed day 9 sucessfully.
+<Tue Mar 22 19:07:24 2022>	[Info]:	Thread 1 launched PM on day 9.
+<Tue Mar 22 19:07:27 2022>	[Info]:	Thread 1 launched FBBCM on day 9.
+<Tue Mar 22 19:07:27 2022>	[Info]:	Thread 1 Tree Diana_9.3s written.
+<Tue Mar 22 19:07:28 2022>	[Info]:	Thread 1 correlated day 10 sucessfully.
+<Tue Mar 22 19:07:28 2022>	[Info]:	Thread 1 posprocessed day 10 sucessfully.
+<Tue Mar 22 19:07:28 2022>	[Info]:	Thread 1 launched PM on day 10.
+<Tue Mar 22 19:07:30 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
+<Tue Mar 22 19:07:30 2022>	[Info]:	Thread 1 Tree Diana_10.3s written.
+<Tue Mar 22 19:07:30 2022>	[Info]:	Thread 1 finished computation.
+<Tue Mar 22 19:07:34 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar 23 09:29:04 2022>	[Info]:	Launching persistance platform...

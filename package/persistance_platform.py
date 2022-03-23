@@ -22,7 +22,7 @@ import package.dserial as ds
 from package.styles import ColorStyles, HoverButton
 
 ICO_LOCATION = r'./.multimedia/isdefeico.ico'
-TREES_DIR = r'./db/trees/'
+TREES_DIR = r'../db/trees/'
 LOGO_LOCATION = r'./.multimedia/isdefe.png'
 UPARROW_LOCATION = r'./.multimedia/uprow.png'
 DOWNARROW_LOCATION = r'./.multimedia/downrow.png'

@@ -8,6 +8,7 @@
 import os
 import random
 import time
+from multiprocessing import Process
 from threading import Thread
 from tkinter import END, NORMAL, DISABLED
 from tkinter import Tk, LabelFrame, Text, Label, ttk, PhotoImage, Entry, Checkbutton, BooleanVar, filedialog, Toplevel
@@ -24,6 +25,7 @@ import package.model_correlate as fbbcm
 import package.news_reading as nr
 import package.token_processing as tp
 from package.error_calculation import CalculateError
+from package.persistance_platform import main as persistance
 from package.pm import Pbmm
 from package.styles import ColorStyles, HoverButton
 
@@ -52,6 +54,12 @@ def main() -> None:
     root_node.configure()
     root_node.mainloop()
     return
+
+
+def persistance_thr():
+    proc = Process(target=persistance)
+    proc.start()
+    proc.join()
 
 
 def opt_tgt(*args) -> None:
@@ -567,6 +575,11 @@ class MainWindow:
         self.pie_lf.place(x=0, y=410)
         self.moreinfo_lf = LabelFrame(self.display_lf, width=370, height=285)
         self.moreinfo_lf.place(x=370, y=410)
+
+        self.persistance_jump = HoverButton(self.pie_lf, text='TO PERSISTANCE', command=self.persistance_jumpwin,
+                                            width=16, bg=self.colors.blue)
+        self.persistance_jump.pack()
+        self.persistance_jump.place(x=235, y=248)
 
         self.selectaplotlabel = Label(self.moreinfo_lf, text='Select a tree payload:').place(x=5, y=5)
         self.textsel = ttk.Combobox(self.moreinfo_lf, width=7, state='readonly')
@@ -1124,6 +1137,12 @@ class MainWindow:
         self.toolbar3 = NavigationToolbar2Tk(self.canvas3, self.pie_lf)
         self.toolbar3.update()
         self.canvas3.get_tk_widget().pack()
+
+        self.persistance_jump = HoverButton(self.pie_lf, text='TO PERSISTANCE', command=self.persistance_jumpwin,
+                                            width=16, bg=self.colors.blue)
+        self.persistance_jump.pack()
+        self.persistance_jump.place(x=235, y=248)
+
         self.lowrite(f'All images updated.', cat='Info')
         plt.close()
         return
@@ -1166,6 +1185,11 @@ class MainWindow:
         th0 = Thread(target=opt_tgt, args=(self.master, self.correlation_model, self))
         th0.start()
         # self.ow = OptimizationWindow(self.master, self.correlation_model, self)
+
+    def persistance_jumpwin(self):
+        self.lowrite('Launching persistance platform...', cat='Info')
+        proc = Thread(target=persistance_thr)
+        proc.start()
 
 
 class OptimizationWindow:
