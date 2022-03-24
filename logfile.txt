@@ -23349,3 +23349,107 @@ recall 	= 0.9158699808795411
 - - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
 
 <Wed Mar 23 09:29:04 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Mar 23 15:42:26 2022>	[Info]:	Launching persistance platform...
+<Wed Mar 23 16:05:01 2022>	[Note]:	Added to launch target scope: C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Augest.
+<Wed Mar 23 16:05:04 2022>	[Note]:	Algorythm settings locked.
+<Wed Mar 23 16:05:05 2022>	[Note]:	Targets for launch locked.
+<Wed Mar 23 16:05:06 2022>	[Warning]:	Launcher did not start.
+<Wed Mar 23 16:05:06 2022>	[Note]:	In order to launch the targets, all features must be locked.
+<Wed Mar 23 16:05:09 2022>	[Note]:	Correlation settings locked.
+<Wed Mar 23 16:05:09 2022>	[Info]:	Created thread 1 for case Augest in launcher.
+<Wed Mar 23 16:05:09 2022>	[Info]:	All threads launched.
+<Wed Mar 23 16:05:09 2022>	[Info]:	Thread 1 ended preprocessing.
+<Wed Mar 23 16:05:18 2022>	[Info]:	Thread 1 loaded the correlation model sucesfully.
+<Wed Mar 23 16:05:20 2022>	[Info]:	Thread 1 correlated day 1 sucessfully.
+<Wed Mar 23 16:05:20 2022>	[Info]:	Thread 1 posprocessed day 1 sucessfully.
+<Wed Mar 23 16:05:20 2022>	[Info]:	Thread 1 launched PM on day 1.
+<Wed Mar 23 16:05:22 2022>	[Info]:	Thread 1 launched FBBCM on day 1.
+<Wed Mar 23 16:05:22 2022>	[Info]:	Thread 1 Tree Augest_1.3s written.
+<Wed Mar 23 16:05:24 2022>	[Info]:	Thread 1 correlated day 2 sucessfully.
+<Wed Mar 23 16:05:24 2022>	[Info]:	Thread 1 posprocessed day 2 sucessfully.
+<Wed Mar 23 16:05:24 2022>	[Info]:	Thread 1 launched PM on day 2.
+<Wed Mar 23 16:05:27 2022>	[Info]:	Thread 1 launched FBBCM on day 2.
+<Wed Mar 23 16:05:27 2022>	[Info]:	Thread 1 Tree Augest_2.3s written.
+<Wed Mar 23 16:05:28 2022>	[Info]:	Thread 1 correlated day 3 sucessfully.
+<Wed Mar 23 16:05:28 2022>	[Info]:	Thread 1 posprocessed day 3 sucessfully.
+<Wed Mar 23 16:05:28 2022>	[Info]:	Thread 1 launched PM on day 3.
+<Wed Mar 23 16:05:30 2022>	[Info]:	Thread 1 launched FBBCM on day 3.
+<Wed Mar 23 16:05:30 2022>	[Info]:	Thread 1 Tree Augest_3.3s written.
+<Wed Mar 23 16:05:33 2022>	[Info]:	Thread 1 correlated day 4 sucessfully.
+<Wed Mar 23 16:05:33 2022>	[Info]:	Thread 1 posprocessed day 4 sucessfully.
+<Wed Mar 23 16:05:33 2022>	[Info]:	Thread 1 launched PM on day 4.
+<Wed Mar 23 16:05:36 2022>	[Info]:	Thread 1 launched FBBCM on day 4.
+<Wed Mar 23 16:05:36 2022>	[Info]:	Thread 1 Tree Augest_4.3s written.
+<Wed Mar 23 16:05:38 2022>	[Info]:	Thread 1 correlated day 5 sucessfully.
+<Wed Mar 23 16:05:38 2022>	[Info]:	Thread 1 posprocessed day 5 sucessfully.
+<Wed Mar 23 16:05:38 2022>	[Info]:	Thread 1 launched PM on day 5.
+<Wed Mar 23 16:05:40 2022>	[Info]:	Thread 1 launched FBBCM on day 5.
+<Wed Mar 23 16:05:40 2022>	[Info]:	Thread 1 Tree Augest_5.3s written.
+<Wed Mar 23 16:05:42 2022>	[Info]:	Thread 1 correlated day 6 sucessfully.
+<Wed Mar 23 16:05:42 2022>	[Info]:	Thread 1 posprocessed day 6 sucessfully.
+<Wed Mar 23 16:05:42 2022>	[Info]:	Thread 1 launched PM on day 6.
+<Wed Mar 23 16:05:45 2022>	[Info]:	Thread 1 launched FBBCM on day 6.
+<Wed Mar 23 16:05:45 2022>	[Info]:	Thread 1 Tree Augest_6.3s written.
+<Wed Mar 23 16:05:48 2022>	[Info]:	Thread 1 correlated day 7 sucessfully.
+<Wed Mar 23 16:05:48 2022>	[Info]:	Thread 1 posprocessed day 7 sucessfully.
+<Wed Mar 23 16:05:48 2022>	[Info]:	Thread 1 launched PM on day 7.
+<Wed Mar 23 16:05:50 2022>	[Info]:	Thread 1 launched FBBCM on day 7.
+<Wed Mar 23 16:05:50 2022>	[Info]:	Thread 1 Tree Augest_7.3s written.
+<Wed Mar 23 16:05:51 2022>	[Info]:	Thread 1 correlated day 8 sucessfully.
+<Wed Mar 23 16:05:51 2022>	[Info]:	Thread 1 posprocessed day 8 sucessfully.
+<Wed Mar 23 16:05:51 2022>	[Info]:	Thread 1 launched PM on day 8.
+<Wed Mar 23 16:05:53 2022>	[Info]:	Thread 1 launched FBBCM on day 8.
+<Wed Mar 23 16:05:54 2022>	[Info]:	Thread 1 Tree Augest_8.3s written.
+<Wed Mar 23 16:05:55 2022>	[Info]:	Thread 1 correlated day 9 sucessfully.
+<Wed Mar 23 16:05:55 2022>	[Info]:	Thread 1 posprocessed day 9 sucessfully.
+<Wed Mar 23 16:05:55 2022>	[Info]:	Thread 1 launched PM on day 9.
+<Wed Mar 23 16:05:57 2022>	[Info]:	Thread 1 launched FBBCM on day 9.
+<Wed Mar 23 16:05:57 2022>	[Info]:	Thread 1 Tree Augest_9.3s written.
+<Wed Mar 23 16:06:00 2022>	[Info]:	Thread 1 correlated day 10 sucessfully.
+<Wed Mar 23 16:06:00 2022>	[Info]:	Thread 1 posprocessed day 10 sucessfully.
+<Wed Mar 23 16:06:00 2022>	[Info]:	Thread 1 launched PM on day 10.
+<Wed Mar 23 16:06:03 2022>	[Info]:	Thread 1 launched FBBCM on day 10.
+<Wed Mar 23 16:06:03 2022>	[Info]:	Thread 1 Tree Augest_10.3s written.
+<Wed Mar 23 16:06:05 2022>	[Info]:	Thread 1 correlated day 11 sucessfully.
+<Wed Mar 23 16:06:05 2022>	[Info]:	Thread 1 posprocessed day 11 sucessfully.
+<Wed Mar 23 16:06:05 2022>	[Info]:	Thread 1 launched PM on day 11.
+<Wed Mar 23 16:06:08 2022>	[Info]:	Thread 1 launched FBBCM on day 11.
+<Wed Mar 23 16:06:08 2022>	[Info]:	Thread 1 Tree Augest_11.3s written.
+<Wed Mar 23 16:06:09 2022>	[Info]:	Thread 1 correlated day 12 sucessfully.
+<Wed Mar 23 16:06:09 2022>	[Info]:	Thread 1 posprocessed day 12 sucessfully.
+<Wed Mar 23 16:06:09 2022>	[Info]:	Thread 1 launched PM on day 12.
+<Wed Mar 23 16:06:13 2022>	[Info]:	Thread 1 launched FBBCM on day 12.
+<Wed Mar 23 16:06:13 2022>	[Info]:	Thread 1 Tree Augest_12.3s written.
+<Wed Mar 23 16:06:15 2022>	[Info]:	Thread 1 correlated day 13 sucessfully.
+<Wed Mar 23 16:06:15 2022>	[Info]:	Thread 1 posprocessed day 13 sucessfully.
+<Wed Mar 23 16:06:15 2022>	[Info]:	Thread 1 launched PM on day 13.
+<Wed Mar 23 16:06:18 2022>	[Info]:	Thread 1 launched FBBCM on day 13.
+<Wed Mar 23 16:06:18 2022>	[Info]:	Thread 1 Tree Augest_13.3s written.
+<Wed Mar 23 16:06:20 2022>	[Info]:	Thread 1 correlated day 14 sucessfully.
+<Wed Mar 23 16:06:20 2022>	[Info]:	Thread 1 posprocessed day 14 sucessfully.
+<Wed Mar 23 16:06:20 2022>	[Info]:	Thread 1 launched PM on day 14.
+<Wed Mar 23 16:06:22 2022>	[Info]:	Thread 1 launched FBBCM on day 14.
+<Wed Mar 23 16:06:22 2022>	[Info]:	Thread 1 Tree Augest_14.3s written.
+<Wed Mar 23 16:06:25 2022>	[Info]:	Thread 1 correlated day 15 sucessfully.
+<Wed Mar 23 16:06:25 2022>	[Info]:	Thread 1 posprocessed day 15 sucessfully.
+<Wed Mar 23 16:06:25 2022>	[Info]:	Thread 1 launched PM on day 15.
+<Wed Mar 23 16:06:28 2022>	[Info]:	Thread 1 launched FBBCM on day 15.
+<Wed Mar 23 16:06:28 2022>	[Info]:	Thread 1 Tree Augest_15.3s written.
+<Wed Mar 23 16:06:29 2022>	[Info]:	Thread 1 correlated day 16 sucessfully.
+<Wed Mar 23 16:06:29 2022>	[Info]:	Thread 1 posprocessed day 16 sucessfully.
+<Wed Mar 23 16:06:29 2022>	[Info]:	Thread 1 launched PM on day 16.
+<Wed Mar 23 16:06:32 2022>	[Info]:	Thread 1 launched FBBCM on day 16.
+<Wed Mar 23 16:06:32 2022>	[Info]:	Thread 1 Tree Augest_16.3s written.
+<Wed Mar 23 16:06:34 2022>	[Info]:	Thread 1 correlated day 17 sucessfully.
+<Wed Mar 23 16:06:34 2022>	[Info]:	Thread 1 posprocessed day 17 sucessfully.
+<Wed Mar 23 16:06:34 2022>	[Info]:	Thread 1 launched PM on day 17.
+<Wed Mar 23 16:06:36 2022>	[Info]:	Thread 1 launched FBBCM on day 17.
+<Wed Mar 23 16:06:36 2022>	[Info]:	Thread 1 Tree Augest_17.3s written.
+<Wed Mar 23 16:06:36 2022>	[Info]:	Thread 1 finished computation.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Mar 24 17:34:36 2022>	[Info]:	Launching persistance platform...
