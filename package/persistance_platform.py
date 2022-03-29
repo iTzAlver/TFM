@@ -14,12 +14,17 @@ from tkinter import Tk
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.graph_objects as go
+import torch
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
+from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
+from transformers import BertTokenizerFast, EncoderDecoderModel
 
 import package.dserial as ds
 from package.styles import ColorStyles, HoverButton
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 ICO_LOCATION = r'./.multimedia/isdefeico.ico'
 TREES_DIR = r'./db/trees/'
@@ -29,10 +34,27 @@ DOWNARROW_LOCATION = r'./.multimedia/downrow.png'
 
 PLOTCOLOR = {'0': '#6175c1', '1': '#dede49', '2': '#55db48', '3': '#db4064', '4': '#d18238', '5': '#cf38b8',
              '6': '#9612e3', '7': '#96e307', '8': '#1912e3', '9': '#000000', '10': '#12d5e3', '11': '#806c08'}
+
 NUM_LABELS = 4
+SUM_MODEL_LINK = 'mrm8488/bert2bert_shared-spanish-finetuned-summarization'
+SUM_TOKEN = BertTokenizerFast.from_pretrained(SUM_MODEL_LINK)
+SUM_MODEL = EncoderDecoderModel.from_pretrained(SUM_MODEL_LINK)
+spanish_model1 = 'hiiamsid/sentence_similarity_spanish_es'
+base_model = SentenceTransformer(spanish_model1).to(device)
+NONEW = True
 
 
 # -----------------------------------------------------------
+def generate_summary(text):
+    global SUM_MODEL
+    global SUM_TOKEN
+    inputs = SUM_TOKEN([text], padding="max_length", truncation=True, max_length=512, return_tensors="pt")
+    input_ids = inputs.input_ids.to(device)
+    attention_mask = inputs.attention_mask.to(device)
+    output = SUM_MODEL.generate(input_ids, attention_mask=attention_mask)
+    return SUM_TOKEN.decode(output[0], skip_special_tokens=True)
+
+
 def main() -> None:
     root_node = Tk()
     MainWindow(root_node)
@@ -103,7 +125,7 @@ def tree_stream_tracer(thematrix, tree_stream, labels):
                                                  color=PLOTCOLOR[str(label)],
                                                  line=dict(color='rgb(90,90,90)', width=1)
                                                  ),
-                                     text=f'{tree_stream[thedays][thetrees].payload}',
+                                     text=f'{tree_stream[thedays][thetrees].sum}',
                                      hoverinfo='text',
                                      opacity=0.8
                                      ))
@@ -115,13 +137,26 @@ def tree_stream_tracer(thematrix, tree_stream, labels):
 
 
 def get_correlation(tree_0, tree_1):
-    code1 = tree_0.code
-    code2 = tree_1.code
+    code1 = tree_0.sumcode
+    code2 = tree_1.sumcode
     return cosine_similarity(code1.reshape(1, -1), code2.reshape(1, -1))[0][0]
 
 
 def stream_correlation(trees_stream, threshold, nwords) -> [[[[float]]]]:
     sctm = []
+    global NONEW
+    if NONEW:
+        for day, trees in enumerate(trees_stream):
+            for tree in trees:
+                if len(tree.payload.split(' ')) > nwords:
+                    tree.sum = generate_summary(tree.payload)
+                    tree.sumcode = base_model.encode(tree.sum)
+                else:
+                    tree.sum = tree.payload
+                    tree.sumcode = tree.code
+            print(f'Ended day {day}')
+        NONEW = False
+
     for trees in trees_stream:
         uctm = []
         for tree in trees:
@@ -263,6 +298,7 @@ class MainWindow:
         # -------------------------------------------------------------------------------------
 
     def import_trees(self) -> None:
+        global NONEW
         filenames = filedialog.askopenfilenames(filetypes=[('Tree Files', '*.3s')],
                                                 initialdir=TREES_DIR)
         stream = []
@@ -283,6 +319,7 @@ class MainWindow:
         except Exception as ex:
             print(f'Exception raised: {ex}')
         finally:
+            NONEW = True
             return None
 
     def reset_streams(self) -> None:

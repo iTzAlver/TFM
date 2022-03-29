@@ -55,7 +55,7 @@ class Pbmm:
                 segment = segmentation[-1]
                 if self.check_validation(segment, matrix):
                     extracted_segment = segmentation.pop()
-                    if matrix[extracted_segment[0]][extracted_segment[0] - 1] > th:
+                    if matrix[extracted_segment[0]][extracted_segment[0] - 1] > th and extracted_segment[0]:
                         segmentation[-1][-1] += 1
                     else:
                         segmentation.append([extracted_segment[0], extracted_segment[0]])
