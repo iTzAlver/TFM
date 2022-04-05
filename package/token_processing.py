@@ -38,11 +38,13 @@ class TokenProcessing:
         if self.target.split('.')[-1] == 'txt':
             subtargets = [self.target.split('/')[-1]]
             self.target = self.target.strip(f'/{subtargets[0]}')
+            __skipp = True
         else:
             subtargets = os.listdir(self.target)
             # Sort them clearly:
             subtargets_zip = zip([int(subtarget_[:-4]) for subtarget_ in subtargets], subtargets)
             subtargets = list([thetuple[1] for thetuple in sorted(subtargets_zip)])
+            __skipp = False
 
         indexes = list([int(subtarget_[:-4]) for subtarget_ in subtargets])
         self.placeholders = []
@@ -53,9 +55,10 @@ class TokenProcessing:
             placehold = []
             lines = []
 
-            while defectos + ix != indexes[ix]:
-                self.payload.append([])
-                defectos += 1
+            if not __skipp:
+                while defectos + ix != indexes[ix]:
+                    self.payload.append([])
+                    defectos += 1
 
             with open(subtarget_path, 'r', encoding='utf-8') as file:
                 for idx, line in enumerate(file):
