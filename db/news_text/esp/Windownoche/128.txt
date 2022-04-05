@@ -1,0 +1,37 @@
+$(Música) En total 14 millones de personas, el 30 % de la población espanola
+Sin embargo podrán pasar a fase 1 la comunidad Valenciana, Málaga, Granada, y las tres provincias de Castilla la Mancha que aún seguían en fase 0
+Formentera, La Gomera, el Hierro y la Graciosa darán un paso más
+Cumplen los requisitos para estar en fase 2
+Las modificaciones las han anunciado esta misma tarde desde el ministerio de Sanidad, que explicaban así por qué la Comunidad de Madrid no avanza de fase
+$Aunque la evolución sea muy favorable, sigue siendo una de las comunidades que más casos nuevos reportan cada día, junto con la comunidad de Cataluña
+La detección que ha habido en Madrid, siendo buena, no ha sido tan alta como en otros lugares y, por lo tanto, todavía hay muchos casos posibles que se tienen que controlar
+Para la presidenta Isabel Díaz Ayuso, la decisión de mantener a Madrid en la Fase 0 no tiene explicación técnica
+Insiste en que la comunidad está preparada para avanzar y que no hacerlo arruinará al comercio
+$Me han tomado los datos
+nos van a llamar
+no les veo mucho sentido
+$Ellos estrenan la cuarentena que desde hoy es obligatoria para todos los que lleguen a España
+En el aeropuerto les toman la temperatura y registran sus datos para controlar que el virus no se expanda si lo traen de fuera
+En México, más de 130 personas han muerto en los últimos días por consumir licores elaborados con alcohol adulterado
+El aumento del consumo se relaciona con la dificultad de encontrar cerveza ya que las fábricas llevan 2 meses sin trabajar
+El Abrazo, que Juan Genovés concibió como símbolo de la reconciliación de los españoles, se ha quedado huérfano
+El pintor valenciano ha muerto hoy, a punto de cumplir 90 años
+Deja más de 3.000 obras pero ese Abrazo, del que hoy nos priva el coronavirus, y que pintó en 1976, nos acompañará siempre
+$Madrid está hoy de fiesta y así celebran algunos el día de San Isidro
+En las redes han triunfado los chotis desde el confinamiento
+Niños, mayores, hasta animales de compañía
+Y hemos aprovechado para rescatar de nuestros archivos este chotis interpretado por Lola Flores
+Hoy se cumplen 25 años de su muerte
+$Así será la vida en España a partir del lunes: - En color azul oscuro: seguirán en fase 0, aunque con menos restricciones
+la comunidad de Madrid, el área metropolitana de Barcelona, y parte de Castilla y León
+- En azul claro, la practica totalidad del resto del territorio, corresponde a la fase 1
+El lunes se suman a esa fase la Comunidad Valenciana, tres provincias de Castilla-La Mancha y dos andaluzas, así como parte de Cataluña y otras zonas Castilla y León
+- Finalmente, en color verde, las islas que pasan el lunes a Fase 2: El Hierro, La Gomera y La Graciosa, en Canarias
+En la misma situación quedará la isla de Formentera, en Baleares
+$Según ese mapa, el 70 por ciento de la población estará ya enfase 1 el próximo lunes y el 30% restante seguirán en fase 0
+El ministerio de Sanidad ha comunicado, eso sí, que flexibiliza algo las medidas para quienes se quedan en esa fase 0
+Patricia Rodríguez, ¿en qué se va a notar? Los 14 millones de personas, en territorio de fase 0, tiene medidas de alivio, disfrutar de comercios de cuatro o cientos metros, sin cita previa
+$Velatorios de hasta 10 personas, no se abren terrazas, ni de tener reuniones sociales
+$estas medidas, se pueden hacer en Madrid, Barcelona, y territorio de Castilla y León, se quedan en fase 0, probablemente esta situación, sólo dure unos días, y la semana que viene, pasen la fase 1
+Madrid se queda en fase 0
+%[2.6799999999999997, 5.639999999999999, 2.0, 3.2, 9.94, 6.959999999999999, 6.92, 15.4, 6.24, 1.24, 0.92, 2.84, 7.24, 5.02, 9.559999999999999, 5.76, 6.32, 5.04, 4.67, 6.24, 1.76, 3.28, 4.16, 6.03, 8.56, 4.43, 3.98, 9.59, 6.91, 5.109999999999999, 6.319999999999999, 8.52, 13.88, 4.390000000000001, 16.25, 1.44]

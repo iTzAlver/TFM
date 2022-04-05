@@ -44,12 +44,19 @@ class TokenProcessing:
             subtargets_zip = zip([int(subtarget_[:-4]) for subtarget_ in subtargets], subtargets)
             subtargets = list([thetuple[1] for thetuple in sorted(subtargets_zip)])
 
+        indexes = list([int(subtarget_[:-4]) for subtarget_ in subtargets])
         self.placeholders = []
         self.payload = []
-        for subtarget in subtargets:
+        defectos = 1
+        for ix, subtarget in enumerate(subtargets):
             subtarget_path = f'{self.target}/{subtarget}'
             placehold = []
             lines = []
+
+            while defectos + ix != indexes[ix]:
+                self.payload.append([])
+                defectos += 1
+
             with open(subtarget_path, 'r', encoding='utf-8') as file:
                 for idx, line in enumerate(file):
                     if line[0] == '$':

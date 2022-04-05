@@ -168,12 +168,21 @@ def launching_thread(*args, **kwargs) -> []:
     xmodel = fbbcm.LoadModel(kwargs['correlation_model'])
     parent.lowrite(f'Thread {nt + 1} loaded the correlation model sucesfully.', cat='Info')
     writein = kwargs['target'].split('/')[-1]
+    errors = 0
+    ignored = []
     for day_, sentence_stream in enumerate(sentence_streams):
+
         day = day_ + 1
+        if not sentence_stream:
+            ds.write_tree([ds.EmptyTree()], f'{writein}_{day}')
+            errors += 1
+            ignored.append(day)
+            continue
+
         untokenized_mtx = fbbcm.correlate(sentence_stream, xmodel=xmodel.model)
         parent.lowrite(f'Thread {nt + 1} correlated day {day} sucessfully.', cat='Info')
 
-        tokenized_mtx, diffs = token_processor.posprocessing(untokenized_mtx, day_, get_time=True)
+        tokenized_mtx, diffs = token_processor.posprocessing(untokenized_mtx, day_ - errors, get_time=True)
         if not kwargs['tokens']:
             tokenized_mtx = untokenized_mtx
 
@@ -183,14 +192,20 @@ def launching_thread(*args, **kwargs) -> []:
                                           oim=kwargs['oim']).merge_segmentation(sentence_stream, diffs=diffs)
         parent.lowrite(f'Thread {nt + 1} launched PM on day {day}.', cat='Info')
 
-        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcm-th'], day, 'bert', False, xmodel=xmodel.model,
+        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcm-th'], day, xmodel=xmodel.model,
                                  timing=newdiffs)
         parent.lowrite(f'Thread {nt + 1} launched FBBCM on day {day}.', cat='Info')
 
         ds.write_tree(trees_list, f'{writein}_{day}')
         parent.lowrite(f'Thread {nt + 1} Tree {writein}_{day}.3s written.', cat='Info')
 
-    parent.lowrite(f'Thread {nt + 1} finished computation.', cat='Info')
+    _textaux = ''
+    for ignore in ignored:
+        _textaux = f'{_textaux},{ignore}'
+    if _textaux != '':
+        parent.lowrite(f'The following days were written as empty: {_textaux}.', cat='Warning')
+
+    parent.lowrite(f'Thread {nt + 1} finished all computation.', cat='Info')
 
 
 def test_correlate(*args, **kwargs) -> []:
@@ -218,7 +233,7 @@ def test_correlate(*args, **kwargs) -> []:
         newdiffs = diffs
     # FB_BCM:
     if kwargs['fbbcmen']:
-        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, 'bert', False, xmodel=current_model,
+        trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, xmodel=current_model,
                                  timing=newdiffs)
         parent.lowrite(f'FB-BCM launched with th={kwargs["fbbcmth"]}', cat='Info')
     else:
@@ -325,17 +340,17 @@ class MainWindow:
         self.nlpmodel_lf.place(x=5, y=95)
         self.nlpmodel_downloadurl = Text(self.nlpmodel_lf, height=2, width=47)
         self.nlpmodel_downloadurl.place(x=6, y=25)
-        self.nlpmodel_downloadbutt = HoverButton(self.nlpmodel_lf, text='Download model', command=self.download_model,
-                                                 width=25, bg=self.colors.gray).place(x=5, y=65)
-        self.nlpmodel_loadbutt = HoverButton(self.nlpmodel_lf, text='Load model', command=self.load_model,
-                                             width=25, bg=self.colors.gray).place(x=200, y=65)
-        self.nlpmodel_info = Label(self.nlpmodel_lf, text='Place the model URL to download:').place(x=100, y=0)
+        HoverButton(self.nlpmodel_lf, text='Download model', command=self.download_model,
+                    width=25, bg=self.colors.gray).place(x=5, y=65)
+        HoverButton(self.nlpmodel_lf, text='Load model', command=self.load_model,
+                    width=25, bg=self.colors.gray).place(x=200, y=65)
+        Label(self.nlpmodel_lf, text='Place the model URL to download:').place(x=100, y=0)
         self.nlpmodel_list = ttk.Combobox(self.nlpmodel_lf, width=60, state='readonly')
         self.nlpmodel_list.pack()
         self.nlpmodel_list.place(x=5, y=99)
         self.nlpmodel_list["values"] = self.model_list
         self.nlpmodel_list.set(self.model_list[0])
-        self.nlpmodel_infoloaded = Label(self.nlpmodel_lf, text='Loaded model:').place(x=20, y=120)
+        Label(self.nlpmodel_lf, text='Loaded model:').place(x=20, y=120)
         self.nlpmodel_modelloaded = Label(self.nlpmodel_lf, text='DEFAULT MODEL')
         self.nlpmodel_modelloaded.pack()
         self.nlpmodel_modelloaded.place(x=140, y=120)
@@ -344,8 +359,8 @@ class MainWindow:
         # -------------------------------------------------------------------------------------------------------------
         self.launcher_lf = LabelFrame(self.master, width=600, height=215, text='Launcher')
         self.launcher_lf.place(x=5, y=260+110)
-        self.launcher_button = HoverButton(self.launcher_lf, command=self.launch_parameters,
-                                           image=self.rocketlaunch_img, bg=self.colors.gray).place(x=480, y=0)
+        HoverButton(self.launcher_lf, command=self.launch_parameters,
+                    image=self.rocketlaunch_img, bg=self.colors.gray).place(x=480, y=0)
         self.launcher_algo_lf = LabelFrame(self.launcher_lf, width=200, height=115, text='Algorythm parameters')
         self.launcher_algo_lf.pack()
         self.launcher_algo_lf.place(x=5, y=0)
@@ -379,7 +394,7 @@ class MainWindow:
         self.launcher_file_lf.pack()
         self.launcher_file_lf.place(x=210, y=0)
         self.launcher_file_selectall = Checkbutton(self.launcher_file_lf, text='Select all files from database',
-                                                   var=self.selectall_v,
+                                                   variable=self.selectall_v,
                                                    command=self.launch_file_all)
         self.launcher_file_selectall.pack()
         self.launcher_file_selectall.place(x=5, y=50)
@@ -439,40 +454,40 @@ class MainWindow:
         # -------------------------------------------------------------------------------------------------------------
         self.fbbcm_lf = LabelFrame(self.master, width=195, height=100, text='FB-BCM algorythm ')
         self.fbbcm_lf.place(x=410, y=5)
-        self.fbbcm_infoth = Label(self.fbbcm_lf, text='Method\'s threshold:').place(x=5, y=5)
+        Label(self.fbbcm_lf, text='Method\'s threshold:').place(x=5, y=5)
         self.fbbcm_thentry = Entry(self.fbbcm_lf, width=8)
         self.fbbcm_thentry.pack()
         self.fbbcm_thentry.place(x=125, y=5)
         self.fbbcm_thentry.insert(-1, '0.50')
-        self.fbbcm_watchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_watch, bg=self.colors.red,
-                                             image=self.watch_img).place(x=4, y=30)
-        self.fbbcm_launchbutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_launch, bg=self.colors.red,
-                                              image=self.rocketlaunchS_img).place(x=143, y=30)
-        self.fbbcm_enablebutton = HoverButton(self.fbbcm_lf, command=self.fbbcm_enable, bg=self.colors.orange,
-                                              text="Disable FB-BCM", heigh=2).place(x=47, y=31)
+        HoverButton(self.fbbcm_lf, command=self.fbbcm_watch, bg=self.colors.red,
+                    image=self.watch_img).place(x=4, y=30)
+        HoverButton(self.fbbcm_lf, command=self.fbbcm_launch, bg=self.colors.red,
+                    image=self.rocketlaunchS_img).place(x=143, y=30)
+        HoverButton(self.fbbcm_lf, command=self.fbbcm_enable, bg=self.colors.orange,
+                    text="Disable FB-BCM", heigh=2).place(x=47, y=31)
         # -------------------------------------------------------------------------------------------------------------
         #                       PM      METHOD
         # -------------------------------------------------------------------------------------------------------------
         self.pmtoken_lf = LabelFrame(self.master, width=195, height=120, text='PM algorythm')
         self.pmtoken_lf.place(x=410, y=110)
-        self.pm_infoth = Label(self.pmtoken_lf, text='Method\'s threshold:').place(x=5, y=5)
+        Label(self.pmtoken_lf, text='Method\'s threshold:').place(x=5, y=5)
         self.pm_thentry = Entry(self.pmtoken_lf, width=8)
         self.pm_thentry.pack()
         self.pm_thentry.place(x=125, y=5)
         self.pm_thentry.insert(-1, '0.20')
-        self.pm_infooim = Label(self.pmtoken_lf, text='Method\'s stages:').place(x=5, y=27)
+        Label(self.pmtoken_lf, text='Method\'s stages:').place(x=5, y=27)
         self.pm_oimentry = Entry(self.pmtoken_lf, width=8)
         self.pm_oimentry.pack()
         self.pm_oimentry.place(x=125, y=27)
         self.pm_oimentry.insert(-1, '1')
-        self.pm_watchbutton = HoverButton(self.pmtoken_lf, command=self.pm_watch, bg=self.colors.red,
-                                          image=self.watch_img).place(x=4, y=52)
-        self.pm_launchbutton = HoverButton(self.pmtoken_lf, command=self.pm_launch, bg=self.colors.red,
-                                           image=self.rocketlaunchS_img).place(x=143, y=52)
-        self.pm_enablebutton = HoverButton(self.pmtoken_lf, command=self.pm_enable, bg=self.colors.orange,
-                                           text="Disable PM", width=12, heigh=2).place(x=48, y=53)
-        self.optimization_button = HoverButton(self.master, command=self.optimization_callback, bg=self.colors.blue,
-                                               text="Parameters optimization", width=26).place(x=410, y=233)
+        HoverButton(self.pmtoken_lf, command=self.pm_watch, bg=self.colors.red,
+                    image=self.watch_img).place(x=4, y=52)
+        HoverButton(self.pmtoken_lf, command=self.pm_launch, bg=self.colors.red,
+                    image=self.rocketlaunchS_img).place(x=143, y=52)
+        HoverButton(self.pmtoken_lf, command=self.pm_enable, bg=self.colors.orange,
+                    text="Disable PM", width=12, heigh=2).place(x=48, y=53)
+        HoverButton(self.master, command=self.optimization_callback, bg=self.colors.blue,
+                    text="Parameters optimization", width=26).place(x=410, y=233)
         # -------------------------------------------------------------------------------------------------------------
         #                       TOKEN   CONTROL
         # -------------------------------------------------------------------------------------------------------------
@@ -483,8 +498,8 @@ class MainWindow:
                                           variable=self.token_bool, command=self.token_enable)
         self.token_checkbox.pack()
         self.token_checkbox.place(x=0, y=0)
-        self.token_info = Label(self.tokencontrol_lf, text='Decorrelation:').place(x=5, y=21)
-        self.token_info2 = Label(self.tokencontrol_lf, text='%').place(x=135, y=21)
+        Label(self.tokencontrol_lf, text='Decorrelation:').place(x=5, y=21)
+        Label(self.tokencontrol_lf, text='%').place(x=135, y=21)
         self.token_decorrelation = Entry(self.tokencontrol_lf, width=7)
         self.token_decorrelation.place(x=90, y=21)
         self.token_decorrelation.insert(-1, '20.00')
@@ -514,8 +529,8 @@ class MainWindow:
         self.translator_viewtarget = HoverButton(self.translator_lf, text='Check\ntargets', command=self.trans_view,
                                                  width=12, heigh=3, bg=self.colors.gray)
         self.translator_viewtarget.place(x=130, y=25)
-        self.translator_launcher = HoverButton(self.translator_lf, command=self.trans_launch,
-                                               image=self.rocketlaunchM_img, bg=self.colors.red).place(x=510, y=0)
+        HoverButton(self.translator_lf, command=self.trans_launch,
+                    image=self.rocketlaunchM_img, bg=self.colors.red).place(x=510, y=0)
         self.translator_infoadd = Label(self.translator_lf, text='Number of targets\nadded:')
         self.translator_infoadd.pack()
         self.translator_infoadd.place(x=227, y=25)
@@ -550,13 +565,13 @@ class MainWindow:
         self.display_lf.place(x=610, y=6)
         self.select_lf = LabelFrame(self.display_lf, width=740, height=40)
         self.select_lf.place(x=0, y=0)
-        self.information = Label(self.select_lf, text='Select a matrix to plot in slot 1:').place(x=5, y=5)
+        Label(self.select_lf, text='Select a matrix to plot in slot 1:').place(x=5, y=5)
         self.information_sel = ttk.Combobox(self.select_lf, width=21, state='readonly')
         self.information_sel.pack()
         self.information_sel.place(x=180, y=5)
         self.information_sel["values"] = ['Raw correlation', 'After token processing', 'After PM', 'After FB-BCM']
         self.information_sel.set('After token processing')
-        self.information2 = Label(self.select_lf, text='Select a matrix to plot in slot 2:').place(x=405, y=5)
+        Label(self.select_lf, text='Select a matrix to plot in slot 2:').place(x=405, y=5)
         self.information_sel2 = ttk.Combobox(self.select_lf, width=21, state='readonly')
         self.information_sel2.pack()
         self.information_sel2.place(x=580, y=5)
@@ -581,7 +596,7 @@ class MainWindow:
         self.persistance_jump.pack()
         self.persistance_jump.place(x=235, y=248)
 
-        self.selectaplotlabel = Label(self.moreinfo_lf, text='Select a tree payload:').place(x=5, y=5)
+        Label(self.moreinfo_lf, text='Select a tree payload:').place(x=5, y=5)
         self.textsel = ttk.Combobox(self.moreinfo_lf, width=7, state='readonly')
         self.textsel.pack()
         self.textsel.place(x=130, y=5)
@@ -976,7 +991,7 @@ class MainWindow:
             self.logtext.insert(END, text)
             self.logtext.tag_add(str(self.logptr), f'{len(self.lcolor)}.{self.logptr}', END)
             self.logtext.tag_config(str(self.logptr), foreground=self.lcolor[-1])
-            self.logptr = self.logptr + len(text)
+            self.logptr += len(text)
             self.logtext.see(END)
 
 # -------------------------------------

@@ -1,0 +1,31 @@
+$Que alegría
+$Buenas tardes, hoy está siendo una jornada de reencuentros después de casi cien días de estado de alarma, una jornada para recuperar la movilidad y la normalidad, aunque sea nueva
+Desde la reapertura de fronteras terrestres y aéreas, a todos los puntos que marcan esta nueva etapa, les vamos a llevar en una edición del Telediario muy especial
+$Vamos a comprobar cómo ha sido el tráfico en las carreteras, con más movimiento que en los últimos tres meses, pero sin atascos
+Además, estaremos en la frontera con Francia, tanto en Irún como en la Jonquera
+$Vamos a estar en estaciones de tren y en aeropuertos de toda España con los que llegan y con los que salen
+Un día como hoy del año pasado se producían 6000 vuelos
+Hoy hay programados 650 vuelos comerciales, todos sometidos a controles
+$Un triple control en el que el pasajero tendrá que rellenar un formulario para declarar si ha pasado el covid 19 y facilitar sus datos de localización, después tendrá que pasar por una cámara térmica para controlar su temperatura y por último se le realizará un examen visual para ver si tiene los síntomas
+$Estaremos también en las ciudades europeas desde donde llegan la mayoría de turistas a nuestro país, para conocer cuál es la situación hoy en los aeropuertos y estaciones de tren
+En especial en Reino Unido, país con el que ayer España levantó la cuarentena
+$se acabaron los pabellones con militantes hasta arriba no se descartan los paseos electorales pero con mascarilla y saludando con el codo la nueva normalidad obliga a los partidos políticos a buscar espacios abiertos como este y a reducir el aforo, comienza la precampaña en Galicia y el País Vasco Precampaña gallega que arranca, ya lo ven, con acusaciones mutuas por mentir sobre la pandemia, entre el Gobierno y el Partido Popular
+$Primer mitin de Donald Trump, que aspira a la reelección en noviembre
+Desafiando al coronavirus, esperaba llenar un recinto en Tulsa, Oklahoma, pero no lo consiguió
+$Luto en la pequeña localidad de Hernán Cortés, en Badajoz, donde murieron ayer dos menores de 17 y 15 años
+Los chicos se ahogaron cuando se bañaban en un canal de riego
+$En deportes, la Liga podría cambiar de líder en esta jornada, Marcos
+Eso es lo que quiere el Madrid, que si gana en San Sebastián lo será por mejor average particular en sus duelos con el Barça
+$mientras que la Real no parece la misma de antes del parón, cuando había eliminado al Madrid en la Copa y marchaba en puesto de Champions
+$Hoy es día de viajes y reencuentros
+En el Telediario estamos siguiendo el de una familia que anoche mismo salió de Lloret de Mar en Girona camino de la Alberquilla, en Jaén
+Les vimos hacer las maletas y comenzar el camino
+Les hemos acompañado en el largo viaje toda la mañana y queremos verles llegar
+$Viajes como este han cambiado el estado de las carreteras
+Así estaban las de Madrid hace tres meses, el 22 de marzo
+Hoy la imagen que nos ofrece la DGT, es esta otra
+Más coches, pero con circulación fluida
+$Con el fin del estado de alarma dejamos de tener restricciones para movernos por el país
+Y también podemos empezar a cruzar la frontera, en este caso con Francia, aunque para ir a Portugal habrá que esperar hasta el 1 de julio
+Vamos a ver si ya se ha empezado a notar más movimiento en estas primeras horas
+%[2.99, 9.190000000000001, 8.2, 5.35, 3.92, 5.04, 3.36, 4.84, 14.679999999999998, 8.47, 4.68, 21.15, 3.36, 5.92, 6.640000000000001, 3.68, 7.76, 6.6, 6.6000000000000005, 1.88, 7.16, 2.48, 4.26, 2.84, 3.28, 7.16, 2.4, 4.1, 6.2, 3.75]

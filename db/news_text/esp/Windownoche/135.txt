@@ -1,0 +1,38 @@
+$Buenas noches
+$El lunes toda España estará al menos en la FASE 1 de la desescalada y una gran parte del territorio pasará a la FASE 2
+Lo ven en este mapa
+Todo el norte pasa a esa fase más avanzada
+También gran parte de Andalucía, parte de Castilla-La Mancha, Extremadura, Baleares, Canarias y algunos puntos de Cataluña
+Con dos semanas de retraso, otras zonas entran en la primera fase, son las que ven en color salmón
+Entre esos territorios está Barcelona y Castilla y León También Madrid, que ha sido uno de los focos de la confrontación política estos días por esta cuestión
+Después de dos intentos sin conseguirlo, hoy la comunidad ha obtenido el visto bueno del Ministerio de Sanidad, "No solo estamos saliendo, sino que estamos saliendo más fuertes de esta situación"
+$"Y una vez más apelamos a la responsabilidad de todos para no dar pasos en falso"
+$Preocupación en el ministerio de Sanidad por la gestión de los datos de Cataluña en los últimos días y pide que solucione los desajustes
+La región notifica hoy 632 fallecidos más en el total, pero solo 3 en las últimas 24 horas
+En el resto de España el balance es de 53 fallecidos y 446 nuevos positivos, 150 de ellos en Cataluña
+Preparando el cambio de Fase
+Madrid, Barcelona y ahora sí, toda Castilla y León, ponen a punto las terrazas, entre otras cosas, es uno de los incentivos de la Fase 1
+Los que pasan a la 2 ya pueden bañarse y tomar el sol en las playas o piscinas, País Vasco, Galicia, parte de Andalucía o Murcia entre otras comunidades
+Y otra de las novedades, los municipios de hasta 10.000 habitantes podrán disfrutar de medidas mucho menos restrictivas, aunque estén en fase 1
+$Tenemos mucha ilusión, parece que empezamos de nuevas, mira se me salta hasta la lágrima porque...
+llevamos mucho tiempo
+$Los primeros resultados del ensayo de la vacuna china probada en humanos indican que es segura y que genera anticuerpos contra el nuevo coronavirus
+Es solo un pimer paso y aún quedan muchas fases en la investigación, pero los expertos creen que los datos son prometedores
+$A la hostelería esta crisis le trae recuerdos de la aprobación de la ley antitabaco de 2006 que les obligó a invertir en mejoras de los locales que solo fueron útiles durante 4 años ahora vuelve a hablarse de las famosas mamparas, pero el sector quiere ser prudente
+$Hemos aconsejado absolutamente a todos los hosteleros que sean prudentes que no se precipiten, que no inviertan probablemente en elementos que luego no van a servir del todo
+$Es el homenaje que le ha brindado hoy San Mamés a Adúriz
+El delantero rojiblanco cuelga las botas con 39 años sin poder jugar la esperada final de Copa contra la Real Sociedad
+Sus compañeros despedían así a uno de los máximos goleadores del Athletic
+$Continúa el proceso de desescalada, que ahora dejará el mapa de España casi mitad y mitad
+Desde el próximo lunes el 53 % de la población estará en fase 1 y el 47 % en fase 2
+Estrenarán las medidas de alivio de la fase 1, Nos hemos criado por una máxima
+$Que sea un paso seguro
+Y será la que seguiremos aplicando
+la Comunidad de Madrid, Barcelona capital y su área metropolitana y prácticamente donde solo habían avanzado la semana pasada sus zonas menos pobladas
+Se mantienen en fase 1, la Comunidad Valenciana a petición propia, por precaución ante un pequeño brote detectado, y también las provincias de Málaga y Granada, porque solo llevan una semana en fase 1
+El Ministerio explica que para avanzar de fase el criterio general sigue siendo, con matices, mantenerse dos semanas en cada una
+-Ese criterio no está grabado a fuego
+$Puede flexibilizarse hasta cierto punto
+$Consideramos que es mejor flexibilizarlo más adelante la primera fase
+En la fase uno la reducción de riesgos es mucho mayor, no guarda proporcionalidad con la de fase 2
+%[0.99, 6.6, 1.19, 5.44, 6.24, 11.47, 6.39, 10.46, 6.16, 5.96, 7.3999999999999995, 13.08, 1.59, 7.1899999999999995, 11.12, 7.83, 9.39, 2.24, 7.239999999999999, 6.720000000000001, 14.060000000000002, 9.67, 2.48, 6.54, 4.0, 5.02, 7.43, 9.4, 1.19, 1.04, 10.86, 13.439999999999998, 12.68, 3.0, 3.0, 3.95, 4.16]

@@ -1,0 +1,40 @@
+$Buenas tardes
+El gobierno ha dado nuevas instrucciones a las comunidades para que den información más detallada de los casos de coronavirus y unificar los criterios de recuentos
+De ayer a hoy, según Sanidad, han muerto 585 personas, pero tanto este dato como el de altas no cuadran respecto a los de ayer
+El ministerio dice que habrá desajustes en los próximos días porque es necesario medir lo mismo en todas las comunidades y para eso habrá que corregir la serie histórica
+$El gobierno estudia que la desescalada se haga en dos fases
+Antes del verano los sectores productivos, y antes de final de año otros entre los que podría estar el turismo o el ocio
+Hoy además el defensor del pueblo ha pedido a Sanidad que se permita a los niños salir de forma limitada
+Algo que también plantean los expertos que asesoran al gobierno
+$Siguen las dificultades para conseguir mascarillas y el precio de las que se venden está disparado
+Los empresarios farmacéuticos piden que se rebaje el IVA del material de protección del 21 al 4 por ciento
+El ministro de Consumo ha anunciado que se controlará su precio de forma inminente
+$La fiscalía ha abierto una investigación penal a 38 residencias por el fallecimiento de ancianos en varias comunidades, la mitad de ellas en Madrid
+Y más de 120 informes de seguimiento
+En el Telediario además, volvemos a una residencia en la que estuvimos hace un mes, y en la que han muerto 11 mayores
+$Ha cambiado mucho
+Los ancianos están mejor,..
+los que están más graves están en el hospital
+$Poder comprar fruta o verdura en un mercado al aire libre depende de donde vivamos
+Algunos ayuntamientos los han prohibido durante el tiempo de confinamiento, otros empiezan a levantar las restricciones con todas las medidas de seguridad
+Y los hay que no han parado
+$Sanidad ha informado de 585 nuevos fallecidos hoy pero la curva muestra desajustes respecto a los días anteriores y seguirá así en los próximos días
+El Ministerio ha modificado los datos que pide a las comunidades autónomas sobre fallecidos y casos confirmados para asegurar, dice, la calidad del seguimiento de la evolución de la pandemia
+Hasta ahora solo se solicitaban los fallecidos en hospitales y ahora se piden los fallecidos en cualquier lugar
+$Hoy es complicado valorar la evolución de la curva en las últimas horas
+Desde Sanidad explican que las Comunidades les están empezando a reportar información más detallada y necesitan 2 o 3 días para adaptarse a esos cambios: Además Cataluña ha notificado datos diferentes por dos vías
+Estamos tratando de corregir las series para que las fuentes de información que estamos utilizando sean homogéneas La cifra de nuevos casos sí es coherente respecto ayer, hay 5.252 más, pero no cuadra el número de fallecidos y curados
+Simón ha hablado de 585 nuevos fallecidos pero si restamos el acumulado de ayer y hoy, hablaríamos de 348
+El número de altas ha bajado en 1834 personas y esta es una cifra que no puede disminuir
+$Sanidad ha cambiado hoy oficialmente la forma de pedir los datos a las comunidades
+Ahora todos los fallecidos que se reporten tiene que haber dado positivo en alguna de las pruebas, independientemente del lugar de fallecimiento
+Antes solo se solicitaba información sobre las "altas por defuncion", es decir, muertes en hospitales
+Además, deberán especificar dentro de los casos confirmados, los que son sintomáticos y asintomáticos, y los que se han detectado por PCR o test rápido
+$Os muy exigentes con la calidad de los datos, esta exigencia ha sido y es permanente
+Lo que de momento no aparece en esas series es el número de casos probable pero sin confirmar
+Sanidad explica que las Comunidades están empezando a detectar esos casos sospechosos
+Simón dice que esta información hay que tratarla con cuidado por lo inespecífico de los síntomas ligados a la COVID-19 pero Nos va a ser muy útil tanto para valorar los resultados de los futuras encuestas de ser prevalencia como la información global de la epidemia Desde hace un mes la OMS insiste en la necesidad de dar con los casos sospechosos
+Repiten que no se vencerá al virus hasta que no se les detecte, aísle y se les haga una prueba diagnóstica
+$Después de conocerse las nuevas instrucciones del gobierno, los responsables autonómicos han explicado que envían los datos que les pide el ministerio
+Pero mientras Extremadura, Castilla la Mancha, Pais Vasco o Andalucía notifican desde el principio cada fallecido con test positivo independientemente el lugar del fallecimiento, otras como Castilla y León o Galicia dicen que los datos de residencias los enviaban por separadO
+%[1.08, 6.6, 7.43, 9.629999999999999, 2.32, 7.35, 4.84, 2.39, 2.3600000000000003, 6.07, 5.15, 9.1, 2.64, 7.84, 1.44, 2.44, 2.16, 2.32, 4.180000000000001, 2.23, 9.08, 11.04, 7.959999999999999, 3.42, 12.4, 14.0, 7.83, 6.390000000000001, 3.5600000000000005, 6.800000000000001, 4.2, 8.84, 4.87, 3.1100000000000003, 4.2, 22.410000000000004, 5.8, 5.88, 11.39]

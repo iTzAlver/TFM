@@ -136,24 +136,30 @@ class VttReading:
         splitted = ['$$$']
         with open(route, 'r', encoding='utf-8') as file:
             for line in file:
-                if '00:00:00' < line[:] < self.time_limit:
-                    timestamps.append([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]])
-                    # diffs_.append(get_diff([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]]))
-                    diffs_.append(get_diff_f([line.split(' --> ')[0], line.split(' --> ')[1][:12]]))
-                    if timestamps[-1][0] > timestamps[-2][1] and (len(diffs_) == 1 or some_text[-1] == '!'):
-                        sliced = f'${next(file)}'
-                    else:
-                        sliced = next(file)
-                    while sliced != "\n":
-                        if self.__eliminate_buffer(hover_sliced, sliced):
-                            some_text = f'{some_text} {sliced[:-1]}'
-                            hover_sliced.append(sliced)
-                            if '.\n' in hover_sliced[-1]:
-                                diffs.append(sum(diffs_))
-                                splitted.append(some_text)
-                                some_text = ' '
-                                diffs_ = []
-                        sliced = next(file)
+                if line[0:4] == 'NOTE':
+                    line = next(file)
+                    if line[0] != '\n':
+                        return None, None, None
+                else:
+                    if '00:00:00' < line[:] < self.time_limit:
+                        timestamps.append([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]])
+                        # diffs_.append(get_diff([line.split(' --> ')[0][:-4], line.split(' --> ')[1][:8]]))
+                        diffs_.append(get_diff_f([line.split(' --> ')[0], line.split(' --> ')[1][:12]]))
+                        if timestamps[-1][0] > timestamps[-2][1] and (len(diffs_) == 1 or some_text[-1] == '!'):
+                            sliced = f'${next(file)}'
+                        else:
+                            sliced = next(file)
+                        while sliced != "\n":
+                            if self.__eliminate_buffer(hover_sliced, sliced):
+                                some_text = f'{some_text} {sliced[:-1]}'
+                                hover_sliced.append(sliced)
+                                if '.\n' in hover_sliced[-1]:
+                                    diffs.append(sum(diffs_))
+                                    splitted.append(some_text)
+                                    some_text = ' '
+                                    diffs_ = []
+                            sliced = next(file)
+
 
         splitted = [self.__eliminate_doubles(mutable[2:-1]) for mutable in splitted][1:]
 
@@ -178,27 +184,29 @@ class VttReading:
             try:
                 shutil.rmtree(f'{WRITE_PATH}{dirr}{case}')
             except Exception as reason:
+                os.mkdir(f'{WRITE_PATH}{dirr}{case}/')
                 print(f'Traceback: VttReading/__print_news/shutil.rmtree: Cannot remove directory {WRITE_PATH}{case}.'
                       f'\n Reason: {reason}.')
 
             for key, value in dicti.items():
-                try:
-                    with open(f'{WRITE_PATH}{dirr}{case}/{key}.txt', 'w', encoding='utf-8') as file:
-                        for sentences in value:
-                            file.writelines(f'{sentences}\n')
-                        casex = case.split('_')[0]
-                        file.writelines(f'%{self.diffs[f"{casex}_{key}"]}')
-                except IOError:
+                if value is not None:
                     try:
-                        os.mkdir(f'{WRITE_PATH}{dirr}{case}/')
                         with open(f'{WRITE_PATH}{dirr}{case}/{key}.txt', 'w', encoding='utf-8') as file:
                             for sentences in value:
                                 file.writelines(f'{sentences}\n')
                             casex = case.split('_')[0]
                             file.writelines(f'%{self.diffs[f"{casex}_{key}"]}')
-                    except OSError:
-                        print('Traceback: VttReading/__print_news/os.makedir'
-                              '(f\'{WRITE_PATH}{case})\'cannot be created.')
+                    except IOError:
+                        try:
+                            os.mkdir(f'{WRITE_PATH}{dirr}{case}/')
+                            with open(f'{WRITE_PATH}{dirr}{case}/{key}.txt', 'w', encoding='utf-8') as file:
+                                for sentences in value:
+                                    file.writelines(f'{sentences}\n')
+                                casex = case.split('_')[0]
+                                file.writelines(f'%{self.diffs[f"{casex}_{key}"]}')
+                        except OSError:
+                            print('Traceback: VttReading/__print_news/os.makedir'
+                                  '(f\'{WRITE_PATH}{case})\'cannot be created.')
 
     def __eliminate_doubles(self, text):
         return text.replace('  ', ' ')

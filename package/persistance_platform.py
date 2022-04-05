@@ -272,13 +272,13 @@ class MainWindow:
         self.selectarget.pack()
         self.selectarget.place(x=5, y=55)
 
-        self.th_info = Label(self.lf_correlate, text='Threshold:').place(x=130, y=35)
+        Label(self.lf_correlate, text='Threshold:').place(x=130, y=35)
         self.th_entry = Entry(self.lf_correlate, width=10)
         self.th_entry.pack()
         self.th_entry.place(x=128, y=56)
         self.th_entry.insert(-1, '0.55')
 
-        self.news_info = Label(self.lf_correlate, text='News:').place(x=140, y=-7)
+        Label(self.lf_correlate, text='News:').place(x=140, y=-7)
         self.nw_entry = Entry(self.lf_correlate, width=5)
         self.nw_entry.pack()
         self.nw_entry.place(x=143, y=14)
@@ -330,7 +330,7 @@ class MainWindow:
         return None
 
     def watchtrees(self, event):
-        self.selectree2["values"] = list(range(1, int(self.selectree.get().split('_')[-1])))
+        self.selectree2["values"] = list(range(1, 1 + int(self.selectree.get().split('_')[-1])))
         return event
 
     def watchtrees_day(self, event):

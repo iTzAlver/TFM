@@ -1,0 +1,42 @@
+$Es una de las imágenes del día
+Después de 60 días de confinamiento las familias y los amigos se han podido reencontrar en los sitios donde hoy comienza la Fase I de la desescalada
+Este avance debe hacerse siempre respetando las distancias y las medidas de seguridad
+Buenas tardes
+Esas medidas de seguridad afectan también a todas las actividades que se recuperan a partir de hoy
+Media España entra en un nuevo escenario, que se ve ya en las calles de las zonas que cambian de Fase En esas zonas, se ponen en marcha las terrazas de los bares, los hoteles, los concesionarios y no se necesita cita previa en los comercios
+Tratan de recuperar la actividad, aunque, según la Federación de Autónomos, sólo abrirán 6 de cada 10 de los que pueden hacerlo
+Hay muchos, sobre todo hoteles, porque todavía hay muchas restricciones
+$Estamos notando que la gente tiene muchas ganas de comprar
+-Esperemos que nos responda la clientela
+-Empezamos con cinco trabajadores y vamos a ver cómo va la cosa
+-Quizás es de las cosas del día a día que más he echado de menos
+$El País Vasco es una de las 11 comunidades que ya están en fase 1, aunque este caso, con restricciones
+El gobierno vasco ha decidido limitar la movilidad entre municipios y ha prohibido los reencuentros de amigos en casas
+Otras como Madrid o parte de la Comunidad Valenciana, que se han quedado en fase 0, van a pedir ya a Sanidad que revise su situación
+$En las últimas 24 horas han muerto 123 enfermos con coronavirus y se han contabilizado 373 contagios
+Son los datos menos malos desde el 18 de marzo
+Sanidad cree que demuestran que la pandemia está a la baja, pero insiste en que se mantiene el riesgo de rebrote
+$De momento no hay datos que indiquen que haya habido un repunte de los contagios cuando se cumplen 15 días de las salidas de los niños
+Son ahora los centros de atención primaria los encargados de hacer un seguimiento de los casos con pruebas PCR a las personas con síntomas aunque sean leves, pero no todos tienen tests todavía
+$Hasta hoy no han llegado ni los medios tecnológicos ni los recursos humanos
+Estamos esperanzados de que se produzca en los próximos días
+$En Francia, comienzan hoy la desescalada con el foco de atención puesto en el transporte público
+Y en el Reino Unido vuelven los que no pueden teletrabajar y se amplían las salidas a la calle
+Preocupa el repunte de los contagios en Alemania y en China están en alerta en Jilin, al noreste, con más de 100 casos confirmados
+$Hay polémica sobre las medidas de seguridad en los aviones por las imágenes de este vuelo entre Madrid y Las Palmas de Gran Canaria
+$Desde hoy está prohibido ocupar más del 50 % de los asientos, pero solo en los vuelos entre las islas
+Hasta ayer no había ninguna restricción concreta y solo se especificaba que había que mantener la mayor separación posible entre pasajeros
+$Con el avance de la desescalada, surgen más problemas para la conciliación en las familias con niños
+Los padres que no pueden teletrabajar tienen que buscar nuevas fórmulas para el cuidado de los hijos que siguen sin poder ir a clase
+$La mitad de España ha avanzado hoy a la Fase 1 de la desescalada
+Son las poblaciones coloreadas en naranja
+En rojo vemos las que todavía tendrán que esperar para, por ejemplo, reunirse con sus familiares o ir a una terraza
+La Comunidad de Madrid sigue en fase 0 y el resto tienen zonas que han pasado a la Fase 1 y otras que siguen en la anterior
+$En las zonas que han pasado de fase han visto hoy cambios en la calle
+En los pequeños comercios reabiertos ya no se necesita cita previa, pueden abrir los hoteles y las terrazas de los bares
+Vamos a comprobarlo en Bilbao, Santiago de Compostela y Sevilla, donde, Raúl Ramírez, ya es posible sentarse en una terraza
+-Así es
+$El 6 de las 8 provincias andaluzas que han cambiado de fase se repite esta imagen que muchos deseaban, terrazas al sol para compartir un almuerzo o un aperitivo
+$Imagen que reactiva la economía de muchos lugares, se hace con la mitad de las mesas permitidas, pero se estudian otras fórmulas para ampliar el espacio
+Muchas abrirán el fin de semana y a otras no le salen las cuentas
+%[6.96, 6.67, 6.75, 0.35, 4.08, 15.13, 6.640000000000001, 5.109999999999999, 2.4, 2.2, 2.96, 4.96, 5.08, 5.720000000000001, 8.24, 6.88, 3.27, 5.630000000000001, 5.96, 10.48, 3.5600000000000005, 3.75, 4.4399999999999995, 5.76, 9.510000000000002, 10.120000000000001, 4.12, 7.99, 4.16, 6.84, 2.96, 2.88, 5.96, 9.39, 3.0, 6.04, 13.879999999999999, 3.0, 11.16, 9.0, 5.4]

@@ -1,0 +1,25 @@
+$Buenas tardes
+Nos acercamos a los 5000 muertos con coronavirus, en España
+Entre ayer y hoy han fallecido 769 personas, la cifra más alta en un solo día
+Los contagios, en cambio, aumentan menos
+Son más de 64.000
+Sanidad cree que, analizando los porcentajes, la curva se suaviza, pero dice que todavía hay que tener prudencia e insiste en la presión sobre los hospitales donde hay ingresados 36.000 pacientes
+Estas son imágenes de la complicada obra en el subsuelo del hospital de emergencia instalado en IFEMA, hecha en un tiempo record, para que llegue el oxígeno a los enfermos, después de instalar las primeras UCIS
+En el telediario esperamos hablar con MSF, que han particiado en la instalación de otros dos hospitales de campaña en la Comunidad de Madrid para aliviar el colapso sanitario
+$Es la imagen de la esperanza
+Con 86 años ha vencido el virus y ha recibido el alta
+Los ancianos son los más castigados por la pandemia
+Para algunoses más duro el confinamiento porque viven solos, están asustados, y necesitan ayuda para lo más básico
+Un grupo de voluntarios nos contará como les ayudan para que no les falten alimentos y medicinas y aliviar, así, su aislamiento
+El incremento de contagios es hoy el menor en los últimos 8 dias, del 14 % pero podría deberse a la falta de pruebas diagnósticas
+Los datos que ofrece Sanidad cada mañana no representan la realidad completa de la epidemia pero insisten en que muestran una tendencia a la estabilidad
+$Da la sensación de que estamos, de acercarnos a ese pico
+$Faltan pruebas
+$Se debe, obviamente, a una respuesta relacionada con la carga hospitalaria y la carga de los laboratorios
+$La sobrecarga obliga Madrid a dejar de hacer pruebas, con síntomas evidentes
+$Los trata como personas infectadas, estos casos no suman en las estadísticas, se les han hecho la prueba y han dado positivo, podía haber más casos, de lo que dicen los números
+$pero hay mecanismos con los cuales podemos solucionarlo
+Hay más fallecimientos de los que observamos ayer, pero el incremento que se ha producido hoy, porcentualmente, El criterio de los casos positivos, Para que se mantenga estable el número de contagios, el Gobierno estaría estudiando nuevas medidas que en la práctica, endurecerían el estado de alarma
+Medidas que el Ejecutivo está valorando, según ha explicado Fernando Simón
+$Se están valorando la posibilidad de hacer algunas modificaciones sobre las recomendaciones o las medidas actuales, para garantizar que este último empujón que necesitamos darle para estabilizar la curva y empezar a, claramente, descenderla A esta hora sigue la reunión extraordinaria del Consejo de Ministros para hacer efectiva la prórroga del estado de alarma hasta el 11 de abril
+%[1.28, 2.12, 5.640000000000001, 2.4, 1.96, 11.42, 13.46, 10.0, 1.27, 1.92, 3.32, 7.2700000000000005, 9.06, 8.02, 10.28, 5.82, 3.0, 5.3, 5.76, 10.36, 1.16, 12.07, 5.029999999999999, 24.769999999999996]

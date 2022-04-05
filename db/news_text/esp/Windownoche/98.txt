@@ -1,0 +1,45 @@
+$Se cumple un mes del estado de alarma
+Aunque hoy a un leve repunte en el número de muertes diarias, el ritmo de contagio se ralentiza cada vez más
+Hoy el gobierno ha puesto a los laboratorios privados a disposición de las autonomías, para hacer pruebas de coronavirus
+La pandemia deja una perspectiva económica inquietante
+Según el Fondo Monetario Internacional, España perderá este año el 8% de su Producto Interior Bruto, más que en toda la crisis financiera que arrancó en 2008
+Son las nueve
+Esto es el Telediario
+Comenzamos repasando las cifras de la pandemia
+Como decía el ritmo de contagio se va frenando
+Hoy sube menos de un 2%, primera vez que ocurre
+Estamos por encima de los 172.000 diagnosticados
+La cifra de muertos supera ya los 18.000, como saben es el recuento oficial pero puede haber muchos más que nose registraron como fallecidos por coronavirus
+$En cuanto a las altas, se acumulan ya más de 67.000
+$Seguimos muy pendientes de lo que ocurre en los hospitales
+pero también de la economía
+El FMI cree que en 2020 el paro subirá por encima del 20 % en nuestro país
+$Una crisis, como ninguna otra
+Son palabras del Fondo Monetario Internacional que prevé una recesión global
+La economía mundial caerá un 3% en 2020, la de España, un8
+Dice también el Fondo Monetario que el coronavirus amenaza la estabilidad de todo el sistema financiero
+$hay que tener mecanismos para que se puedan controlar
+El debate sigue encima de la mesa y la decisión es del Gobierno
+Después de un mes de confinamiento, aumentan las voces que piden dejar salir a los niños
+$Las estrategias del confinamiento varían de un país a otro
+En Italia, hoy han abierto librerías, papelerías y tiendas de ropa infantil
+Austria también ha permitido la apertura a comercios de menos de 400 metros cuadrados
+Contrasta con las últimas medidas aprobadas en Francia que ha prolongado el confinamiento hasta el 11 de mayo o Gran Bretaña que estudia alargarlo hasta el 7
+$La fiebre por la desinfección y el desconocimiento de los productos que manejamos puede ser una mala combinación
+Mezclar lejía con otros productos de limpieza, como el amoniaco, por ejemplo, puede desprender vapores tóxicos
+Practicas como esta han hecho que las intoxicaciones domésticas hayan aumentado un 15%
+$Los agentes forestales colaboran ayudando a personas mayores que viven aisladas en pueblos
+Les visitan para proporcionales medicinas o alimentos
+Un equipo de TVE ha acompañado a un grupo de forestales en la Comunidad de Madrid
+$Hacerse las pruebas de coronavirus por lo privado será a partir de hoy más difícil
+El Ministerio de Sanidad ha ordenado intervenir los laboratorios de análisis clínicos privados para controlar que los test y las PCR se hagan solo bajo prescripción médica y a precios razonables
+$En este laboratorio de Girona hoy había cola para hacerse un test de diagnóstico rápido y saber si se ha tenido coronavirus
+-Por mi tranquilidad
+Pero a media mañana se ha conocido que el Gobierno ha tomado el control de los centros privados y muchos se han vuelto a casa sin su prueba
+$-El jueves recibí un mensaje Ahora se exige esa prescripción médica para intentar asegurar que las pruebas llegan a los que presentan síntomas o pertenecen a un colectivo vulnerable y no a quien lo pueda pagar
+$-Asegurar que todos los recursos del sistema, también los de la sanidad privada, trabajan en la misma dirección y conforme a la estrategia de testeo que han establecido los epidemiólogos
+$Por lo tanto, se diagnostican y se administran estos test a las personas que más que lo requieren
+$Otro de los objetivos de intervenir los laboratorios privados es obligarles a comunicar todos los casos positivos para poder controlar la evolución de la enfermedad y evitar, también que las clínicas pongan precios abusivos a las pruebas
+-No hemos requisado ningún material a ninguna empresa
+Lo que se ordena, o se establece en esta orden, es que las empresas tienen que notificar aquellos dispositivos de diagnóstico que tienen a su disposicion y qué pretenden hacer con ellos
+%[1.47, 8.23, 6.109999999999999, 3.4, 9.0, 1.28, 1.72, 2.31, 3.12, 5.56, 7.56, 12.32, 4.71, 2.2, 2.4, 4.72, 1.16, 3.86, 5.56, 5.72, 2.2, 2.4, 3.48, 2.64, 4.59, 5.3100000000000005, 9.28, 8.68, 6.48, 6.04, 4.08, 3.28, 5.32, 4.35, 12.920000000000002, 5.989999999999999, 1.76, 6.04, 10.15, 9.6, 4.75, 11.350000000000001, 2.4, 11.64]

@@ -1,0 +1,36 @@
+$Los próximos días, volverán a bajar las temperaturas
+$De momento en el fin de semana tendremos un ambiente primaveral
+$Las precipitaciones han ido remitiendo, pero no del todo
+$Nubosidad y precipitaciones en el sur
+Que los 2 archipiélagos
+$Respecto a las temperaturas han bajado a primeras horas
+$Con heladas en muchas capitales de provincia
+$Las máximas también han subido
+$Las temperaturas mañana, suben todavía más
+$Van a bajar también en el norte
+Que es donde para empezar los cambios
+$Tenemos el embolsamiento de aire frío, que se va retirando
+$Vemos el viento de norte
+$Con una masa de aire frío el lunes se colada, e invadirá todo el territorio
+$Va a dar lugar a nevadas en cotas bajas
+$El domingo marcado con una mañana sin precipitaciones
+$Por la tarde empiezan las precipitaciones por el norte
+$Se han activado avisos de naranja
+$El viento irá recibiendo
+$En Galicia en Asturias
+$Galicia y Asturias con viento fuerte precipitaciones
+$Algún chubasco en el interior
+$Con temperaturas que van bajando
+$Lloverá en la 2 mitad del día en el cantábrico norte y en navarra
+Y algún copo en la ibérica riojana
+$Las cotas de nieve en torno a los 800 m
+$En el interior no se va notar tanto
+$Aragón y Cataluña Cierzo
+$Por la tarde chubascos en Cataluña
+$En la comunidad valenciana y sol
+$En Baleares menos nubes
+$Las temperaturas son suaves
+$Por la tarde cambiará el tiempo en Castilla y León
+$En la zona de Gredos caerá chubascos
+$Las temperaturas que no cambian demasiado
+%[3.92, 3.36, 5.32, 2.87, 2.83, 3.0, 2.99, 2.95, 5.6, 2.84, 2.84, 5.08, 2.99, 5.95, 3.0, 3.0, 2.96, 2.96, 2.96, 2.96, 3.0, 3.0, 2.96, 3.36, 3.0, 3.0, 2.99, 2.99, 3.0, 3.0, 2.99, 3.0, 2.99, 2.96, 2.99]

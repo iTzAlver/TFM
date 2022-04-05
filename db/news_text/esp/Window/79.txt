@@ -1,0 +1,44 @@
+$Buenas noches
+Comenzamos antes de lo habitual
+En los próximos minutos está prevista una nueva comparecencia del presidente del Gobierno que podrán ver íntegra en el telediario, cuando se cumple justo una semana de la entrada en vigor del estado de alarma
+Vamos al Palacio de la Moncloa
+María Rodríguez, Sánchez hará una declaración y luego responderá preguntas vía telemática
+$A esta hora pocas pistas de la declaración institucional, el hermetismo es completo
+$Será a partir de las 9 una declaración institucional
+$Y no es descabellado que haya un anuncio
+$Y luego una rueda de prensa telemática
+$Fuentes del ejecutivo dicen que estamos en un momento difícil y delicado
+$Sin haber alcanzado el pico de contagios
+$El objetivo es llegar a ese pico de contagios, y después doblegarlo y bajar la curva
+$Fue justo U hace una semana, que el Consejo de ministros aprobó en un real decreto el estado de alarma
+$El próximo martes no dijo que se podía prorrogar
+$Implementar nuevas medidas
+$España suma cerca de 5000 nuevos contagios en un solo día y la cifra total escala hasta casi los 25.000
+También asciende en más de 300 el número de fallecidos
+Este sábado son ya 1326
+El número de altaa sube a 2125
+$El aumento de casos está llevando al límite la capacidad de los hospitales, con más de 1600 pacientes en la UCI
+Buena parte de ellos en Madrid
+Vamos a ver cuál es la situación en el Severo Ochoa de Leganés, y en el Clínic de Barcelona
+Empezamos en Madrid, Ya hay algunos hospitales saturados
+$Una situación compleja y crítica
+$En la unidad de cuidados intensivos no pueden atender a nadie más
+En urgencias atiende normalmente 80 o 90, entre ayer y hoy 250 personas
+$Totalmente colapsados
+En el triple de su capacidad
+Han tenido que llamar a la Unidad Militar de Emergencias
+Se llevaban pacientes, para llevarlos a otros hospitales que no están colapsados
+El personal sanitario, están completamente cansados
+$Pero tienen fuerza para seguir luchando
+$Aquí en Barcelona, hemos vivido el homenaje de la policía al cuerpo sanitario
+$Para darles las gracias por su trabajo
+$La situación es crítica en Igualada
+$Van a habilitar 180 camas en el hospital general de Cataluña, es San Cugat del Vallés
+$Hoy ya se han hecho 10 de esos traslados
+$Y se van a reforzar con 24 sanitarios más
+$Hay 4000 afectados
+$Algunos hospitales se quejan de falta de personal y material
+$Denuncian la falta de material, de recursos
+$para que los pacientes puedan esperar sentados
+Que todos nuestros abuelos, que todos los pacientes que tenemos ahora mismo en el servicio de Urgencias están atendidos correctamente
+%[1.28, 2.12, 10.909999999999998, 2.32, 4.109999999999999, 6.029999999999999, 2.99, 3.0, 3.0, 6.24, 2.87, 5.95, 9.27, 3.0, 3.0, 7.24, 2.83, 1.76, 2.72, 6.359999999999999, 1.72, 4.95, 4.79, 3.0, 3.44, 5.91, 1.32, 2.68, 2.84, 6.12, 5.99, 2.96, 6.12, 3.0, 2.96, 4.51, 2.83, 3.0, 3.0, 3.24, 3.36, 2.28, 8.27]

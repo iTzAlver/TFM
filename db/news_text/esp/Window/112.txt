@@ -1,0 +1,37 @@
+$Buenas tardes
+Ha bajado el número diario de fallecidos con coronavirus
+Han sido 367, todavía muchos, pero es la cifra más baja en más de un mes
+Por primera vez el número de altas en los hospitales ha superado al de nuevos contagios confirmados con test PCR
+Ya se contabilizan aparte los casos positivos en los análisis de anticuerpos que no se sabe cuándo se contagiaron Sanidad dice que hay datos que permiten pensar en aliviar el confinamiento
+Entre los parámetros que se van a tener en cuenta está el número de personas a las que contagia un enfermo y el tiempo que haya pasado desde el último caso en cada zona
+$Varias comunidades tienen ya sus planes
+Canarias quiere abrir el pequeño comercio y dejar salir a la calle en días alternos según el número del portal
+El País Vasco dará prioridad a comercios y peluquerías e incluso se plantean que las elecciones autonómicas suspendidas sean en julio
+$Algunos niños no quieren salir a la calle por miedo al contagio
+Los psicólogos dicen que es muy importante que los padres cuiden los mensajes alarmistas
+Dos días antes de que se permitan los paseos con menores, los administradores de fincas piden al gobierno que regule las salidas en las zonas comunes de las comunidades de vecinos
+$Algunos hospitales empiezan a reducir sus camas de UCI
+Hemos entrado en el hospital del Mar, en Barcelona, donde multiplicaron por 5 su capacidad, pasando de 20 a 100 camas y que ahora empieza a reabrir consultas y quirófanos
+$Inyectar desinfectante en los enfermos para limpiar el coronavirus
+Es la última propuesta del presidente de Estados Unidos, donde siguen disparándose las muertes y los contagios
+Algunos estados empiezan a relajar las medidas y eso está tensando la relaciones entre los gobernadores y el Presidente
+$Primera condena por corrupción deportiva en España
+La Audiencia de Navarra condena a prisión a 9 de los once acusados en el caso Osasuna por amaño de partidos
+La pena más elevada, 8 años y 8 meses , es para el el exgerente del club Ángel Vizcay
+$Por primera vez el número de curados supera al de nuevos contagios lo que para Sanidad indica que se está doblegando la curva
+Más de 219.000 personas han dado positivo por COVID-19 desde que comenzó la pandemia en España
+El número de fallecidos supera los 22.500, pero hoy son 73 menos que ayer
+Y esto es lo que acaba de decir el ministro de Sanidad sobre la curva
+$Por primera vez el número de personas curadas en las últimas 24 horas, 3.105 personas, superan al número de personas contagiadas en las últimas 24 horas, 2.796 personas, esta vez sí que estamos doblegando la curva
+$367 fallecidos en las últimas horas, es la cifra más baja desde el pasado 21 de marzo
+Sanidad ha señalado que entre ayer y hoy han conseguido que todas las Comunidades les den los datos de nuevos casos desglosados entre los que se han detectado por test de anticuerpos -3.944- y que no saben cuándo se contagiaron y por otro lado, los últimos positivos por PCR -2.796-
+Atendiendo a estos últimos
+Es el primer día que podemos dar datos de curados superiores a los datos de nuevos casos notificados
+$De ayer a hoy 3105 personas se han curado, suponen ya más del 42 % del total de casos confirmados
+Acerca de la posibilidad de hacer test de forma masiva a la población, Simón lo condiciona a las conclusiones que se extraigan del estudio de seroprevalencia a más de 90.000 personas del que ultiman los detalles: Una vez tengamos estos resultados podemos plantear la necesidad de hacer pruebas masivas a toda la población
+No recuerdo ninguna situación de salud en la que se haya hecho esto
+Simón ha explicado que la COVID-19 ataca, sobre todo, al aparato respiratorio pero -dice- hay casos en los que también afecta al sistema circulatorio, el digestivo y el urinario
+Señala, están ahora empezando a ver si deja secuelas
+$Para comenzar a relajar el confinamiento, se tienen que cumplir determinados criterios; entre ellos, que el ritmo reproductivo sea menor de uno, es decir, que cada infectado contagie a una persona o menos
+Sanidad está definiendo esos parámetros y los analizará esta tarde junto a Teresa Ribera, con las Comunidades Autónomas, María Doval
+%[0.76, 2.44, 4.4399999999999995, 6.4399999999999995, 11.24, 8.32, 1.64, 6.0, 6.52, 3.4, 4.800000000000001, 9.559999999999999, 2.48, 9.32, 3.6799999999999997, 5.88, 7.760000000000001, 2.04, 6.16, 5.6, 6.24, 6.2, 6.32, 3.16, 15.48, 5.84, 18.360000000000003, 2.04, 6.68, 6.720000000000001, 20.400000000000002, 3.76, 9.16, 3.76, 17.160000000000004, 8.52]

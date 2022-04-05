@@ -1,0 +1,40 @@
+$Buenas noches
+Son los titulares que nos deja este domingo
+Siguen cayendo las cifras de nuevos contagios y de fallecimientos por Covid19
+Falta confirmar esta tendencia, para poder afirmar que hemos superado el pico de la epidemia
+$Se mantiene la mejora pero las cifras siguen siendo muy altas: 130.759 contagiados confirmados y 12.418 fallecidos
+$El confinamiento, dice el ministro de Sanidad, está funcionando: Confirman esta fase de estabilización y de ralentización de la pandemia
+Hoy el aumento de contagios es el más bajo desde hace dos semanas
+En las últimas 24 horas se han contabilizado 6023 casos más
+También se ha reducido el número de muertes diarias en España
+La cifra más baja en más de una semana: 674 fallecidos
+Aún así recuerdan, cautela con estos datos
+Es verdad que estamos en fin de semana y siempre digo que las cifras del fin de semana hay que consolidarlas en la semana siguiente
+Nos fijamos también en las altas
+3861 personas han superado al virus en el último día
+El total de curados supera ya los 38 millones
+$El director de la OMS en Europa, de visita en España esta semana, ha mostrado su optimismo con la situación de nuestro país, aunque pide ser prudentes
+$Como cada domingo, desde que se decretó el estado de alarma, Pedro Sánchez ha hablado por videoconferencia con los presidentes autonómicos para escuchar sus necesidades y trasladarles las últimas medidas del Gobierno
+Entre ellas, Sánchez les ha comunicado hoy su decisión de prorrogar el estado de alarma hasta finales de abril
+Y también, María Boj, su plan para aislar a los contagiados asintomáticos en infraestructuras públicas y privadas
+$Eso ha pedido un listado de las infraestructuras, y que estén asintomáticos, es la primera forma de la salida del estado de alarma
+Con test rápidos, residencias y hospitales
+$El gobierno ha anunciado que mandará 1.000.000 de sostenes, Sánchez les ha propuesto unos pactos de la Moncloa, tal como lo habían pedido los presidentes
+$Incluirá todas las fuerzas políticas, Estamos doblegando ya la curva, asegura el Gobierno, que centra parte de sus esfuerzos en qué vendrá después
+Esto que hemos denominado estrategia de transición o desescalamiento
+Entre los planes que estudia el Ejecutivo, aislar a los positivos asintomáticos en diversas instalaciones para controlar su evolución
+Pedir al conjunto de presidentes autonómicos un listado de infraestructuras públicas o privadas que puedan facilitar como opción a aquellas personas que deban ser aisladas, un espacio público para hacerlo
+La prioridad sigue siendo la detección precoz del virus
+De media, en España, dice el ministro, se realizan entre 15.000 y 20.000 tests diarios y anuncia la llegada de más
+Las Comunidades Autónomas dispondrán, algunas de ellas esta misma tarde, otras mañana
+Se han repartido un millón de las mismas
+Pruebas que primero irán a parar a hospitales y residencias de ancianos
+Sobre las muertes en estos centros, el Gobierno exige datos claros a todas las Comunidades
+Para poder tener una foto completa de qué está pasando
+Algunas Comunidades Autónomas han facilitado ya cifras oficiales, bien sean de personas afectadas por coronavirus u otro tipo de fallecimiento, otras no lo han hecho
+El uso de mascarillas, que ahora avala la OMS, Sanidad lo está valorando y lo recomendará siempre que haya capacidad de abastecimiento
+El Gobierno de España no va a exigir nada que no se pueda cumplir
+Son los próximos pasos del Ejecutivo, tras la reunión de Sánchez y los ministros de Sanidad, Interior, Defensa y Transportes
+Era el cuarto encuentro por videconferencia y un punto de acuerdo: unidad de acción para reconstruir económicamente España pero también exigencias
+El más contundente, Quim Torra que pide el endurecimiento de las medidas, y ha vuelto a insistir
+%[0.84, 2.56, 3.88, 5.48, 8.24, 10.1, 4.07, 4.32, 3.2, 4.4399999999999995, 3.2, 7.82, 2.08, 4.16, 3.08, 8.92, 12.59, 6.04, 6.789999999999999, 8.96, 5.96, 9.2, 8.67, 3.31, 6.55, 11.52, 3.04, 6.55, 5.359999999999999, 2.28, 3.87, 4.92, 2.84, 10.280000000000001, 6.83, 3.4, 8.64, 8.66, 6.28]

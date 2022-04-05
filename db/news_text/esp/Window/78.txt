@@ -1,0 +1,37 @@
+$Buenas tardes, Sanidad admite que preocupa la situación en las UCIS donde están ingresados mas de 1000 enfermos con coronavirus
+El coordinador de emergencias reconoce que en algunos hospitales soportan una situación de estrés cercana al límite y tienen que hacer criterios más restrictivos
+Han muerto 1.041 personas y los contagios superan los 20.400
+$La mitad de los enfermos están hospitalizados y para aliviar la situación de los centros sanitarios han empezado a instalar hospitales de campaña en la Comunidad valenciana, en Asturias y en Madrid, donde esperan disponer de 5.500 plazas en IFEMA
+$Se han reducido los trámites presenciales a lo mínimo, pero hay oficinas de correo y sucursales bancarias abiertas
+Y al menos un banco ha adelantado el pago de las pensiones de los jubilados para evitar aglomeraciones
+Todos tenemos muchas dudas sobre el coronavirus
+Luego contamos como responden los expertos en nuestra web rtve.es Hoy hay 200 enfermos más que ayer en las unidades de cuidados intensivos de nuestros hospitales
+Un total de 1.141 personas
+Los médicos intensivistas preparan protocolos de actuación para el momento en el que las camas de las UCIs no sean suficientes
+$Los hospitales se preparan para evitar un hipotético colapso de las unidades de cuidados intensivos
+Una situación excepcional en la que, recalcan, no nos encontramos ahora mismo, pero que prevé que no todos los enfermos puedan ser atendidos de la misma forma porque falten medios
+En ese caso, según un documento de la sociedad española de Medicina Intensiva, habría que privilegiar a los pacientes con mayor esperanza de vida frente a grupos de riesgo
+Personas mayores de 80 años, a valorar de forma individual, tienen menos posibilidades de superviviencia, patologías crónicas que puedan tener como alteraciones hepáticas crónicas, insuficiencia renal crónica
+Los pacientes con menos posibilidades de superviviencia serían tratados en otras áreas de los hospitales
+Se trataría de criterios, dice el protocolo, basados en principios éticos, transparentes y homogéneos, que se centrarían en las posibilidades de éxito
+-La valoración que se hace habitualmente, y en estos casos en los que puede haber más sobrecarga asistencial pues hay que ser más cuidadosos lógicamente
+-Hoy los médicos han dado de alta a seis personas en Madrid, una buena noticia en palabras de Fernando Simón, que advierte que las estancias en cuidados intensivos son muy largas, de hasta 28 días y reconoce sobrecarga en algunos centros
+$-Algunas unidades asistenciales están bajo un estrés cercano al límite
+$-También es cierto que se están poniendo muchas medidas
+-Desde la sociedad civil hay muchas iniciativas para tratar de ayudar a los hospitales
+Una de ellas es la de fabricar mascarillas o piezas de respiradores artificiales con impresoras 3D
+Lo está haciendo la Universidad Jaume Primero de Castellón
+-Con este tipo de sistemas, de muy bajo coste, se pueden desarrollar, imprimir y construir elementos que por el boom de demanda está costando proveer
+$-También en Cantabria 50 voluntarios con impresoras 3D están fabricando respiradores mecánicos con un coste diez más bajo, que tendrán que pasar después un proceso de certificación
+$Son ya más de mil los muertos con coronavirus en nuestro país y la cifra de contagiados supera los 20.400
+Afortunadamente aumenta también el número de recuperados que son ya casi 1.600
+Sanidad no se plantea endurecer las medidas, pero insiste en que hay que cumplirlas a rajatabla
+$Se va a cumplir una semana desde que se decretó el Estado de Alarma
+Hasta dentro unos días no se podrán ver los efectos de las medidas, pero ahora, dicen desde Sanidad, no nos podemos relajar: Mantengan la tensión, tenemos que conseguirlo y tenemos que conseguirlo lo antes posible, el impacto que esto está teniendo en nuestra sociedad y en la sociedad de todo el mundo, de todos los países del mundo no se puede aguantar mucho tiempo
+Dicen desde Sanidad que los datos que manejan es posible que infravaloren la transmisión total, pero sirven para ver la evolución
+El objetivo es conseguir que en este mapa, que muestra la incidencia del COVID-19 por Comunidades, las zonas oscuras se aclaren mientras que las claras no dejen de estarlo
+El Gobierno, por ahora, no plantea endurecer las medidas: De momento, las medidas que ha adoptado España, que están entre las más duras del conjunto de la UE y diría que del mundo, si se cumplen bien, a criterio de nuestros expertos, pensamos que nos ayudarán a derrotar el virus
+Y aunque el cansancio ya pesa Yo lo que hago cuando llego a casa es caer rendido en la cama, o sea que hay poca oportunidad de contacto
+Es imprescindible, dice Simón, no perder la tensión hasta que superemos el pico de contagios
+$Madrid empezará a fabricar su propio material sanitario
+%[5.720000000000001, 8.33, 4.6, 15.61, 6.08, 6.83, 3.12, 7.91, 2.8, 7.0, 4.1899999999999995, 10.35, 8.19, 20.23, 4.9, 8.48, 8.4, 11.05, 6.550000000000001, 2.8, 3.4, 4.55, 2.68, 13.64, 8.36, 5.52, 4.75, 4.6, 3.47, 20.36, 6.999999999999999, 9.389999999999999, 15.47, 7.58, 5.22, 2.4]

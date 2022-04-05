@@ -1,0 +1,29 @@
+$Ya son 5 días con más de 800 muertos diarios por coronavirus
+Hoy han sido 864
+El máximo hasta el moment pero se detectan algunos signos positivos
+El número de contagios crece a menor ritmo y en lugares como Madrid, se estabilizan los ingresos en UCI en las últimas 24 horas
+Aunque suben, por ejemplo, en Cataluña
+Son las nueve
+Esto es el Telediario
+En España ya se superan los 100.000 contagiados diagnosticados
+Hay que tener en cuenta, que es sólo una parte de los contagiados reales porque sólo se hacen pruebas, por lo general, a los casos más graves
+En cuanto a los fallecimientos, se superan los 9.000, hoy con ese máximo de muertes en un solo día
+Y las altas hospitalarias, superan ya las 22.000
+Muchos hospitales siguen al límite, la situación seguirá siendo muy difícil en los próximos días pero según el Gobierno se ha entrado ya en una fase de estabilización
+$Sanidad traduce las cifras de afectados, aunque siguen aumentado, en palabras de optimismo
+-El incremento de casos desde ayer es de alrededor de un 8 % lo que continuaría informándonos de que seguimos en una fase de estabilización de la pandemia
+Se basan en que los anteriores datos hablaban de un aumento del 12% Es decir, afirman, que ya habríamos terminado de subir la cuesta de contagios y habríamos alcanzado el pico de la curva
+-Parece que ya estamos ahí y que ya estamos descendiendo
+Ahora el caballo de batalla está en conseguir que nuestro sistema de salud sea capaz de garantizar la cobertura adecuada de todos nuestros pacientes
+En las últimas 24 horas se han reducido los ingresos en ucis y la presión, según dicen, en algunas comunidades como Madrid, una de las más afectadas, es menor, aunque otras siguen al límite
+Sin embargo, dice Simón, es pronto para afirmar que esta tendencia se mantendrá -Esto no lo podremos valorar correctamente, hasta final de esta semana o principios de la que viene, por lo tanto, creemos que tenemos que seguir manteniendo la tensión El proceso de contagio y recuperación de la enfermedad es largo y tener estadísticas fiables lleva su tiempo, según afirman desde el Ministerio
+Los nuevos datos conocidos hoy son de pacientes contagiados hace dos o tres semana, es decir, antes del confinamiento
+Por eso insten en el mensaje positivo: estamos en la buena dirección
+Analizada la evolución de la enfermedad, cada día surgen nuevas dudas sobre el virus
+Preguntas que se hacen los responsables de sanidad, los periodistas y las personas que están confinadas en sus hogares por ejemplo, ¿si alguien se infectase por segunda vez, tendría los mismo síntomas y podría seguir contagiando? -Hay algunos artículos que indican que estos reinfectados, los pocos que haya que podrían contagiar a otras personas, también hay otros artículos que dicen que los reinfectados, primero, rara vez se ponen enfermos y segunda, rara vez transmiten
+Pero, concluye Simón, hay mucha controversia a nivel internacional en este aspecto porque, en paralelo a la lucha por frenar la pandemia, está la carrera por conocer cómo se comporta el virus para evitar que, en un futuro, volvamos a vivir una situación como al actual
+$En Cataluña, el número de ingresados en la UCI ha vuelto a crecer Ya hay más de 1.700 camas ocupadas allí
+Hoy, precisamente, hemos tenido acceso a un protocolo del servicio médico de emergencias de la Generalitat en el que recomienda no intubar a pacientes mayores de 80 años si no responden al tratamiento con oxígeno, Laura Mesa
+$Se trata de un documento interno, será una serie de recomendaciones, para tratar a pacientes con insuficiencia respiratoria, y con el virus, no entubar a mayores de 80 años con el virus, siempre, debe prevalecer el criterio clínico, se ha pronunciado la Generalitat, diciendo que siempre tiene que prevalecer el criterio clínico, y las síntomas de cada paciente, en los hospitales y centros, cada uno tiene sus propios protocolos
+En este documento elaborado por el servicio médico de emergencias de Cataluña se dan una serie de recomendaciones a sus profesionales de urgencias prehospitalarias
+%[1.72, 3.56, 6.880000000000001, 6.279999999999999, 4.47, 0.88, 1.88, 3.12, 5.11, 8.43, 4.0, 15.819999999999999, 6.720000000000001, 10.0, 10.58, 2.84, 8.950000000000001, 10.96, 18.999999999999996, 6.99, 5.23, 4.38, 27.46, 15.46, 5.92, 13.36, 25.370000000000005, 9.28]

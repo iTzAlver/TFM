@@ -1,0 +1,53 @@
+$Desciende el número diario de muertos
+Fueron 367 en las últimas 24 horas, 73 menos que ayer
+De momento no hay un plan claro para avanzar hacia el desconfinamiento
+Algunas autonomías ya trabajan en el procedimiento y esta tarde, el gobierno central y las comunidades se han reunido para coordinar el proceso
+Buenas noches
+Son las nueve
+Esto es el Telediario
+Repasamos las últimas cifras
+Ya hay más de 219.000 contagios acumulados
+$Los fallecimientos suben a 22.524, 367 en el último día, baja de 400 por primera vez en varios días
+Y las altas superan las 92.000
+Se han diagnosticado más de 6.700 nuevos contagios en el últimodía, unos 2.000 más que ayer, pero dice el ministro que, por primera vez, se han registrado más altas hospitalarias que nuevos contagios
+Se apoya en un nuevo cambio en el método de recuento del ministerio
+Sólo consideran nuevos contagios los que se han detectado con pruebas PCR
+Y deja a un lado los diagnósticos con tests de anticuerpos
+$Por primera vez el número de personas curadas en las últimas 24 horas, 3105 personas, superan al número de personas contagiadas en las últimas 24 horas, 2796 personas, esta vez sí que estamos doblegando la curva
+$Gobierno y Comunidades empiezan a compartir propuestas para la desescalada
+Cuando los hospitales tengan capacidad, la detección del virus vaya más rápida y tengamos los medios de protección
+Canarias, por sus tasas bajas de contagio, y País Vasco, quieren empezar en mayo
+De hecho, el lehendakari Urkullu ya está pensando en celebrar las elecciones autonómicas en julio
+$-El inicio del otoño podría coincidir con un rebrote de la epidemia y no contaremos con una vacuna
+$Esta previsión aconseja estudiar la opción de convocatoria electoral en el mes de julio
+$Esta emergencia del Coronavirus deja ahora otra curva de la que también hay que estar muy pendientes: la de la crisis social, dice el Ayuntamiento de Madrid, la de las personas más vulnerables que necesitan ayuda para hacer frente a sus gastos y hasta para comer
+Las asociaciones de ayuda social alertan de que estos días las peticiones de alimentos se están multiplicando
+$Una empresa de Ourense ha diseñado este túnel desinfectante
+En lo que tardamos en atravesarlo desinfectamos manos, ropa y zapatos
+$Su idea es ofrecerlo a supermercados, hospitales, aeropuertos, y hasta colegios
+Y ya hay interés en comprarlo
+$Carmen y Tomás se han vuelto a dar el sí quiero 50 años después
+Han celebrado sus Bodas de Oro en el Hospital del Mar de Barcelona mientras se recuperan del coronavirus
+$Como todos los días estamos pendientes de la evolución de la pandemia en las últimas 24 horas
+Un recuento en el que hoy hay cambios
+$Aquí ven el número total de contagios que diagnosticaron ayer: unos 6.700
+Se detectaron por pruebas PCR y con pruebas de anticuerpos
+Hasta ayer se contabilizaban juntos
+Pero hoy el ministerio los separa
+Dice que sólo los de pruebas PCR son nuevos contagios
+Aquí los ven
+Serían unos 2.700 casos y dice que los demás son casos ya superados
+Los contabiliza aparte
+Al compararlos con las altas médicas, considera que por primera vez hay menos contagios nuevos que altas
+Los fallecimientos ofrecen un recuento más constante, son las personas que murieron después de dar positivo en la prueba del coronavirus, una prueba que no se ha hecho en todos los casos
+Esta es la evolución: Llegó a haber casi 1.000 muertos al día
+Ahora esa cifra baja hasta los 367
+Sobre la evolución de la pandemia en España, -El día de hoy es un día en el que tenemos algunas noticias buenas
+Con este mensaje optimista empezaba Fernando Simón la valoración de los datos que deja este viernes el coronavirus
+Por primera vez la cifra diaria de curados supera a la de contagiados: son 3.105 recuperados frente a 2.796 nuevos casos
+Según Sanidad, esto confirma que lo peor de la epidemia ya ha pasado
+$-Al tener más curados que contagiados, esta vez sí que estamos doblegando la curva
+$La ansiada bajada de la curva se nota también en el número de muertes, 367 desde ayer
+$La cifra más baja en un mes
+$Simón ha recordado que los contagios que se reportan hoy en realidad ocurrieron hace 2 o 3 semanas, y muestran dónde se han producido la mayoría de esos contagios: en las residencias de ancianos, en los domicilios y en los servicios sanitarios
+%[1.68, 4.23, 3.83, 7.279999999999999, 0.95, 0.88, 1.24, 1.92, 4.31, 9.68, 1.76, 13.36, 3.96, 5.15, 4.92, 14.02, 3.92, 7.75, 3.4000000000000004, 4.15, 5.95, 4.5600000000000005, 11.719999999999999, 5.12, 3.48, 4.31, 4.6, 2.08, 3.16, 5.95, 3.99, 5.6, 3.79, 4.04, 3.52, 3.59, 6.08, 1.08, 4.15, 2.52, 9.72, 12.870000000000001, 2.79, 1.76, 2.8, 4.51, 8.190000000000001, 3.92, 4.4, 4.64, 1.55, 12.56]
