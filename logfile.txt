@@ -27532,3 +27532,115 @@ recall 	= 0.9158699808795411
 <Tue Apr  5 19:35:00 2022>	[Info]:	Showing up tree C:/Users/fract/Desktop/TFM/db/trees/test_tree.3s.
 <Tue Apr  5 19:35:11 2022>	[Info]:	Testing tree written in ~/db/trees/test_tree.3s.
 <Tue Apr  5 19:35:26 2022>	[Info]:	Showing up tree C:/Users/fract/Desktop/TFM/db/trees/test_tree.3s.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed Apr  6 11:04:24 2022>	[Info]:	Added  to testing target.
+<Wed Apr  6 11:04:25 2022>	[Info]:	Launching persistance platform...
+<Wed Apr  6 11:06:32 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/6.txt to testing target.
+<Wed Apr  6 11:06:33 2022>	[Info]:	Time decorrelation enabled.
+<Wed Apr  6 11:06:44 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed Apr  6 11:06:44 2022>	[Warning]:	Default action for last error: launching test.
+<Wed Apr  6 11:06:44 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:06:46 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:06:46 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:06:49 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed Apr  6 11:06:49 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:06:50 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:07:46 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 11:07:46 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:07:47 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:07:47 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:07:50 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:07:50 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:07:53 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:08:46 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 11:08:47 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:13:38 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 11:13:38 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:13:40 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:13:40 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Wed Apr  6 11:13:43 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:13:43 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:13:45 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:14:14 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 11:14:15 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:15:17 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Wed Apr  6 11:15:17 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:15:19 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:15:19 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:15:21 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:15:21 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:15:25 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:17:54 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 11:17:55 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:19:19 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/7.txt to testing target.
+<Wed Apr  6 11:19:21 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 11:19:21 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:19:23 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:19:23 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:19:27 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:19:27 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:19:28 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:19:29 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:21:40 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/8.txt to testing target.
+<Wed Apr  6 11:21:43 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 11:21:43 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:21:44 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:21:44 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:21:47 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:21:47 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 11:21:48 2022>	[Info]:	All images updated.
+<Wed Apr  6 11:23:38 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/9.txt to testing target.
+<Wed Apr  6 11:23:45 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 11:23:45 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 11:23:47 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 11:23:47 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 11:23:50 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 11:23:50 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:00:49 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 12:00:51 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:07:11 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/10.txt to testing target.
+<Wed Apr  6 12:07:19 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 12:07:19 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 12:07:21 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 12:07:21 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 12:07:23 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 12:07:23 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:07:25 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:11:43 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/10.txt to testing target.
+<Wed Apr  6 12:11:46 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 12:11:46 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 12:11:48 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 12:11:48 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed Apr  6 12:11:50 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 12:11:50 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:11:54 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:13:31 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 12:13:32 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:20:38 2022>	[Info]:	PM th set to 0.206 and oim to 1.
+<Wed Apr  6 12:20:38 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 12:20:40 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 12:20:40 2022>	[Info]:	PM launched with th=0.206 and oim=1.
+<Wed Apr  6 12:20:43 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 12:20:43 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:20:51 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:22:56 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/11.txt to testing target.
+<Wed Apr  6 12:23:33 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/11.txt to testing target.
+<Wed Apr  6 12:23:36 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 12:23:36 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 12:23:39 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 12:23:39 2022>	[Info]:	PM launched with th=0.206 and oim=1.
+<Wed Apr  6 12:23:41 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 12:23:41 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:23:42 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:23:58 2022>	[Info]:	Watch for PM.
+<Wed Apr  6 12:23:59 2022>	[Info]:	All images updated.
+<Wed Apr  6 12:40:56 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Windownoche/12.txt to testing target.
+<Wed Apr  6 12:40:58 2022>	[Info]:	FB-BCM th set to 0.55.
+<Wed Apr  6 12:40:58 2022>	[Info]:	Preprocessing for testing done.
+<Wed Apr  6 12:41:00 2022>	[Info]:	Correlation for testing done.
+<Wed Apr  6 12:41:00 2022>	[Info]:	PM launched with th=0.206 and oim=1.
+<Wed Apr  6 12:41:04 2022>	[Info]:	FB-BCM launched with th=0.55
+<Wed Apr  6 12:41:04 2022>	[Info]:	Test processing finished.
+<Wed Apr  6 12:41:06 2022>	[Info]:	All images updated.
