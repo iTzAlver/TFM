@@ -11,25 +11,82 @@ import matplotlib.pyplot as plt
 import matplotlib.tri as tri
 import numpy as np
 
+samples_0 = [
+            0.1704,
+            0.7688,
+            0.474,
+            0.2391,
+            0.4453,
+            0.305,
+            0.6731,
+            0.4957,
+            0.3801,
+            0.3889,
+            0.1838,
+            0.2239,
+            0.2573,
+            0.4934,
+            0.3097,
+            0.325]
 
+samples_1 = [
+            0.1374,
+            0.0651,
+            0.1143,
+            0.1537,
+            0.0901,
+            0.1887,
+            0.076,
+            0.2154,
+            0.3091,
+            0.0956,
+            0.1668,
+            0.1766,
+            0.198,
+            0.109,
+            0.1174,
+            0.157]
+
+
+samples_2 = [
+            0.6922,
+            0.1661,
+            0.4117,
+            0.6072,
+            0.4646,
+            0.5063,
+            0.2509,
+            0.2889,
+            0.3108,
+            0.5155,
+            0.6494,
+            0.5995,
+            0.5447,
+            0.3976,
+            0.5729,
+            0.5173]
 # -----------------------------------------------------------
 
 
 def main() -> None:
-    original = Dirichlet([0], alphas=[12, 5, 7])
-    testpoints = original.sample(1000)
+    original_p = [17, 7, 3]
+    original = Dirichlet([0], alphas=original_p)
+    testpoints = np.transpose(np.array([samples_0, samples_1, samples_2]))
+    testpoints = original.sample(200)
     estimated = Dirichlet(testpoints)
 
-    pars = [parameter for parameter in estimated.parameters]
+    pars = [round(parameter, 2) for parameter in estimated.parameters]
     print(pars)
     f, ax = plt.subplots(nrows=2, ncols=2)
 
     original.draw_pdf_contours(ax=ax[0, 0])
-    original.plot_points(original.sample(1000), ax=ax[0, 1])
+    original.plot_points(testpoints, ax=ax[0, 1])
     estimated.draw_pdf_contours(ax=ax[1, 0])
-    estimated.plot_points(estimated.sample(1000), ax=ax[1, 1])
-    # ax[0, 0].title(f'Original: {pars}.')
-    # f.colorbar()
+    estimated.plot_points(estimated.sample(2000), ax=ax[1, 1])
+    ax[0, 0].set_title(f'Original: {original_p}.')
+    ax[1, 0].set_title(f'Estimated: {pars}.')
+    ax[0, 1].set_title(f'Original: points.')
+    ax[1, 1].set_title(f'Estimated points.')
     plt.show()
     return
 
@@ -57,7 +114,7 @@ class Dirichlet:
         # ax.figure(figsize=(8, 6))
         trimesh = self.trimesh
         pvals = [self.pdf(self._xy2bc(xy)) for xy in zip(trimesh.x, trimesh.y)]
-        ax.tricontourf(trimesh, pvals, nlevels, cmap='jet', **kwargs)
+        ax.tricontourf(trimesh, pvals, nlevels, **kwargs)
         # ax.colorbar()
         ax.axis('equal')
         # ax.xlim(0, 1)
