@@ -27979,3 +27979,48 @@ recall 	= 0.9158699808795411
 <Fri Apr  8 20:10:47 2022>	[Info]:	FB-BCM launched with th=0.5
 <Fri Apr  8 20:10:47 2022>	[Info]:	Test processing finished.
 <Fri Apr  8 20:10:50 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Sat Apr  9 13:41:53 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Windownoche/69.txt to testing target.
+<Sat Apr  9 13:42:02 2022>	[Info]:	Time decorrelation enabled.
+<Sat Apr  9 13:42:05 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Sat Apr  9 13:42:05 2022>	[Warning]:	Default action for last error: launching test.
+<Sat Apr  9 13:42:05 2022>	[Info]:	Preprocessing for testing done.
+<Sat Apr  9 13:42:07 2022>	[Info]:	Correlation for testing done.
+<Sat Apr  9 13:42:07 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Sat Apr  9 13:42:13 2022>	[Info]:	FB-BCM launched with th=0.5
+<Sat Apr  9 13:42:13 2022>	[Info]:	Test processing finished.
+<Sat Apr  9 13:42:15 2022>	[Info]:	All images updated.
+<Sat Apr  9 13:43:36 2022>	[Info]:	Watch for PM.
+<Sat Apr  9 13:43:37 2022>	[Info]:	All images updated.
+<Sat Apr  9 13:44:00 2022>	[Info]:	Watch for FB-BCM.
+<Sat Apr  9 13:44:01 2022>	[Info]:	All images updated.
+<Sat Apr  9 13:44:41 2022>	[Info]:	Showing up tree C:/Users/fract/Desktop/TFM/db/trees/test_tree.3s.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Apr 19 13:19:33 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Windownoche/121.txt to testing target.
+<Tue Apr 19 13:19:43 2022>	[Info]:	Time decorrelation enabled.
+<Tue Apr 19 13:19:44 2022>	[Info]:	Decorrelation by time tokens set to 23.0.
+<Tue Apr 19 13:19:51 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 19 13:19:51 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 19 13:19:54 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 19 13:19:54 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Apr 19 13:19:57 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 19 13:19:57 2022>	[Info]:	Test processing finished.
+<Tue Apr 19 13:20:02 2022>	[Info]:	All images updated.
+<Tue Apr 19 13:21:00 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Windownoche/33.txt to testing target.
+<Tue Apr 19 13:21:04 2022>	[Info]:	All images updated.
+<Tue Apr 19 13:21:05 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 19 13:21:05 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 19 13:21:07 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 19 13:21:07 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Apr 19 13:21:11 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 19 13:21:11 2022>	[Info]:	Test processing finished.
+<Tue Apr 19 13:21:12 2022>	[Info]:	All images updated.
+<Tue Apr 19 13:21:13 2022>	[Info]:	All images updated.
+<Tue Apr 19 13:21:14 2022>	[Info]:	All images updated.

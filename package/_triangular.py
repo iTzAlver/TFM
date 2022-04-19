@@ -69,19 +69,19 @@ samples_2 = [
 
 
 def main() -> None:
-    original_p = [17, 7, 3]
+    original_p = [12, 7, 3]
     original = Dirichlet([0], alphas=original_p)
     testpoints = np.transpose(np.array([samples_0, samples_1, samples_2]))
-    testpoints = original.sample(200)
+    # testpoints = original.sample(200)
     estimated = Dirichlet(testpoints)
 
     pars = [round(parameter, 2) for parameter in estimated.parameters]
     print(pars)
     f, ax = plt.subplots(nrows=2, ncols=2)
 
-    original.draw_pdf_contours(ax=ax[0, 0])
+    original.draw_pdf_contours(ax=ax[0, 0], cmap='jet')
     original.plot_points(testpoints, ax=ax[0, 1])
-    estimated.draw_pdf_contours(ax=ax[1, 0])
+    estimated.draw_pdf_contours(ax=ax[1, 0], cmap='jet')
     estimated.plot_points(estimated.sample(2000), ax=ax[1, 1])
     ax[0, 0].set_title(f'Original: {original_p}.')
     ax[1, 0].set_title(f'Estimated: {pars}.')
