@@ -42,7 +42,6 @@ def main() -> None:
 
 
 def to_nltk_tree(node):
-	retval = None
 	if node.n_lefts + node.n_rights > 0:
 		retval = Tree(node.orth_, [to_nltk_tree(child) for child in node.children])
 	else:
