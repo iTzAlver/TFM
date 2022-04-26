@@ -63,12 +63,16 @@ class Pbmm:
 
         return segmentation
 
-    def merge_segmentation(self, phrases, diffs=None):
+    def merge_segmentation(self, phrases, diffs=None, seg_=None):
         intro = []
         xdiffs = []
         acc = 0
-        for segz in self.segmentation:
-            intro.append(segz[0])
+        if seg_ is None:
+            for segz in self.segmentation:
+                intro.append(segz[0])
+        else:
+            for segz in seg_:
+                intro.append(segz[0])
 
         merged = []
         straigth = '$'

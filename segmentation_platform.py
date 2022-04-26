@@ -28,6 +28,7 @@ from package.error_calculation import CalculateError
 from package.persistance_platform import main as persistance
 from package.pm import Pbmm
 from package.styles import ColorStyles, HoverButton
+from package.lga.lga import LGA
 
 MODEL_LIST_LOCATION = r'./db/models/models.txt'
 ICO_LOCATION = r'./.multimedia/isdefeico.ico'
@@ -229,9 +230,12 @@ def test_correlate(*args, **kwargs) -> []:
         stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs)
         parent.lowrite(f'PM launched with th={kwargs["pmth"]} and oim={kwargs["oim"]}.', cat='Info')
     else:
-        stream_merged_pm = sentence_stream
-        pm_segmentation = []
-        newdiffs = diffs
+        my_lga = LGA('', matrix=tokenized_mtx, th=kwargs['pmth'])
+        my_lga.lifegame(params=(3, 1, kwargs['pmth']))
+        pmm = Pbmm(tokenized_mtx, th=kwargs['pmth'], oim=kwargs['oim'])
+        pm_segmentation = my_lga.collapse()
+        stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs, seg_=pm_segmentation)
+        parent.lowrite(f'LGA launched with th={kwargs["pmth"]}.', cat='Info')
     # FB_BCM:
     if kwargs['fbbcmen']:
         trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, xmodel=current_model,

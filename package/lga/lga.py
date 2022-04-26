@@ -36,7 +36,7 @@ class LGA:
 	Class LGA (Life Game Algorythm) uses a correlartion matrix and converges the matrix to blocks based on a
 	lifegame policy.
 	"""
-	def __init__(self, path, matrix=None):
+	def __init__(self, path, matrix=None, th=0.0):
 		if matrix is None:
 			mtx = self._readmtx(path)
 			self._mtx = mtx
@@ -49,7 +49,7 @@ class LGA:
 		self.ispadded = False
 		self.isthreshed = False
 		self.figure = None
-		self.th = 0.0
+		self.th = th
 
 	def threshold(self, th):
 		"""

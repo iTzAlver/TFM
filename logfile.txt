@@ -28180,3 +28180,305 @@ f 	= 0.7714285714285715
 recall 	= 0.827027027027027
 
 <Tue Apr 26 11:13:56 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Apr 26 16:48:17 2022>	[Info]:	PM disabled for test.
+<Tue Apr 26 16:48:21 2022>	[Info]:	Time decorrelation enabled.
+<Tue Apr 26 16:48:22 2022>	[Info]:	Decorrelation by time tokens set to 23.0.
+<Tue Apr 26 16:48:26 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Apr 26 16:48:29 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Tue Apr 26 16:48:29 2022>	[Warning]:	Default action for last error: launching test.
+<Tue Apr 26 16:48:29 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 16:48:31 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 16:48:31 2022>	[Info]:	LGA launched with th=0.2.
+<Tue Apr 26 16:48:34 2022>	[Info]:	FB-BCM launched with th=0.5
+<Tue Apr 26 16:48:34 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 16:48:34 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Apr 26 16:52:12 2022>	[Info]:	Time decorrelation enabled.
+<Tue Apr 26 16:52:12 2022>	[Info]:	Decorrelation by time tokens set to 23.0.
+<Tue Apr 26 16:52:13 2022>	[Info]:	PM disabled for test.
+<Tue Apr 26 16:52:19 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Apr 26 16:52:20 2022>	[Info]:	FB-BCM th set to 0.5.
+<Tue Apr 26 16:52:20 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 16:52:22 2022>	[Info]:	Correlation for testing done.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Apr 26 16:55:47 2022>	[Info]:	Time decorrelation enabled.
+<Tue Apr 26 16:55:57 2022>	[Info]:	PM disabled for test.
+<Tue Apr 26 16:56:00 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 16:56:00 2022>	[Error]:	There is no target for test.
+<Tue Apr 26 16:56:06 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Apr 26 16:56:07 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 16:56:07 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 16:56:09 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 16:57:13 2022>	[Info]:	LGA launched with th=0.2.
+<Tue Apr 26 16:57:24 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 16:57:24 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 16:57:28 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.8959537572254335
+f 	= 0.8790170132325141
+recall 	= 0.9135559921414538
+
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Tue Apr 26 17:03:55 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Apr 26 17:03:59 2022>	[Info]:	Time decorrelation enabled.
+<Tue Apr 26 17:04:15 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 17:04:15 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:04:17 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:04:17 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Tue Apr 26 17:04:19 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:04:19 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:04:19 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Tue Apr 26 17:04:26 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:04:26 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:04:28 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:04:28 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:04:30 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:04:30 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:04:30 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Tue Apr 26 17:05:02 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/2.txt to testing target.
+<Tue Apr 26 17:05:03 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 17:05:03 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:05:05 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:05:05 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:05:09 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:05:09 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:05:09 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/2.txtResults of the error calculation:
+f1 	= 0.7470817120622568
+f 	= 0.5962732919254659
+recall 	= 1.0
+
+<Tue Apr 26 17:05:34 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/3.txt to testing target.
+<Tue Apr 26 17:05:36 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:05:36 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:05:38 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:05:38 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:05:45 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:05:45 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:05:45 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/3.txtResults of the error calculation:
+f1 	= 0.8066783831282953
+f 	= 0.7714285714285715
+recall 	= 0.8453038674033149
+
+<Tue Apr 26 17:05:59 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/4.txt to testing target.
+<Tue Apr 26 17:06:00 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:06:00 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:06:02 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:06:02 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:06:06 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:06:06 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:06:06 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/4.txtResults of the error calculation:
+f1 	= 0.956661316211878
+f 	= 0.9197530864197531
+recall 	= 0.9966555183946488
+
+<Tue Apr 26 17:06:21 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/5.txt to testing target.
+<Tue Apr 26 17:06:22 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 17:06:22 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:06:24 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:06:24 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:06:29 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:06:29 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:06:29 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.67
+f 	= 0.5218068535825545
+recall 	= 0.9357541899441341
+
+<Tue Apr 26 17:06:47 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/6.txt to testing target.
+<Tue Apr 26 17:06:47 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:06:47 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:06:50 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:06:50 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:06:55 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:06:55 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:06:55 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/6.txtResults of the error calculation:
+f1 	= 0.6747211895910781
+f 	= 0.5299270072992701
+recall 	= 0.928388746803069
+
+<Tue Apr 26 17:07:11 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/7.txt to testing target.
+<Tue Apr 26 17:07:12 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:07:12 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:07:14 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:07:14 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:07:19 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:07:19 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:07:19 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/7.txtResults of the error calculation:
+f1 	= 0.594159113796576
+f 	= 0.44764795144157815
+recall 	= 0.8832335329341318
+
+<Tue Apr 26 17:07:50 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/8.txt to testing target.
+<Tue Apr 26 17:07:52 2022>	[Info]:	FB-BCM th set to 0.45.
+<Tue Apr 26 17:07:52 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:07:54 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:07:54 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:07:59 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:07:59 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:07:59 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/8.txtResults of the error calculation:
+f1 	= 0.5805084745762712
+f 	= 0.4370015948963317
+recall 	= 0.8643533123028391
+
+<Tue Apr 26 17:08:17 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/9.txt to testing target.
+<Tue Apr 26 17:08:18 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:08:18 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:08:20 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:08:20 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:08:23 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:08:23 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:08:23 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/9.txtResults of the error calculation:
+f1 	= 0.876425855513308
+f 	= 0.7989601386481803
+recall 	= 0.9705263157894737
+
+<Tue Apr 26 17:08:36 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/10.txt to testing target.
+<Tue Apr 26 17:08:37 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:08:37 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:08:40 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:08:40 2022>	[Info]:	PM launched with th=0.18 and oim=1.
+<Tue Apr 26 17:08:45 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:08:45 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:08:45 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/10.txtResults of the error calculation:
+f1 	= 0.8018691588785046
+f 	= 0.7308347529812607
+recall 	= 0.8881987577639752
+
+<Tue Apr 26 17:10:18 2022>	[Info]:	PM disabled for test.
+<Tue Apr 26 17:10:20 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:10:20 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:10:23 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:10:23 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:10:29 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:10:29 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:10:29 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/10.txtResults of the error calculation:
+f1 	= 0.7548717948717949
+f 	= 0.6237288135593221
+recall 	= 0.9558441558441558
+
+<Tue Apr 26 17:10:43 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/9.txt to testing target.
+<Tue Apr 26 17:10:43 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:10:43 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:10:45 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:10:46 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:10:50 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:10:50 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:10:50 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/9.txtResults of the error calculation:
+f1 	= 0.7453027139874738
+f 	= 0.6187175043327556
+recall 	= 0.937007874015748
+
+<Tue Apr 26 17:11:06 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/8.txt to testing target.
+<Tue Apr 26 17:11:06 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:11:06 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:11:08 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:11:09 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:11:13 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:11:13 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:11:13 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/8.txtResults of the error calculation:
+f1 	= 0.6501614639397201
+f 	= 0.48165869218500795
+recall 	= 1.0
+
+<Tue Apr 26 17:11:29 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/7.txt to testing target.
+<Tue Apr 26 17:11:32 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:11:32 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:11:35 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:11:36 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:11:41 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:11:41 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:11:41 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/7.txtResults of the error calculation:
+f1 	= 0.3688622754491018
+f 	= 0.2336874051593323
+recall 	= 0.875
+
+<Tue Apr 26 17:12:01 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Tue Apr 26 17:12:02 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:12:02 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:12:03 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:12:04 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:12:06 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:12:06 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:12:06 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.8959537572254335
+f 	= 0.8790170132325141
+recall 	= 0.9135559921414538
+
+<Tue Apr 26 17:12:25 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/2.txt to testing target.
+<Tue Apr 26 17:12:25 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:12:25 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:12:27 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:12:28 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:12:31 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:12:31 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:12:31 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/2.txtResults of the error calculation:
+f1 	= 0.7470817120622568
+f 	= 0.5962732919254659
+recall 	= 1.0
+
+<Tue Apr 26 17:12:45 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/3.txt to testing target.
+<Tue Apr 26 17:12:46 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:12:46 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:12:48 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:12:49 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:12:55 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:12:55 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:12:55 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/3.txtResults of the error calculation:
+f1 	= 0.8120740019474197
+f 	= 0.7008403361344537
+recall 	= 0.9652777777777778
+
+<Tue Apr 26 17:13:07 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/4.txt to testing target.
+<Tue Apr 26 17:13:10 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:13:10 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:13:12 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:13:13 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:13:18 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:13:18 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:13:18 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/4.txtResults of the error calculation:
+f1 	= 0.9207920792079208
+f 	= 0.8611111111111112
+recall 	= 0.9893617021276596
+
+<Tue Apr 26 17:13:48 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/5.txt to testing target.
+<Tue Apr 26 17:13:49 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:13:49 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:13:51 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:13:52 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:13:57 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:13:57 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:13:57 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.655241935483871
+f 	= 0.5062305295950156
+recall 	= 0.9285714285714286
+
+<Tue Apr 26 17:14:21 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/6.txt to testing target.
+<Tue Apr 26 17:14:22 2022>	[Info]:	PM th set to 0.18 and oim to 1.
+<Tue Apr 26 17:14:22 2022>	[Info]:	Preprocessing for testing done.
+<Tue Apr 26 17:14:24 2022>	[Info]:	Correlation for testing done.
+<Tue Apr 26 17:14:26 2022>	[Info]:	LGA launched with th=0.18.
+<Tue Apr 26 17:14:30 2022>	[Info]:	FB-BCM launched with th=0.45
+<Tue Apr 26 17:14:30 2022>	[Info]:	Test processing finished.
+<Tue Apr 26 17:14:30 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/6.txtResults of the error calculation:
+f1 	= 0.7662771285475792
+f 	= 0.67007299270073
+recall 	= 0.8947368421052632
