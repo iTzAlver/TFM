@@ -39,6 +39,7 @@ LOG_FILE_PATH = r'./logfile.txt'
 IMAGE_PATH = r'./.multimedia/'
 TREES_DIR = r'./db/trees/'
 GT_DIR = r'db/groundtruth/f1/'
+EXPORT_MATRIX_PATH = r'db/.exported/exported_mtx.txt'
 
 CStyles = ColorStyles
 cat2color = {'Info': CStyles.pink, 'Warning': CStyles.orange, 'Error': CStyles.red, 'Note': CStyles.blue}
@@ -1091,6 +1092,8 @@ class MainWindow:
                     for index2 in range(ending - base + 1):
                         thematrix2[base + index2][base + index1][2] += 150
 
+        with open(EXPORT_MATRIX_PATH, 'w', encoding='utf-8') as file:
+            np.savetxt(file, self.target_matrix1)
         # Figure plotting:
         myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
         plt.imshow(thematrix)

@@ -8,7 +8,7 @@
 # -------------------------------------------------------------------#
 import spacy
 from nltk import Tree
-sp = spacy.load('es_core_news_lg')
+sp = spacy.load('../es_core_news_lg')
 
 sample = 'El Banco de Rusia admite el daño de las sanciones: "El periodo en el que la economía puede vivir de sus ' \
          'reservas es finito". Elvira Nabiulina, gobernadora del Banco Central de Rusia, asegura que los principales ' \
