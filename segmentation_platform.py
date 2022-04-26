@@ -231,7 +231,7 @@ def test_correlate(*args, **kwargs) -> []:
         parent.lowrite(f'PM launched with th={kwargs["pmth"]} and oim={kwargs["oim"]}.', cat='Info')
     else:
         my_lga = LGA('', matrix=tokenized_mtx, th=kwargs['pmth'])
-        my_lga.lifegame(params=(3, 1, kwargs['pmth']))
+        my_lga.lifegame(params=(2.75, 1, kwargs['pmth']))
         pmm = Pbmm(tokenized_mtx, th=kwargs['pmth'], oim=kwargs['oim'])
         pm_segmentation = my_lga.collapse()
         stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs, seg_=pm_segmentation)
