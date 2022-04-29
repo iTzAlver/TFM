@@ -28,7 +28,6 @@ from package.error_calculation import CalculateError
 from package.persistance_platform import main as persistance
 from package.pm import Pbmm
 from package.styles import ColorStyles, HoverButton
-from package.lga.lga import LGA
 
 MODEL_LIST_LOCATION = r'./db/models/models.txt'
 ICO_LOCATION = r'./.multimedia/isdefeico.ico'
@@ -40,7 +39,6 @@ LOG_FILE_PATH = r'./logfile.txt'
 IMAGE_PATH = r'./.multimedia/'
 TREES_DIR = r'./db/trees/'
 GT_DIR = r'db/groundtruth/f1/'
-EXPORT_MATRIX_PATH = r'db/.exported/exported_mtx.txt'
 
 CStyles = ColorStyles
 cat2color = {'Info': CStyles.pink, 'Warning': CStyles.orange, 'Error': CStyles.red, 'Note': CStyles.blue}
@@ -230,12 +228,9 @@ def test_correlate(*args, **kwargs) -> []:
         stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs)
         parent.lowrite(f'PM launched with th={kwargs["pmth"]} and oim={kwargs["oim"]}.', cat='Info')
     else:
-        my_lga = LGA('', matrix=tokenized_mtx, th=kwargs['pmth'])
-        my_lga.lifegame(params=(2.75, 1, kwargs['pmth']))
-        pmm = Pbmm(tokenized_mtx, th=kwargs['pmth'], oim=kwargs['oim'])
-        pm_segmentation = my_lga.collapse()
-        stream_merged_pm, newdiffs = pmm.merge_segmentation(sentence_stream, diffs=diffs, seg_=pm_segmentation)
-        parent.lowrite(f'LGA launched with th={kwargs["pmth"]}.', cat='Info')
+        stream_merged_pm = sentence_stream
+        pm_segmentation = []
+        newdiffs = diffs
     # FB_BCM:
     if kwargs['fbbcmen']:
         trees_list = fbbcm.fbbcm(stream_merged_pm, kwargs['fbbcmth'], 0, xmodel=current_model,
@@ -1096,8 +1091,6 @@ class MainWindow:
                     for index2 in range(ending - base + 1):
                         thematrix2[base + index2][base + index1][2] += 150
 
-        with open(EXPORT_MATRIX_PATH, 'w', encoding='utf-8') as file:
-            np.savetxt(file, self.target_matrix1)
         # Figure plotting:
         myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
         plt.imshow(thematrix)
