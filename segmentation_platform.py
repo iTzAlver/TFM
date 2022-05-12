@@ -1048,7 +1048,7 @@ class MainWindow:
                 thematrix[nrow][ncol][1] = [element * 100 if element > 0 else 0][0]
                 thematrix[nrow][ncol][2] = [element * wtx if element > 0 else 0][0]
                 if element == mrow and self.watch_fbbcm:
-                    thematrix[nrow][ncol][2] += 100
+                     thematrix[nrow][ncol][2] += 100
 
         for row, _ in enumerate(thematrix):
             for col, __ in enumerate(thematrix):
@@ -1094,8 +1094,8 @@ class MainWindow:
         # Figure plotting:
         myfig = plt.figure(figsize=(4.85, 4.3), dpi=75)
         plt.imshow(thematrix)
-        img = Image.fromarray(thematrix)
-        img.save(f'{IMAGE_PATH}slot1.png')
+        img = Image.fromarray(thematrix).convert('RGB')
+        img.save(f'{IMAGE_PATH}slot1.eps')
         plt.title(f'Matrix {type1}')
         axis = range(sized1)
         plt.xticks(axis, self.sentence_stream_t1, rotation='vertical')
@@ -1160,6 +1160,9 @@ class MainWindow:
 
         self.lowrite(f'All images updated.', cat='Info')
         plt.close()
+
+
+
         return
 
     def launch_test(self) -> None:

@@ -28700,3 +28700,122 @@ recall 	= 0.9550102249488752
 <Fri Apr 29 19:02:19 2022>	[Info]:	All images updated.
 <Fri Apr 29 19:02:21 2022>	[Info]:	Watch for PM.
 <Fri Apr 29 19:02:23 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed May  4 16:51:19 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Wed May  4 16:51:23 2022>	[Info]:	Time decorrelation enabled.
+<Wed May  4 16:51:23 2022>	[Info]:	Decorrelation by time tokens set to 60.0.
+<Wed May  4 16:51:25 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Wed May  4 16:51:25 2022>	[Info]:	Preprocessing for testing done.
+<Wed May  4 16:51:27 2022>	[Info]:	Correlation for testing done.
+<Wed May  4 16:51:27 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May  4 16:51:30 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May  4 16:51:30 2022>	[Info]:	Test processing finished.
+<Wed May  4 16:51:30 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.8440090429540317
+f 	= 0.8722741433021807
+recall 	= 0.8175182481751825
+
+<Wed May  4 16:51:33 2022>	[Info]:	All images updated.
+<Wed May  4 16:51:38 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed May  4 16:57:35 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Wed May  4 16:57:36 2022>	[Info]:	Time decorrelation enabled.
+<Wed May  4 16:57:39 2022>	[Info]:	Decorrelation by time tokens set to 60.0.
+<Wed May  4 16:57:44 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed May  4 16:57:44 2022>	[Warning]:	Default action for last error: launching test.
+<Wed May  4 16:57:44 2022>	[Info]:	Preprocessing for testing done.
+<Wed May  4 16:57:45 2022>	[Info]:	Correlation for testing done.
+<Wed May  4 16:57:45 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May  4 16:57:49 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May  4 16:57:49 2022>	[Info]:	Test processing finished.
+<Wed May  4 16:57:49 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.8440090429540317
+f 	= 0.8722741433021807
+recall 	= 0.8175182481751825
+
+<Wed May  4 16:57:50 2022>	[Info]:	All images updated.
+<Wed May  4 16:58:28 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed May  4 16:59:47 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Wed May  4 16:59:48 2022>	[Info]:	Time decorrelation enabled.
+<Wed May  4 16:59:51 2022>	[Info]:	Decorrelation by time tokens set to 60.0.
+<Wed May  4 16:59:54 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed May  4 16:59:54 2022>	[Warning]:	Default action for last error: launching test.
+<Wed May  4 16:59:54 2022>	[Info]:	Preprocessing for testing done.
+<Wed May  4 16:59:56 2022>	[Info]:	Correlation for testing done.
+<Wed May  4 16:59:56 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May  4 16:59:59 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May  4 16:59:59 2022>	[Info]:	Test processing finished.
+<Wed May  4 16:59:59 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.8440090429540317
+f 	= 0.8722741433021807
+recall 	= 0.8175182481751825
+
+<Wed May  4 17:00:00 2022>	[Info]:	All images updated.
+<Wed May  4 17:00:09 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed May  4 17:01:53 2022>	[Info]:	Time decorrelation enabled.
+<Wed May  4 17:01:59 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Wed May  4 17:02:01 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed May  4 17:02:01 2022>	[Warning]:	Default action for last error: launching test.
+<Wed May  4 17:02:01 2022>	[Info]:	Preprocessing for testing done.
+<Wed May  4 17:02:02 2022>	[Info]:	Correlation for testing done.
+<Wed May  4 17:02:02 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May  4 17:02:06 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May  4 17:02:06 2022>	[Info]:	Test processing finished.
+<Wed May  4 17:02:06 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.7374005305039788
+f 	= 0.6495327102803738
+recall 	= 0.852760736196319
+
+<Wed May  4 17:02:07 2022>	[Info]:	All images updated.
+<Wed May  4 17:02:13 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu May  5 10:17:13 2022>	[Info]:	Time decorrelation enabled.
+<Thu May  5 10:17:16 2022>	[Info]:	Decorrelation by time tokens set to 60.0.
+<Thu May  5 10:17:23 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Thu May  5 10:17:27 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu May  5 10:17:27 2022>	[Warning]:	Default action for last error: launching test.
+<Thu May  5 10:17:27 2022>	[Info]:	Preprocessing for testing done.
+<Thu May  5 10:17:29 2022>	[Info]:	Correlation for testing done.
+<Thu May  5 10:17:29 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu May  5 10:17:34 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu May  5 10:17:34 2022>	[Info]:	Test processing finished.
+<Thu May  5 10:17:34 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.8440090429540317
+f 	= 0.8722741433021807
+recall 	= 0.8175182481751825
+
+<Thu May  5 10:17:36 2022>	[Info]:	All images updated.
+<Thu May  5 10:18:18 2022>	[Info]:	All images updated.
+<Thu May  5 10:19:30 2022>	[Info]:	All images updated.
+<Thu May  5 10:19:52 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu May  5 13:58:12 2022>	[Info]:	Time decorrelation enabled.
+<Thu May  5 13:58:18 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/5.txt to testing target.
+<Thu May  5 13:58:19 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Thu May  5 13:58:19 2022>	[Warning]:	Default action for last error: launching test.
+<Thu May  5 13:58:19 2022>	[Info]:	Preprocessing for testing done.
+<Thu May  5 13:58:21 2022>	[Info]:	Correlation for testing done.
+<Thu May  5 13:58:21 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu May  5 13:58:24 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu May  5 13:58:24 2022>	[Info]:	Test processing finished.
+<Thu May  5 13:58:24 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/5.txtResults of the error calculation:
+f1 	= 0.7374005305039788
+f 	= 0.6495327102803738
+recall 	= 0.852760736196319
+
+<Thu May  5 13:58:26 2022>	[Info]:	All images updated.
+<Thu May  5 13:58:47 2022>	[Info]:	Launching persistance platform...
