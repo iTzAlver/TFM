@@ -4,10 +4,10 @@
 # Universidad de Alcalá - Escuela Politécnica Superior      #
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
-class Leaf:
-    """
+import numpy as np
 
-    """
+
+class Leaf:
     def __init__(self, *args):
         if len(args) != 2:
             raise ValueError("Error while building a Leaf, wrong number of parameters.")
@@ -42,9 +42,6 @@ class Leaf:
 
 
 class TreeStructure:
-    """
-
-    """
     def __init__(self, *args, **kwargs):
         for tuple_ in args:
             if not isinstance(tuple_, tuple):
@@ -78,7 +75,7 @@ class TreeStructure:
                 else:
                     raise ValueError(f"Error while building a TreeStructure: invalid {key} parameter.")
             elif 'bed' in key:
-                if isinstance(item, list) or isinstance(item, tuple):
+                if isinstance(item, (list, tuple, np.ndarray)):
                     self.Embedding = item
                 else:
                     raise ValueError(f"Error while building a TreeStructure: invalid {key} parameter.")

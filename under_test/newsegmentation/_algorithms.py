@@ -7,21 +7,13 @@
 # Import statements:
 
 # -----------------------------------------------------------
-def main() -> None:
-    return
-    
-    
-class Default:
-    def __init__(self):
-        self.default = 0
-   
-# -----------------------------------------------------------
-# Main:
+def pbmm(r):
+    return [3, 8, 29]
 
 
-if __name__ == '__main__':
-    main()
-
+def fbbcm(lm, s, t):
+    r = lm(s)
+    return r, s, t
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
