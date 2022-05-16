@@ -5,21 +5,22 @@
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
+import os
+import matplotlib.pyplot as plt
 from abc import abstractmethod
-
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-
 from ._structures import TreeStructure
 from ._tdm import ftdm
+temporalfile = r'./temporalfile.txt'
 
 
 # -----------------------------------------------------------
 class NewsSegmentation:
-    def __init__(self, news_path, tdm=0.3, gpa=(0, 0), sdm=(), lcm=(), ref=0):
+    def __init__(self, news_path, tdm=0.3, gpa=(0, 0), sdm=(0.18, 1, 0.18*0.87), lcm=(0.42,), ref=0):
         """
-        Virtual class: 3 methods must be overriden.
-        :param tdm: Penalty factor (betta) for Temporal Distance Manager.
+        Virtual class: 3 methods must be overriden
+        :param tdm: Penalty factor (betta) for Temporal Distance Manager
         :param sdm: Spatial Distance Manager parameters:
             [0]: [0]: Variance for Gaussian.
                  [1]: Weight for GPA.
@@ -68,9 +69,10 @@ class NewsSegmentation:
         self.t.append(t)
         # Tree transformation:
         self.__treefication()
+        os.remove(temporalfile)
 
     def __database_transformation(self, path):
-        return self._database_transformation(path)
+        return self._database_transformation(path, temporalfile)
 
     @staticmethod
     def __reader(path):
@@ -119,7 +121,7 @@ class NewsSegmentation:
                     if self.parameters['gpa'][0] > 0 else element
                 rp[nr][nc] = element + self.parameters['gpa'][1] * (gpa - element)
         # SDM algorithm:
-        self._directives = self._spatial_manager(rp)
+        self._directives = self._spatial_manager(rp, self.parameters['sdm'])
         # Merge components:
         s2 = []
         t2 = []
@@ -127,17 +129,21 @@ class NewsSegmentation:
         _t = 0
         for pos, phrase in enumerate(s):
             if pos in self._directives:
-                s2.append(_s[2:])
+                s2.append(_s)
                 t2.append(_t)
-                _s = ''
+                _s = f'{phrase}'
                 _t = 0
+                _t += t[pos]
             else:
                 _s = f'{_s}. {phrase}'
                 _t += t[pos]
+        s2[0] = s2[0][2:]
+        s2.append(_s)
+        t2.append(_t)
         return rp, s2, np.array(t2)
 
     def __later_correlation_manager(self, s, t):
-        r, s, t = self._later_correlation_manager(self.__specific_language_model, s, t)
+        r, s, t = self._later_correlation_manager(self.__specific_language_model, s, t, self.parameters['lcm'])
         return np.array(r), s, np.array(t)
 
     def __treefication(self):
@@ -168,17 +174,17 @@ class NewsSegmentation:
             for nc, element in enumerate(row):
                 if nc > nr:
                     cp += element ** 2
-        cp /= len(cembedding) * (len(cembedding) - 1)
+        cp /= len(cembedding) * (len(cembedding) - 1) if len(cembedding) > 1 else 1
         return np.float(2 * cp)
 
     @staticmethod
     @abstractmethod
-    def _spatial_manager(r) -> tuple:
+    def _spatial_manager(r, param) -> tuple:
         pass
 
     @staticmethod
     @abstractmethod
-    def _later_correlation_manager(lm, s, t) -> tuple:
+    def _later_correlation_manager(lm, s, t, param) -> tuple:
         pass
 
     @staticmethod
@@ -186,8 +192,10 @@ class NewsSegmentation:
     def _specific_language_model(s) -> np.array:
         pass
 
-    def _database_transformation(self, path):
-        return path
+    @staticmethod
+    @abstractmethod
+    def _database_transformation(path, output):
+        pass
 
     def __repr__(self):
         __text = f"NewsSegmentation object: {len(self.News)} news classified."
@@ -199,24 +207,53 @@ class NewsSegmentation:
 
     def __next__(self):
         while self.__n < len(self.News):
-            yield self.News[self.__n]
+            rval = self.News[self.__n]
             self.__n += 1
+            return rval
         else:
             raise StopIteration
 
-    def plotmtx(self, *args, color='orange', saveas=''):
+    def plotmtx(self, *args, color='orange'):
         if color not in ['orange', 'black']:
             print(f'Warning: Color: {color} not defined. Orange chosen.')
             color = 'orange'
         if len(args) == 0:
             pass
         else:
-            for num in args:
-                pass
+            marks = len(self.R)
+            _, subfigs = plt.subplots(ncols=marks)
+            for nfig, num in enumerate(args):
+                num = 3 if num > 3 else num
+                pltmtx = self.R[num]
+                thematrix = np.zeros((len(pltmtx), len(pltmtx), 3), dtype=np.uint8)
+                nra = 100 if color == 'orange' else 255
+                wxf = 1 if num == 3 else 0
+                wxp = 1 if num == 2 else 0
+                wxb = 0 if color == 'orange' else 255
+                bluecore = 150 if color == 'orange' else -150
+                for nrow, row in enumerate(pltmtx):
+                    xrow = row.copy()
+                    mrow = (xrow.sort(), xrow[-2])[1]
+                    for ncol, element in enumerate(row):
+                        thematrix[nrow][ncol][0] = [element * 255 if element > 0 else 0][0]
+                        thematrix[nrow][ncol][1] = [element * nra if element > 0 else 0][0]
+                        thematrix[nrow][ncol][2] = [element * wxb if element > 0 else 0][0]
+                        if element == mrow and wxf:
+                            thematrix[nrow][ncol][2] += 100
+                if wxp:
+                    thesegmentation = [0]
+                    thesegmentation.extend(self._directives)
+                    for idx, segment in enumerate(self._directives):
+                        base = thesegmentation[idx]
+                        ending = segment - 1
+                        for index1 in range(ending - base + 1):
+                            for index2 in range(ending - base + 1):
+                                thematrix[base + index2][base + index1][2] += bluecore
+                # subfigs[nfig].figure(figsize=(4.85, 4.3), dpi=75)
+                subfigs[nfig].imshow(thematrix)
+                subfigs[nfig].set_title(f'R{num}')
+            plt.show()
         return 0
-
-    def gui(self):
-        pass
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
