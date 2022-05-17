@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 from abc import abstractmethod
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from ._structures import TreeStructure
-from ._tdm import ftdm
+from under_test.newsegmentation.newsegmentation._structures import TreeStructure
+from under_test.newsegmentation.newsegmentation._tdm import ftdm
 temporalfile = r'./temporalfile.txt'
 
 

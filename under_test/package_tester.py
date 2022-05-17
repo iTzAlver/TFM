@@ -5,7 +5,7 @@
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
-import newsegmentation as ns
+import newsegmentation.newsegmentation as ns
 
 
 # -----------------------------------------------------------

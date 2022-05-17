@@ -42,11 +42,26 @@ def pbmm(r, param):
 
         if failure_counter > oim:
             d.append(appindex + 1)
+            len_cb = d[-1] - last_index - 1     # Checkback init.
+            init_cb = last_index + 1            # Checkback init.
             last_index = appindex
             current_index = appindex
-            # Do checkback...
-            # {}
 
+            # Checkback...
+            if len_cb > 1:
+                cb_mean = 0
+                for i in range(len_cb - 1):
+                    cb_mean += r[init_cb][init_cb + i + 1]
+                cb_mean /= (len_cb - 1)
+                if cb_mean < cbt:
+                    # Check back integrity...
+                    cb_mean_back = r[init_cb][init_cb - 1] if init_cb > 0 else -1
+                    if cb_mean_back < cbt:
+                        aux = d.pop(-1)
+                        d.append(d[-1] + 1)
+                        d.append(aux)
+                    else:
+                        d[-2] += 1
     # Last element:
     d.append(current_index)
     return d
@@ -73,6 +88,7 @@ def fbbcm(lm, s, t, param):
                 this_t[nidx] += this_t[indexing[idx]]
                 popping.append(indexing[idx])
 
+        popping.sort(reverse=True)
         for popp in popping:
             this_s.pop(popp)
             this_t = np.delete(this_t, popp)
