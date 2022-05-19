@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-src/newsemgnetation_package_albertopalomo.egg-info/PKG-INFO
-src/newsemgnetation_package_albertopalomo.egg-info/SOURCES.txt
-src/newsemgnetation_package_albertopalomo.egg-info/dependency_links.txt
-src/newsemgnetation_package_albertopalomo.egg-info/top_level.txt
