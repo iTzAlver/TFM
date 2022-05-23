@@ -1,0 +1,127 @@
+[92mOptimitation initialized...[0m
+[93mLaunching parameter: tdm.[0m
+Launching optimization for parameter tdm:0.19999999999999998:
+Time ellapsed: 163.9994275 seconds.
+Launching optimization for parameter tdm:0.21:
+Time ellapsed: 173.9515806 seconds.
+Launching optimization for parameter tdm:0.22:
+Time ellapsed: 175.01679439999998 seconds.
+Launching optimization for parameter tdm:0.23:
+Time ellapsed: 170.73807490000002 seconds.
+Launching optimization for parameter tdm:0.24000000000000002:
+Time ellapsed: 178.7995591 seconds.
+Launching optimization for parameter tdm:0.25:
+Time ellapsed: 179.44676309999988 seconds.
+Launching optimization for parameter tdm:0.26:
+Time ellapsed: 181.59790309999994 seconds.
+Launching optimization for parameter tdm:0.27:
+Time ellapsed: 195.95911539999997 seconds.
+Launching optimization for parameter tdm:0.28:
+Time ellapsed: 217.00204769999982 seconds.
+Launching optimization for parameter tdm:0.29000000000000004:
+Time ellapsed: 235.98428669999998 seconds.
+Launching optimization for parameter tdm:0.30000000000000004:
+Time ellapsed: 234.1640637999999 seconds.
+Launching optimization for parameter tdm:0.31000000000000005:
+Time ellapsed: 242.0204990000002 seconds.
+Launching optimization for parameter tdm:0.32000000000000006:
+Time ellapsed: 245.2933812000001 seconds.
+Launching optimization for parameter tdm:0.33000000000000007:
+Time ellapsed: 250.9153785999997 seconds.
+Launching optimization for parameter tdm:0.3400000000000001:
+Time ellapsed: 261.5435401999998 seconds.
+Launching optimization for parameter tdm:0.3500000000000001:
+Time ellapsed: 268.645356 seconds.
+Launching optimization for parameter tdm:0.3600000000000001:
+Time ellapsed: 265.9791371000001 seconds.
+Launching optimization for parameter tdm:0.3700000000000001:
+Time ellapsed: 283.57769610000014 seconds.
+Launching optimization for parameter tdm:0.3800000000000001:
+Time ellapsed: 287.43674280000005 seconds.
+Launching optimization for parameter tdm:0.3900000000000001:
+Time ellapsed: 299.9852450999997 seconds.
+Launching optimization for parameter tdm:0.40000000000000013:
+Time ellapsed: 305.55018460000065 seconds.
+[93mLaunching parameter: sdm.[0m
+Launching optimization for parameter sdm:0.07999999999999999:
+Time ellapsed: 28.689776499999425 seconds.
+Launching optimization for parameter sdm:0.08999999999999998:
+Time ellapsed: 38.22016359999998 seconds.
+Launching optimization for parameter sdm:0.09999999999999998:
+Time ellapsed: 43.83025559999987 seconds.
+Launching optimization for parameter sdm:0.10999999999999997:
+Time ellapsed: 59.75219840000045 seconds.
+Launching optimization for parameter sdm:0.11999999999999997:
+Time ellapsed: 93.74560650000058 seconds.
+Launching optimization for parameter sdm:0.12999999999999995:
+Time ellapsed: 131.22318730000006 seconds.
+Launching optimization for parameter sdm:0.13999999999999996:
+Time ellapsed: 149.23358669999925 seconds.
+Launching optimization for parameter sdm:0.14999999999999997:
+Time ellapsed: 165.37214180000046 seconds.
+Launching optimization for parameter sdm:0.15999999999999995:
+Time ellapsed: 164.15577940000003 seconds.
+Launching optimization for parameter sdm:0.16999999999999993:
+[92mOptimitation initialized...[0m
+[93mLaunching parameter: tdm.[0m
+Launching optimization for parameter tdm:0.19999999999999998:
+Time ellapsed: 168.7913431 seconds.
+Launching optimization for parameter tdm:0.21:
+Time ellapsed: 167.36313410000002 seconds.
+Launching optimization for parameter tdm:0.22:
+Time ellapsed: 169.79842869999993 seconds.
+Launching optimization for parameter tdm:0.23:
+Time ellapsed: 176.79777820000004 seconds.
+Launching optimization for parameter tdm:0.24000000000000002:
+Time ellapsed: 208.68963710000003 seconds.
+Launching optimization for parameter tdm:0.25:
+Time ellapsed: 181.19879200000003 seconds.
+Launching optimization for parameter tdm:0.26:
+Time ellapsed: 184.62288130000002 seconds.
+Launching optimization for parameter tdm:0.27:
+Time ellapsed: 185.37355700000012 seconds.
+Launching optimization for parameter tdm:0.28:
+Time ellapsed: 205.98117189999994 seconds.
+Launching optimization for parameter tdm:0.29000000000000004:
+Time ellapsed: 222.89163239999993 seconds.
+Launching optimization for parameter tdm:0.30000000000000004:
+Time ellapsed: 243.92062599999986 seconds.
+Launching optimization for parameter tdm:0.31000000000000005:
+Time ellapsed: 270.3633794999996 seconds.
+Launching optimization for parameter tdm:0.32000000000000006:
+Time ellapsed: 232.21596230000023 seconds.
+Launching optimization for parameter tdm:0.33000000000000007:
+Time ellapsed: 237.53078529999993 seconds.
+Launching optimization for parameter tdm:0.3400000000000001:
+Time ellapsed: 246.34597140000005 seconds.
+Launching optimization for parameter tdm:0.3500000000000001:
+Time ellapsed: 252.05984959999978 seconds.
+Launching optimization for parameter tdm:0.3600000000000001:
+Time ellapsed: 250.6252970999999 seconds.
+Launching optimization for parameter tdm:0.3700000000000001:
+Time ellapsed: 324.38182640000014 seconds.
+Launching optimization for parameter tdm:0.3800000000000001:
+Time ellapsed: 281.9818242999995 seconds.
+Launching optimization for parameter tdm:0.3900000000000001:
+Time ellapsed: 279.1819562999999 seconds.
+Launching optimization for parameter tdm:0.40000000000000013:
+Time ellapsed: 289.1280174000003 seconds.
+[93mLaunching parameter: sdm.[0m
+Launching optimization for parameter sdm:0.07999999999999999:
+Time ellapsed: 27.81822370000009 seconds.
+Launching optimization for parameter sdm:0.08999999999999998:
+Time ellapsed: 37.820064399999865 seconds.
+Launching optimization for parameter sdm:0.09999999999999998:
+Time ellapsed: 46.10132859999976 seconds.
+Launching optimization for parameter sdm:0.10999999999999997:
+Time ellapsed: 62.64370119999967 seconds.
+Launching optimization for parameter sdm:0.11999999999999997:
+Time ellapsed: 104.45033400000011 seconds.
+Launching optimization for parameter sdm:0.12999999999999995:
+Time ellapsed: 135.7457889999996 seconds.
+Launching optimization for parameter sdm:0.13999999999999996:
+
+[92mThreshold evaluation started...[0m
+[92mThreshold evaluation started...[0m
+[92mThreshold evaluation started...[0m
+Total ellapsed time: 1952.5296745 seconds.

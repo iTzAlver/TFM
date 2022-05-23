@@ -99,6 +99,12 @@ class NewsSegmentation:
                         line = _line
                     s.append(line.strip('\n'))
                 linenumber += 1
+
+        for index, sentence in enumerate(s):
+            if sentence[-1] == ' ':
+                s[index] = sentence[:-1]
+            if sentence[0] == ' ':
+                s[index] = sentence[1:]
         return p, s, t
 
     def __specific_language_model(self, s) -> np.array:

@@ -95,6 +95,12 @@ def result_evaluation() -> None:
     dict_of_trees = get_groundtruth(cases)
     targets = get_targets(cases)
     results = {}
+    mean_results = {'pbmmfbbcm': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
+                    'dbscan': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
+                    'spectral': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
+                    'agglomera': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
+                    'meanshift': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
+                    'kshiftedm': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []}}
     for case in cases:
         tree_days = dict_of_trees[case]
         results_ = []
@@ -113,13 +119,26 @@ def result_evaluation() -> None:
             mynews = SegmentationKSM(target)
             results__['kshiftedm'] = mynews.evaluate(tree_days[nday])
             print(f'Case {case} day {nday} finished.')
+            for algorithm, metrics in results__.items():
+                mean_results[algorithm]['F1'].append(metrics['F1'])
+                mean_results[algorithm]['Recall'].append(metrics['Recall'])
+                mean_results[algorithm]['Precision'].append(metrics['Precision'])
+                mean_results[algorithm]['WD'].append(metrics['WD'])
+                mean_results[algorithm]['Pk'].append(metrics['Pk'])
             results_.append(results__)
             save_performance(results__, PERF_PATH, append=(case, nday))
         results[case] = results_
-    # for mynew in mynews:
-    # 	print(mynew)
-    # mynews.plotmtx(color='black')
-    # save_performance(results, PERF_PATH)
+
+    _mr = {'pbmmfbbcm': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
+           'dbscan': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
+           'spectral': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
+           'agglomera': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
+           'meanshift': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
+           'kshiftedm': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0}}
+    for algorithm, metrics in mean_results.items():
+        for metric, value in metrics.items():
+            _mr[algorithm][metric] = sum(value) / len(value)
+    save_performance(_mr, PERF_PATH, append=('Mean', 0))
     return None
 
 
@@ -137,6 +156,8 @@ def re2():
 
 def main():
     result_evaluation()
+
+
 # -------------------------------------------------------------------#
 #   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x    #
 # -------------------------------------------------------------------#
