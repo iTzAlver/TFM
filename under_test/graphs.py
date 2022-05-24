@@ -7,18 +7,16 @@
 # Import statements:
 import os
 import time
-
 import numpy as np
 from sentence_transformers import SentenceTransformer
-
 import package.newsegmentation as ns
 
 model2 = SentenceTransformer('hackathon-pln-es/paraphrase-spanish-distilroberta')
 model3 = SentenceTransformer('jfarray/Model_dccuchile_bert-base-spanish-wwm-uncased_100_Epochs')
-DATABASE_PATH = r'./db/vtt_files/'
-GT_PATH = r'./db/groundtruth/f1/'
-RES_PATH = r'./db/.exported/performance/results.txt'
-NP_PATH = r'./db/.exported/performance/'
+DATABASE_PATH = r'../db/vtt_files/'
+GT_PATH = r'../db/groundtruth/f1/'
+RES_PATH = r'../db/.exported/performance/results.txt'
+NP_PATH = r'../db/.exported/performance/'
 # -----------------------------------------------------------
 
 
@@ -123,7 +121,7 @@ def optimization(cases) -> None:
             parameters[paropt[step]] = bpar
             parlist.append(parameters)
             reslist.append((bres, optimize[step]))
-        swap = swap * 0.8
+        swap *= 0.8
     ellapsed_time_optimization = time.perf_counter() - init_opt
     _print(f'Total ellapsed time: {ellapsed_time_optimization / 100} seconds per loop: {100} loops done.')
     _print(parameters)
@@ -258,15 +256,6 @@ def threshold_evaluation(cases, **parameters) -> None:
     md2_np = np.array(_res_model2)
     np.save(f'{NP_PATH}/md2.npy', md2_np)
     _print(f'Total ellapsed time: {time.perf_counter() - init_opt} seconds.')
-
-
-
-
-
-
-
-
-
 
 
 def _print(text):

@@ -1,0 +1,32 @@
+Starting optimization process...
+Starting with model 0,
+Starting optimization process...
+Starting with model 0,
+Best result found for tdm: (0.24, WD:0.37984986791101344)
+Best result found for sdm: (0.144, WD:0.39487179773557485)
+Best result found for sdm: (0.16799999999999998, WD:0.3877652054974036)
+Best result found for lcm: (0.32000000000000006, F1:0.579674192732483)
+Best result found for lcm: (0.37333333333333335, F1:0.6197485639939907)
+Best result found for lcm: (0.42666666666666664, F1:0.6654302233360889)
+Optimization finished in 2263.2447848 seconds for model 0:
+Parameters selected:
+{'tdm': 0.24, 'sdm': 0.16799999999999998, 'lcm': 0.42666666666666664}
+Starting with model 1,
+Best result found for tdm: (0.20159999999999997, WD:0.3255422852288178)
+Best result found for tdm: (0.22719999999999999, WD:0.319827999514532)
+Best result found for sdm: (0.14111999999999997, WD:0.32552469446045296)
+Best result found for lcm: (0.35839999999999994, F1:0.8292369273788204)
+Best result found for lcm: (0.40391111111111105, F1:0.8329267777591006)
+Best result found for lcm: (0.44942222222222217, F1:0.8389271787517085)
+Optimization finished in 378.41563099999985 seconds for model 1:
+Parameters selected:
+{'tdm': 0.22719999999999999, 'sdm': 0.14111999999999997, 'lcm': 0.44942222222222217}
+Starting with model 2,
+Best result found for tdm: (0.1981184, WD:0.41658832445790644)
+Best result found for sdm: (0.12305663999999997, WD:0.41658832445790644)
+Best result found for lcm: (0.39189617777777774, F1:0.5474513603790825)
+Optimization finished in 266.94303400000035 seconds for model 2:
+Parameters selected:
+{'tdm': 0.1981184, 'sdm': 0.12305663999999997, 'lcm': 0.39189617777777774}
+Starting optimization process...
+Starting with model 0,

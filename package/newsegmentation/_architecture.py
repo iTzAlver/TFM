@@ -21,7 +21,7 @@ temporalfile = r'./temporalfile.txt'
 
 # -----------------------------------------------------------
 class NewsSegmentation:
-    def __init__(self, news_path, tdm=0.3, gpa=(0, 0), sdm=(0.18, 1, 0.18*0.87), lcm=(0.45,), ref=0):
+    def __init__(self, news_path, tdm=0.3, gpa=(0, 0), sdm=(0.18, 1, 0.18*0.87), lcm=(0.42,), ref=0):
         """
         Virtual class: 3 methods must be overriden
         :param tdm: Penalty factor (betta) for Temporal Distance Manager
@@ -441,6 +441,28 @@ class NewsSegmentation:
         self.performance = results
         self.NewsReference = reference_trees
         return results
+
+    @staticmethod
+    def info():
+        __text = 'News segmentation package:\n--------------------------------------------\nFAST USAGE:\n' \
+                 '--------------------------------------------\nPATH_TO_MY_FILE = < PAHT >\n' \
+                 'import newsegmentation as ns\nnews = ns.NewsSegmentation(PATH_TO_MY_FILE)\n' \
+                 'for pon in news:\n' \
+                 '\tprint(pon)\n' \
+                 '--------------------------------------------\n'
+        print(__text)
+        return __text
+
+    @staticmethod
+    def about():
+        __text = 'Institution:\n------------------------------------------------------\n' \
+                 'Universidad de Alcalá.\nEscuela Politécnica Superior.\n' \
+                 'Departamento de Teoría De la Señal y Comunicaciones.\nCátedra ISDEFE.\n' \
+                 '------------------------------------------------------\n' \
+                 'Author: Alberto Palomo Alonso\n' \
+                 '------------------------------------------------------\n'
+        print(__text)
+        return __text
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #

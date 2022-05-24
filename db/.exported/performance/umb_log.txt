@@ -1,0 +1,52 @@
+Starting comparison process...
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Comparison finished in 2927.7526408000003 seconds.
+Written results in ./db/.exported/performance/umb_var.txt.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+Starting comparison process...
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Comparison finished in 264.6776013 seconds.
+Written results in ./db/.exported/performance/umb_var.txt.
+Starting comparison process...
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Comparison finished in 598.7608376 seconds.
+Written results in ./db/.exported/performance/umb_var.txt.
+Starting comparison process...
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Starting case Julen.
+TDM finished computing.
+SDM finished computing.
+LCM finished computing.
+Comparison finished in 621.9921349 seconds.
+Written results in ./db/.exported/performance/umb_var.txt.
