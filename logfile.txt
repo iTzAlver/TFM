@@ -29300,3 +29300,60 @@ recall 	= 0.8434163701067615
 <Mon May 16 19:43:57 2022>	[Info]:	All images updated.
 <Mon May 16 19:45:17 2022>	[Info]:	Watch for PM.
 <Mon May 16 19:45:20 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Wed May 25 12:23:02 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Wed May 25 12:23:03 2022>	[Info]:	Time decorrelation enabled.
+<Wed May 25 12:23:04 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Wed May 25 12:23:06 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed May 25 12:23:06 2022>	[Warning]:	Default action for last error: launching test.
+<Wed May 25 12:23:06 2022>	[Info]:	Preprocessing for testing done.
+<Wed May 25 12:23:07 2022>	[Info]:	Correlation for testing done.
+<Wed May 25 12:23:07 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May 25 12:23:09 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May 25 12:23:09 2022>	[Info]:	Test processing finished.
+<Wed May 25 12:23:09 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Wed May 25 12:23:11 2022>	[Info]:	All images updated.
+<Wed May 25 12:25:09 2022>	[Info]:	All images updated.
+<Wed May 25 12:25:11 2022>	[Info]:	Watch for FB-BCM.
+<Wed May 25 12:25:13 2022>	[Info]:	All images updated.
+<Wed May 25 12:25:16 2022>	[Info]:	Watch for PM.
+<Wed May 25 12:25:19 2022>	[Info]:	All images updated.
+<Wed May 25 12:31:54 2022>	[Info]:	Launching persistance platform...
+<Wed May 25 13:01:39 2022>	[Info]:	All images updated.
+<Wed May 25 13:01:44 2022>	[Info]:	Decorrelation by time tokens set to 80.0.
+<Wed May 25 13:01:47 2022>	[Info]:	PM th set to 0.2 and oim to 1.
+<Wed May 25 13:01:47 2022>	[Info]:	Preprocessing for testing done.
+<Wed May 25 13:01:48 2022>	[Info]:	Correlation for testing done.
+<Wed May 25 13:01:48 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May 25 13:01:50 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May 25 13:01:50 2022>	[Info]:	Test processing finished.
+<Wed May 25 13:01:50 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9232111692844678
+f 	= 1.0
+recall 	= 0.8573743922204214
+
+<Wed May 25 13:01:55 2022>	[Info]:	All images updated.
+<Wed May 25 13:04:50 2022>	[Info]:	Decorrelation by time tokens set to 30.0.
+<Wed May 25 13:04:51 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed May 25 13:04:51 2022>	[Info]:	Preprocessing for testing done.
+<Wed May 25 13:04:52 2022>	[Info]:	Correlation for testing done.
+<Wed May 25 13:04:52 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May 25 13:04:54 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May 25 13:04:54 2022>	[Info]:	Test processing finished.
+<Wed May 25 13:04:54 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Wed May 25 13:09:44 2022>	[Info]:	All images updated.
+<Wed May 25 13:10:09 2022>	[Info]:	Watch for PM.
+<Wed May 25 13:10:11 2022>	[Info]:	All images updated.
+<Wed May 25 13:15:45 2022>	[Info]:	All images updated.
+<Wed May 25 13:15:47 2022>	[Info]:	Watch for FB-BCM.
+<Wed May 25 13:15:49 2022>	[Info]:	All images updated.
