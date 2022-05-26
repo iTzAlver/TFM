@@ -29303,6 +29303,45 @@ recall 	= 0.8434163701067615
 
 - - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
 
+<Wed May 25 21:26:03 2022>	[Info]:	Added C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen/1.txt to testing target.
+<Wed May 25 21:26:07 2022>	[Info]:	Time decorrelation enabled.
+<Wed May 25 21:26:08 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Wed May 25 21:26:38 2022>	[Error]:	Test has not been launched yet, no figures created.
+<Wed May 25 21:26:38 2022>	[Warning]:	Default action for last error: launching test.
+<Wed May 25 21:26:38 2022>	[Info]:	Preprocessing for testing done.
+<Wed May 25 21:26:39 2022>	[Info]:	Correlation for testing done.
+<Wed May 25 21:26:39 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May 25 21:26:42 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May 25 21:26:42 2022>	[Info]:	Test processing finished.
+<Wed May 25 21:26:42 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9106463878326996
+f 	= 0.9054820415879017
+recall 	= 0.9158699808795411
+
+<Wed May 25 21:26:44 2022>	[Info]:	All images updated.
+<Wed May 25 21:26:55 2022>	[Info]:	Watch for PM.
+<Wed May 25 21:26:56 2022>	[Info]:	All images updated.
+<Wed May 25 21:27:17 2022>	[Info]:	All images updated.
+<Wed May 25 21:27:22 2022>	[Info]:	All images updated.
+<Wed May 25 21:27:27 2022>	[Info]:	Decorrelation by time tokens set to 80.0.
+<Wed May 25 21:27:28 2022>	[Info]:	FB-BCM th set to 0.5.
+<Wed May 25 21:27:28 2022>	[Info]:	Preprocessing for testing done.
+<Wed May 25 21:27:29 2022>	[Info]:	Correlation for testing done.
+<Wed May 25 21:27:29 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Wed May 25 21:27:32 2022>	[Info]:	FB-BCM launched with th=0.5
+<Wed May 25 21:27:32 2022>	[Info]:	Test processing finished.
+<Wed May 25 21:27:32 2022>	[Info]:	Found groundtruth at C:/Users/fract/Desktop/TFM/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.9232111692844678
+f 	= 1.0
+recall 	= 0.8573743922204214
+
+<Wed May 25 21:27:34 2022>	[Info]:	All images updated.
+<Wed May 25 21:27:53 2022>	[Note]:	Added to launch target scope: C:/Users/fract/Desktop/TFM/db/news_text/esp/Julen.
+<Wed May 25 21:28:09 2022>	[Note]:	Added to launch target scope: C:/Users/fract/Desktop/TFM/db/news_text/esp/NotreDame.
+<Wed May 25 21:30:26 2022>	[Info]:	Launching persistance platform...
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
 <Wed May 25 12:23:02 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
 <Wed May 25 12:23:03 2022>	[Info]:	Time decorrelation enabled.
 <Wed May 25 12:23:04 2022>	[Info]:	Decorrelation by time tokens set to 20.0.

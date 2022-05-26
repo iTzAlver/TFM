@@ -1,42 +1,51 @@
-$Los cadáveres de una mujer y su hijo de 10 años han aparecido en una cueva en Adeje, en Tenerife
+Los cadáveres de una mujer y su hijo de 10 años han aparecido en una cueva en Adeje, en Tenerife
 Eran alemanes y se les buscaba desde ayer
 La alerta la dio otro de los hijos, de 5 años
 Apareció deambulando solo y dijo que su padre les había agredido
 La policía detuvo ayer al hombre
-$Buenas noches, las primeras informaciones confirman que los cuerpos presentan señales de haber sido golpeados, -Así lo ha confirmado la Guardia Civil
+Buenas noches, las primeras informaciones confirman que los cuerpos presentan señales de haber sido golpeados, -Así lo ha confirmado la Guardia Civil
 Al entrar en la cueva encontraron el cuerpo de una mujer y un niño con símbolos de haber sido golpeados
 Están pendientes de trasladarlos al Instituto de medicina legal, donde se les realizará la autopsia
-$El niño tenía 10 años y la mujer 39
+El niño tenía 10 años y la mujer 39
 Si es un caso de violencia machista sería la víctima 18
+%0
 Y a cuatro días para las elecciones generales, la noticia política del día es el fichaje de Ángel Garrido por Ciudadanos
 El expresidente de la comunidad de Madrid deja el PP unas horas después de que se publicara la lista de los populares para las europeas, donde iba en cuarto lugar
 Ahora irá como número 13 en las de Ciudadanos a la Asamblea de Madrid
 Desde el PP dicen que Ciudadanos se ha convertido en un partido de tránsfugas
-$Y este es el sitio donde me siento absolutamente cómodo, el partido de centro por antonomasia, de centro liberal que ahora es Ciudadanos
+Y este es el sitio donde me siento absolutamente cómodo, el partido de centro por antonomasia, de centro liberal que ahora es Ciudadanos
+%1
 -Yo le digo a Albert Rivera La Junta Electoral ha decidido ampliar un día mas, hasta el viernes 26, el plazo para votar por correo
 Las colas han durado hoy hasta más de 4 horas en algunas oficinas para recoger la documentación, en muchas ocasiones bajo la lluvia
 Correos dice que el principal problema han sido las vacaciones de Semana Santa
-$-Largas colas todavía en esta oficina de correos
+-Largas colas todavía en esta oficina de correos
 Es tal el colapso que han decidido ampliar el horario, atender una hora más al día y en las 500 oficinas con más afluencia
 Permanecerán abiertas hasta las 12:00 de la noche hoy y mañana
+%2
 Nueve terroristas suicidas, organizados y entrenados durante años, fueron los que atentaron contra iglesias y hoteles el pasado domingo en Sri Lanka
 El gobierno va a destituir a los responsables militares y policiales por no evitar unos atentos de los que estaban alertados
-$Trabajadores de Notre Dame reconocen haber fumado mientras trabajaban en su restauración, después de que se encontraran 7 colillas en la zona donde comenzó el incendio
+%3
+Trabajadores de Notre Dame reconocen haber fumado mientras trabajaban en su restauración, después de que se encontraran 7 colillas en la zona donde comenzó el incendio
 Los investigadores mantienen como causa más fiable, el cortocircuito eléctrico
 Desde hoy una inmensa lona cubre Notre Dame para protegerla de las lluvias y evitar nuevos daños
-$El dramaturgo Peter Brook, es el Premio Princesa de Asturias de las Artes 2019
+%4
+El dramaturgo Peter Brook, es el Premio Princesa de Asturias de las Artes 2019
 El jurado le ha reconocido por ser uno de los grandes renovadores de las artes escénicas y el mejor director de teatro del siglo XX
 Tiene 94 años y sigue en activo
-$Han comenzado hoy en Lanzarote los actos de homenaje a César Manrique, en el centenario de su nacimiento
+%5
+Han comenzado hoy en Lanzarote los actos de homenaje a César Manrique, en el centenario de su nacimiento
 Estamos en los Jameos del Agua, la primera gran obra del artista lanzaroteño
+%6
 Fue inaugurada oficialmente en 1977, Y hoy tiempo invernal en casi toda España, esta la imagen que presentaba O Cebreiro en Lugo, mucha nieve que ha sorprendido a los peregrinos del Camino de Santiago
 Lluvia en muchos puntos como esta que ha caído en Guadalajara y estas son aún las consecuencias de las recientes inundaciones en Xábia, Alicante
-$Y en los deportes el posible título de Liga del Barcelona y la absolución de Sandro Rosell, Sergio Sí
-$En el tiempo de deportes sabremos si el Barça es campeón o tiene que esperar al próximo sábado
-$Se juega ahora mismo el Atlético-Valencia
+%7
+Y en los deportes el posible título de Liga del Barcelona y la absolución de Sandro Rosell, Sergio Sí
+En el tiempo de deportes sabremos si el Barça es campeón o tiene que esperar al próximo sábado
+Se juega ahora mismo el Atlético-Valencia
+%8
 Y, en efecto, la Audiencia Nacional ha absuelto a Sandro Rosell de los delitos de blanqueo de capitales e integración en grupo criminal
 Según la sentencia no se ha podido acreditar su vinculación en operaciones ilegales relacionadas con la Federación Brasileña de fútbol
 Rosell ha estado 21 meses en prisión provisional antes de ser absuelto, una situación anómala según sus abogados
-$Ya no hay remedio al daño que se ha hecho, tanto tiempo en prisión a una persona que luego ha sido declarada inocente
+Ya no hay remedio al daño que se ha hecho, tanto tiempo en prisión a una persona que luego ha sido declarada inocente
 Esto ha sido muy duro, muy duro
-%[4.11, 2.32, 2.75, 4.16, 2.32, 9.629999999999999, 8.0, 9.879999999999999, 2.2, 2.52, 4.47, 7.59, 4.1, 4.27, 6.52, 7.48, 7.989999999999999, 4.07, 5.03, 14.11, 2.64, 7.15, 6.12, 9.959999999999999, 4.4, 6.15, 5.04, 7.5600000000000005, 2.96, 4.83, 6.470000000000001, 10.95, 10.510000000000002, 7.0, 4.15, 4.95, 7.069999999999999, 7.83, 8.350000000000001, 8.15, 1.91]
+%9
