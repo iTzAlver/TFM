@@ -6,18 +6,21 @@
 #    Email:     ialver.p@gmail.com                                   #
 #                                                                    #
 # -------------------------------------------------------------------#
+import os
 import random
 import time
+
 import matplotlib.pyplot as plt
 import numpy as np
+
 import package.newsegmentation as ns
-import os
 
 DATABASE_PATH = r'./db/vtt_files/'
 GT_PATH = r'./db/groundtruth/f1/'
 LOG_FILE = r'./db/.exported/performance/umb_log.txt'
 VAR_FILE = r'./db/.exported/performance/umb_var.txt'
 IMG_PATH = r'./db/.exported/performance/'
+CACHE_FILE = r'./experiment.json'
 
 
 # -------------------------------------------------------------------#
@@ -53,7 +56,8 @@ def main() -> None:
 				mynews = Segmentation(validation,
 				                      tdm=tdm,
 				                      sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
-				                      lcm=(parameters['lcm'],))
+				                      lcm=(parameters['lcm'],),
+                                 	  cache_file=CACHE_FILE)
 				results_.append(mynews.evaluate(ns.gtreader(gt)))
 			results__.append(results_)
 		results[case].append(results__)
@@ -68,7 +72,8 @@ def main() -> None:
 				mynews = Segmentation(validation,
 				                      tdm=parameters['tdm'],
 				                      sdm=(sdm, 1, sdm * 0.87),
-				                      lcm=(parameters['lcm'],))
+				                      lcm=(parameters['lcm'],),
+                                      cache_file=CACHE_FILE)
 				results_.append(mynews.evaluate(ns.gtreader(gt)))
 			results__.append(results_)
 		results[case].append(results__)
@@ -83,7 +88,8 @@ def main() -> None:
 				mynews = Segmentation(validation,
 				                      tdm=parameters['tdm'],
 				                      sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
-				                      lcm=(lcm,))
+				                      lcm=(lcm,),
+                                      cache_file=CACHE_FILE)
 				results_.append(mynews.evaluate(ns.gtreader(gt)))
 			results__.append(results_)
 		results[case].append(results__)

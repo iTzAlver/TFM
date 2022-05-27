@@ -8,21 +8,23 @@
 # -------------------------------------------------------------------#
 import os
 import time
+
 import numpy as np
-import package.newsegmentation as ns
 from sentence_transformers import SentenceTransformer
 
+import package.newsegmentation as ns
 
 DATABASE_PATH = r'./db/vtt_files/'
 GT_PATH = r'./db/groundtruth/f1/'
 LOG_FILE = r'./db/.exported/performance/opt_log.txt'
+CACHE_FILE = r'./experiment.json'
 
 
 # -------------------------------------------------------------------#
 #   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x    #
 # -------------------------------------------------------------------#
 def main() -> None:
-    parameters = {'tdm': 0.3, 'sdm': 0.18, 'lcm': 0.4}
+    parameters = {'tdm': 0.3, 'sdm': 0.19, 'lcm': 0.45}
     sweeps = 6
     resolution = 30
     bw = 0.2
@@ -42,6 +44,7 @@ def main() -> None:
         this_best_tdm = 1
         this_best_sdm = 1
         this_best_lcm = 0
+        tik = time.perf_counter()
 
         for step in range(sweeps):
 
@@ -57,13 +60,16 @@ def main() -> None:
 
             for tdm in tdm_slices:
                 results = []
+                _print(f'Testing TDM for {tdm} ({time.perf_counter() - tik})', Bcolors.BOLD)
+                tik = time.perf_counter()
                 for fil in vg_files:
                     validation = fil[0]
                     gt = fil[1]
                     mynews = Seg(validation,
                                  tdm=tdm,
                                  sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
-                                 lcm=(parameters['lcm'],))
+                                 lcm=(parameters['lcm'],),
+                                 cache_file=CACHE_FILE)
                     results.append(mynews.evaluate(ns.gtreader(gt))['WD'])
                 this = sum(results) / len(results)
                 if this < this_best_tdm:
@@ -73,13 +79,16 @@ def main() -> None:
 
             for sdm in sdm_slices:
                 results = []
+                _print(f'Testing SDM for {sdm} ({time.perf_counter() - tik})', Bcolors.BOLD)
+                tik = time.perf_counter()
                 for fil in vg_files:
                     validation = fil[0]
                     gt = fil[1]
                     mynews = Seg(validation,
                                  tdm=parameters['tdm'],
                                  sdm=(sdm, 1, sdm * 0.87),
-                                 lcm=(parameters['lcm'],))
+                                 lcm=(parameters['lcm'],),
+                                 cache_file=CACHE_FILE)
                     results.append(mynews.evaluate(ns.gtreader(gt))['WD'])
                 this = sum(results) / len(results)
                 if this < this_best_sdm:
@@ -89,13 +98,16 @@ def main() -> None:
 
             for lcm in lcm_slices:
                 results = []
+                _print(f'Testing LCM for {lcm} ({time.perf_counter() - tik})', Bcolors.BOLD)
+                tik = time.perf_counter()
                 for fil in vg_files:
                     validation = fil[0]
                     gt = fil[1]
                     mynews = Seg(validation,
                                  tdm=parameters['tdm'],
                                  sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
-                                 lcm=(lcm,))
+                                 lcm=(lcm,),
+                                 cache_file=CACHE_FILE)
                     results.append(mynews.evaluate(ns.gtreader(gt))['F1'])
                 this = sum(results) / len(results)
                 if this > this_best_lcm:

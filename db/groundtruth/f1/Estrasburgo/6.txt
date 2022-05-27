@@ -1,26 +1,33 @@
-$Los vecinos de esta pequeña localidad onubense de El Campillo A más de 500 km de Huelva, se vive con inquietud la desaparición de Laura
+Los vecinos de esta pequeña localidad onubense de El Campillo A más de 500 km de Huelva, se vive con inquietud la desaparición de Laura
 Aquí vive su novio, Buenas noches, a esta hora los voluntarios estos días participan las labores de búsqueda
 han parado de buscar, aunque los equipos especializados siguen sobre el terreno, que se ha ampliado hoy
 Enseguida vamos en directo a Huelva
+%0
 Este domingo, también ha continuado el cruce de llamamientos al diálogo entre Gobierno y Generalitat
 Quim Torra pide a Pedro Sánchez que sea valiente y se reúnan el viernes para hablar también de la autodeterminación de Cataluña
 El líder del PP eleva el tono y califica a Torra de desequilibrado y pide la aplicación ya del 155
 El ministro Ábalos defiende que la Constitución está para sumar y que no se reduce exclusivamente al 155
-$Once personas han muerto y otras cuatro han resultado heridas en diez accidentes de carretera en lo que llevamos de fin de semana
+%1
+Once personas han muerto y otras cuatro han resultado heridas en diez accidentes de carretera en lo que llevamos de fin de semana
 Los más graves, en Madrid anoche y esta madrugada
+%2
 Es la realidad de muchas personas que viven en alquiler en grandes ciudades, como Madrid o Barcelona
-$Las cestas de Navidad evolucionan como las costumbres, pueden costar de 10 a 2000 euros o más, ser clásicas o incluir productos sin gluten u orgánicos
+Las cestas de Navidad evolucionan como las costumbres, pueden costar de 10 a 2000 euros o más, ser clásicas o incluir productos sin gluten u orgánicos
 En todo caso es una tradición que genera empleo en estas fechas
+%3
 Hoy ha muerto a los 70 años de un ataque al corazón Antonio Cortés Pantoja, Chiquetete, el hombre que popularizó la canción flamenca
 Fue habitual en los programas de televisión, primero de los musicales y al final de su vida, de los realitys, con denuncias por malos tratos de por medio
-$En el telediario les vamos a llevar hoy al escenario de una de las mayores batallas de la edad media
+%4
+En el telediario les vamos a llevar hoy al escenario de una de las mayores batallas de la edad media
 La libraron los tres reyes, el de Castilla, el de Aragón y el de Navarra contra las tropas almohades
 Fue el asedio y la toma de la fortaleza de Calzada, en Ciudad Real, y en él se emplearon unas 24.000 armas que han sido recuperadas durante décadas para conformar el mayor arsenal medieval de la península
-$Y en los deportes, el líder de la liga está jugando en estos momentos
+%5
+Y en los deportes, el líder de la liga está jugando en estos momentos
 Arsenio
 Se han jugado poco más de quince minutos y se mantiene el empate a 0 entre el Levante y el Barça, con este resultado los azulgrana serían líderes con un punto de ventaja sobre el Sevilla y el Atlético y dos sobre el Real Madrid que esta tarde ha llegado a Abu Dabi donde jugará el Mundial de Clubes..
 el miercoles se enfrenta en semis al Kashima japonés y lo veremos a las 17h30 en la 1 de televisión española
-$Ellas son Sara Peláez, Asun Langa y Laura Piñeiro y esta tarde han hecho historia
+%6
+Ellas son Sara Peláez, Asun Langa y Laura Piñeiro y esta tarde han hecho historia
 Por primera vez tres árbitras juntas han dirigido un partido de la liga femenina de baloncesto
 El que está enfrentando al Uni Girona y al Perfumerías Avenida de Salamanca
-%[21.84, 4.3500000000000005, 7.76, 1.76, 4.279999999999999, 8.83, 6.91, 4.800000000000001, 5.72, 2.24, 4.470000000000001, 7.880000000000001, 3.04, 8.3, 7.869999999999999, 4.52, 4.76, 12.34, 3.4299999999999997, 1.2, 14.870000000000001, 6.119999999999999, 5.52, 6.12, 4.2]
+%7

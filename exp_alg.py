@@ -15,6 +15,7 @@ import package.newsegmentation as ns
 DATABASE_PATH = r'../db/vtt_files/'
 GT_PATH = r'../db/groundtruth/f1/'
 PERF_PATH = r'../db/.exported/performance/performance.txt'
+CACHE_FILE = './experiment.json'
 
 
 # -------------------------------------------------------------------#
@@ -106,17 +107,17 @@ def result_evaluation() -> None:
         results_ = []
         for nday, target in enumerate(targets):
             results__ = {}
-            mynews = ns.Segmentation(target)
+            mynews = ns.Segmentation(target, cache_file=CACHE_FILE)
             results__['pbmmfbbcm'] = mynews.evaluate(tree_days[nday])
-            mynews = SegmentationDbscan(target)
+            mynews = SegmentationDbscan(target, cache_file=CACHE_FILE)
             results__['dbscan'] = mynews.evaluate(tree_days[nday])
-            mynews = SegmentationSpectral(target)
+            mynews = SegmentationSpectral(target, cache_file=CACHE_FILE)
             results__['spectral'] = mynews.evaluate(tree_days[nday])
-            mynews = SegmentationAgglomerative(target)
+            mynews = SegmentationAgglomerative(target, cache_file=CACHE_FILE)
             results__['agglomera'] = mynews.evaluate(tree_days[nday])
-            mynews = SegmentationMS(target)
+            mynews = SegmentationMS(target, cache_file=CACHE_FILE)
             results__['meanshift'] = mynews.evaluate(tree_days[nday])
-            mynews = SegmentationKSM(target)
+            mynews = SegmentationKSM(target, cache_file=CACHE_FILE)
             results__['kshiftedm'] = mynews.evaluate(tree_days[nday])
             print(f'Case {case} day {nday} finished.')
             for algorithm, metrics in results__.items():
@@ -150,7 +151,7 @@ def re2():
         tree_days = dict_of_trees[case]
         for nday, target in enumerate(targets):
             if nday in [0, 1, 2, 5, 6, 10]:
-                mynews = ns.Segmentation(target)
+                mynews = ns.Segmentation(target, cache_file=CACHE_FILE)
                 print(mynews.evaluate(tree_days[nday], show=True))
 
 
