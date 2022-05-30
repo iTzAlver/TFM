@@ -5,8 +5,8 @@
 #                                                           #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 # Import statements:
-import os
 import json
+import os
 from abc import abstractmethod
 
 import matplotlib.pyplot as plt
@@ -14,10 +14,10 @@ import numpy as np
 from nltk.metrics.segmentation import windowdiff, pk
 from sklearn.metrics.pairwise import cosine_similarity
 
-from ._structures import TreeStructure
-from ._tdm import ftdm
 from ._dserial import save3s
 from ._gtreader import gtreader
+from ._structures import TreeStructure
+from ._tdm import ftdm
 
 temporalfile = r'./temporalfile.txt'
 
@@ -30,7 +30,8 @@ class NewsSegmentation:
                  sdm: tuple = (0.18, 1, 0.18*0.87),
                  lcm: tuple = (0.42,),
                  ref: int = 0,
-                 cache_file: str = ''):
+                 cache_file: str = '',
+                 dump: bool = True):
         """
         Virtual class: 3 methods must be overriden
         :param tdm: Penalty factor (betta) for Temporal Distance Manager
@@ -95,6 +96,9 @@ class NewsSegmentation:
         self.__treefication()
         self.performance = {}
         self.NewsReference = None
+
+        if dump and self._cache_file:
+            self._dump_cache()
         os.remove(temporalfile)
 
     def __database_transformation(self, path: str):
@@ -139,12 +143,6 @@ class NewsSegmentation:
         for place, sentence in enumerate(sx):
             self._cache[sentence] = embeddings_[place]
 
-        if self._cache_file:
-            with open(self._cache_file, 'w', encoding='utf-8') as file:
-                _cache = {}
-                for key, item in self._cache.items():
-                    _cache[key] = item.tolist()
-                json.dump(_cache, file)
         # Restore the embeddings.
         embeddings = []
         for sentence in s:
@@ -534,6 +532,14 @@ class NewsSegmentation:
     def save(self, path: str):
         save3s(self.News, path)
         return self
+
+    def _dump_cache(self):
+        if self._cache_file:
+            with open(self._cache_file, 'w', encoding='utf-8') as file:
+                _cache = {}
+                for key, item in self._cache.items():
+                    _cache[key] = item.tolist()
+                json.dump(_cache, file)
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #

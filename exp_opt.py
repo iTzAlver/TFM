@@ -24,10 +24,8 @@ CACHE_FILE = r'./experiment.json'
 #   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x   x    #
 # -------------------------------------------------------------------#
 def main() -> None:
-    parameters = {'tdm': 0.3, 'sdm': 0.19, 'lcm': 0.45}
     sweeps = 6
     resolution = 30
-    bw = 0.2
     models = [ns.Segmentation, Segmentation2, Segmentation3]
 
     validation_path = f'{DATABASE_PATH}Julen/'
@@ -44,6 +42,8 @@ def main() -> None:
         this_best_tdm = 1
         this_best_sdm = 1
         this_best_lcm = 0
+        bw = 0.2
+        parameters = {'tdm': 0.3, 'sdm': 0.19, 'lcm': 0.45}
         tik = time.perf_counter()
 
         for step in range(sweeps):
@@ -120,6 +120,30 @@ def main() -> None:
         _print(f'Optimization finished in {time.perf_counter() - temp_init} seconds for model {nmodel}:',
                Bcolors.OKGREEN)
         _print(f'Parameters selected:\n{parameters}', Bcolors.OKGREEN)
+
+        results_f1 = []
+        results_wd = []
+        results_rc = []
+        results_pr = []
+        results_pk = []
+        for fil in vg_files:
+            validation = fil[0]
+            gt = fil[1]
+            mynews = Seg(validation,
+                         **parameters,
+                         cache_file=CACHE_FILE)
+            results_f1.append(mynews.evaluate(ns.gtreader(gt))['F1'])
+            results_wd.append(mynews.evaluate(ns.gtreader(gt))['WD'])
+            results_pr.append(mynews.evaluate(ns.gtreader(gt))['Precision'])
+            results_rc.append(mynews.evaluate(ns.gtreader(gt))['Recall'])
+            results_pk.append(mynews.evaluate(ns.gtreader(gt))['Pk'])
+        this_f1 = sum(results_f1) / len(results_f1)
+        this_wd = sum(results_wd) / len(results_wd)
+        this_pr = sum(results_pr) / len(results_pr)
+        this_rc = sum(results_rc) / len(results_rc)
+        this_pk = sum(results_pk) / len(results_pk)
+        _print(f'Performance:\nF1: {this_f1}, Precision: {this_pr}, Recall: {this_rc}\nWD: {this_wd}, Pk: {this_pk}',
+               Bcolors.OKGREEN)
 
 
 def _print(text, col=''):
