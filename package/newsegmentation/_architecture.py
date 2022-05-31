@@ -66,7 +66,7 @@ class NewsSegmentation:
                         _cache = json.load(file)
                         for key, item in _cache.items():
                             self._cache[key] = np.array(item)
-                except PermissionError as ex:
+                except Exception as ex:
                     print(ex)
                     self._cache_file = False
         # Steps for in the architecture.
@@ -545,7 +545,7 @@ class NewsSegmentation:
                     for key, item in self._cache.items():
                         _cache[key] = item.tolist()
                     json.dump(_cache, file)
-            except PermissionError as ex:
+            except Exception as ex:
                 print(ex)
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
