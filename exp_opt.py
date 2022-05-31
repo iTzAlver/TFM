@@ -130,7 +130,9 @@ def main() -> None:
             validation = fil[0]
             gt = fil[1]
             mynews = Seg(validation,
-                         **parameters,
+                         tdm=parameters['tdm'],
+                         sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
+                         lcm=(parameters['lcm'],),
                          cache_file=CACHE_FILE)
             results_f1.append(mynews.evaluate(ns.gtreader(gt))['F1'])
             results_wd.append(mynews.evaluate(ns.gtreader(gt))['WD'])

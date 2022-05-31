@@ -61,10 +61,14 @@ class NewsSegmentation:
             if self._cache_file.split('.')[-1] != 'json':
                 self._cache_file = f'{cache_file}.json'
             if os.path.exists(self._cache_file):
-                with open(self._cache_file, 'r', encoding='utf-8') as file:
-                    _cache = json.load(file)
-                    for key, item in _cache.items():
-                        self._cache[key] = np.array(item)
+                try:
+                    with open(self._cache_file, 'r', encoding='utf-8') as file:
+                        _cache = json.load(file)
+                        for key, item in _cache.items():
+                            self._cache[key] = np.array(item)
+                except PermissionError as ex:
+                    print(ex)
+                    self._cache_file = False
         # Steps for in the architecture.
         if '.txt' in news_path:
             news_path_txt = news_path
@@ -535,11 +539,14 @@ class NewsSegmentation:
 
     def _dump_cache(self):
         if self._cache_file:
-            with open(self._cache_file, 'w', encoding='utf-8') as file:
-                _cache = {}
-                for key, item in self._cache.items():
-                    _cache[key] = item.tolist()
-                json.dump(_cache, file)
+            try:
+                with open(self._cache_file, 'w', encoding='utf-8') as file:
+                    _cache = {}
+                    for key, item in self._cache.items():
+                        _cache[key] = item.tolist()
+                    json.dump(_cache, file)
+            except PermissionError as ex:
+                print(ex)
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
 #                        END OF FILE                        #
 # - x - x - x - x - x - x - x - x - x - x - x - x - x - x - #
