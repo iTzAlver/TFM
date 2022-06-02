@@ -1,0 +1,51 @@
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Estrasburgo.
+Starting case Singapur.
+Comparison finished in 465.8773833 seconds.
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Estrasburgo.
+Starting case Singapur.
+Comparison finished in 464.00996100000003 seconds.
+Written results in ./db/.exported/performance/tab_var.txt.
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Estrasburgo.
+Starting case Singapur.
+Comparison finished in 486.70414839999995 seconds.
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Estrasburgo.
+Starting case Singapur.
+Comparison finished in 465.17005850000004 seconds.
+Written results in db/.exported/performance/tab_var_old.txt.
+Starting comparison process...
+Starting case Julen.
+Comparison finished in 125.09522499999999 seconds.
+Starting comparison process...
+Starting case Julen.
+Comparison finished in 125.1567305 seconds.
+Written results in db/.exported/performance/tab_var.txt.
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Estrasburgo.
+Starting case Singapur.
+Comparison finished in 464.23878329999997 seconds.
+Written results in db/.exported/performance/tab_var.txt.
+Starting comparison process...
+Starting case Julen.
+Comparison finished in 126.1326416 seconds.
+Written results in db/.exported/performance/tab_var.txt.
+Starting comparison process...
+Starting case Julen.
+Starting case NotreDame.
+Starting case Singapur.
+Starting case Estrasburgo.
+Comparison finished in 464.407548 seconds.
+Written results in db/.exported/performance/tab_var.txt.

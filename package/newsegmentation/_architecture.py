@@ -25,10 +25,10 @@ temporalfile = r'./temporalfile.txt'
 # -----------------------------------------------------------
 class NewsSegmentation:
     def __init__(self, news_path: str,
-                 tdm: float = 0.3,
+                 tdm: float = 0.245,
                  gpa: tuple = (0, 0),
-                 sdm: tuple = (0.18, 1, 0.18*0.87),
-                 lcm: tuple = (0.42,),
+                 sdm: tuple = (0.177, 1, 0.177*0.87),
+                 lcm: tuple = (0.614,),
                  ref: int = 0,
                  cache_file: str = '',
                  dump: bool = True):

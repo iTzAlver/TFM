@@ -17,7 +17,7 @@ import package.newsegmentation as ns
 DATABASE_PATH = r'./db/vtt_files/'
 GT_PATH = r'./db/groundtruth/f1/'
 LOG_FILE = r'./db/.exported/performance/opt_log.txt'
-CACHE_FILE = r'./experiment.json'
+CACHE_FILE_ = r'./experiment'
 
 
 # -------------------------------------------------------------------#
@@ -69,7 +69,7 @@ def main() -> None:
                                  tdm=tdm,
                                  sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
                                  lcm=(parameters['lcm'],),
-                                 cache_file=CACHE_FILE)
+                                 cache_file=f'{CACHE_FILE_}{nmodel}.json')
                     results.append(mynews.evaluate(ns.gtreader(gt))['WD'])
                 this = sum(results) / len(results)
                 if this < this_best_tdm:
@@ -88,7 +88,7 @@ def main() -> None:
                                  tdm=parameters['tdm'],
                                  sdm=(sdm, 1, sdm * 0.87),
                                  lcm=(parameters['lcm'],),
-                                 cache_file=CACHE_FILE)
+                                 cache_file=f'{CACHE_FILE_}{nmodel}.json')
                     results.append(mynews.evaluate(ns.gtreader(gt))['WD'])
                 this = sum(results) / len(results)
                 if this < this_best_sdm:
@@ -107,7 +107,7 @@ def main() -> None:
                                  tdm=parameters['tdm'],
                                  sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
                                  lcm=(lcm,),
-                                 cache_file=CACHE_FILE)
+                                 cache_file=f'{CACHE_FILE_}{nmodel}.json')
                     results.append(mynews.evaluate(ns.gtreader(gt))['F1'])
                 this = sum(results) / len(results)
                 if this > this_best_lcm:
@@ -133,7 +133,7 @@ def main() -> None:
                          tdm=parameters['tdm'],
                          sdm=(parameters['sdm'], 1, parameters['sdm'] * 0.87),
                          lcm=(parameters['lcm'],),
-                         cache_file=CACHE_FILE)
+                         cache_file=f'{CACHE_FILE_}{nmodel}.json')
             results_f1.append(mynews.evaluate(ns.gtreader(gt))['F1'])
             results_wd.append(mynews.evaluate(ns.gtreader(gt))['WD'])
             results_pr.append(mynews.evaluate(ns.gtreader(gt))['Precision'])

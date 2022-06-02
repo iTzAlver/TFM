@@ -29477,3 +29477,216 @@ recall 	= 0.8909090909090909
 <Thu May 26 19:30:14 2022>	[Info]:	All images updated.
 <Thu May 26 19:30:47 2022>	[Info]:	Watch for FB-BCM.
 <Thu May 26 19:30:51 2022>	[Info]:	All images updated.
+
+- - - - - - - - - - - - - - - Logfile init - - - - - - - - - - - - - - -
+
+<Thu Jun  2 17:11:11 2022>	[Info]:	Sucesfully loaded model: dccuchile/bert-base-spanish-ww.
+<Thu Jun  2 17:11:11 2022>	[Info]:	Time decorrelation enabled.
+<Thu Jun  2 17:11:17 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/1.txt to testing target.
+<Thu Jun  2 17:11:20 2022>	[Info]:	FB-BCM th set to 0.5.
+<Thu Jun  2 17:11:20 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:11:21 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:11:22 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Jun  2 17:11:23 2022>	[Info]:	FB-BCM launched with th=0.5
+<Thu Jun  2 17:11:23 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:11:23 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:11:48 2022>	[Info]:	FB-BCM th set to 0.3.
+<Thu Jun  2 17:11:48 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:11:50 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:11:50 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Jun  2 17:11:51 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:11:52 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:11:52 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:11:56 2022>	[Info]:	FB-BCM th set to 0.3.
+<Thu Jun  2 17:11:56 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:11:57 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:11:57 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Jun  2 17:11:59 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:11:59 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:11:59 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:12:05 2022>	[Info]:	Decorrelation by time tokens set to 20.0.
+<Thu Jun  2 17:12:06 2022>	[Info]:	FB-BCM th set to 0.3.
+<Thu Jun  2 17:12:06 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:12:07 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:12:07 2022>	[Info]:	PM launched with th=0.2 and oim=1.
+<Thu Jun  2 17:12:09 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:12:09 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:12:09 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:12:30 2022>	[Info]:	PM th set to 0.5 and oim to 1.
+<Thu Jun  2 17:12:30 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:12:32 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:12:32 2022>	[Info]:	PM launched with th=0.5 and oim=1.
+<Thu Jun  2 17:12:33 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:12:33 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:12:33 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:12:38 2022>	[Info]:	PM th set to 0.01 and oim to 1.
+<Thu Jun  2 17:12:38 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:12:39 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:12:39 2022>	[Info]:	PM launched with th=0.01 and oim=1.
+<Thu Jun  2 17:12:41 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:12:41 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:12:41 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:12:44 2022>	[Info]:	FB-BCM th set to 0.3.
+<Thu Jun  2 17:12:44 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:12:45 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:12:45 2022>	[Info]:	PM launched with th=0.01 and oim=1.
+<Thu Jun  2 17:12:47 2022>	[Info]:	FB-BCM launched with th=0.3
+<Thu Jun  2 17:12:47 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:12:47 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:12:52 2022>	[Info]:	FB-BCM th set to 1.0.
+<Thu Jun  2 17:12:52 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:12:54 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:12:54 2022>	[Info]:	PM launched with th=0.01 and oim=1.
+<Thu Jun  2 17:12:55 2022>	[Info]:	FB-BCM launched with th=1.0
+<Thu Jun  2 17:12:55 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:12:55 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:13:03 2022>	[Info]:	PM th set to 1.0 and oim to 1.
+<Thu Jun  2 17:13:03 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:13:04 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:13:04 2022>	[Info]:	PM launched with th=1.0 and oim=1.
+<Thu Jun  2 17:13:06 2022>	[Info]:	FB-BCM launched with th=1.0
+<Thu Jun  2 17:13:06 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:13:06 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.7600574712643677
+f 	= 1.0
+recall 	= 0.6129779837775203
+
+<Thu Jun  2 17:13:12 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:13:23 2022>	[Info]:	PM th set to 0.78 and oim to 1.
+<Thu Jun  2 17:13:23 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:13:24 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:13:24 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:13:25 2022>	[Info]:	FB-BCM launched with th=1.0
+<Thu Jun  2 17:13:25 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:13:25 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.8810408921933086
+f 	= 0.8960302457466919
+recall 	= 0.8665447897623401
+
+<Thu Jun  2 17:13:30 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:14:10 2022>	[Info]:	FB-BCM th set to 0.8.
+<Thu Jun  2 17:14:10 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:11 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:11 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:16 2022>	[Info]:	FB-BCM launched with th=0.8
+<Thu Jun  2 17:14:16 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:16 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.3945371775417299
+f 	= 0.24574669187145556
+recall 	= 1.0
+
+<Thu Jun  2 17:14:20 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:14:25 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:14:26 2022>	[Info]:	FB-BCM th set to 0.9.
+<Thu Jun  2 17:14:26 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:27 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:27 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:31 2022>	[Info]:	FB-BCM launched with th=0.9
+<Thu Jun  2 17:14:31 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:31 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.4131994261119082
+f 	= 0.2722117202268431
+recall 	= 0.8571428571428571
+
+<Thu Jun  2 17:14:31 2022>	[Info]:	FB-BCM th set to 0.9.
+<Thu Jun  2 17:14:31 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:32 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:32 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:37 2022>	[Info]:	FB-BCM launched with th=0.9
+<Thu Jun  2 17:14:37 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:37 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.4131994261119082
+f 	= 0.2722117202268431
+recall 	= 0.8571428571428571
+
+<Thu Jun  2 17:14:37 2022>	[Info]:	FB-BCM th set to 0.9.
+<Thu Jun  2 17:14:37 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:38 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:38 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:42 2022>	[Info]:	FB-BCM launched with th=0.9
+<Thu Jun  2 17:14:42 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:42 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.4131994261119082
+f 	= 0.2722117202268431
+recall 	= 0.8571428571428571
+
+<Thu Jun  2 17:14:42 2022>	[Info]:	FB-BCM th set to 0.9.
+<Thu Jun  2 17:14:42 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:43 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:43 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:48 2022>	[Info]:	FB-BCM launched with th=0.9
+<Thu Jun  2 17:14:48 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:48 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.4131994261119082
+f 	= 0.2722117202268431
+recall 	= 0.8571428571428571
+
+<Thu Jun  2 17:14:49 2022>	[Info]:	FB-BCM th set to 0.9.
+<Thu Jun  2 17:14:49 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:14:50 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:14:50 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:14:55 2022>	[Info]:	FB-BCM launched with th=0.9
+<Thu Jun  2 17:14:55 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:14:55 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.4131994261119082
+f 	= 0.2722117202268431
+recall 	= 0.8571428571428571
+
+<Thu Jun  2 17:14:57 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:15:06 2022>	[Info]:	All images updated.
+<Thu Jun  2 17:15:36 2022>	[Info]:	FB-BCM th set to 0.98.
+<Thu Jun  2 17:15:36 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:15:37 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:15:37 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:15:39 2022>	[Info]:	FB-BCM launched with th=0.98
+<Thu Jun  2 17:15:39 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:15:39 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/1.txtResults of the error calculation:
+f1 	= 0.8810408921933086
+f 	= 0.8960302457466919
+recall 	= 0.8665447897623401
+
+<Thu Jun  2 17:15:44 2022>	[Info]:	Added C:/Users/ialve/Desktop/intra-day_platform/db/news_text/esp/Julen/2.txt to testing target.
+<Thu Jun  2 17:15:47 2022>	[Info]:	FB-BCM th set to 0.98.
+<Thu Jun  2 17:15:47 2022>	[Info]:	Preprocessing for testing done.
+<Thu Jun  2 17:15:48 2022>	[Info]:	Correlation for testing done.
+<Thu Jun  2 17:15:48 2022>	[Info]:	PM launched with th=0.78 and oim=1.
+<Thu Jun  2 17:15:50 2022>	[Info]:	FB-BCM launched with th=0.98
+<Thu Jun  2 17:15:50 2022>	[Info]:	Test processing finished.
+<Thu Jun  2 17:15:50 2022>	[Info]:	Found groundtruth at C:/Users/ialve/Desktop/intra-day_platform/db/groundtruth/f1/Julen/2.txtResults of the error calculation:
+f1 	= 0.712
+f 	= 0.9213250517598344
+recall 	= 0.5801825293350718
+
+<Thu Jun  2 17:15:54 2022>	[Info]:	All images updated.
