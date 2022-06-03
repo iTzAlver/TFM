@@ -14,7 +14,7 @@ import package.newsegmentation as ns
 
 DATABASE_PATH = r'./db/vtt_files/'
 GT_PATH = r'./db/groundtruth/f1/'
-PERF_PATH = r'./db/.exported/performance/performance.txt'
+PERF_PATH = r'db/.exported/performance/performance.txt'
 CACHE_FILE = './experiment.json'
 
 
