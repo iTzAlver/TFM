@@ -12,9 +12,9 @@ from sklearn.cluster import DBSCAN, SpectralClustering, AgglomerativeClustering,
 
 import package.newsegmentation as ns
 
-DATABASE_PATH = r'../db/vtt_files/'
-GT_PATH = r'../db/groundtruth/f1/'
-PERF_PATH = r'../db/.exported/performance/performance.txt'
+DATABASE_PATH = r'./db/vtt_files/'
+GT_PATH = r'./db/groundtruth/f1/'
+PERF_PATH = r'./db/.exported/performance/performance.txt'
 CACHE_FILE = './experiment.json'
 
 
@@ -50,14 +50,16 @@ def save_performance(results, path, append=('', 0)):
 
 
 def get_targets(cases):
-    current_dirs = [f'{DATABASE_PATH}{case}/' for case in cases]
-    current_targets = []
-    for directory in current_dirs:
-        listofvtt_ = os.listdir(directory)
-        placecam = [int(vtt.split('.')[0]) for vtt in listofvtt_]
-        sorted_zip = sorted(list(zip(listofvtt_, placecam)), key=lambda x: x[1])
-        listofvtt = [element[0] for element in sorted_zip]
-        current_targets.extend([f'{directory}{vtt}' for vtt in listofvtt])
+    current_targets = {}
+    for case in cases:
+        current_dirs = [f'{DATABASE_PATH}{case}/']
+        current_targets[case] = []
+        for directory in current_dirs:
+            listofvtt_ = os.listdir(directory)
+            placecam = [int(vtt.split('.')[0]) for vtt in listofvtt_]
+            sorted_zip = sorted(list(zip(listofvtt_, placecam)), key=lambda x: x[1])
+            listofvtt = [element[0] for element in sorted_zip]
+            current_targets[case].extend([f'{directory}{vtt}' for vtt in listofvtt])
     return current_targets
 
 
@@ -92,9 +94,9 @@ def get_groundtruth(cases):
 
 
 def result_evaluation() -> None:
-    cases = ['Julen']
+    cases = ['Julen', 'NotreDame', 'Singapur', 'Estrasburgo']
     dict_of_trees = get_groundtruth(cases)
-    targets = get_targets(cases)
+    targets_ = get_targets(cases)
     results = {}
     mean_results = {'pbmmfbbcm': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
                     'dbscan': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
@@ -103,6 +105,7 @@ def result_evaluation() -> None:
                     'meanshift': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []},
                     'kshiftedm': {'F1': [], 'Precision': [], 'Recall': [], 'WD': [], 'Pk': []}}
     for case in cases:
+        targets = targets_[case]
         tree_days = dict_of_trees[case]
         results_ = []
         for nday, target in enumerate(targets):
@@ -141,18 +144,6 @@ def result_evaluation() -> None:
             _mr[algorithm][metric] = sum(value) / len(value)
     save_performance(_mr, PERF_PATH, append=('Mean', 0))
     return None
-
-
-def re2():
-    cases = ['Julen']
-    dict_of_trees = get_groundtruth(cases)
-    targets = get_targets(cases)
-    for case in cases:
-        tree_days = dict_of_trees[case]
-        for nday, target in enumerate(targets):
-            if nday in [0, 1, 2, 5, 6, 10]:
-                mynews = ns.Segmentation(target, cache_file=CACHE_FILE)
-                print(mynews.evaluate(tree_days[nday], show=True))
 
 
 def main():
