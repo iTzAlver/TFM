@@ -1,0 +1,205 @@
+Algorithm evaluation launched
+
+
+Starting testing for case Julen
+Starting algorithm: <class 'package.newsegmentation.Segmentation'>
+Precision: 0.87
+Recall: 0.89
+F1: 0.88
+WD: 0.33
+Pk: 0.23
+
+
+Starting algorithm: <class 'exp_alg.SegmentationDbscan'>
+Precision: 0.71
+Recall: 0.66
+F1: 0.68
+WD: 0.81
+Pk: 0.57
+
+
+Starting algorithm: <class 'exp_alg.SegmentationKSM'>
+Precision: 0.72
+Recall: 0.71
+F1: 0.71
+WD: 0.8
+Pk: 0.54
+
+
+Starting algorithm: <class 'exp_alg.SegmentationMS'>
+Precision: 0.86
+Recall: 0.71
+F1: 0.77
+WD: 0.82
+Pk: 0.53
+
+
+Starting algorithm: <class 'exp_alg.SegmentationAgglomerative'>
+Precision: 0.71
+Recall: 0.69
+F1: 0.7
+WD: 0.78
+Pk: 0.54
+
+
+Starting algorithm: <class 'exp_alg.SegmentationSpectral'>
+Precision: 0.76
+Recall: 0.66
+F1: 0.7
+WD: 0.87
+Pk: 0.57
+
+
+
+
+Starting testing for case NotreDame
+Starting algorithm: <class 'package.newsegmentation.Segmentation'>
+Precision: 0.85
+Recall: 0.84
+F1: 0.84
+WD: 0.33
+Pk: 0.26
+
+
+Starting algorithm: <class 'exp_alg.SegmentationDbscan'>
+Precision: 0.68
+Recall: 0.71
+F1: 0.68
+WD: 0.75
+Pk: 0.56
+
+
+Starting algorithm: <class 'exp_alg.SegmentationKSM'>
+Precision: 0.69
+Recall: 0.7
+F1: 0.69
+WD: 0.69
+Pk: 0.48
+
+
+Starting algorithm: <class 'exp_alg.SegmentationMS'>
+Precision: 0.9
+Recall: 0.75
+F1: 0.81
+WD: 0.72
+Pk: 0.43
+
+
+Starting algorithm: <class 'exp_alg.SegmentationAgglomerative'>
+Precision: 0.74
+Recall: 0.75
+F1: 0.74
+WD: 0.64
+Pk: 0.45
+
+
+Starting algorithm: <class 'exp_alg.SegmentationSpectral'>
+Precision: 0.76
+Recall: 0.68
+F1: 0.71
+WD: 0.76
+Pk: 0.53
+
+
+
+
+Starting testing for case Singapur
+Starting algorithm: <class 'package.newsegmentation.Segmentation'>
+Precision: 0.76
+Recall: 0.87
+F1: 0.8
+WD: 0.38
+Pk: 0.33
+
+
+Starting algorithm: <class 'exp_alg.SegmentationDbscan'>
+Precision: 0.69
+Recall: 0.67
+F1: 0.68
+WD: 0.73
+Pk: 0.55
+
+
+Starting algorithm: <class 'exp_alg.SegmentationKSM'>
+Precision: 0.68
+Recall: 0.66
+F1: 0.67
+WD: 0.75
+Pk: 0.53
+
+
+Starting algorithm: <class 'exp_alg.SegmentationMS'>
+Precision: 0.87
+Recall: 0.69
+F1: 0.76
+WD: 0.86
+Pk: 0.53
+
+
+Starting algorithm: <class 'exp_alg.SegmentationAgglomerative'>
+Precision: 0.7
+Recall: 0.66
+F1: 0.68
+WD: 0.72
+Pk: 0.55
+
+
+Starting algorithm: <class 'exp_alg.SegmentationSpectral'>
+Precision: 0.72
+Recall: 0.62
+F1: 0.66
+WD: 0.82
+Pk: 0.57
+
+
+
+
+Starting testing for case Estrasburgo
+Starting algorithm: <class 'package.newsegmentation.Segmentation'>
+Precision: 0.78
+Recall: 0.85
+F1: 0.8
+WD: 0.4
+Pk: 0.35
+
+
+Starting algorithm: <class 'exp_alg.SegmentationDbscan'>
+Precision: 0.67
+Recall: 0.72
+F1: 0.69
+WD: 0.59
+Pk: 0.44
+
+
+Starting algorithm: <class 'exp_alg.SegmentationKSM'>
+Precision: 0.61
+Recall: 0.71
+F1: 0.65
+WD: 0.63
+Pk: 0.43
+
+
+Starting algorithm: <class 'exp_alg.SegmentationMS'>
+Precision: 0.79
+Recall: 0.71
+F1: 0.74
+WD: 0.68
+Pk: 0.43
+
+
+Starting algorithm: <class 'exp_alg.SegmentationAgglomerative'>
+Precision: 0.66
+Recall: 0.75
+F1: 0.7
+WD: 0.52
+Pk: 0.39
+
+
+Starting algorithm: <class 'exp_alg.SegmentationSpectral'>
+Precision: 0.69
+Recall: 0.68
+F1: 0.69
+WD: 0.67
+Pk: 0.44
+
+
