@@ -17,7 +17,7 @@ import package.newsegmentation as ns
 DATABASE_PATH = r'./db/vtt_files/'
 GT_PATH = r'./db/groundtruth/f1/'
 LOG_FILE = r'./db/.exported/performance/opt_log.txt'
-CACHE_FILE_ = r'./experiment'
+CACHE_FILE_ = r'./cache/experiment'
 
 
 # -------------------------------------------------------------------#

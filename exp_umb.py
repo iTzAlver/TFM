@@ -19,7 +19,7 @@ GT_PATH = r'./db/groundtruth/f1/'
 LOG_FILE = r'./db/.exported/performance/umb_log.txt'
 VAR_FILE = r'db/.exported/performance/umb_var.txt'
 IMG_PATH = r'./db/.exported/performance/'
-CACHE_DIR = r'./'
+CACHE_DIR = r'./cache/'
 
 
 # -------------------------------------------------------------------#
