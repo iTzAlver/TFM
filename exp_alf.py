@@ -7,9 +7,9 @@
 # Import statements:
 import os
 
-import package.myutils as mu
 import package.newsegmentation as ns
 from exp_alg import SegmentationMS, SegmentationKSM, SegmentationSpectral, SegmentationDbscan, SegmentationAgglomerative
+from package.myutils.print import LogTracker
 
 BASE_TEST = r'./db/vtt_files/'
 BASE_GT = r'./db/groundtruth/f1/'
@@ -17,7 +17,7 @@ BASE_GT = r'./db/groundtruth/f1/'
 
 # -----------------------------------------------------------
 def main() -> None:
-    ltr = mu.LogTracker(r'./db/.exported/performance/results_algorithms.txt')
+    ltr = LogTracker(r'./db/.exported/performance/results_algorithms.txt')
     ltr.print('Algorithm evaluation launched', 'b')
     cases = ['Julen', 'NotreDame', 'Singapur', 'Estrasburgo']
     algorithms = [ns.Segmentation, SegmentationDbscan, SegmentationKSM, SegmentationMS, SegmentationAgglomerative,
