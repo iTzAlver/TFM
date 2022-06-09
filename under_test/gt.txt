@@ -1,0 +1,9 @@
+Primera frase del texto
+La segunda oración sigue así
+Esto ya no es segunda frase
+Esta oración tiene cinco palabras
+La anterior eran cinco, esta son siete
+%0
+Esto es para probar el token
+Y esta es para que la anterior no quede sola
+%1

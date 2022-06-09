@@ -122,16 +122,19 @@ def result_evaluation() -> None:
             results__['meanshift'] = mynews.evaluate(tree_days[nday])
             mynews = SegmentationKSM(target, cache_file=CACHE_FILE)
             results__['kshiftedm'] = mynews.evaluate(tree_days[nday])
-            print(f'Case {case} day {nday} finished.')
-            for algorithm, metrics in results__.items():
-                mean_results[algorithm]['F1'].append(metrics['F1'])
-                mean_results[algorithm]['Recall'].append(metrics['Recall'])
-                mean_results[algorithm]['Precision'].append(metrics['Precision'])
-                mean_results[algorithm]['WD'].append(metrics['WD'])
-                mean_results[algorithm]['Pk'].append(metrics['Pk'])
             results_.append(results__)
-            save_performance(results__, PERF_PATH, append=(case, nday))
-        results[case] = results_
+            print(f'Case {case} day {nday} finished.')
+
+        # mean_results = {{{}}}
+        # for metrics in results_:
+        #     mean_results[case]['pbmfbbcm']['F1'] = sum(results_
+        #     mean_results[case]['dbscan']['Recall'].append(metrics['Recall'])
+        #     mean_results[case]['spectral']['Precision'].append(metrics['Precision'])
+        #     mean_results[case]['agglomera']['WD'].append(metrics['WD'])
+        #     mean_results[case]['agglomera']['Pk'].append(metrics['Pk'])
+        #     results_.append(results__)
+        #     save_performance(results__, PERF_PATH, append=(case, nday))
+        # results[case] = results_
 
     _mr = {'pbmmfbbcm': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
            'dbscan': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
@@ -139,9 +142,9 @@ def result_evaluation() -> None:
            'agglomera': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
            'meanshift': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0},
            'kshiftedm': {'F1': 0, 'Precision': 0, 'Recall': 0, 'WD': 0, 'Pk': 0}}
-    for algorithm, metrics in mean_results.items():
-        for metric, value in metrics.items():
-            _mr[algorithm][metric] = sum(value) / len(value)
+    # for algorithm, metrics in mean_results.items():
+        # for metric, value in metrics.items():
+        #     _mr[algorithm][metric] = sum(value) / len(value)
     save_performance(_mr, PERF_PATH, append=('Mean', 0))
     return None
 
