@@ -26,7 +26,7 @@ temporalfile = r'./temporalfile.txt'
 class NewsSegmentation:
     def __init__(self, news_path: str,
                  tdm: float = 0.245,
-                 gpa: tuple = (0, 0),
+                 gpa: tuple = (1, 0),
                  sdm: tuple = (0.177, 1, 0.177*0.87),
                  lcm: tuple = (0.614,),
                  ref: int = 0,
@@ -50,6 +50,7 @@ class NewsSegmentation:
         self.s = []
         self.t = []
         self.p = []
+        self.gpa = []
         # Private parameters.
         self._efficientembedding = []
         self._initial_efficientembedding = []
@@ -171,6 +172,7 @@ class NewsSegmentation:
     def __spatial_manager(self, r: np.ndarray, s: list[str], t: (list[float], np.ndarray)):
         # GPA sub-module:
         rp = np.zeros((len(r), len(r)))
+        self.gpa = np.zeros((len(r), len(r)))
         for nr, row in enumerate(r):
             for nc, element in enumerate(row):
                 # ['gpa'][0] -> Variance for Gaussian.
@@ -178,6 +180,7 @@ class NewsSegmentation:
                 gpa = np.exp(-((nr - nc) ** 2) / (2 * self.parameters['gpa'][0])) \
                     if self.parameters['gpa'][0] > 0 else element
                 rp[nr][nc] = element + self.parameters['gpa'][1] * (gpa - element)
+                self.gpa[nr][nc] = gpa
         # SDM algorithm:
         self._directives = self._spatial_manager(rp, self.parameters['sdm'])
         if not self._directives:
@@ -297,9 +300,22 @@ class NewsSegmentation:
             args_ = args
         marks = len(args_)
         _, subfigs = plt.subplots(ncols=marks)
+        if marks == 1:
+            subfigs = [subfigs]
         for nfig, num in enumerate(args_):
-            num = 3 if num > 3 else num
-            pltmtx = self.R[num]
+            _num = num
+            if isinstance(num, int):
+                num = 3 if num > 3 else num
+            else:
+                if isinstance(num, str):
+                    if num != 'GPA':
+                        raise ValueError('Input parameters must be int or "GPA"...')
+            if num == 'GPA':
+                pltmtx = self.gpa
+                num = 0
+                _num = ' GPA'
+            else:
+                pltmtx = self.R[num]
             thematrix = np.zeros((len(pltmtx), len(pltmtx), 3), dtype=np.uint8)
             nra = 100 if color == 'orange' else 255
             wxf = 1 if num == 3 else 0
@@ -328,7 +344,7 @@ class NewsSegmentation:
                         for index2 in range(ending - base + 1):
                             thematrix[base + index2][base + index1][2] += bluecore
             subfigs[nfig].imshow(thematrix)
-            subfigs[nfig].set_title(f'R{num}')
+            subfigs[nfig].set_title(f'R{_num}')
         plt.show()
         return self
 
